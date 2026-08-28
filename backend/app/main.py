@@ -52,6 +52,21 @@ app.include_router(routes_analytics.router, prefix=f"{settings.API_PREFIX}/analy
 app.include_router(routes_export.router, prefix=f"{settings.API_PREFIX}/export", tags=["Exports"])
 app.include_router(routes_benchmark.router, prefix=f"{settings.API_PREFIX}/benchmark", tags=["Benchmarks"])
 
+@app.get("/")
+def root_status():
+    return {
+        "status": "online",
+        "service": settings.PROJECT_NAME,
+        "version": settings.VERSION,
+        "documentation": "/docs",
+        "health": "/api/health",
+        "endpoints": {
+            "aois": f"{settings.API_PREFIX}/layers/aois",
+            "metadata": f"{settings.API_PREFIX}/layers/metadata/aoi_urban_ward_07",
+            "parcels": f"{settings.API_PREFIX}/layers/geojson/aoi_urban_ward_07/parcels"
+        }
+    }
+
 @app.get("/api/health")
 def health_check():
     return {
