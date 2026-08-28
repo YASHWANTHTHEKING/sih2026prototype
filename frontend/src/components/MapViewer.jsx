@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, GeoJSON, Rectangle, useMap, useMapEvents, Popup, CircleMarker } from 'react-leaflet';
 import L from 'leaflet';
 import { Layers, Eye, EyeOff, Sliders, SplitSquareVertical, MapPin, Maximize2, ShieldAlert, CheckCircle2, XCircle, Crop, Sparkles, Loader2, MousePointerClick, PlusCircle, Download, FileText } from 'lucide-react';
+import { TRANSLATIONS } from '../services/i18n';
 
 // Fix Leaflet marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -110,8 +111,11 @@ export default function MapViewer({
   onOpenExports,
   onOpenTitleDeed,
   onAutoTrimConflict,
-  onSnapGnss
+  onSnapGnss,
+  language = 'EN'
 }) {
+  const t = TRANSLATIONS[language] || TRANSLATIONS.EN;
+
   // Custom Area Selection States
   const [isSelectingArea, setIsSelectingArea] = useState(false);
   const [selectedAreaCenter, setSelectedAreaCenter] = useState(null);
@@ -969,7 +973,7 @@ export default function MapViewer({
         <div className="bg-slate-900/95 border border-slate-700/80 rounded-2xl p-3.5 shadow-2xl backdrop-blur-xl text-xs text-slate-200 w-80">
           <div className="flex items-center justify-between pb-2 border-b border-slate-800 mb-2.5">
             <span className="font-bold text-xs text-slate-100 flex items-center gap-1.5 uppercase tracking-wider">
-              <Layers className="w-3.5 h-3.5 text-blue-400" /> Cadastral Survey Legend
+              <Layers className="w-3.5 h-3.5 text-blue-400" /> {t.legendTitle}
             </span>
             <span className="text-[10px] font-mono text-cyan-400 bg-cyan-950/80 border border-cyan-500/30 px-1.5 py-0.5 rounded">
               RMSE: 0.32m
@@ -978,44 +982,44 @@ export default function MapViewer({
 
           {/* Survey Status & Confidence Tiers */}
           <div className="space-y-1.5 mb-2.5">
-            <div className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Survey Status</div>
+            <div className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">{t.surveyStatus}</div>
             <div className="grid grid-cols-2 gap-2 text-[11px]">
               <div className="flex items-center gap-2">
                 <span className="w-4 h-0.5 bg-sky-400 inline-block"></span>
-                <span>AI Confirmed</span>
+                <span>{t.aiConfirmed}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-4 h-0.5 border-b-2 border-dashed border-amber-400 inline-block"></span>
-                <span className="text-amber-300">Needs GT Review</span>
+                <span className="text-amber-300">{t.needsGt}</span>
               </div>
               <div className="flex items-center gap-2 col-span-2">
                 <span className="w-4 h-2 border border-red-500 bg-red-500/30 inline-block"></span>
-                <span className="text-red-300 font-medium">Topological / Legal Conflict</span>
+                <span className="text-red-300 font-medium">{t.conflictDispute}</span>
               </div>
             </div>
           </div>
 
           {/* LULC Thematic Classes */}
           <div className="space-y-1.5 pt-2 border-t border-slate-800/80">
-            <div className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Land-Use (LULC)</div>
+            <div className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">{t.landuseHeader}</div>
             <div className="grid grid-cols-3 gap-1.5 text-[10px]">
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded bg-sky-400/80 border border-sky-300 inline-block"></span> Residential
+                <span className="w-2.5 h-2.5 rounded bg-sky-400/80 border border-sky-300 inline-block"></span> {t.residential}
               </div>
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded bg-purple-500/80 border border-purple-300 inline-block"></span> Commercial
+                <span className="w-2.5 h-2.5 rounded bg-purple-500/80 border border-purple-300 inline-block"></span> {t.commercial}
               </div>
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded bg-indigo-500/80 border border-indigo-300 inline-block"></span> Mixed-Use
+                <span className="w-2.5 h-2.5 rounded bg-indigo-500/80 border border-indigo-300 inline-block"></span> {t.mixedUse}
               </div>
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded bg-amber-500/80 border border-amber-300 inline-block"></span> Institutional
+                <span className="w-2.5 h-2.5 rounded bg-amber-500/80 border border-amber-300 inline-block"></span> {t.institutional}
               </div>
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded bg-emerald-500/80 border border-emerald-300 inline-block"></span> Vacant/Green
+                <span className="w-2.5 h-2.5 rounded bg-emerald-500/80 border border-emerald-300 inline-block"></span> {t.vacantGreen}
               </div>
               <div className="flex items-center gap-1">
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 inline-block"></span> GNSS CORS
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 inline-block"></span> {t.gnssCors}
               </div>
             </div>
           </div>

@@ -22,6 +22,7 @@ import {
 } from './services/api';
 
 export default function App() {
+  const [language, setLanguage] = useState('EN');
   const [aoiList, setAoiList] = useState([]);
   const [selectedAoi, setSelectedAoi] = useState('aoi_urban_ward_07');
   const [metadata, setMetadata] = useState(null);
@@ -206,6 +207,8 @@ export default function App() {
           showToast('Refreshed all GIS layers from server.');
         }}
         onJumpToCity={handleJumpToCity}
+        language={language}
+        onLanguageChange={setLanguage}
       />
 
       {/* Main Map Viewer */}
@@ -223,6 +226,7 @@ export default function App() {
           gtParcelsGeoJSON={gtParcels}
           selectedParcel={selectedParcel}
           onSelectParcel={setSelectedParcel}
+          language={language}
           onOpenGtSignoff={(parcel) => {
             setSelectedParcel(parcel);
             setShowGT(true);

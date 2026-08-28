@@ -1,4 +1,5 @@
-import { Layers, Play, Cpu, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin } from 'lucide-react';
+import { Layers, Play, Cpu, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
+import { TRANSLATIONS } from '../services/i18n';
 
 const INDIAN_CITIES = [
   { name: 'Bengaluru (Whitefield Tech Hub)', lat: 12.9698, lon: 77.7499, state: 'Karnataka' },
@@ -27,8 +28,12 @@ export default function Navbar({
   setActiveTab,
   stats,
   refreshData,
-  onJumpToCity
+  onJumpToCity,
+  language = 'EN',
+  onLanguageChange
 }) {
+  const t = TRANSLATIONS[language] || TRANSLATIONS.EN;
+
   return (
     <header className="h-16 bg-slate-900 border-b border-slate-800 flex items-center justify-between px-4 z-30 shadow-md">
       {/* Brand / Logo */}
@@ -39,27 +44,27 @@ export default function Navbar({
         <div>
           <div className="flex items-center gap-2">
             <h1 className="text-base font-bold text-white tracking-tight flex items-center gap-1.5">
-              GeoCadastre <span className="bg-blue-500/20 text-blue-400 text-xs px-2 py-0.5 rounded-full font-mono border border-blue-500/30">AI 2026</span>
+              {t.appName} <span className="bg-blue-500/20 text-blue-400 text-xs px-2 py-0.5 rounded-full font-mono border border-blue-500/30">2026</span>
             </h1>
             <span className="bg-emerald-500/20 text-emerald-400 text-[10px] font-semibold px-2 py-0.5 rounded-full border border-emerald-500/30 uppercase tracking-wider">
-              All-India Ready
+              {t.revenueSystem}
             </span>
           </div>
-          <p className="text-[11px] text-slate-400 font-medium truncate max-w-xs">
-            Autonomous Urban Cadastral & Feature Extraction System
+          <p className="text-[11px] text-slate-400 hidden md:block">
+            {t.tagline}
           </p>
         </div>
       </div>
 
-      {/* AOI Selector & Indian Cities Quick Explorer */}
+      {/* AOI Selector, Language Switcher & Cities */}
       <div className="flex items-center gap-2.5">
         <div className="flex items-center bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-1.5 gap-1.5 shadow-inner">
           <Compass className="w-3.5 h-3.5 text-cyan-400 animate-spin-slow" />
-          <span className="text-[11px] text-slate-400">AOI:</span>
+          <span className="text-[11px] text-slate-400">{t.aoi}:</span>
           <select
             value={selectedAoi}
             onChange={(e) => onSelectAoi(e.target.value)}
-            className="bg-transparent text-xs font-semibold text-slate-200 outline-none cursor-pointer pr-1 max-w-[170px] truncate"
+            className="bg-transparent text-xs font-semibold text-slate-200 outline-none cursor-pointer pr-1 max-w-[150px] truncate"
           >
             {aoiList.map((aoi) => (
               <option key={aoi.aoi_id} value={aoi.aoi_id} className="bg-slate-900 text-slate-100">
@@ -69,26 +74,26 @@ export default function Navbar({
           </select>
         </div>
 
-        {/* Indic Multi-Lingual Switcher */}
-        <div className="hidden 2xl:flex items-center bg-slate-950/80 border border-slate-800 rounded-lg px-2 py-1.5 gap-1">
-          <span className="text-[10px] text-slate-400">Lang:</span>
+        {/* Indic Multi-Lingual Switcher (Always Visible) */}
+        <div className="flex items-center bg-slate-950 border border-emerald-500/40 rounded-lg px-2 py-1.5 gap-1.5 shadow-sm">
+          <Globe className="w-3.5 h-3.5 text-emerald-400" />
           <select
-            defaultValue="EN"
-            onChange={(e) => {}}
-            className="bg-transparent text-[11px] font-semibold text-emerald-300 outline-none cursor-pointer"
+            value={language}
+            onChange={(e) => onLanguageChange && onLanguageChange(e.target.value)}
+            className="bg-transparent text-xs font-bold text-emerald-300 outline-none cursor-pointer"
           >
-            <option value="EN" className="bg-slate-900 text-slate-100">EN (English)</option>
-            <option value="HI" className="bg-slate-900 text-slate-100">हिन्दी (खसरा/खतौनी)</option>
-            <option value="TA" className="bg-slate-900 text-slate-100">தமிழ் (பட்டா/சிட்டா)</option>
-            <option value="MR" className="bg-slate-900 text-slate-100">मराठी (७/१२ उतारा)</option>
-            <option value="TE" className="bg-slate-900 text-slate-100">తెలుగు (పట్టాదారు)</option>
+            <option value="EN" className="bg-slate-900 text-slate-100">🇬🇧 English</option>
+            <option value="HI" className="bg-slate-900 text-slate-100">🇮🇳 हिन्दी (खसरा/खतौनी)</option>
+            <option value="TA" className="bg-slate-900 text-slate-100">🇮🇳 தமிழ் (பட்டா/சிட்டா)</option>
+            <option value="MR" className="bg-slate-900 text-slate-100">🇮🇳 मराठी (७/१२)</option>
+            <option value="TE" className="bg-slate-900 text-slate-100">🇮🇳 తెలుగు (పట్టాదారు)</option>
           </select>
         </div>
 
         {/* Quick Indian City Explorer */}
         <div className="hidden xl:flex items-center bg-slate-950/80 border border-cyan-500/30 rounded-lg px-2.5 py-1.5 gap-2">
           <MapPin className="w-3.5 h-3.5 text-emerald-400" />
-          <span className="text-[11px] text-slate-400">Fly to City:</span>
+          <span className="text-[11px] text-slate-400">{t.flyToCity}</span>
           <select
             onChange={(e) => {
               const city = INDIAN_CITIES.find(c => c.name === e.target.value);
@@ -104,7 +109,7 @@ export default function Navbar({
             defaultValue=""
             className="bg-transparent text-[11px] font-semibold text-cyan-300 outline-none cursor-pointer pr-1"
           >
-            <option value="" disabled className="bg-slate-900 text-slate-400">Fly to Indian City...</option>
+            <option value="" disabled className="bg-slate-900 text-slate-400">{t.flyToCity}</option>
             {INDIAN_CITIES.map((city) => (
               <option key={city.name} value={city.name} className="bg-slate-900 text-slate-100">
                 🇮🇳 {city.name}
@@ -139,7 +144,7 @@ export default function Navbar({
           title="Run Full AI Cadastral Extraction Pipeline"
         >
           <Play className="w-3.5 h-3.5 fill-white" />
-          <span className="hidden sm:inline">Run GeoAI</span>
+          <span className="hidden sm:inline">{t.runGeoAi}</span>
         </button>
 
         <button
@@ -148,7 +153,7 @@ export default function Navbar({
           title="Review Topological & Legal Conflicts"
         >
           <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
-          <span className="hidden sm:inline">Conflicts</span>
+          <span className="hidden sm:inline">{t.conflicts}</span>
           {stats?.total_conflicts > 0 && (
             <span className="bg-amber-500/30 text-amber-300 text-[10px] px-1.5 py-0.2 rounded-full font-bold font-mono">
               {stats.total_conflicts}
@@ -162,7 +167,7 @@ export default function Navbar({
           title="Ground Truthing Field Sign-off"
         >
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span className="hidden lg:inline">GT Sign-off</span>
+          <span className="hidden lg:inline">{t.gtSignoff}</span>
         </button>
 
         <button
@@ -171,7 +176,7 @@ export default function Navbar({
           title="LULC & Cadastral Analytics"
         >
           <BarChart3 className="w-3.5 h-3.5 text-cyan-400" />
-          <span className="hidden lg:inline">Analytics</span>
+          <span className="hidden lg:inline">{t.analytics}</span>
         </button>
 
         <button
@@ -180,7 +185,7 @@ export default function Navbar({
           title="Evaluation Metrics vs Ground Truth"
         >
           <Award className="w-3.5 h-3.5 text-yellow-400" />
-          <span className="hidden lg:inline">Accuracy</span>
+          <span className="hidden lg:inline">{t.benchmarks}</span>
         </button>
 
         <button
@@ -189,7 +194,7 @@ export default function Navbar({
           title="Download GIS Formats (Shapefile, GeoPackage, DXF, CSV)"
         >
           <Download className="w-3.5 h-3.5" />
-          <span>Export</span>
+          <span>{t.export}</span>
         </button>
 
         <button
