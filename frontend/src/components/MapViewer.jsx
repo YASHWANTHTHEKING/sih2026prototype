@@ -142,8 +142,8 @@ export default function MapViewer({
     gtParcels: false
   });
 
-  // Basemap selector state ('satellite', 'osm', 'dark', 'topo')
-  const [basemap, setBasemap] = useState('satellite');
+  // Basemap selector state ('google_hybrid', 'osm', 'carto_voyager', 'esri_satellite', 'dark')
+  const [basemap, setBasemap] = useState('google_hybrid');
 
   // Layer styling & panel states
   const [parcelColorBy, setParcelColorBy] = useState('landuse'); // 'landuse' or 'confidence'
@@ -153,21 +153,25 @@ export default function MapViewer({
   const [splitPos, setSplitPos] = useState(50); // percentage
 
   const basemapUrls = {
-    satellite: {
-      url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-      attribution: '&copy; <a href="https://www.esri.com/">Esri</a>, Maxar, Earthstar Geographics'
+    google_hybrid: {
+      url: 'https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',
+      attribution: '&copy; <a href="https://maps.google.com">Google Maps</a> / Satellite & Road Network'
     },
     osm: {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     },
+    carto_voyager: {
+      url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      attribution: '&copy; <a href="https://carto.com/">CARTO</a> & OpenStreetMap'
+    },
+    esri_satellite: {
+      url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      attribution: '&copy; <a href="https://www.esri.com/">Esri</a>, Maxar, Earthstar Geographics'
+    },
     dark: {
       url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
       attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
-    },
-    topo: {
-      url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
-      attribution: '&copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin'
     }
   };
 
@@ -528,15 +532,16 @@ export default function MapViewer({
 
           {/* Basemap Selection */}
           <div className="mt-3 pt-3 border-t border-slate-800">
-            <div className="text-[11px] font-bold text-slate-400 uppercase mb-2">Base Imagery / Canvas</div>
+            <div className="text-[11px] font-bold text-slate-400 uppercase mb-2">Base Imagery & Reference Layers</div>
             <div className="grid grid-cols-2 gap-1.5 bg-slate-950 p-1 rounded-lg border border-slate-800">
               <button
-                onClick={() => setBasemap('satellite')}
-                className={`py-1 rounded text-[11px] font-semibold transition-all ${
-                  basemap === 'satellite' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
+                onClick={() => setBasemap('google_hybrid')}
+                className={`py-1.5 px-2 rounded text-[11px] font-semibold transition-all col-span-2 text-left flex items-center justify-between ${
+                  basemap === 'google_hybrid' ? 'bg-cyan-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
-                Satellite / Drone
+                <span>🌍 Google Hybrid (Satellite + Streets)</span>
+                {basemap === 'google_hybrid' && <span className="text-[9px] bg-cyan-900 px-1.5 py-0.5 rounded font-mono">Active</span>}
               </button>
               <button
                 onClick={() => setBasemap('osm')}
@@ -544,7 +549,23 @@ export default function MapViewer({
                   basemap === 'osm' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
-                OpenStreetMap
+                🗺️ OpenStreetMap
+              </button>
+              <button
+                onClick={() => setBasemap('carto_voyager')}
+                className={`py-1 rounded text-[11px] font-semibold transition-all ${
+                  basemap === 'carto_voyager' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                🏙️ Carto Voyager
+              </button>
+              <button
+                onClick={() => setBasemap('esri_satellite')}
+                className={`py-1 rounded text-[11px] font-semibold transition-all ${
+                  basemap === 'esri_satellite' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                🛰️ Esri Satellite
               </button>
               <button
                 onClick={() => setBasemap('dark')}
@@ -552,15 +573,7 @@ export default function MapViewer({
                   basemap === 'dark' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
-                Dark Canvas
-              </button>
-              <button
-                onClick={() => setBasemap('topo')}
-                className={`py-1 rounded text-[11px] font-semibold transition-all ${
-                  basemap === 'topo' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-slate-200'
-                }`}
-              >
-                Topographic
+                🌑 Dark Cadastre
               </button>
             </div>
           </div>
