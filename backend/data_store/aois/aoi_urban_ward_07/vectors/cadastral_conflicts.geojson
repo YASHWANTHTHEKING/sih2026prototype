@@ -104,7 +104,8 @@
         "overlap_area_sqm": 0.0,
         "description": "Overlapping boundary (0.0 sqm) between SY-106/116 and SY-106/117",
         "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
-        "status": "Open"
+        "status": "Resolved",
+        "resolved_at": "2026-08-28T09:59:10.231451Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -601,7 +602,8 @@
         "encroachment_type": "Multi-Parcel Straddle",
         "description": "Building AI-BLD-urban_ward_07-0133 extends across boundary of SY-104/72, SY-104/73",
         "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
-        "status": "Open"
+        "status": "Resolved",
+        "resolved_at": "2026-08-28T09:59:26.601409Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -747,7 +749,8 @@
         "encroachment_type": "Multi-Parcel Straddle",
         "description": "Building AI-BLD-urban_ward_07-0150 extends across boundary of SY-104/72, SY-104/84, SY-104/85, SY-104/86",
         "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
-        "status": "Open"
+        "status": "Resolved",
+        "resolved_at": "2026-08-28T09:59:18.127634Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -923,7 +926,8 @@
         "encroachment_type": "Multi-Parcel Straddle",
         "description": "Building AI-BLD-urban_ward_07-0218 extends across boundary of SY-106/116, SY-106/117",
         "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
-        "status": "Open"
+        "status": "Resolved",
+        "resolved_at": "2026-08-28T09:59:10.233398Z"
       },
       "geometry": {
         "type": "Polygon",

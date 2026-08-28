@@ -316,22 +316,24 @@ def auto_trim_conflict(req: AutoResolveConflictRequest):
                         
     # Update parcel geometry and status
     metrics = compute_polygon_metrics(poly)
+    area_val = metrics.get("area_m2", round(poly.area, 2))
+    perim_val = metrics.get("perimeter_m", round(poly.length, 2))
     target_feat["geometry"] = mapping(poly)
-    target_feat["properties"]["area_sqm"] = metrics["area_sqm"]
-    target_feat["properties"]["perimeter_m"] = metrics["perimeter_m"]
+    target_feat["properties"]["area_sqm"] = area_val
+    target_feat["properties"]["perimeter_m"] = perim_val
     target_feat["properties"]["verification_status"] = "AI Confirmed (Conflict Auto-Resolved)"
     
     _save_parcels(p_path, fc)
     _log_audit(req.aoi_id, "AUTO_TRIM_CONFLICT", {
         "parcel_id": target_parcel_id,
         "trimmed_area_sqm": round(trimmed_area, 2),
-        "new_area_sqm": metrics["area_sqm"]
+        "new_area_sqm": area_val
     })
     
     return {
         "status": "success",
         "message": f"Successfully auto-trimmed conflict on {target_parcel_id} (Resolved {req.parcel_id})",
-        "new_area_sqm": metrics["area_sqm"]
+        "new_area_sqm": area_val
     }
 
 @router.post("/snap-gnss")

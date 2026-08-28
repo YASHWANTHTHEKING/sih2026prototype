@@ -9,5 +9,73 @@
     "surveyor_id": "GT-SURV-IND-0428",
     "notes": "GNSS CORS base-station check confirmed physical boundary alignment with 1.4cm tolerance.",
     "gnss_delta_cm": 1.4
+  },
+  {
+    "timestamp": "2026-08-28T09:58:44.952551Z",
+    "action": "AUTO_TRIM_CONFLICT",
+    "details": {
+      "parcel_id": "ULPIN-2026-d_07-00116",
+      "trimmed_area_sqm": 0.0,
+      "new_area_sqm": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:10.377529Z",
+    "action": "AUTO_TRIM_CONFLICT",
+    "details": {
+      "parcel_id": "ULPIN-2026-d_07-00116",
+      "trimmed_area_sqm": 0.0,
+      "new_area_sqm": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:18.311367Z",
+    "action": "AUTO_TRIM_CONFLICT",
+    "details": {
+      "parcel_id": "ULPIN-2026-d_07-00072",
+      "trimmed_area_sqm": 0.0,
+      "new_area_sqm": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:26.846917Z",
+    "action": "AUTO_TRIM_CONFLICT",
+    "details": {
+      "parcel_id": "ULPIN-2026-d_07-00072",
+      "trimmed_area_sqm": 0.0,
+      "new_area_sqm": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:36.642214Z",
+    "action": "SNAP_GNSS_CORS",
+    "details": {
+      "parcel_id": "CONF-ENC-0019",
+      "accuracy_achieved": "< 1.5 cm"
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:41.021979Z",
+    "action": "SNAP_GNSS_CORS",
+    "details": {
+      "parcel_id": "CONF-ENC-0017",
+      "accuracy_achieved": "< 1.5 cm"
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:45.837903Z",
+    "action": "SNAP_GNSS_CORS",
+    "details": {
+      "parcel_id": "CONF-ENC-0017",
+      "accuracy_achieved": "< 1.5 cm"
+    }
+  },
+  {
+    "timestamp": "2026-08-28T09:59:50.100640Z",
+    "action": "SNAP_GNSS_CORS",
+    "details": {
+      "parcel_id": "CONF-ENC-0019",
+      "accuracy_achieved": "< 1.5 cm"
+    }
   }
 ]
