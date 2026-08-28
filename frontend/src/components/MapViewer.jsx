@@ -386,51 +386,55 @@ export default function MapViewer({
         </div>
       )}
 
-      {/* Floating Map Controls / Layer Switcher Button */}
-      <div className="absolute top-4 right-4 z-[1000] flex flex-col gap-2">
+      {/* Unified Floating GIS Tool Dock (Right) */}
+      <div className="absolute top-4 right-4 z-[1000] bg-slate-900/95 border border-slate-700/80 rounded-2xl p-1.5 shadow-2xl backdrop-blur-xl flex flex-col items-center gap-1.5">
         <button
           onClick={handleStartAreaSelection}
-          className={`p-2.5 rounded-xl border shadow-lg backdrop-blur-md transition-all flex items-center justify-center ${
+          className={`p-2.5 rounded-xl transition-all flex items-center justify-center ${
             isSelectingArea
-              ? 'bg-cyan-500 text-slate-950 border-cyan-300 shadow-cyan-500/40 ring-2 ring-cyan-400 animate-pulse'
-              : 'bg-slate-900/90 text-cyan-400 border-cyan-500/30 hover:bg-slate-800'
+              ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/40 ring-2 ring-cyan-400 animate-pulse'
+              : 'text-cyan-400 hover:bg-slate-800'
           }`}
-          title="Select Custom Area to Parcel"
+          title="Select Custom AOI Area to Parcel"
         >
-          <Crop className="w-5 h-5" />
+          <Crop className="w-4 h-4" />
         </button>
 
         <button
           onClick={() => setShowLayerPanel(!showLayerPanel)}
-          className={`p-2.5 rounded-xl border shadow-lg backdrop-blur-md transition-all ${
+          className={`p-2.5 rounded-xl transition-all flex items-center justify-center ${
             showLayerPanel
-              ? 'bg-blue-600 text-white border-blue-400 shadow-blue-500/20'
-              : 'bg-slate-900/90 text-slate-300 border-slate-700 hover:bg-slate-800'
+              ? 'bg-blue-600 text-white shadow-md'
+              : 'text-slate-300 hover:bg-slate-800 hover:text-white'
           }`}
           title="Layer Visibility & Styles"
         >
-          <Layers className="w-5 h-5" />
+          <Layers className="w-4 h-4" />
         </button>
 
         <button
           onClick={() => setSplitView(!splitView)}
-          className={`p-2.5 rounded-xl border shadow-lg backdrop-blur-md transition-all ${
+          className={`p-2.5 rounded-xl transition-all flex items-center justify-center ${
             splitView
-              ? 'bg-cyan-600 text-white border-cyan-400 shadow-cyan-500/20'
-              : 'bg-slate-900/90 text-slate-300 border-slate-700 hover:bg-slate-800'
+              ? 'bg-cyan-600 text-white shadow-md'
+              : 'text-slate-300 hover:bg-slate-800 hover:text-white'
           }`}
-          title="Toggle Split-Screen Imagery Comparison"
+          title="Multi-Temporal Split-Screen Slider"
         >
-          <SplitSquareVertical className="w-5 h-5" />
+          <SplitSquareVertical className="w-4 h-4" />
         </button>
 
+        {/* Visual Tool Divider */}
+        <div className="w-5 h-px bg-slate-700/80 my-0.5" />
+
+        {/* Output Export Tool */}
         {onOpenExports && (
           <button
             onClick={onOpenExports}
-            className="p-2.5 rounded-xl border border-indigo-500/30 bg-gradient-to-tr from-indigo-900/90 to-violet-900/90 text-indigo-300 hover:text-white shadow-lg backdrop-blur-md hover:bg-indigo-800 transition-all active:scale-95"
+            className="p-2.5 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-md shadow-indigo-500/20 transition-all active:scale-95 flex items-center justify-center"
             title="Download GIS Datasets (Shapefile, GeoPackage, DXF, CSV)"
           >
-            <Download className="w-5 h-5" />
+            <Download className="w-4 h-4" />
           </button>
         )}
       </div>

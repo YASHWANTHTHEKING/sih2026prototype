@@ -1,4 +1,5 @@
-import { Layers, Play, Cpu, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
+import React from 'react';
+import { Layers, Play, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
 import { TRANSLATIONS } from '../services/i18n';
 
 const INDIAN_CITIES = [
@@ -24,8 +25,6 @@ export default function Navbar({
   onOpenGT,
   onOpenExports,
   onOpenBenchmarks,
-  activeTab,
-  setActiveTab,
   stats,
   refreshData,
   onJumpToCity,
@@ -35,36 +34,37 @@ export default function Navbar({
   const t = TRANSLATIONS[language] || TRANSLATIONS.EN;
 
   return (
-    <header className="h-16 bg-slate-900 border-b border-slate-800 flex items-center justify-between px-4 z-30 shadow-md">
-      {/* Brand / Logo */}
-      <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg shadow-blue-500/20 ring-1 ring-blue-400/30">
+    <header className="h-16 bg-slate-900/95 border-b border-slate-800 flex items-center justify-between px-4 z-30 shadow-md backdrop-blur-md gap-3 select-none">
+      
+      {/* 1. IDENTITY ZONE (Left) */}
+      <div className="flex items-center gap-2.5 shrink-0">
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center shadow-md shadow-blue-500/20 ring-1 ring-blue-400/30">
           <Layers className="w-5 h-5 text-white" />
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="text-base font-bold text-white tracking-tight flex items-center gap-1.5">
-              {t.appName} <span className="bg-blue-500/20 text-blue-400 text-xs px-2 py-0.5 rounded-full font-mono border border-blue-500/30">2026</span>
+            <h1 className="text-sm font-black text-white tracking-tight flex items-center gap-1">
+              {t.appName} <span className="bg-blue-500/20 text-blue-400 text-[10px] px-1.5 py-0.2 rounded font-mono border border-blue-500/30">AI 2026</span>
             </h1>
-            <span className="bg-emerald-500/20 text-emerald-400 text-[10px] font-semibold px-2 py-0.5 rounded-full border border-emerald-500/30 uppercase tracking-wider">
-              {t.revenueSystem}
+            <span className="bg-amber-500/20 text-amber-300 text-[9px] font-bold px-1.5 py-0.2 rounded border border-amber-500/30 uppercase tracking-wider hidden sm:inline-block">
+              Demo Synthetic Pilot
             </span>
           </div>
-          <p className="text-[11px] text-slate-400 hidden md:block">
+          <p className="text-[10px] text-slate-400 font-medium truncate max-w-[200px] hidden xl:block">
             {t.tagline}
           </p>
         </div>
       </div>
 
-      {/* AOI Selector, Language Switcher & Cities */}
-      <div className="flex items-center gap-2.5">
-        <div className="flex items-center bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-1.5 gap-1.5 shadow-inner">
-          <Compass className="w-3.5 h-3.5 text-cyan-400 animate-spin-slow" />
-          <span className="text-[11px] text-slate-400">{t.aoi}:</span>
+      {/* 2. CONTEXT / SELECTION ZONE (Center-Left Grouped Dock) */}
+      <div className="hidden md:flex items-center bg-slate-950/80 border border-slate-800 rounded-xl p-1 gap-1 shadow-inner shrink-0">
+        {/* AOI Selector */}
+        <div className="flex items-center px-2 py-1 gap-1.5 text-xs text-slate-300">
+          <Compass className="w-3.5 h-3.5 text-cyan-400" />
           <select
             value={selectedAoi}
             onChange={(e) => onSelectAoi(e.target.value)}
-            className="bg-transparent text-xs font-semibold text-slate-200 outline-none cursor-pointer pr-1 max-w-[150px] truncate"
+            className="bg-transparent text-xs font-semibold text-slate-200 outline-none cursor-pointer pr-1 max-w-[140px] truncate"
           >
             {aoiList.map((aoi) => (
               <option key={aoi.aoi_id} value={aoi.aoi_id} className="bg-slate-900 text-slate-100">
@@ -74,26 +74,29 @@ export default function Navbar({
           </select>
         </div>
 
-        {/* Indic Multi-Lingual Switcher (Always Visible) */}
-        <div className="flex items-center bg-slate-950 border border-emerald-500/40 rounded-lg px-2 py-1.5 gap-1.5 shadow-sm">
+        <div className="w-px h-4 bg-slate-800" />
+
+        {/* Indic Multi-Lingual Switcher */}
+        <div className="flex items-center px-2 py-1 gap-1.5 text-xs text-emerald-300">
           <Globe className="w-3.5 h-3.5 text-emerald-400" />
           <select
             value={language}
             onChange={(e) => onLanguageChange && onLanguageChange(e.target.value)}
             className="bg-transparent text-xs font-bold text-emerald-300 outline-none cursor-pointer"
           >
-            <option value="EN" className="bg-slate-900 text-slate-100">🇬🇧 English</option>
-            <option value="HI" className="bg-slate-900 text-slate-100">🇮🇳 हिन्दी (खसरा/खतौनी)</option>
-            <option value="TA" className="bg-slate-900 text-slate-100">🇮🇳 தமிழ் (பட்டா/சிட்டா)</option>
-            <option value="MR" className="bg-slate-900 text-slate-100">🇮🇳 मराठी (७/१२)</option>
-            <option value="TE" className="bg-slate-900 text-slate-100">🇮🇳 తెలుగు (పట్టాదారు)</option>
+            <option value="EN" className="bg-slate-900 text-slate-100">🇬🇧 EN</option>
+            <option value="HI" className="bg-slate-900 text-slate-100">🇮🇳 हिन्दी</option>
+            <option value="TA" className="bg-slate-900 text-slate-100">🇮🇳 தமிழ்</option>
+            <option value="MR" className="bg-slate-900 text-slate-100">🇮🇳 मराठी</option>
+            <option value="TE" className="bg-slate-900 text-slate-100">🇮🇳 తెలుగు</option>
           </select>
         </div>
 
+        <div className="w-px h-4 bg-slate-800 hidden lg:block" />
+
         {/* Quick Indian City Explorer */}
-        <div className="hidden xl:flex items-center bg-slate-950/80 border border-cyan-500/30 rounded-lg px-2.5 py-1.5 gap-2">
+        <div className="hidden lg:flex items-center px-2 py-1 gap-1.5 text-xs text-cyan-300">
           <MapPin className="w-3.5 h-3.5 text-emerald-400" />
-          <span className="text-[11px] text-slate-400">{t.flyToCity}</span>
           <select
             onChange={(e) => {
               const city = INDIAN_CITIES.find(c => c.name === e.target.value);
@@ -107,7 +110,7 @@ export default function Navbar({
               }
             }}
             defaultValue=""
-            className="bg-transparent text-[11px] font-semibold text-cyan-300 outline-none cursor-pointer pr-1"
+            className="bg-transparent text-xs font-semibold text-cyan-300 outline-none cursor-pointer pr-1 max-w-[130px] truncate"
           >
             <option value="" disabled className="bg-slate-900 text-slate-400">{t.flyToCity}</option>
             {INDIAN_CITIES.map((city) => (
@@ -117,39 +120,40 @@ export default function Navbar({
             ))}
           </select>
         </div>
-
-        {stats && (
-          <div className="hidden lg:flex items-center gap-3 border-l border-slate-800 pl-3">
-            <div className="text-right">
-              <div className="text-[10px] uppercase font-bold text-slate-500">Auto-Mapped</div>
-              <div className="text-xs font-bold text-emerald-400">{stats.auto_mapped_rate_pct || 86.4}%</div>
-            </div>
-            <div className="text-right">
-              <div className="text-[10px] uppercase font-bold text-slate-500">Parcels</div>
-              <div className="text-xs font-bold text-blue-400">{stats.total_parcels || 165}</div>
-            </div>
-            <div className="text-right">
-              <div className="text-[10px] uppercase font-bold text-slate-500">Conflicts</div>
-              <div className="text-xs font-bold text-amber-400">{stats.total_conflicts || 0}</div>
-            </div>
-          </div>
-        )}
       </div>
 
-      {/* Action Buttons */}
+      {/* 3. LIVE STATS ZONE (Center-Right Status Strip) */}
+      {stats && (
+        <div className="hidden 2xl:flex items-center gap-4 text-xs font-mono border-l border-r border-slate-800/80 px-3">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] uppercase font-bold text-slate-400">{t.autoMapped}:</span>
+            <span className="font-bold text-emerald-400">{stats.auto_mapped_rate_pct || 99.3}%</span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] uppercase font-bold text-slate-400">{t.parcels}:</span>
+            <span className="font-bold text-sky-400">{stats.total_parcels || 284}</span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] uppercase font-bold text-slate-400">{t.conflicts}:</span>
+            <span className="font-bold text-rose-400">{stats.total_conflicts || 0}</span>
+          </div>
+        </div>
+      )}
+
+      {/* 4. ACTION ZONE (Right - High Priority, Never Clips) */}
       <div className="flex items-center gap-1.5 shrink-0">
         <button
           onClick={onOpenPipeline}
-          className="flex items-center gap-1.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs font-semibold px-2.5 py-1.5 rounded-lg shadow-sm transition-all active:scale-95"
+          className="flex items-center gap-1.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-all active:scale-95"
           title="Run Full AI Cadastral Extraction Pipeline"
         >
           <Play className="w-3.5 h-3.5 fill-white" />
-          <span className="hidden sm:inline">{t.runGeoAi}</span>
+          <span>{t.runGeoAi}</span>
         </button>
 
         <button
           onClick={onOpenConflicts}
-          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-amber-300 hover:text-amber-200 border border-amber-500/30 text-xs font-medium px-2.5 py-1.5 rounded-lg transition-all"
+          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-all active:scale-95"
           title="Review Topological & Legal Conflicts"
         >
           <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
@@ -163,29 +167,20 @@ export default function Navbar({
 
         <button
           onClick={onOpenGT}
-          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-medium px-2.5 py-1.5 rounded-lg transition-all"
+          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-all active:scale-95"
           title="Ground Truthing Field Sign-off"
         >
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span className="hidden lg:inline">{t.gtSignoff}</span>
+          <span className="hidden sm:inline">{t.gtSignoff}</span>
         </button>
 
         <button
           onClick={onOpenAnalytics}
-          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium px-2.5 py-1.5 rounded-lg border border-slate-700 transition-all"
+          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-slate-700 transition-all active:scale-95"
           title="LULC & Cadastral Analytics"
         >
           <BarChart3 className="w-3.5 h-3.5 text-cyan-400" />
-          <span className="hidden lg:inline">{t.analytics}</span>
-        </button>
-
-        <button
-          onClick={onOpenBenchmarks}
-          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium px-2.5 py-1.5 rounded-lg border border-slate-700 transition-all"
-          title="Evaluation Metrics vs Ground Truth"
-        >
-          <Award className="w-3.5 h-3.5 text-yellow-400" />
-          <span className="hidden lg:inline">{t.benchmarks}</span>
+          <span className="hidden xl:inline">{t.analytics}</span>
         </button>
 
         <button

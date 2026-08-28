@@ -9,14 +9,14 @@
       1200,
       1200
     ],
-    "ground_sampling_distance_m": 0.333,
+    "ground_sampling_distance_m": 0.5,
     "no_data_percentage": 0.0,
     "crs": "EPSG:32643",
     "bounds": [
-      718000.0,
-      3167000.0,
-      718400.0,
-      3167400.0
+      715680.2937392073,
+      3166904.8196549593,
+      716280.2937392073,
+      3167504.8196549593
     ],
     "estimated_structures_count": 108
   }

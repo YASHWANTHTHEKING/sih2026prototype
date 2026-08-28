@@ -4,45 +4,26 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "RD_EW_1",
-        "name": "Ward Lane EW-1",
-        "hierarchy": "Secondary Access",
-        "width_m": 8.0,
-        "surface": "Asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            77.22963387236744,
-            28.613067448003875
-          ],
-          [
-            77.23372238968363,
-            28.61300011680271
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "road_id": "RD_EW_2",
-        "name": "MG Road (Primary ROW)",
+        "road_id": "RD_PRIMARY_01",
+        "name": "MG Road / Revenue Arterial",
         "hierarchy": "Major Arterial",
-        "width_m": 12.0,
+        "width_m": 14.0,
         "surface": "Asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            77.22967199010091,
-            28.614871372839417
+            77.20593108440583,
+            28.613832695230045
           ],
           [
-            77.23376057717265,
-            28.614804036619606
+            77.20869788508514,
+            28.61412147240026
+          ],
+          [
+            77.21206683465826,
+            28.613868017954427
           ]
         ]
       }
@@ -50,22 +31,22 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "RD_EW_3",
-        "name": "Ward Lane EW-3",
+        "road_id": "RD_ACCESS_1",
+        "name": "Survey Access Sector Lane 1",
         "hierarchy": "Secondary Access",
-        "width_m": 8.0,
+        "width_m": 9.0,
         "surface": "Asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            77.22970439292831,
-            28.61640470853541
+            77.2059652153428,
+            28.615465273305144
           ],
           [
-            77.23379303929731,
-            28.61633736804963
+            77.21210276244666,
+            28.61558176681707
           ]
         ]
       }
@@ -73,22 +54,22 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "RD_NS_1",
-        "name": "Ward Main Avenue NS-1",
+        "road_id": "RD_ACCESS_2",
+        "name": "Survey Access Sector Lane 2",
         "hierarchy": "Secondary Access",
-        "width_m": 10.0,
+        "width_m": 9.0,
         "surface": "Asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            77.23144509735262,
-            28.611684221923348
+            77.20590412108689,
+            28.612542868048504
           ],
           [
-            77.23152139384717,
-            28.61529206734336
+            77.2120324225597,
+            28.6122264264934
           ]
         ]
       }
@@ -96,22 +77,45 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "RD_NS_2",
-        "name": "Ward Main Avenue NS-2",
+        "road_id": "RD_ACCESS_3",
+        "name": "Survey Access Sector Lane 3",
         "hierarchy": "Secondary Access",
-        "width_m": 10.0,
+        "width_m": 9.0,
         "surface": "Asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            77.23369375136953,
-            28.611647176594214
+            77.20783945882748,
+            28.61121206294952
           ],
           [
-            77.23377012459319,
-            28.6152550164915
+            77.20770737312141,
+            28.61662791461619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_ACCESS_4",
+        "name": "Survey Access Sector Lane 4",
+        "hierarchy": "Secondary Access",
+        "width_m": 9.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.21004725380908,
+            28.611176076425696
+          ],
+          [
+            77.21040592733416,
+            28.61658392125103
           ]
         ]
       }

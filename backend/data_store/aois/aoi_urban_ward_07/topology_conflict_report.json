@@ -1,10 +1,10 @@
 {
   "status": "success",
   "aoi_id": "aoi_urban_ward_07",
-  "total_conflicts_detected": 17,
+  "total_conflicts_detected": 21,
   "severity_breakdown": {
-    "Critical": 13,
-    "High": 4,
+    "Critical": 15,
+    "High": 6,
     "Medium": 0,
     "Low": 0
   },
@@ -14,12 +14,12 @@
       "conflict_id": "CONF-OVR-0001",
       "type": "Parcel Overlap",
       "severity": "High",
-      "parcel_1": "ULPIN-2026-d_07-00027",
+      "parcel_1": "ULPIN-2026-d_07-00044",
       "parcel_2": "ULPIN-2026-d_07-00045",
-      "survey_number_1": "SY-101/27",
-      "survey_number_2": "SY-101/45",
+      "survey_number_1": "SY-102/44",
+      "survey_number_2": "SY-102/45",
       "overlap_area_sqm": 0.0,
-      "description": "Overlapping boundary (0.0 sqm) between SY-101/27 and SY-101/45",
+      "description": "Overlapping boundary (0.0 sqm) between SY-102/44 and SY-102/45",
       "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
@@ -27,24 +27,24 @@
         "coordinates": [
           [
             [
-              77.2104375183484,
-              28.61364422862798
+              77.21101936446405,
+              28.611816444830293
             ],
             [
-              77.21042958994644,
-              28.613265742487602
+              77.21100040876824,
+              28.61181703166356
             ],
             [
-              77.21038595970592,
-              28.61326645420476
+              77.2110092100424,
+              28.612237103309234
             ],
             [
-              77.21039388795236,
-              28.613644940278018
+              77.21105199889303,
+              28.61223640512456
             ],
             [
-              77.2104375183484,
-              28.61364422862798
+              77.21101936446405,
+              28.611816444830293
             ]
           ]
         ]
@@ -54,12 +54,12 @@
       "conflict_id": "CONF-OVR-0002",
       "type": "Parcel Overlap",
       "severity": "High",
-      "parcel_1": "ULPIN-2026-d_07-00148",
-      "parcel_2": "ULPIN-2026-d_07-00153",
-      "survey_number_1": "SY-106/148",
-      "survey_number_2": "SY-106/153",
+      "parcel_1": "ULPIN-2026-d_07-00062",
+      "parcel_2": "ULPIN-2026-d_07-00063",
+      "survey_number_1": "SY-103/62",
+      "survey_number_2": "SY-103/63",
       "overlap_area_sqm": 0.0,
-      "description": "Overlapping boundary (0.0 sqm) between SY-106/148 and SY-106/153",
+      "description": "Overlapping boundary (0.0 sqm) between SY-103/62 and SY-103/63",
       "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
@@ -67,24 +67,28 @@
         "coordinates": [
           [
             [
-              77.20611170140273,
-              28.614701508705558
+              77.21123475976353,
+              28.612550445355744
             ],
             [
-              77.20608012209105,
-              28.61470231526036
+              77.21120268928858,
+              28.612550968697217
             ],
             [
-              77.20609086201772,
-              28.6152159973674
+              77.2112106548838,
+              28.61293110852894
             ],
             [
-              77.20613145002238,
-              28.615215336521675
+              77.2112468823826,
+              28.612930608541113
             ],
             [
-              77.20611170140273,
-              28.614701508705558
+              77.21123476270043,
+              28.612550445353435
+            ],
+            [
+              77.21123475976353,
+              28.612550445355744
             ]
           ]
         ]
@@ -94,12 +98,12 @@
       "conflict_id": "CONF-OVR-0003",
       "type": "Parcel Overlap",
       "severity": "High",
-      "parcel_1": "ULPIN-2026-d_07-00224",
-      "parcel_2": "ULPIN-2026-d_07-00225",
-      "survey_number_1": "SY-109/224",
-      "survey_number_2": "SY-109/225",
+      "parcel_1": "ULPIN-2026-d_07-00116",
+      "parcel_2": "ULPIN-2026-d_07-00117",
+      "survey_number_1": "SY-106/116",
+      "survey_number_2": "SY-106/117",
       "overlap_area_sqm": 0.0,
-      "description": "Overlapping boundary (0.0 sqm) between SY-109/224 and SY-109/225",
+      "description": "Overlapping boundary (0.0 sqm) between SY-106/116 and SY-106/117",
       "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
@@ -107,28 +111,28 @@
         "coordinates": [
           [
             [
-              77.20950075179337,
-              28.61146238208856
+              77.2086196360579,
+              28.615802306100438
             ],
             [
-              77.20944799282759,
-              28.61146324233797
+              77.20858823380331,
+              28.615802817975187
             ],
             [
-              77.20946090203148,
-              28.61207981850456
+              77.20859602232834,
+              28.616174897658382
             ],
             [
-              77.20947678182195,
-              28.612079669608292
+              77.20863068237726,
+              28.616174707415674
             ],
             [
-              77.20950075537168,
-              28.611462382109142
+              77.20861964415911,
+              28.61580230601995
             ],
             [
-              77.20950075179337,
-              28.61146238208856
+              77.2086196360579,
+              28.615802306100438
             ]
           ]
         ]
@@ -138,12 +142,12 @@
       "conflict_id": "CONF-OVR-0004",
       "type": "Parcel Overlap",
       "severity": "High",
-      "parcel_1": "ULPIN-2026-d_07-00296",
-      "parcel_2": "ULPIN-2026-d_07-00297",
-      "survey_number_1": "SY-111/296",
-      "survey_number_2": "SY-111/297",
+      "parcel_1": "ULPIN-2026-d_07-00170",
+      "parcel_2": "ULPIN-2026-d_07-00171",
+      "survey_number_1": "SY-109/170",
+      "survey_number_2": "SY-109/171",
       "overlap_area_sqm": 0.0,
-      "description": "Overlapping boundary (0.0 sqm) between SY-111/296 and SY-111/297",
+      "description": "Overlapping boundary (0.0 sqm) between SY-109/170 and SY-109/171",
       "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
@@ -151,106 +155,108 @@
         "coordinates": [
           [
             [
-              77.20963258855264,
-              28.6134393307442
+              77.20688923675758,
+              28.612796120935677
             ],
             [
-              77.20963910058265,
-              28.613750312609568
+              77.20689883023326,
+              28.61325483777654
             ],
             [
-              77.20967314988704,
-              28.61374975736306
+              77.2069301682099,
+              28.61325463779796
             ],
             [
-              77.20967181069378,
-              28.613438657290573
+              77.20691660328703,
+              28.612795527738538
             ],
             [
-              77.20963258855264,
-              28.6134393307442
+              77.20688923675758,
+              28.612796120935677
             ]
           ]
         ]
       }
     },
     {
-      "conflict_id": "CONF-ENC-0005",
-      "type": "Building Encroachment",
-      "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0013",
-      "parcels_involved": [
-        "SY-109/215",
-        "SY-109/216"
-      ],
-      "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0013 extends across boundary of SY-109/215, SY-109/216",
-      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "conflict_id": "CONF-OVR-0005",
+      "type": "Parcel Overlap",
+      "severity": "High",
+      "parcel_1": "ULPIN-2026-d_07-00206",
+      "parcel_2": "ULPIN-2026-d_07-00207",
+      "survey_number_1": "SY-110/206",
+      "survey_number_2": "SY-110/207",
+      "overlap_area_sqm": 0.0,
+      "description": "Overlapping boundary (0.0 sqm) between SY-110/206 and SY-110/207",
+      "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              77.20992747368855,
-              28.61143743606034
+              77.20935373934586,
+              28.614786365237254
             ],
             [
-              77.20984221800526,
-              28.611215229893567
+              77.20930659228142,
+              28.61478713399189
             ],
             [
-              77.20996752257082,
-              28.61117779184805
+              77.2093167260871,
+              28.615271115873156
             ],
             [
-              77.21006176500707,
-              28.61142341983492
+              77.20934776997763,
+              28.615270609680394
             ],
             [
-              77.20992747368855,
-              28.61143743606034
+              77.20935374619567,
+              28.614786365197983
+            ],
+            [
+              77.20935373934586,
+              28.614786365237254
             ]
           ]
         ]
       }
     },
     {
-      "conflict_id": "CONF-ENC-0006",
-      "type": "Building Encroachment",
-      "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0035",
-      "parcels_involved": [
-        "SY-109/224",
-        "SY-109/225"
-      ],
-      "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0035 extends across boundary of SY-109/224, SY-109/225",
-      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "conflict_id": "CONF-OVR-0006",
+      "type": "Parcel Overlap",
+      "severity": "High",
+      "parcel_1": "ULPIN-2026-d_07-00230",
+      "parcel_2": "ULPIN-2026-d_07-00243",
+      "survey_number_1": "SY-111/230",
+      "survey_number_2": "SY-111/243",
+      "overlap_area_sqm": 0.0,
+      "description": "Overlapping boundary (0.0 sqm) between SY-111/230 and SY-111/243",
+      "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
       "status": "Open",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              77.20916841704184,
-              28.61205434161541
+              77.20796427260451,
+              28.61378657758398
             ],
             [
-              77.20917259672336,
-              28.611494960955568
+              77.20796400616939,
+              28.613388952343648
             ],
             [
-              77.20946343748213,
-              28.611496652939937
+              77.20793116875619,
+              28.613389538599346
             ],
             [
-              77.20945930376988,
-              28.612050085615234
+              77.2079394825235,
+              28.61378686857697
             ],
             [
-              77.20916841704184,
-              28.61205434161541
+              77.20796427260451,
+              28.61378657758398
             ]
           ]
         ]
@@ -260,14 +266,13 @@
       "conflict_id": "CONF-ENC-0007",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0038",
+      "building_id": "AI-BLD-urban_ward_07-0011",
       "parcels_involved": [
-        "SY-109/214",
-        "SY-109/215",
-        "SY-109/225"
+        "SY-100/9",
+        "SY-100/10"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0038 extends across boundary of SY-109/214, SY-109/215, SY-109/225",
+      "description": "Building AI-BLD-urban_ward_07-0011 extends across boundary of SY-100/9, SY-100/10",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -275,24 +280,24 @@
         "coordinates": [
           [
             [
-              77.20994542864521,
-              28.612050695578596
+              77.2075563988991,
+              28.611733231536654
             ],
             [
-              77.20980809457923,
-              28.611499969428483
+              77.20718313146831,
+              28.611730288603376
             ],
             [
-              77.20999124208636,
-              28.611464404702126
+              77.20718494074308,
+              28.611572359481787
             ],
             [
-              77.21013395770204,
-              28.612036707451114
+              77.20753682157368,
+              28.611530536629022
             ],
             [
-              77.20994542864521,
-              28.612050695578596
+              77.2075563988991,
+              28.611733231536654
             ]
           ]
         ]
@@ -302,13 +307,13 @@
       "conflict_id": "CONF-ENC-0008",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0049",
+      "building_id": "AI-BLD-urban_ward_07-0021",
       "parcels_involved": [
-        "SY-100/8",
-        "SY-100/9"
+        "SY-101/27",
+        "SY-101/36"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0049 extends across boundary of SY-100/8, SY-100/9",
+      "description": "Building AI-BLD-urban_ward_07-0021 extends across boundary of SY-101/27, SY-101/36",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -316,24 +321,32 @@
         "coordinates": [
           [
             [
-              77.21018997528601,
-              28.612254232438172
+              77.20953742446149,
+              28.61209795121216
             ],
             [
-              77.21017569234165,
-              28.612060474604622
+              77.2095221984904,
+              28.61185909448719
             ],
             [
-              77.21027790582154,
-              28.61205880754837
+              77.20964987072011,
+              28.611852501409256
             ],
             [
-              77.21027685690309,
-              28.612252815427365
+              77.20964599904508,
+              28.611667596541043
             ],
             [
-              77.21018997528601,
-              28.612254232438172
+              77.20979931874606,
+              28.61166509655806
+            ],
+            [
+              77.20982362240844,
+              28.612093284602405
+            ],
+            [
+              77.20953742446149,
+              28.61209795121216
             ]
           ]
         ]
@@ -343,14 +356,13 @@
       "conflict_id": "CONF-ENC-0009",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0061",
+      "building_id": "AI-BLD-urban_ward_07-0025",
       "parcels_involved": [
-        "SY-108/185",
-        "SY-108/186",
-        "SY-108/201"
+        "SY-100/13",
+        "SY-100/14"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0061 extends across boundary of SY-108/185, SY-108/186, SY-108/201",
+      "description": "Building AI-BLD-urban_ward_07-0025 extends across boundary of SY-100/13, SY-100/14",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -358,24 +370,24 @@
         "coordinates": [
           [
             [
-              77.20609923355208,
-              28.61246074205628
+              77.20643627603108,
+              28.612198103937416
             ],
             [
-              77.20610606080452,
-              28.61229821979179
+              77.20642239595806,
+              28.611778767889337
             ],
             [
-              77.20647452116566,
-              28.61220469058739
+              77.20674957332743,
+              28.61177795202432
             ],
             [
-              77.20655014834789,
-              28.61243669096886
+              77.20691169737633,
+              28.61216334275001
             ],
             [
-              77.20609923355208,
-              28.61246074205628
+              77.20643627603108,
+              28.612198103937416
             ]
           ]
         ]
@@ -385,13 +397,13 @@
       "conflict_id": "CONF-ENC-0010",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0094",
+      "building_id": "AI-BLD-urban_ward_07-0027",
       "parcels_involved": [
-        "SY-111/280",
-        "SY-111/281"
+        "SY-102/37",
+        "SY-102/45"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0094 extends across boundary of SY-111/280, SY-111/281",
+      "description": "Building AI-BLD-urban_ward_07-0027 extends across boundary of SY-102/37, SY-102/45",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -399,24 +411,24 @@
         "coordinates": [
           [
             [
-              77.20798788400333,
-              28.613052558662687
+              77.21147673271749,
+              28.61217910321171
             ],
             [
-              77.20797560159393,
-              28.612709891116307
+              77.21137164559853,
+              28.611849044646533
             ],
             [
-              77.20827202292587,
-              28.61270506115116
+              77.21149625524326,
+              28.611818149982906
             ],
             [
-              77.20841369805214,
-              28.61301992882486
+              77.21160758980358,
+              28.61216782922025
             ],
             [
-              77.20798788400333,
-              28.613052558662687
+              77.21147673271749,
+              28.61217910321171
             ]
           ]
         ]
@@ -426,13 +438,13 @@
       "conflict_id": "CONF-ENC-0011",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0116",
+      "building_id": "AI-BLD-urban_ward_07-0029",
       "parcels_involved": [
-        "SY-101/27",
-        "SY-101/45"
+        "SY-102/44",
+        "SY-102/45"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0116 extends across boundary of SY-101/27, SY-101/45",
+      "description": "Building AI-BLD-urban_ward_07-0029 extends across boundary of SY-102/44, SY-102/45",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -440,32 +452,24 @@
         "coordinates": [
           [
             [
-              77.21028494178414,
-              28.613615130237356
+              77.21078726374053,
+              28.612212909846683
             ],
             [
-              77.21027103616201,
-              28.61343941195686
+              77.21077979976668,
+              28.611856630022814
             ],
             [
-              77.21032715984099,
-              28.613433985133994
+              77.21098422623956,
+              28.61185329494414
             ],
             [
-              77.21032423138469,
-              28.613294179111268
+              77.21101203912536,
+              28.612204731318823
             ],
             [
-              77.2103753387178,
-              28.61329334550402
-            ],
-            [
-              77.2104024890075,
-              28.61361321292638
-            ],
-            [
-              77.21028494178414,
-              28.613615130237356
+              77.21078726374053,
+              28.612212909846683
             ]
           ]
         ]
@@ -475,13 +479,13 @@
       "conflict_id": "CONF-ENC-0012",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0128",
+      "building_id": "AI-BLD-urban_ward_07-0063",
       "parcels_involved": [
-        "SY-111/296",
-        "SY-111/297"
+        "SY-103/62",
+        "SY-103/63"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0128 extends across boundary of SY-111/296, SY-111/297",
+      "description": "Building AI-BLD-urban_ward_07-0063 extends across boundary of SY-103/62, SY-103/63",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -489,24 +493,24 @@
         "coordinates": [
           [
             [
-              77.20935175170729,
-              28.613729598974853
+              77.2108529212843,
+              28.612906596173687
             ],
             [
-              77.20935668536768,
-              28.61347687935458
+              77.21085633966635,
+              28.612581718741126
             ],
             [
-              77.20963777634326,
-              28.613472296255875
+              77.21120386701833,
+              28.612576048597074
             ],
             [
-              77.20963785967497,
-              28.613720422640988
+              77.21121578184042,
+              28.61290067580362
             ],
             [
-              77.20935175170729,
-              28.613729598974853
+              77.2108529212843,
+              28.612906596173687
             ]
           ]
         ]
@@ -516,15 +520,13 @@
       "conflict_id": "CONF-ENC-0013",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0144",
+      "building_id": "AI-BLD-urban_ward_07-0074",
       "parcels_involved": [
-        "SY-101/27",
-        "SY-101/28",
-        "SY-101/29",
-        "SY-101/45"
+        "SY-109/170",
+        "SY-109/171"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0144 extends across boundary of SY-101/27, SY-101/28, SY-101/29, SY-101/45",
+      "description": "Building AI-BLD-urban_ward_07-0074 extends across boundary of SY-109/170, SY-109/171",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -532,24 +534,24 @@
         "coordinates": [
           [
             [
-              77.2103013036188,
-              28.613908105167518
+              77.20663684062204,
+              28.613232464643033
             ],
             [
-              77.21022124384214,
-              28.613684262177248
+              77.20664368513893,
+              28.612826325498485
             ],
             [
-              77.21040063960959,
-              28.613634299939815
+              77.20688899984111,
+              28.612822330727212
             ],
             [
-              77.21049217771899,
-              28.613890234474045
+              77.20690259923738,
+              28.613228136911587
             ],
             [
-              77.2103013036188,
-              28.613908105167518
+              77.20663684062204,
+              28.613232464643033
             ]
           ]
         ]
@@ -559,13 +561,13 @@
       "conflict_id": "CONF-ENC-0014",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0151",
+      "building_id": "AI-BLD-urban_ward_07-0133",
       "parcels_involved": [
-        "SY-111/260",
-        "SY-111/261"
+        "SY-104/72",
+        "SY-104/73"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0151 extends across boundary of SY-111/260, SY-111/261",
+      "description": "Building AI-BLD-urban_ward_07-0133 extends across boundary of SY-104/72, SY-104/73",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -573,24 +575,32 @@
         "coordinates": [
           [
             [
-              77.20868307855925,
-              28.614024718312244
+              77.21090587732482,
+              28.614214041532236
             ],
             [
-              77.20843719503111,
-              28.614001657220573
+              77.21086298637859,
+              28.614117341776698
             ],
             [
-              77.20842348115194,
-              28.61383495834753
+              77.21102493373205,
+              28.614061408578774
             ],
             [
-              77.20867892503527,
-              28.613826283753188
+              77.2110401827708,
+              28.61403590519917
             ],
             [
-              77.20868307855925,
-              28.614024718312244
+              77.21120874355839,
+              28.614028643398054
+            ],
+            [
+              77.21121754010896,
+              28.614204444873824
+            ],
+            [
+              77.21090587732482,
+              28.614214041532236
             ]
           ]
         ]
@@ -600,13 +610,13 @@
       "conflict_id": "CONF-ENC-0015",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0162",
+      "building_id": "AI-BLD-urban_ward_07-0136",
       "parcels_involved": [
-        "SY-102/51",
-        "SY-102/52"
+        "SY-110/187",
+        "SY-110/188"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0162 extends across boundary of SY-102/51, SY-102/52",
+      "description": "Building AI-BLD-urban_ward_07-0136 extends across boundary of SY-110/187, SY-110/188",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -614,24 +624,24 @@
         "coordinates": [
           [
             [
-              77.21093597500594,
-              28.6141864820083
+              77.21013007820714,
+              28.614276322285875
             ],
             [
-              77.21093314014698,
-              28.61405118592806
+              77.21007058596342,
+              28.614117836015176
             ],
             [
-              77.21114391896045,
-              28.6139813556007
+              77.21015823547272,
+              28.61409221637351
             ],
             [
-              77.21122271173141,
-              28.614166548043386
+              77.21022372427902,
+              28.614266676971695
             ],
             [
-              77.21093597500594,
-              28.6141864820083
+              77.21013007820714,
+              28.614276322285875
             ]
           ]
         ]
@@ -641,13 +651,13 @@
       "conflict_id": "CONF-ENC-0016",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0197",
+      "building_id": "AI-BLD-urban_ward_07-0144",
       "parcels_involved": [
-        "SY-106/148",
-        "SY-106/153"
+        "SY-108/131",
+        "SY-108/145"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0197 extends across boundary of SY-106/148, SY-106/153",
+      "description": "Building AI-BLD-urban_ward_07-0144 extends across boundary of SY-108/131, SY-108/145",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -655,24 +665,28 @@
         "coordinates": [
           [
             [
-              77.20599273140377,
-              28.615191884536134
+              77.20616995129735,
+              28.614620560649858
             ],
             [
-              77.20598311410136,
-              28.61473187638281
+              77.20611798908483,
+              28.614412793146
             ],
             [
-              77.20608021963963,
-              28.614730295549368
+              77.20606537725895,
+              28.61420242722182
             ],
             [
-              77.20610005904418,
-              28.615190137261926
+              77.2061839916772,
+              28.614179327867546
             ],
             [
-              77.20599273140377,
-              28.615191884536134
+              77.2062916879845,
+              28.61460994354512
+            ],
+            [
+              77.20616995129735,
+              28.614620560649858
             ]
           ]
         ]
@@ -682,13 +696,15 @@
       "conflict_id": "CONF-ENC-0017",
       "type": "Building Encroachment",
       "severity": "Critical",
-      "building_id": "AI-BLD-urban_ward_07-0279",
+      "building_id": "AI-BLD-urban_ward_07-0150",
       "parcels_involved": [
-        "SY-105/116",
-        "SY-105/117"
+        "SY-104/72",
+        "SY-104/84",
+        "SY-104/85",
+        "SY-104/86"
       ],
       "encroachment_type": "Multi-Parcel Straddle",
-      "description": "Building AI-BLD-urban_ward_07-0279 extends across boundary of SY-105/116, SY-105/117",
+      "description": "Building AI-BLD-urban_ward_07-0150 extends across boundary of SY-104/72, SY-104/84, SY-104/85, SY-104/86",
       "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
       "status": "Open",
       "geometry": {
@@ -696,24 +712,188 @@
         "coordinates": [
           [
             [
-              77.20628337256517,
-              28.616621783604018
+              77.21094154235091,
+              28.614696180604167
             ],
             [
-              77.2062680582582,
-              28.61637841640964
+              77.21078668710902,
+              28.61429934055611
             ],
             [
-              77.20647258842412,
-              28.616379597535662
+              77.21118708465058,
+              28.61417767826058
             ],
             [
-              77.20648780888678,
-              28.616618454799713
+              77.21137713153348,
+              28.614664697123647
             ],
             [
-              77.20628337256517,
-              28.616621783604018
+              77.21094154235091,
+              28.614696180604167
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "conflict_id": "CONF-ENC-0018",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-urban_ward_07-0167",
+      "parcels_involved": [
+        "SY-110/185",
+        "SY-110/208"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-urban_ward_07-0167 extends across boundary of SY-110/185, SY-110/208",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21016004279913,
+              28.61521871868045
+            ],
+            [
+              77.21004736573356,
+              28.614825099475308
+            ],
+            [
+              77.21020354864267,
+              28.614790286491885
+            ],
+            [
+              77.21032238765328,
+              28.615205429251642
+            ],
+            [
+              77.21016004279913,
+              28.61521871868045
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "conflict_id": "CONF-ENC-0019",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-urban_ward_07-0170",
+      "parcels_involved": [
+        "SY-110/206",
+        "SY-110/207"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-urban_ward_07-0170 extends across boundary of SY-110/206, SY-110/207",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20906130887882,
+              28.61524114622356
+            ],
+            [
+              77.20906098862791,
+              28.61482594650193
+            ],
+            [
+              77.20931331356168,
+              28.61482579474942
+            ],
+            [
+              77.20931363176581,
+              28.615237065692824
+            ],
+            [
+              77.20906130887882,
+              28.61524114622356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "conflict_id": "CONF-ENC-0020",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-urban_ward_07-0195",
+      "parcels_involved": [
+        "SY-104/80",
+        "SY-104/81"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-urban_ward_07-0195 extends across boundary of SY-104/80, SY-104/81",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21152594977167,
+              28.61550320940016
+            ],
+            [
+              77.21132653262563,
+              28.61550195241282
+            ],
+            [
+              77.21131754659996,
+              28.615317131256486
+            ],
+            [
+              77.21152709052637,
+              28.61531371158901
+            ],
+            [
+              77.21152594977167,
+              28.61550320940016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "conflict_id": "CONF-ENC-0021",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-urban_ward_07-0218",
+      "parcels_involved": [
+        "SY-106/116",
+        "SY-106/117"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-urban_ward_07-0218 extends across boundary of SY-106/116, SY-106/117",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20832378341385,
+              28.616155450334844
+            ],
+            [
+              77.20831982936542,
+              28.615826068162676
+            ],
+            [
+              77.20859801979331,
+              28.615823467600784
+            ],
+            [
+              77.20860195137801,
+              28.61615090659547
+            ],
+            [
+              77.20832378341385,
+              28.616155450334844
             ]
           ]
         ]

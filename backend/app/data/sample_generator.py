@@ -110,9 +110,25 @@ def generate_sample_aoi(aoi_id: str = "aoi_urban_ward_07", center_lat: float = 2
             mask = np.array(pil_poly) > 0
             rgb_img[mask] = [72 + int(np.random.randint(-4, 4)), 75 + int(np.random.randint(-4, 4)), 80 + int(np.random.randint(-4, 4))]
 
+    # 1. Define Authentic Organic Sector Boundary (Non-Square Polygon)
+    cx, cy = (min_x + max_x) / 2.0, (min_y + max_y) / 2.0
+    outer_points = [
+        (min_x + width_m * 0.06, min_y + height_m * 0.08),
+        (min_x + width_m * 0.45, min_y + height_m * 0.03),
+        (min_x + width_m * 0.92, min_y + height_m * 0.12),
+        (max_x - width_m * 0.04, min_y + height_m * 0.46),
+        (max_x - width_m * 0.08, min_y + height_m * 0.86),
+        (min_x + width_m * 0.78, max_y - height_m * 0.05),
+        (min_x + width_m * 0.34, max_y - height_m * 0.03),
+        (min_x + width_m * 0.05, max_y - height_m * 0.18),
+        (min_x + width_m * 0.02, min_y + height_m * 0.52),
+    ]
+    aoi_boundary_poly = Polygon(outer_points)
+    if not aoi_boundary_poly.is_valid:
+        aoi_boundary_poly = make_valid(aoi_boundary_poly)
+
     # 2. Organic Parcel Partitioning & Feature Extraction
-    aoi_box = box(min_x, min_y, max_x, max_y)
-    blocks_geom = aoi_box.difference(combined_roads_union)
+    blocks_geom = aoi_boundary_poly.difference(combined_roads_union)
     
     parcels_gt = []
     buildings_gt = []
@@ -198,7 +214,7 @@ def generate_sample_aoi(aoi_id: str = "aoi_urban_ward_07", center_lat: float = 2
                 legacy_geom = make_valid(parcel_poly.buffer(-2.2 if parcel_idx % 2 == 0 else 1.8))
             elif parcel_idx % 9 == 0:
                 shift_delta = np.random.uniform(1.5, 3.5)
-                legacy_geom = make_valid(box(parcel_poly.bounds[0] - shift_delta, parcel_poly.bounds[1], parcel_poly.bounds[2], parcel_poly.bounds[3]).intersection(aoi_box))
+                legacy_geom = make_valid(box(parcel_poly.bounds[0] - shift_delta, parcel_poly.bounds[1], parcel_poly.bounds[2], parcel_poly.bounds[3]).intersection(aoi_boundary_poly))
                 
             legacy_parcels.append({
                 "legacy_id": f"LEGACY-{survey_no.replace('/', '-')}",
