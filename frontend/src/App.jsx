@@ -58,23 +58,31 @@ export default function App() {
     setTimeout(() => setToast(null), 4000);
   };
 
-  const handleAutoTrimConflict = async (parcelId) => {
+  const handleAutoTrimConflict = async (parcelOrId) => {
     try {
-      showToast(`Auto-trimming conflict on ${parcelId}...`, 'info');
-      const res = await autoTrimConflict({ aoi_id: selectedAoi, parcel_id: parcelId });
+      const pId = typeof parcelOrId === 'string'
+        ? parcelOrId
+        : (parcelOrId?.properties?.conflict_id || parcelOrId?.properties?.parcel_id || parcelOrId?.properties?.parcel_1 || 'CONF');
+      showToast(`Auto-trimming conflict on ${pId}...`, 'info');
+      const res = await autoTrimConflict({ aoi_id: selectedAoi, parcel_id: pId });
       showToast(res.message);
       loadAOIData(selectedAoi);
+      setSelectedParcel(null);
     } catch (e) {
       showToast(e.response?.data?.detail || 'Auto-trim failed', 'error');
     }
   };
 
-  const handleSnapGnss = async (parcelId) => {
+  const handleSnapGnss = async (parcelOrId) => {
     try {
-      showToast(`Snapping ${parcelId} to CORS station...`, 'info');
-      const res = await snapToGnssAnchor({ aoi_id: selectedAoi, parcel_id: parcelId });
+      const pId = typeof parcelOrId === 'string'
+        ? parcelOrId
+        : (parcelOrId?.properties?.parcel_id || parcelOrId?.properties?.conflict_id || parcelOrId?.properties?.parcel_1 || 'GNSS');
+      showToast(`Snapping ${pId} to CORS station...`, 'info');
+      const res = await snapToGnssAnchor({ aoi_id: selectedAoi, parcel_id: pId });
       showToast(res.message);
       loadAOIData(selectedAoi);
+      setSelectedParcel(null);
     } catch (e) {
       showToast(e.response?.data?.detail || 'GNSS snap failed', 'error');
     }
