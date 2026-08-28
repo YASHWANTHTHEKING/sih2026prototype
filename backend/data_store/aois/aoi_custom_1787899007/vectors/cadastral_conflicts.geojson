@@ -1,0 +1,1143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0001",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00015",
+        "parcel_2": "ULPIN-2026-9007-00016",
+        "survey_number_1": "SY-100/15",
+        "survey_number_2": "SY-100/16",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-100/15 and SY-100/16",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74127927437691,
+              18.589594486760852
+            ],
+            [
+              73.7412793330618,
+              18.589595815726142
+            ],
+            [
+              73.7412795280687,
+              18.589597132807057
+            ],
+            [
+              73.74127985751963,
+              18.58959842531942
+            ],
+            [
+              73.74128031824176,
+              18.58959968081562
+            ],
+            [
+              73.7412809057981,
+              18.589600887204536
+            ],
+            [
+              73.74128161453018,
+              18.58960203286798
+            ],
+            [
+              73.74128243761251,
+              18.589603106772604
+            ],
+            [
+              73.74128336711837,
+              18.589604098576082
+            ],
+            [
+              73.74128439409608,
+              18.589604998726834
+            ],
+            [
+              73.74128550865532,
+              18.58960579855592
+            ],
+            [
+              73.74128670006225,
+              18.589606490360506
+            ],
+            [
+              73.74128795684298,
+              18.58960706747817
+            ],
+            [
+              73.74128926689403,
+              18.589607524350956
+            ],
+            [
+              73.74129061759886,
+              18.5896078565789
+            ],
+            [
+              73.74129199594948,
+              18.58960806096249
+            ],
+            [
+              73.7412933886716,
+              18.589608135533375
+            ],
+            [
+              73.74175533903643,
+              18.589611220425276
+            ],
+            [
+              73.74175557126058,
+              18.58957959480487
+            ],
+            [
+              73.74127940712403,
+              18.589576414963087
+            ],
+            [
+              73.74127927437691,
+              18.589594486760852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0002",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00044",
+        "parcel_2": "ULPIN-2026-9007-00048",
+        "survey_number_1": "SY-102/44",
+        "survey_number_2": "SY-102/48",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-102/44 and SY-102/48",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74077877238784,
+              18.592902958140506
+            ],
+            [
+              73.74077611582844,
+              18.593264393532635
+            ],
+            [
+              73.74078987600252,
+              18.593264485507586
+            ],
+            [
+              73.74080454414161,
+              18.59326458351665
+            ],
+            [
+              73.74080720064235,
+              18.592903148155425
+            ],
+            [
+              73.74077877238784,
+              18.592902958140506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0003",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00055",
+        "parcel_2": "ULPIN-2026-9007-00056",
+        "survey_number_1": "SY-103/55",
+        "survey_number_2": "SY-103/56",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-103/55 and SY-103/56",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74032537241195,
+              18.59367838029415
+            ],
+            [
+              73.74032556741405,
+              18.593679697375357
+            ],
+            [
+              73.7403258968635,
+              18.593680989888878
+            ],
+            [
+              73.74032635758752,
+              18.593682245387107
+            ],
+            [
+              73.74032694514908,
+              18.593683451778926
+            ],
+            [
+              73.74032765388965,
+              18.593684597446106
+            ],
+            [
+              73.74032847698368,
+              18.59368567135524
+            ],
+            [
+              73.7403294065043,
+              18.593686663164007
+            ],
+            [
+              73.74033043349975,
+              18.59368756332072
+            ],
+            [
+              73.74033154807948,
+              18.593688363156428
+            ],
+            [
+              73.74033273950951,
+              18.59368905496822
+            ],
+            [
+              73.74033399631566,
+              18.5936896320936
+            ],
+            [
+              73.74033530639423,
+              18.593690088974515
+            ],
+            [
+              73.74033665712845,
+              18.59369042121097
+            ],
+            [
+              73.74033803550999,
+              18.593690625603337
+            ],
+            [
+              73.74033942826432,
+              18.593690700183195
+            ],
+            [
+              73.74080138946474,
+              18.593693788065845
+            ],
+            [
+              73.74080162191979,
+              18.59366216247075
+            ],
+            [
+              73.74032544661412,
+              18.593658979546184
+            ],
+            [
+              73.74032531373516,
+              18.593677051329497
+            ],
+            [
+              73.74032537241195,
+              18.59367838029415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0004",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00095",
+        "parcel_2": "ULPIN-2026-9007-00096",
+        "survey_number_1": "SY-107/95",
+        "survey_number_2": "SY-107/96",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-107/95 and SY-107/96",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7365953567452,
+              18.59133878017197
+            ],
+            [
+              73.73659541539335,
+              18.591340109136357
+            ],
+            [
+              73.73659561036504,
+              18.591341426219874
+            ],
+            [
+              73.73659593978257,
+              18.591342718738282
+            ],
+            [
+              73.73659640047349,
+              18.59134397424394
+            ],
+            [
+              73.73659698800108,
+              18.591345180645646
+            ],
+            [
+              73.73659769670714,
+              18.591346326325073
+            ],
+            [
+              73.73659851976645,
+              18.591347400248708
+            ],
+            [
+              73.73659944925245,
+              18.59134839207408
+            ],
+            [
+              73.73660047621374,
+              18.59134929224935
+            ],
+            [
+              73.7366015907601,
+              18.59135009210537
+            ],
+            [
+              73.73660278215786,
+              18.591350783939063
+            ],
+            [
+              73.73660403893318,
+              18.591351361087693
+            ],
+            [
+              73.73660534898264,
+              18.591351817993
+            ],
+            [
+              73.73660669968973,
+              18.591352150254764
+            ],
+            [
+              73.73660807804642,
+              18.591352354673077
+            ],
+            [
+              73.73660947077835,
+              18.591352429279308
+            ],
+            [
+              73.73716223653591,
+              18.591356134541055
+            ],
+            [
+              73.73716246963122,
+              18.591324508982588
+            ],
+            [
+              73.7365954899996,
+              18.59132070840683
+            ],
+            [
+              73.7365953567452,
+              18.59133878017197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0005",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00132",
+        "parcel_2": "ULPIN-2026-9007-00136",
+        "survey_number_1": "SY-110/132",
+        "survey_number_2": "SY-110/136",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-110/132 and SY-110/136",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829870133358,
+              18.592524914799036
+            ],
+            [
+              73.73827027316936,
+              18.592524724406754
+            ],
+            [
+              73.73826761137677,
+              18.592886159463283
+            ],
+            [
+              73.73828140831979,
+              18.592886251867444
+            ],
+            [
+              73.73829603959966,
+              18.592886349821995
+            ],
+            [
+              73.73829870133358,
+              18.592524914799036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-OVR-0006",
+        "type": "Parcel Overlap",
+        "severity": "High",
+        "parcel_1": "ULPIN-2026-9007-00135",
+        "parcel_2": "ULPIN-2026-9007-00136",
+        "survey_number_1": "SY-110/135",
+        "survey_number_2": "SY-110/136",
+        "overlap_area_sqm": 0.0,
+        "description": "Overlapping boundary (0.0 sqm) between SY-110/135 and SY-110/136",
+        "suggested_action": "Execute interactive polygon trim or merge boundary in Cadastral Editor",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73828448725206,
+              18.59252481962113
+            ],
+            [
+              73.73828454591317,
+              18.592526148585616
+            ],
+            [
+              73.73828474089872,
+              18.592527465668084
+            ],
+            [
+              73.73828507033087,
+              18.592528758184272
+            ],
+            [
+              73.73828553103705,
+              18.59253001368659
+            ],
+            [
+              73.73828611858043,
+              18.59253122008381
+            ],
+            [
+              73.73828682730256,
+              18.592532365757712
+            ],
+            [
+              73.73828765037814,
+              18.592533439674806
+            ],
+            [
+              73.73828857988048,
+              18.59253443149268
+            ],
+            [
+              73.73828960685796,
+              18.592535331659594
+            ],
+            [
+              73.73829072142021,
+              18.59253613150644
+            ],
+            [
+              73.73829191283343,
+              18.59253682333026
+            ],
+            [
+              73.73829316962362,
+              18.592537400468412
+            ],
+            [
+              73.73829447968721,
+              18.592537857362736
+            ],
+            [
+              73.73829583040758,
+              18.592538189613084
+            ],
+            [
+              73.73829720877653,
+              18.592538394019716
+            ],
+            [
+              73.73829860151963,
+              18.59253846861406
+            ],
+            [
+              73.73879609446342,
+              18.59254179916833
+            ],
+            [
+              73.73879632727326,
+              18.592510173593855
+            ],
+            [
+              73.73828462033735,
+              18.592506747848514
+            ],
+            [
+              73.73828448725206,
+              18.59252481962113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0007",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0027",
+        "parcels_involved": [
+          "SY-109/124",
+          "SY-109/128"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0027 extends across boundary of SY-109/124, SY-109/128",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73884415138775,
+              18.589553356289606
+            ],
+            [
+              73.73884624619502,
+              18.589268726019863
+            ],
+            [
+              73.73929635036345,
+              18.589271737617114
+            ],
+            [
+              73.73929425630334,
+              18.58955636793625
+            ],
+            [
+              73.73884415138775,
+              18.589553356289606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0008",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0031",
+        "parcels_involved": [
+          "SY-108/108",
+          "SY-108/112"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0031 extends across boundary of SY-108/108, SY-108/112",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366457454601,
+              18.58953863133435
+            ],
+            [
+              73.73664784391659,
+              18.589254001306102
+            ],
+            [
+              73.73715480288014,
+              18.589257399149574
+            ],
+            [
+              73.73715270526516,
+              18.58954202923355
+            ],
+            [
+              73.7366457454601,
+              18.58953863133435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0009",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0033",
+        "parcels_involved": [
+          "SY-100/12",
+          "SY-100/16"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0033 extends across boundary of SY-100/12, SY-100/16",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74085535582022,
+              18.589896631019933
+            ],
+            [
+              73.7408574473288,
+              18.589612000539567
+            ],
+            [
+              73.74126964913054,
+              18.58961475422067
+            ],
+            [
+              73.74126755830622,
+              18.5898993847462
+            ],
+            [
+              73.74085535582022,
+              18.589896631019933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0010",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0035",
+        "parcels_involved": [
+          "SY-100/4",
+          "SY-100/8"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0035 extends across boundary of SY-100/4, SY-100/8",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73993145395859,
+              18.589890455601576
+            ],
+            [
+              73.73993354700083,
+              18.589605825222495
+            ],
+            [
+              73.74034574864082,
+              18.589608580923244
+            ],
+            [
+              73.74034365628282,
+              18.58989321134753
+            ],
+            [
+              73.73993145395859,
+              18.589890455601576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0011",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0043",
+        "parcels_involved": [
+          "SY-101/27",
+          "SY-101/32"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0043 extends across boundary of SY-101/27, SY-101/32",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74085230148573,
+              18.590312281864318
+            ],
+            [
+              73.74085449264692,
+              18.590014097564822
+            ],
+            [
+              73.7412666954153,
+              18.59001685130972
+            ],
+            [
+              73.74126450497097,
+              18.590315035656534
+            ],
+            [
+              73.74085230148573,
+              18.590312281864318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0012",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0059",
+        "parcels_involved": [
+          "SY-111/147",
+          "SY-111/152"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0059 extends across boundary of SY-111/147, SY-111/152",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73784116279572,
+              18.59063551838398
+            ],
+            [
+              73.737843359237,
+              18.590337334441422
+            ],
+            [
+              73.73829346603753,
+              18.590340348600375
+            ],
+            [
+              73.73829127037902,
+              18.590638532594717
+            ],
+            [
+              73.73784116279572,
+              18.59063551838398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0013",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0066",
+        "parcels_involved": [
+          "SY-101/19",
+          "SY-101/24"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0066 extends across boundary of SY-101/19, SY-101/24",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73992334721538,
+              18.59099283349455
+            ],
+            [
+              73.73992554007901,
+              18.59069464932343
+            ],
+            [
+              73.74033774433659,
+              18.590697405197076
+            ],
+            [
+              73.74033555218985,
+              18.59099558941555
+            ],
+            [
+              73.73992334721538,
+              18.59099283349455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0014",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0095",
+        "parcels_involved": [
+          "SY-107/91",
+          "SY-107/96"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0095 extends across boundary of SY-107/91, SY-107/96",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73608051447151,
+              18.59165385779625
+            ],
+            [
+              73.73608271410554,
+              18.59135567408898
+            ],
+            [
+              73.73658494118351,
+              18.591359042055537
+            ],
+            [
+              73.73658274242295,
+              18.591657225820665
+            ],
+            [
+              73.73608051447151,
+              18.59165385779625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0015",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0122",
+        "parcels_involved": [
+          "SY-110/140",
+          "SY-110/144"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0122 extends across boundary of SY-110/140, SY-110/144",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881977568568,
+              18.592865006240515
+            ],
+            [
+              73.73882210373695,
+              18.59254875049865
+            ],
+            [
+              73.73927221651623,
+              18.59255176266511
+            ],
+            [
+              73.7392698892953,
+              18.59286801846186
+            ],
+            [
+              73.73881977568568,
+              18.592865006240515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0016",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0124",
+        "parcels_involved": [
+          "SY-110/132",
+          "SY-110/136"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0124 extends across boundary of SY-110/132, SY-110/136",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73782478801242,
+              18.592858343832738
+            ],
+            [
+              73.73782711789917,
+              18.59254208821227
+            ],
+            [
+              73.73827723048788,
+              18.592545102754134
+            ],
+            [
+              73.73827490143147,
+              18.592861358429534
+            ],
+            [
+              73.73782478801242,
+              18.592858343832738
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0017",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0129",
+        "parcels_involved": [
+          "SY-102/44",
+          "SY-102/48"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0129 extends across boundary of SY-102/44, SY-102/48",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403664570516,
+              18.59323680544292
+            ],
+            [
+              73.74036878229815,
+              18.592920549524667
+            ],
+            [
+              73.7407857300233,
+              18.592923336410415
+            ],
+            [
+              73.74078340554595,
+              18.59323959237945
+            ],
+            [
+              73.7403664570516,
+              18.59323680544292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0018",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0150",
+        "parcels_involved": [
+          "SY-103/54",
+          "SY-103/56"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0150 extends across boundary of SY-103/54, SY-103/56",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73990128336591,
+              18.593992746435465
+            ],
+            [
+              73.73990347664767,
+              18.593694562361673
+            ],
+            [
+              73.74031568811813,
+              18.593697318711683
+            ],
+            [
+              73.7403134955534,
+              18.593995502832822
+            ],
+            [
+              73.73990128336591,
+              18.593992746435465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0019",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0154",
+        "parcels_involved": [
+          "SY-104/62",
+          "SY-104/64"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0154 extends across boundary of SY-104/62, SY-104/64",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73781653317965,
+              18.593978792229123
+            ],
+            [
+              73.73781873008771,
+              18.59368060839504
+            ],
+            [
+              73.73826884566573,
+              18.59368362313464
+            ],
+            [
+              73.73826664954062,
+              18.59398180702052
+            ],
+            [
+              73.73781653317965,
+              18.593978792229123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0020",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-custom_1787899007-0157",
+        "parcels_involved": [
+          "SY-105/70",
+          "SY-105/72"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-custom_1787899007-0157 extends across boundary of SY-105/70, SY-105/72",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73606344922781,
+              18.59396704016636
+            ],
+            [
+              73.73606564918525,
+              18.59366885653415
+            ],
+            [
+              73.73656788303968,
+              18.59367222494959
+            ],
+            [
+              73.73656568395586,
+              18.59397040863966
+            ],
+            [
+              73.73606344922781,
+              18.59396704016636
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

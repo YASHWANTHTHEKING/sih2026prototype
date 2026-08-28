@@ -1,0 +1,26 @@
+{
+  "aoi_id": "aoi_custom_1787899007",
+  "name": "Pune (Hinjewadi Phase 1) (Maharashtra)",
+  "location": "Varanasi, Uttar Pradesh, India",
+  "bounds_projected": [
+    366640.0561468962,
+    2055773.6003680187,
+    367240.0561468962,
+    2056373.6003680187
+  ],
+  "center_lat": 18.5913,
+  "center_lon": 73.7389,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    1200,
+    1200
+  ],
+  "ground_resolution_m_per_px": 0.5,
+  "total_area_hectares": 36.0,
+  "total_gt_parcels": 165,
+  "total_gt_buildings": 157,
+  "total_gt_roads": 5,
+  "total_gnss_points": 55,
+  "created_at": "2026-08-28T10:45:00Z"
+}

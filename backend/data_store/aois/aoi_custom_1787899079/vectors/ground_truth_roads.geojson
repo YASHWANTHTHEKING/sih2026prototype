@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_EW_1",
+        "name": "Ward Lane EW-1",
+        "hierarchy": "Secondary Access",
+        "width_m": 8.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.72682296351472,
+            18.594015693076688
+          ],
+          [
+            73.73250862720217,
+            18.594054027472698
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_EW_2",
+        "name": "MG Road (Primary ROW)",
+        "hierarchy": "Major Arterial",
+        "width_m": 12.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.72680953204241,
+            18.595822859899656
+          ],
+          [
+            73.73249525567192,
+            18.595861198286705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_EW_3",
+        "name": "Ward Lane EW-3",
+        "hierarchy": "Secondary Access",
+        "width_m": 8.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7267981140781,
+            18.597358951419587
+          ],
+          [
+            73.7324838886638,
+            18.59739729319909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_NS_1",
+        "name": "Ward Main Avenue NS-1",
+        "hierarchy": "Secondary Access",
+        "width_m": 10.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.72853872027252,
+            18.59267183514994
+          ],
+          [
+            73.7284984786478,
+            18.598093338949695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_NS_2",
+        "name": "Ward Main Avenue NS-2",
+        "hierarchy": "Secondary Access",
+        "width_m": 10.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73062344705833,
+            18.59268589104544
+          ],
+          [
+            73.73058327137178,
+            18.598107399235694
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00001",
+        "survey_number": "SY-100/1",
+        "landuse": "Commercial",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 1 (Registered)",
+        "property_tax_val": 8007187
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74037443655604,
+              18.58892878876958
+            ],
+            [
+              73.74037686083668,
+              18.588598978874444
+            ],
+            [
+              73.73991491344344,
+              18.5885958907659
+            ],
+            [
+              73.73991248827431,
+              18.58892570060235
+            ],
+            [
+              73.74037443655604,
+              18.58892878876958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00002",
+        "survey_number": "SY-100/2",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 2 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403720122246,
+              18.589258598652883
+            ],
+            [
+              73.74037443655604,
+              18.58892878876958
+            ],
+            [
+              73.73991248827431,
+              18.58892570060235
+            ],
+            [
+              73.73991006305435,
+              18.589255510426966
+            ],
+            [
+              73.7403720122246,
+              18.589258598652883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00003",
+        "survey_number": "SY-100/3",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 3 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036958784232,
+              18.589588408524353
+            ],
+            [
+              73.7403720122246,
+              18.589258598652883
+            ],
+            [
+              73.73991006305435,
+              18.589255510426966
+            ],
+            [
+              73.73990763778355,
+              18.589585320239745
+            ],
+            [
+              73.74036958784232,
+              18.589588408524353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00004",
+        "survey_number": "SY-100/4",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 4 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036958784232,
+              18.589588408524353
+            ],
+            [
+              73.73990763778355,
+              18.589585320239745
+            ],
+            [
+              73.7399052124619,
+              18.589915130040687
+            ],
+            [
+              73.7403671634092,
+              18.58991821838399
+            ],
+            [
+              73.74036958784232,
+              18.589588408524353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00005",
+        "survey_number": "SY-100/5",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 5 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74037443655604,
+              18.58892878876958
+            ],
+            [
+              73.74083638492843,
+              18.588931875805155
+            ],
+            [
+              73.74083880832056,
+              18.58860206585135
+            ],
+            [
+              73.74037686083668,
+              18.588598978874444
+            ],
+            [
+              73.74037443655604,
+              18.58892878876958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00006",
+        "survey_number": "SY-100/6",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 6 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74037443655604,
+              18.58892878876958
+            ],
+            [
+              73.7403720122246,
+              18.589258598652883
+            ],
+            [
+              73.74083396148549,
+              18.58926168574713
+            ],
+            [
+              73.74083638492843,
+              18.588931875805155
+            ],
+            [
+              73.74037443655604,
+              18.58892878876958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00007",
+        "survey_number": "SY-100/7",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 7 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403720122246,
+              18.589258598652883
+            ],
+            [
+              73.74036958784232,
+              18.589588408524353
+            ],
+            [
+              73.74083153799175,
+              18.589591495677265
+            ],
+            [
+              73.74083396148549,
+              18.58926168574713
+            ],
+            [
+              73.7403720122246,
+              18.589258598652883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00008",
+        "survey_number": "SY-100/8",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 8 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083153799175,
+              18.589591495677265
+            ],
+            [
+              73.74036958784232,
+              18.589588408524353
+            ],
+            [
+              73.7403671634092,
+              18.58991821838399
+            ],
+            [
+              73.7408291144472,
+              18.58992130559557
+            ],
+            [
+              73.74083153799175,
+              18.589591495677265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00009",
+        "survey_number": "SY-100/9",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 9 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083638492843,
+              18.588931875805155
+            ],
+            [
+              73.74129833339144,
+              18.588934961709068
+            ],
+            [
+              73.74130075589507,
+              18.58860515169662
+            ],
+            [
+              73.74083880832056,
+              18.58860206585135
+            ],
+            [
+              73.74083638492843,
+              18.588931875805155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00010",
+        "survey_number": "SY-100/10",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 10 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083638492843,
+              18.588931875805155
+            ],
+            [
+              73.74083396148549,
+              18.58926168574713
+            ],
+            [
+              73.74129591083701,
+              18.58926477170969
+            ],
+            [
+              73.74129833339144,
+              18.588934961709068
+            ],
+            [
+              73.74083638492843,
+              18.588931875805155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00011",
+        "survey_number": "SY-100/11",
+        "landuse": "Institutional",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 11 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083396148549,
+              18.58926168574713
+            ],
+            [
+              73.74083153799175,
+              18.589591495677265
+            ],
+            [
+              73.7412934882318,
+              18.589594581698474
+            ],
+            [
+              73.74129591083701,
+              18.58926477170969
+            ],
+            [
+              73.74083396148549,
+              18.58926168574713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00012",
+        "survey_number": "SY-100/12",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 12 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7412934882318,
+              18.589594581698474
+            ],
+            [
+              73.74083153799175,
+              18.589591495677265
+            ],
+            [
+              73.7408291144472,
+              18.58992130559557
+            ],
+            [
+              73.74129106557581,
+              18.589924391675428
+            ],
+            [
+              73.7412934882318,
+              18.589594581698474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00013",
+        "survey_number": "SY-100/13",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 13 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74176270356018,
+              18.588608236410252
+            ],
+            [
+              73.74130075589507,
+              18.58860515169662
+            ],
+            [
+              73.74129833339144,
+              18.588934961709068
+            ],
+            [
+              73.74176028194505,
+              18.588938046481328
+            ],
+            [
+              73.74176270356018,
+              18.588608236410252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00014",
+        "survey_number": "SY-100/14",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 14 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74176028194505,
+              18.588938046481328
+            ],
+            [
+              73.74129833339144,
+              18.588934961709068
+            ],
+            [
+              73.74129591083701,
+              18.58926477170969
+            ],
+            [
+              73.74175786027914,
+              18.58926785654058
+            ],
+            [
+              73.74176028194505,
+              18.588938046481328
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00015",
+        "survey_number": "SY-100/15",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 15 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74175786027914,
+              18.58926785654058
+            ],
+            [
+              73.74129591083701,
+              18.58926477170969
+            ],
+            [
+              73.7412934882318,
+              18.589594581698474
+            ],
+            [
+              73.74175543856246,
+              18.58959766658798
+            ],
+            [
+              73.74175786027914,
+              18.58926785654058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00016",
+        "survey_number": "SY-100/16",
+        "landuse": "Residential",
+        "area_sqm": 1779.38,
+        "owner_name": "Citizen 16 (Registered)",
+        "property_tax_val": 4982250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74175543856246,
+              18.58959766658798
+            ],
+            [
+              73.7412934882318,
+              18.589594581698474
+            ],
+            [
+              73.74129106557581,
+              18.589924391675428
+            ],
+            [
+              73.74175301679502,
+              18.58992747662356
+            ],
+            [
+              73.74175543856246,
+              18.58959766658798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00017",
+        "survey_number": "SY-101/17",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 17 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036410788689,
+              18.590333869149145
+            ],
+            [
+              73.74036663201983,
+              18.589990505474937
+            ],
+            [
+              73.73990468087776,
+              18.58998741711877
+            ],
+            [
+              73.73990215581973,
+              18.590330780731875
+            ],
+            [
+              73.74036410788689,
+              18.590333869149145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00018",
+        "survey_number": "SY-101/18",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 18 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036158369887,
+              18.590677232810528
+            ],
+            [
+              73.74036410788689,
+              18.590333869149145
+            ],
+            [
+              73.73990215581973,
+              18.590330780731875
+            ],
+            [
+              73.7398996307066,
+              18.59067414433216
+            ],
+            [
+              73.74036158369887,
+              18.590677232810528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00019",
+        "survey_number": "SY-101/19",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 19 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035905945577,
+              18.59102059645909
+            ],
+            [
+              73.74036158369887,
+              18.590677232810528
+            ],
+            [
+              73.7398996307066,
+              18.59067414433216
+            ],
+            [
+              73.73989710553836,
+              18.591017507919616
+            ],
+            [
+              73.74035905945577,
+              18.59102059645909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00020",
+        "survey_number": "SY-101/20",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 20 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035653515756,
+              18.59136396009482
+            ],
+            [
+              73.74035905945577,
+              18.59102059645909
+            ],
+            [
+              73.73989710553836,
+              18.591017507919616
+            ],
+            [
+              73.73989458031501,
+              18.591360871494242
+            ],
+            [
+              73.74035653515756,
+              18.59136396009482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00021",
+        "survey_number": "SY-101/21",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 21 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035653515756,
+              18.59136396009482
+            ],
+            [
+              73.73989458031501,
+              18.591360871494242
+            ],
+            [
+              73.73989205503655,
+              18.591704235056042
+            ],
+            [
+              73.74035401080427,
+              18.591707323717728
+            ],
+            [
+              73.74035653515756,
+              18.59136396009482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00022",
+        "survey_number": "SY-101/22",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 22 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036410788689,
+              18.590333869149145
+            ],
+            [
+              73.74082606004471,
+              18.59033695643466
+            ],
+            [
+              73.74082858325255,
+              18.58999359269937
+            ],
+            [
+              73.74036663201983,
+              18.589990505474937
+            ],
+            [
+              73.74036410788689,
+              18.590333869149145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00023",
+        "survey_number": "SY-101/23",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 23 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036410788689,
+              18.590333869149145
+            ],
+            [
+              73.74036158369887,
+              18.590677232810528
+            ],
+            [
+              73.7408235367818,
+              18.59068032015713
+            ],
+            [
+              73.74082606004471,
+              18.59033695643466
+            ],
+            [
+              73.74036410788689,
+              18.590333869149145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00024",
+        "survey_number": "SY-101/24",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 24 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036158369887,
+              18.590677232810528
+            ],
+            [
+              73.74035905945577,
+              18.59102059645909
+            ],
+            [
+              73.74082101346383,
+              18.591023683866766
+            ],
+            [
+              73.7408235367818,
+              18.59068032015713
+            ],
+            [
+              73.74036158369887,
+              18.590677232810528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00025",
+        "survey_number": "SY-101/25",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 25 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035905945577,
+              18.59102059645909
+            ],
+            [
+              73.74035653515756,
+              18.59136396009482
+            ],
+            [
+              73.74081849009077,
+              18.591367047563583
+            ],
+            [
+              73.74082101346383,
+              18.591023683866766
+            ],
+            [
+              73.74035905945577,
+              18.59102059645909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00026",
+        "survey_number": "SY-101/26",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 26 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74081849009077,
+              18.591367047563583
+            ],
+            [
+              73.74035653515756,
+              18.59136396009482
+            ],
+            [
+              73.74035401080427,
+              18.591707323717728
+            ],
+            [
+              73.74081596666267,
+              18.59171041124757
+            ],
+            [
+              73.74081849009077,
+              18.591367047563583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00027",
+        "survey_number": "SY-101/27",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 27 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74082606004471,
+              18.59033695643466
+            ],
+            [
+              73.74128801229317,
+              18.590340042588434
+            ],
+            [
+              73.74129053457594,
+              18.589996678792087
+            ],
+            [
+              73.74082858325255,
+              18.58999359269937
+            ],
+            [
+              73.74082606004471,
+              18.59033695643466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00028",
+        "survey_number": "SY-101/28",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 28 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74082606004471,
+              18.59033695643466
+            ],
+            [
+              73.7408235367818,
+              18.59068032015713
+            ],
+            [
+              73.74128548995537,
+              18.59068340637196
+            ],
+            [
+              73.74128801229317,
+              18.590340042588434
+            ],
+            [
+              73.74082606004471,
+              18.59033695643466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00029",
+        "survey_number": "SY-101/29",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 29 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7408235367818,
+              18.59068032015713
+            ],
+            [
+              73.74082101346383,
+              18.591023683866766
+            ],
+            [
+              73.74128296756253,
+              18.591026770142655
+            ],
+            [
+              73.74128548995537,
+              18.59068340637196
+            ],
+            [
+              73.7408235367818,
+              18.59068032015713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00030",
+        "survey_number": "SY-101/30",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 30 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74082101346383,
+              18.591023683866766
+            ],
+            [
+              73.74081849009077,
+              18.591367047563583
+            ],
+            [
+              73.74128044511464,
+              18.591370133900522
+            ],
+            [
+              73.74128296756253,
+              18.591026770142655
+            ],
+            [
+              73.74082101346383,
+              18.591023683866766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00031",
+        "survey_number": "SY-101/31",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 31 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74128044511464,
+              18.591370133900522
+            ],
+            [
+              73.74081849009077,
+              18.591367047563583
+            ],
+            [
+              73.74081596666267,
+              18.59171041124757
+            ],
+            [
+              73.74127792261169,
+              18.591713497645568
+            ],
+            [
+              73.74128044511464,
+              18.591370133900522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00032",
+        "survey_number": "SY-101/32",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 32 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74175248598989,
+              18.58999976375307
+            ],
+            [
+              73.74129053457594,
+              18.589996678792087
+            ],
+            [
+              73.74128801229317,
+              18.590340042588434
+            ],
+            [
+              73.74174996463223,
+              18.590343127610446
+            ],
+            [
+              73.74175248598989,
+              18.58999976375307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00033",
+        "survey_number": "SY-101/33",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 33 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74174996463223,
+              18.590343127610446
+            ],
+            [
+              73.74128801229317,
+              18.590340042588434
+            ],
+            [
+              73.74128548995537,
+              18.59068340637196
+            ],
+            [
+              73.74174744321955,
+              18.590686491455013
+            ],
+            [
+              73.74174996463223,
+              18.590343127610446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00034",
+        "survey_number": "SY-101/34",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 34 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74174744321955,
+              18.590686491455013
+            ],
+            [
+              73.74128548995537,
+              18.59068340637196
+            ],
+            [
+              73.74128296756253,
+              18.591026770142655
+            ],
+            [
+              73.74174492175183,
+              18.59102985528674
+            ],
+            [
+              73.74174744321955,
+              18.590686491455013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00035",
+        "survey_number": "SY-101/35",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 35 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74174492175183,
+              18.59102985528674
+            ],
+            [
+              73.74128296756253,
+              18.591026770142655
+            ],
+            [
+              73.74128044511464,
+              18.591370133900522
+            ],
+            [
+              73.74174240022909,
+              18.591373219105648
+            ],
+            [
+              73.74174492175183,
+              18.59102985528674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00036",
+        "survey_number": "SY-101/36",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 36 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74174240022909,
+              18.591373219105648
+            ],
+            [
+              73.74128044511464,
+              18.591370133900522
+            ],
+            [
+              73.74127792261169,
+              18.591713497645568
+            ],
+            [
+              73.7417398786513,
+              18.59171658291173
+            ],
+            [
+              73.74174240022909,
+              18.591373219105648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00037",
+        "survey_number": "SY-102/37",
+        "landuse": "Commercial",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 37 (Registered)",
+        "property_tax_val": 8775000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035055633681,
+              18.59217718970723
+            ],
+            [
+              73.74035321362864,
+              18.591815754332817
+            ],
+            [
+              73.73989125756874,
+              18.591812665651847
+            ],
+            [
+              73.73988859930303,
+              18.592174100961934
+            ],
+            [
+              73.74035055633681,
+              18.59217718970723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00038",
+        "survey_number": "SY-102/38",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 38 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74034789898396,
+              18.592538625067434
+            ],
+            [
+              73.74035055633681,
+              18.59217718970723
+            ],
+            [
+              73.73988859930303,
+              18.592174100961934
+            ],
+            [
+              73.73988594097627,
+              18.592535536257813
+            ],
+            [
+              73.74034789898396,
+              18.592538625067434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00039",
+        "survey_number": "SY-102/39",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 39 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74034524157004,
+              18.59290006041341
+            ],
+            [
+              73.74034789898396,
+              18.592538625067434
+            ],
+            [
+              73.73988594097627,
+              18.592535536257813
+            ],
+            [
+              73.73988328258842,
+              18.592896971539474
+            ],
+            [
+              73.74034524157004,
+              18.59290006041341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00040",
+        "survey_number": "SY-102/40",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 40 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74034524157004,
+              18.59290006041341
+            ],
+            [
+              73.73988328258842,
+              18.592896971539474
+            ],
+            [
+              73.7398806241395,
+              18.593258406806925
+            ],
+            [
+              73.7403425840951,
+              18.593261495745185
+            ],
+            [
+              73.74034524157004,
+              18.59290006041341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00041",
+        "survey_number": "SY-102/41",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 41 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035055633681,
+              18.59217718970723
+            ],
+            [
+              73.74081251346126,
+              18.592180277320654
+            ],
+            [
+              73.74081516977918,
+              18.591818841881953
+            ],
+            [
+              73.74035321362864,
+              18.591815754332817
+            ],
+            [
+              73.74035055633681,
+              18.59217718970723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00042",
+        "survey_number": "SY-102/42",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 42 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74035055633681,
+              18.59217718970723
+            ],
+            [
+              73.74034789898396,
+              18.592538625067434
+            ],
+            [
+              73.74080985708231,
+              18.592541712745152
+            ],
+            [
+              73.74081251346126,
+              18.592180277320654
+            ],
+            [
+              73.74035055633681,
+              18.59217718970723
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00043",
+        "survey_number": "SY-102/43",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 43 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74034789898396,
+              18.592538625067434
+            ],
+            [
+              73.74034524157004,
+              18.59290006041341
+            ],
+            [
+              73.74080720064235,
+              18.59290314815543
+            ],
+            [
+              73.74080985708231,
+              18.592541712745152
+            ],
+            [
+              73.74034789898396,
+              18.592538625067434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00044",
+        "survey_number": "SY-102/44",
+        "landuse": "Institutional",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 44 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74080720064235,
+              18.59290314815543
+            ],
+            [
+              73.74034524157004,
+              18.59290006041341
+            ],
+            [
+              73.7403425840951,
+              18.593261495745185
+            ],
+            [
+              73.74080454414135,
+              18.5932645835515
+            ],
+            [
+              73.74080720064235,
+              18.59290314815543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00045",
+        "survey_number": "SY-102/45",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 45 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74081251346126,
+              18.592180277320654
+            ],
+            [
+              73.74127447067633,
+              18.59218336380221
+            ],
+            [
+              73.74127712602038,
+              18.591821928299233
+            ],
+            [
+              73.74081516977918,
+              18.591818841881953
+            ],
+            [
+              73.74081251346126,
+              18.592180277320654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00046",
+        "survey_number": "SY-102/46",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 46 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74081251346126,
+              18.592180277320654
+            ],
+            [
+              73.74080985708231,
+              18.592541712745152
+            ],
+            [
+              73.7412718152713,
+              18.59254479929098
+            ],
+            [
+              73.74127447067633,
+              18.59218336380221
+            ],
+            [
+              73.74081251346126,
+              18.592180277320654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00047",
+        "survey_number": "SY-102/47",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 47 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74080985708231,
+              18.592541712745152
+            ],
+            [
+              73.74080720064235,
+              18.59290314815543
+            ],
+            [
+              73.74126915980528,
+              18.59290623476553
+            ],
+            [
+              73.7412718152713,
+              18.59254479929098
+            ],
+            [
+              73.74080985708231,
+              18.592541712745152
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00048",
+        "survey_number": "SY-102/48",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 48 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74126915980528,
+              18.59290623476553
+            ],
+            [
+              73.74080720064235,
+              18.59290314815543
+            ],
+            [
+              73.74080454414135,
+              18.5932645835515
+            ],
+            [
+              73.74126650427827,
+              18.59326767022587
+            ],
+            [
+              73.74126915980528,
+              18.59290623476553
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00049",
+        "survey_number": "SY-102/49",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 49 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74173908235217,
+              18.591825013584675
+            ],
+            [
+              73.74127712602038,
+              18.591821928299233
+            ],
+            [
+              73.74127447067633,
+              18.59218336380221
+            ],
+            [
+              73.74173642798203,
+              18.592186449151903
+            ],
+            [
+              73.74173908235217,
+              18.591825013584675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00050",
+        "survey_number": "SY-102/50",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 50 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74173642798203,
+              18.592186449151903
+            ],
+            [
+              73.74127447067633,
+              18.59218336380221
+            ],
+            [
+              73.7412718152713,
+              18.59254479929098
+            ],
+            [
+              73.74173377355092,
+              18.592547884704913
+            ],
+            [
+              73.74173642798203,
+              18.592186449151903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00051",
+        "survey_number": "SY-102/51",
+        "landuse": "Residential",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 51 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74173377355092,
+              18.592547884704913
+            ],
+            [
+              73.7412718152713,
+              18.59254479929098
+            ],
+            [
+              73.74126915980528,
+              18.59290623476553
+            ],
+            [
+              73.74173111905883,
+              18.592909320243713
+            ],
+            [
+              73.74173377355092,
+              18.592547884704913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00052",
+        "survey_number": "SY-102/52",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1950.0,
+        "owner_name": "Citizen 52 (Registered)",
+        "property_tax_val": 5460000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74173111905883,
+              18.592909320243713
+            ],
+            [
+              73.74126915980528,
+              18.59290623476553
+            ],
+            [
+              73.74126650427827,
+              18.59326767022587
+            ],
+            [
+              73.74172846450577,
+              18.593270755768305
+            ],
+            [
+              73.74173111905883,
+              18.592909320243713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00053",
+        "survey_number": "SY-103/53",
+        "landuse": "Commercial",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 53 (Registered)",
+        "property_tax_val": 8336250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74033952792345,
+              18.593677146359138
+            ],
+            [
+              73.74034205259278,
+              18.593333782809825
+            ],
+            [
+              73.7398800924424,
+              18.593330693858707
+            ],
+            [
+              73.73987756684777,
+              18.593674057346917
+            ],
+            [
+              73.74033952792345,
+              18.593677146359138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00054",
+        "survey_number": "SY-103/54",
+        "landuse": "Residential",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 54 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74033952792345,
+              18.593677146359138
+            ],
+            [
+              73.73987756684777,
+              18.593674057346917
+            ],
+            [
+              73.73987504119803,
+              18.5940174208223
+            ],
+            [
+              73.74033700319902,
+              18.59402050989563
+            ],
+            [
+              73.74033952792345,
+              18.593677146359138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00055",
+        "survey_number": "SY-103/55",
+        "landuse": "Institutional",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 55 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74033952792345,
+              18.593677146359138
+            ],
+            [
+              73.74080148908979,
+              18.593680234239404
+            ],
+            [
+              73.74080401283385,
+              18.593336870629006
+            ],
+            [
+              73.74034205259278,
+              18.593333782809825
+            ],
+            [
+              73.74033952792345,
+              18.593677146359138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00056",
+        "survey_number": "SY-103/56",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 56 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74080148908979,
+              18.593680234239404
+            ],
+            [
+              73.74033952792345,
+              18.593677146359138
+            ],
+            [
+              73.74033700319902,
+              18.59402050989563
+            ],
+            [
+              73.74079896529067,
+              18.594023597836966
+            ],
+            [
+              73.74080148908979,
+              18.593680234239404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00057",
+        "survey_number": "SY-103/57",
+        "landuse": "Residential",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 57 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74080148908979,
+              18.593680234239404
+            ],
+            [
+              73.74126345034678,
+              18.59368332098769
+            ],
+            [
+              73.74126597316553,
+              18.593339957316232
+            ],
+            [
+              73.74080401283385,
+              18.593336870629006
+            ],
+            [
+              73.74080148908979,
+              18.593680234239404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00058",
+        "survey_number": "SY-103/58",
+        "landuse": "Residential",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 58 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74126345034678,
+              18.59368332098769
+            ],
+            [
+              73.74080148908979,
+              18.593680234239404
+            ],
+            [
+              73.74079896529067,
+              18.594023597836966
+            ],
+            [
+              73.74126092747295,
+              18.59402668464632
+            ],
+            [
+              73.74126345034678,
+              18.59368332098769
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00059",
+        "survey_number": "SY-103/59",
+        "landuse": "Residential",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 59 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74172793358784,
+              18.593343042871517
+            ],
+            [
+              73.74126597316553,
+              18.593339957316232
+            ],
+            [
+              73.74126345034678,
+              18.59368332098769
+            ],
+            [
+              73.74172541169436,
+              18.59368640660401
+            ],
+            [
+              73.74172793358784,
+              18.593343042871517
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00060",
+        "survey_number": "SY-103/60",
+        "landuse": "Residential",
+        "area_sqm": 1852.5,
+        "owner_name": "Citizen 60 (Registered)",
+        "property_tax_val": 5187000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74172541169436,
+              18.59368640660401
+            ],
+            [
+              73.74126345034678,
+              18.59368332098769
+            ],
+            [
+              73.74126092747295,
+              18.59402668464632
+            ],
+            [
+              73.74172288974586,
+              18.59402977032368
+            ],
+            [
+              73.74172541169436,
+              18.59368640660401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00061",
+        "survey_number": "SY-104/61",
+        "landuse": "Commercial",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 61 (Registered)",
+        "property_tax_val": 8977500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829031666385,
+              18.59366343519143
+            ],
+            [
+              73.73829284543766,
+              18.59332007191334
+            ],
+            [
+              73.73779535032844,
+              18.59331673989629
+            ],
+            [
+              73.73779282055817,
+              18.593660103108466
+            ],
+            [
+              73.73829031666385,
+              18.59366343519143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00062",
+        "survey_number": "SY-104/62",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 62 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829031666385,
+              18.59366343519143
+            ],
+            [
+              73.73779282055817,
+              18.593660103108466
+            ],
+            [
+              73.7377902907327,
+              18.594003466307814
+            ],
+            [
+              73.73828778783486,
+              18.59400679845669
+            ],
+            [
+              73.73829031666385,
+              18.59366343519143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00063",
+        "survey_number": "SY-104/63",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 63 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829031666385,
+              18.59366343519143
+            ],
+            [
+              73.73878781287486,
+              18.593666765961583
+            ],
+            [
+              73.7387903406522,
+              18.59332340261761
+            ],
+            [
+              73.73829284543766,
+              18.59332007191334
+            ],
+            [
+              73.73829031666385,
+              18.59366343519143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00064",
+        "survey_number": "SY-104/64",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 64 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73878781287486,
+              18.593666765961583
+            ],
+            [
+              73.73829031666385,
+              18.59366343519143
+            ],
+            [
+              73.73828778783486,
+              18.59400679845669
+            ],
+            [
+              73.73878528504234,
+              18.594010129292734
+            ],
+            [
+              73.73878781287486,
+              18.593666765961583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00065",
+        "survey_number": "SY-104/65",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 65 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73878781287486,
+              18.593666765961583
+            ],
+            [
+              73.73928530919115,
+              18.593670095418933
+            ],
+            [
+              73.73928783597204,
+              18.593326732009093
+            ],
+            [
+              73.7387903406522,
+              18.59332340261761
+            ],
+            [
+              73.73878781287486,
+              18.593666765961583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00066",
+        "survey_number": "SY-104/66",
+        "landuse": "Institutional",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 66 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73928530919115,
+              18.593670095418933
+            ],
+            [
+              73.73878781287486,
+              18.593666765961583
+            ],
+            [
+              73.73878528504234,
+              18.594010129292734
+            ],
+            [
+              73.73928278235512,
+              18.59401345881594
+            ],
+            [
+              73.73928530919115,
+              18.593670095418933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00067",
+        "survey_number": "SY-104/67",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 67 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73978533139713,
+              18.593330060087798
+            ],
+            [
+              73.73928783597204,
+              18.593326732009093
+            ],
+            [
+              73.73928530919115,
+              18.593670095418933
+            ],
+            [
+              73.73978280561269,
+              18.59367342356347
+            ],
+            [
+              73.73978533139713,
+              18.593330060087798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00068",
+        "survey_number": "SY-104/68",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 68 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73978280561269,
+              18.59367342356347
+            ],
+            [
+              73.73928530919115,
+              18.593670095418933
+            ],
+            [
+              73.73928278235512,
+              18.59401345881594
+            ],
+            [
+              73.73978027977316,
+              18.594016787026312
+            ],
+            [
+              73.73978280561269,
+              18.59367342356347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00069",
+        "survey_number": "SY-105/69",
+        "landuse": "Commercial",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 69 (Registered)",
+        "property_tax_val": 9974999
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73659251292757,
+              18.593652058392482
+            ],
+            [
+              73.73659504510198,
+              18.593308695339438
+            ],
+            [
+              73.73604227316467,
+              18.593304988039325
+            ],
+            [
+              73.73603973988308,
+              18.59364835101902
+            ],
+            [
+              73.73659251292757,
+              18.593652058392482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00070",
+        "survey_number": "SY-105/70",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 70 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73659251292757,
+              18.593652058392482
+            ],
+            [
+              73.73603973988308,
+              18.59364835101902
+            ],
+            [
+              73.73603720654621,
+              18.593991713985897
+            ],
+            [
+              73.7365899806979,
+              18.59399542143269
+            ],
+            [
+              73.73659251292757,
+              18.593652058392482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00071",
+        "survey_number": "SY-105/71",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 71 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73659251292757,
+              18.593652058392482
+            ],
+            [
+              73.73714528610228,
+              18.593655764145186
+            ],
+            [
+              73.73714781716951,
+              18.593312401018842
+            ],
+            [
+              73.73659504510198,
+              18.593308695339438
+            ],
+            [
+              73.73659251292757,
+              18.593652058392482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00072",
+        "survey_number": "SY-105/72",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 72 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73714528610228,
+              18.593655764145186
+            ],
+            [
+              73.73659251292757,
+              18.593652058392482
+            ],
+            [
+              73.7365899806979,
+              18.59399542143269
+            ],
+            [
+              73.7371427549798,
+              18.593999127258705
+            ],
+            [
+              73.73714528610228,
+              18.593655764145186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00073",
+        "survey_number": "SY-105/73",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 73 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7377005893672,
+              18.59331610507753
+            ],
+            [
+              73.73714781716951,
+              18.593312401018842
+            ],
+            [
+              73.73714528610228,
+              18.593655764145186
+            ],
+            [
+              73.73769805940714,
+              18.593659468277146
+            ],
+            [
+              73.7377005893672,
+              18.59331610507753
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00074",
+        "survey_number": "SY-105/74",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 74 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73769805940714,
+              18.593659468277146
+            ],
+            [
+              73.73714528610228,
+              18.593655764145186
+            ],
+            [
+              73.7371427549798,
+              18.593999127258705
+            ],
+            [
+              73.73769552939186,
+              18.594002831463936
+            ],
+            [
+              73.73769805940714,
+              18.593659468277146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00075",
+        "survey_number": "SY-106/75",
+        "landuse": "Commercial",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 75 (Registered)",
+        "property_tax_val": 10499999
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73660357412507,
+              18.592152103908486
+            ],
+            [
+              73.73660623931622,
+              18.591790669056458
+            ],
+            [
+              73.73605347227347,
+              18.591786962080562
+            ],
+            [
+              73.73605080591699,
+              18.592148396855393
+            ],
+            [
+              73.73660357412507,
+              18.592152103908486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00076",
+        "survey_number": "SY-106/76",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 76 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366009088727,
+              18.592513538746296
+            ],
+            [
+              73.73660357412507,
+              18.592152103908486
+            ],
+            [
+              73.73605080591699,
+              18.592148396855393
+            ],
+            [
+              73.73604813949927,
+              18.59250983161601
+            ],
+            [
+              73.7366009088727,
+              18.592513538746296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00077",
+        "survey_number": "SY-106/77",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 77 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73659824355911,
+              18.592874973569888
+            ],
+            [
+              73.7366009088727,
+              18.592513538746296
+            ],
+            [
+              73.73604813949927,
+              18.59250983161601
+            ],
+            [
+              73.73604547302028,
+              18.592871266362405
+            ],
+            [
+              73.73659824355911,
+              18.592874973569888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00078",
+        "survey_number": "SY-106/78",
+        "landuse": "Vacant/Green",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 78 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73659824355911,
+              18.592874973569888
+            ],
+            [
+              73.73604547302028,
+              18.592871266362405
+            ],
+            [
+              73.73604280648006,
+              18.59323270109459
+            ],
+            [
+              73.73659557818429,
+              18.59323640837927
+            ],
+            [
+              73.73659824355911,
+              18.592874973569888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00079",
+        "survey_number": "SY-106/79",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 79 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73660357412507,
+              18.592152103908486
+            ],
+            [
+              73.73715634246335,
+              18.592155809340966
+            ],
+            [
+              73.73715900648916,
+              18.59179437441178
+            ],
+            [
+              73.73660623931622,
+              18.591790669056458
+            ],
+            [
+              73.73660357412507,
+              18.592152103908486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00080",
+        "survey_number": "SY-106/80",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 80 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73660357412507,
+              18.592152103908486
+            ],
+            [
+              73.7366009088727,
+              18.592513538746296
+            ],
+            [
+              73.73715367837634,
+              18.592517244255948
+            ],
+            [
+              73.73715634246335,
+              18.592155809340966
+            ],
+            [
+              73.73660357412507,
+              18.592152103908486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00081",
+        "survey_number": "SY-106/81",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 81 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366009088727,
+              18.592513538746296
+            ],
+            [
+              73.73659824355911,
+              18.592874973569888
+            ],
+            [
+              73.73715101422815,
+              18.592878679156694
+            ],
+            [
+              73.73715367837634,
+              18.592517244255948
+            ],
+            [
+              73.7366009088727,
+              18.592513538746296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00082",
+        "survey_number": "SY-106/82",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 82 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73715101422815,
+              18.592878679156694
+            ],
+            [
+              73.73659824355911,
+              18.592874973569888
+            ],
+            [
+              73.73659557818429,
+              18.59323640837927
+            ],
+            [
+              73.73714835001874,
+              18.59324011404324
+            ],
+            [
+              73.73715101422815,
+              18.592878679156694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00083",
+        "survey_number": "SY-106/83",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 83 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73771177379226,
+              18.59179807814653
+            ],
+            [
+              73.73715900648916,
+              18.59179437441178
+            ],
+            [
+              73.73715634246335,
+              18.592155809340966
+            ],
+            [
+              73.73770911093179,
+              18.592159513152847
+            ],
+            [
+              73.73771177379226,
+              18.59179807814653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00084",
+        "survey_number": "SY-106/84",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 84 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73770911093179,
+              18.592159513152847
+            ],
+            [
+              73.73715634246335,
+              18.592155809340966
+            ],
+            [
+              73.73715367837634,
+              18.592517244255948
+            ],
+            [
+              73.73770644801014,
+              18.59252094814495
+            ],
+            [
+              73.73770911093179,
+              18.592159513152847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00085",
+        "survey_number": "SY-106/85",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 85 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73770644801014,
+              18.59252094814495
+            ],
+            [
+              73.73715367837634,
+              18.592517244255948
+            ],
+            [
+              73.73715101422815,
+              18.592878679156694
+            ],
+            [
+              73.73770378502732,
+              18.59288238312283
+            ],
+            [
+              73.73770644801014,
+              18.59252094814495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00086",
+        "survey_number": "SY-106/86",
+        "landuse": "Residential",
+        "area_sqm": 2333.33,
+        "owner_name": "Citizen 86 (Registered)",
+        "property_tax_val": 6533333
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73770378502732,
+              18.59288238312283
+            ],
+            [
+              73.73715101422815,
+              18.592878679156694
+            ],
+            [
+              73.73714835001874,
+              18.59324011404324
+            ],
+            [
+              73.73770112198335,
+              18.59324381808651
+            ],
+            [
+              73.73770378502732,
+              18.59288238312283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00087",
+        "survey_number": "SY-107/87",
+        "landuse": "Commercial",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 87 (Registered)",
+        "property_tax_val": 9974999
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366171659598,
+              18.590308786014532
+            ],
+            [
+              73.73661969759623,
+              18.589965422836574
+            ],
+            [
+              73.73606693643801,
+              18.589961716250514
+            ],
+            [
+              73.73606440369466,
+              18.59030507935513
+            ],
+            [
+              73.7366171659598,
+              18.590308786014532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00088",
+        "survey_number": "SY-107/88",
+        "landuse": "Institutional",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 88 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661463426814,
+              18.590652149179657
+            ],
+            [
+              73.7366171659598,
+              18.590308786014532
+            ],
+            [
+              73.73606440369466,
+              18.59030507935513
+            ],
+            [
+              73.73606187089602,
+              18.59064844244693
+            ],
+            [
+              73.73661463426814,
+              18.590652149179657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00089",
+        "survey_number": "SY-107/89",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 89 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661210252122,
+              18.590995512331965
+            ],
+            [
+              73.73661463426814,
+              18.590652149179657
+            ],
+            [
+              73.73606187089602,
+              18.59064844244693
+            ],
+            [
+              73.73605933804212,
+              18.590991805525896
+            ],
+            [
+              73.73661210252122,
+              18.590995512331965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00090",
+        "survey_number": "SY-107/90",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 90 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73660957071904,
+              18.591338875471436
+            ],
+            [
+              73.73661210252122,
+              18.590995512331965
+            ],
+            [
+              73.73605933804212,
+              18.590991805525896
+            ],
+            [
+              73.73605680513293,
+              18.591335168592035
+            ],
+            [
+              73.73660957071904,
+              18.591338875471436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00091",
+        "survey_number": "SY-107/91",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 91 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73660957071904,
+              18.591338875471436
+            ],
+            [
+              73.73605680513293,
+              18.591335168592035
+            ],
+            [
+              73.73605427216847,
+              18.59167853164534
+            ],
+            [
+              73.73660703886162,
+              18.591682238598075
+            ],
+            [
+              73.73660957071904,
+              18.591338875471436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00092",
+        "survey_number": "SY-107/92",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 92 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366171659598,
+              18.590308786014532
+            ],
+            [
+              73.73716992835517,
+              18.590312491053496
+            ],
+            [
+              73.73717245888464,
+              18.589969127802245
+            ],
+            [
+              73.73661969759623,
+              18.589965422836574
+            ],
+            [
+              73.7366171659598,
+              18.590308786014532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00093",
+        "survey_number": "SY-107/93",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 93 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366171659598,
+              18.590308786014532
+            ],
+            [
+              73.73661463426814,
+              18.590652149179657
+            ],
+            [
+              73.73716739777046,
+              18.590655854291928
+            ],
+            [
+              73.73716992835517,
+              18.590312491053496
+            ],
+            [
+              73.7366171659598,
+              18.590308786014532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00094",
+        "survey_number": "SY-107/94",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 94 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661463426814,
+              18.590652149179657
+            ],
+            [
+              73.73661210252122,
+              18.590995512331965
+            ],
+            [
+              73.73716486713053,
+              18.59099921751753
+            ],
+            [
+              73.73716739777046,
+              18.590655854291928
+            ],
+            [
+              73.73661463426814,
+              18.590652149179657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00095",
+        "survey_number": "SY-107/95",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 95 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661210252122,
+              18.590995512331965
+            ],
+            [
+              73.73660957071904,
+              18.591338875471436
+            ],
+            [
+              73.73716233643536,
+              18.591342580730306
+            ],
+            [
+              73.73716486713053,
+              18.59099921751753
+            ],
+            [
+              73.73661210252122,
+              18.590995512331965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00096",
+        "survey_number": "SY-107/96",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 96 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73716233643536,
+              18.591342580730306
+            ],
+            [
+              73.73660957071904,
+              18.591338875471436
+            ],
+            [
+              73.73660703886162,
+              18.591682238598075
+            ],
+            [
+              73.73715980568497,
+              18.59168594393026
+            ],
+            [
+              73.73716233643536,
+              18.591342580730306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00097",
+        "survey_number": "SY-107/97",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 97 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73772522030322,
+              18.5899728311475
+            ],
+            [
+              73.73717245888464,
+              18.589969127802245
+            ],
+            [
+              73.73716992835517,
+              18.590312491053496
+            ],
+            [
+              73.73772269088067,
+              18.590316194472027
+            ],
+            [
+              73.73772522030322,
+              18.5899728311475
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00098",
+        "survey_number": "SY-107/98",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 98 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73772269088067,
+              18.590316194472027
+            ],
+            [
+              73.73716992835517,
+              18.590312491053496
+            ],
+            [
+              73.73716739777046,
+              18.590655854291928
+            ],
+            [
+              73.73772016140292,
+              18.590659557783727
+            ],
+            [
+              73.73772269088067,
+              18.590316194472027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00099",
+        "survey_number": "SY-107/99",
+        "landuse": "Institutional",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 99 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73772016140292,
+              18.590659557783727
+            ],
+            [
+              73.73716739777046,
+              18.590655854291928
+            ],
+            [
+              73.73716486713053,
+              18.59099921751753
+            ],
+            [
+              73.73771763186998,
+              18.591002921082598
+            ],
+            [
+              73.73772016140292,
+              18.590659557783727
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00100",
+        "survey_number": "SY-107/100",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 100 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73771763186998,
+              18.591002921082598
+            ],
+            [
+              73.73716486713053,
+              18.59099921751753
+            ],
+            [
+              73.73716233643536,
+              18.591342580730306
+            ],
+            [
+              73.73771510228183,
+              18.59134628436865
+            ],
+            [
+              73.73771763186998,
+              18.591002921082598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00101",
+        "survey_number": "SY-107/101",
+        "landuse": "Residential",
+        "area_sqm": 2216.67,
+        "owner_name": "Citizen 101 (Registered)",
+        "property_tax_val": 6206666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73771510228183,
+              18.59134628436865
+            ],
+            [
+              73.73716233643536,
+              18.591342580730306
+            ],
+            [
+              73.73715980568497,
+              18.59168594393026
+            ],
+            [
+              73.73771257263847,
+              18.591689647641868
+            ],
+            [
+              73.73771510228183,
+              18.59134628436865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00102",
+        "survey_number": "SY-108/102",
+        "landuse": "Commercial",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 102 (Registered)",
+        "property_tax_val": 9581249
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662752533296,
+              18.58890370766568
+            ],
+            [
+              73.73662995682024,
+              18.588573898247205
+            ],
+            [
+              73.73607720014778,
+              18.588570191958333
+            ],
+            [
+              73.73607476759736,
+              18.58890000130637
+            ],
+            [
+              73.73662752533296,
+              18.58890370766568
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00103",
+        "survey_number": "SY-108/103",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 103 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366250937947,
+              18.58923351707233
+            ],
+            [
+              73.73662752533296,
+              18.58890370766568
+            ],
+            [
+              73.73607476759736,
+              18.58890000130637
+            ],
+            [
+              73.73607233499592,
+              18.58922981064258
+            ],
+            [
+              73.7366250937947,
+              18.58923351707233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00104",
+        "survey_number": "SY-108/104",
+        "landuse": "Vacant/Green",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 104 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662266220548,
+              18.589563326467132
+            ],
+            [
+              73.7366250937947,
+              18.58923351707233
+            ],
+            [
+              73.73607233499592,
+              18.58922981064258
+            ],
+            [
+              73.73606990234352,
+              18.589559619966945
+            ],
+            [
+              73.73662266220548,
+              18.589563326467132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00105",
+        "survey_number": "SY-108/105",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 105 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662266220548,
+              18.589563326467132
+            ],
+            [
+              73.73606990234352,
+              18.589559619966945
+            ],
+            [
+              73.73606746964008,
+              18.589889429279477
+            ],
+            [
+              73.73662023056526,
+              18.589893135850108
+            ],
+            [
+              73.73662266220548,
+              18.589563326467132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00106",
+        "survey_number": "SY-108/106",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 106 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662752533296,
+              18.58890370766568
+            ],
+            [
+              73.73718028319877,
+              18.588907412404687
+            ],
+            [
+              73.7371827136229,
+              18.5885776029158
+            ],
+            [
+              73.73662995682024,
+              18.588573898247205
+            ],
+            [
+              73.73662752533296,
+              18.58890370766568
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00107",
+        "survey_number": "SY-108/107",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 107 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662752533296,
+              18.58890370766568
+            ],
+            [
+              73.7366250937947,
+              18.58923351707233
+            ],
+            [
+              73.73717785272368,
+              18.589237221881746
+            ],
+            [
+              73.73718028319877,
+              18.588907412404687
+            ],
+            [
+              73.73662752533296,
+              18.58890370766568
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00108",
+        "survey_number": "SY-108/108",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 108 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366250937947,
+              18.58923351707233
+            ],
+            [
+              73.73662266220548,
+              18.589563326467132
+            ],
+            [
+              73.73717542219765,
+              18.58956703134696
+            ],
+            [
+              73.73717785272368,
+              18.589237221881746
+            ],
+            [
+              73.7366250937947,
+              18.58923351707233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00109",
+        "survey_number": "SY-108/109",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 109 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73717542219765,
+              18.58956703134696
+            ],
+            [
+              73.73662266220548,
+              18.589563326467132
+            ],
+            [
+              73.73662023056526,
+              18.589893135850108
+            ],
+            [
+              73.73717299162067,
+              18.589896840800343
+            ],
+            [
+              73.73717542219765,
+              18.58956703134696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00110",
+        "survey_number": "SY-108/110",
+        "landuse": "Institutional",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 110 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73773547055569,
+              18.588581305964134
+            ],
+            [
+              73.7371827136229,
+              18.5885776029158
+            ],
+            [
+              73.73718028319877,
+              18.588907412404687
+            ],
+            [
+              73.7377330411947,
+              18.5889111155234
+            ],
+            [
+              73.73773547055569,
+              18.588581305964134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00111",
+        "survey_number": "SY-108/111",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 111 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7377330411947,
+              18.5889111155234
+            ],
+            [
+              73.73718028319877,
+              18.588907412404687
+            ],
+            [
+              73.73717785272368,
+              18.589237221881746
+            ],
+            [
+              73.7377306117828,
+              18.589240925070822
+            ],
+            [
+              73.7377330411947,
+              18.5889111155234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00112",
+        "survey_number": "SY-108/112",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 112 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7377306117828,
+              18.589240925070822
+            ],
+            [
+              73.73717785272368,
+              18.589237221881746
+            ],
+            [
+              73.73717542219765,
+              18.58956703134696
+            ],
+            [
+              73.73772818231996,
+              18.589570734606415
+            ],
+            [
+              73.7377306117828,
+              18.589240925070822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00113",
+        "survey_number": "SY-108/113",
+        "landuse": "Residential",
+        "area_sqm": 2129.17,
+        "owner_name": "Citizen 113 (Registered)",
+        "property_tax_val": 5961666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73772818231996,
+              18.589570734606415
+            ],
+            [
+              73.73717542219765,
+              18.58956703134696
+            ],
+            [
+              73.73717299162067,
+              18.589896840800343
+            ],
+            [
+              73.73772575280618,
+              18.58990054413017
+            ],
+            [
+              73.73772818231996,
+              18.589570734606415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00114",
+        "survey_number": "SY-109/114",
+        "landuse": "Commercial",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 114 (Registered)",
+        "property_tax_val": 8623125
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73832528204899,
+              18.58891508135253
+            ],
+            [
+              73.7383277102709,
+              18.5885852717179
+            ],
+            [
+              73.7378302289001,
+              18.58858194060973
+            ],
+            [
+              73.73782779972136,
+              18.58891175018105
+            ],
+            [
+              73.73832528204899,
+              18.58891508135253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00115",
+        "survey_number": "SY-109/115",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 115 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383228537762,
+              18.589244890975326
+            ],
+            [
+              73.73832528204899,
+              18.58891508135253
+            ],
+            [
+              73.73782779972136,
+              18.58891175018105
+            ],
+            [
+              73.7378253704917,
+              18.589241559740543
+            ],
+            [
+              73.7383228537762,
+              18.589244890975326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00116",
+        "survey_number": "SY-109/116",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 116 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383204254525,
+              18.589574700586294
+            ],
+            [
+              73.7383228537762,
+              18.589244890975326
+            ],
+            [
+              73.7378253704917,
+              18.589241559740543
+            ],
+            [
+              73.73782294121112,
+              18.589571369288194
+            ],
+            [
+              73.7383204254525,
+              18.589574700586294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00117",
+        "survey_number": "SY-109/117",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 117 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383204254525,
+              18.589574700586294
+            ],
+            [
+              73.73782294121112,
+              18.589571369288194
+            ],
+            [
+              73.73782051187962,
+              18.589901178824018
+            ],
+            [
+              73.73831799707789,
+              18.58990451018542
+            ],
+            [
+              73.7383204254525,
+              18.589574700586294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00118",
+        "survey_number": "SY-109/118",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 118 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73832528204899,
+              18.58891508135253
+            ],
+            [
+              73.73882276448194,
+              18.588918411211562
+            ],
+            [
+              73.73882519174701,
+              18.58858860151365
+            ],
+            [
+              73.7383277102709,
+              18.5885852717179
+            ],
+            [
+              73.73832528204899,
+              18.58891508135253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00119",
+        "survey_number": "SY-109/119",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 119 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73832528204899,
+              18.58891508135253
+            ],
+            [
+              73.7383228537762,
+              18.589244890975326
+            ],
+            [
+              73.738820337166,
+              18.589248220897645
+            ],
+            [
+              73.73882276448194,
+              18.588918411211562
+            ],
+            [
+              73.73832528204899,
+              18.58891508135253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00120",
+        "survey_number": "SY-109/120",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 120 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383228537762,
+              18.589244890975326
+            ],
+            [
+              73.7383204254525,
+              18.589574700586294
+            ],
+            [
+              73.73881790979918,
+              18.58957803057189
+            ],
+            [
+              73.738820337166,
+              18.589248220897645
+            ],
+            [
+              73.7383228537762,
+              18.589244890975326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00121",
+        "survey_number": "SY-109/121",
+        "landuse": "Institutional",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 121 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881790979918,
+              18.58957803057189
+            ],
+            [
+              73.7383204254525,
+              18.589574700586294
+            ],
+            [
+              73.73831799707789,
+              18.58990451018542
+            ],
+            [
+              73.73881548238145,
+              18.5899078402343
+            ],
+            [
+              73.73881790979918,
+              18.58957803057189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00122",
+        "survey_number": "SY-109/122",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 122 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73882276448194,
+              18.588918411211562
+            ],
+            [
+              73.73932024702017,
+              18.588921739758142
+            ],
+            [
+              73.7393226733284,
+              18.588591929996973
+            ],
+            [
+              73.73882519174701,
+              18.58858860151365
+            ],
+            [
+              73.73882276448194,
+              18.588918411211562
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00123",
+        "survey_number": "SY-109/123",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 123 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73882276448194,
+              18.588918411211562
+            ],
+            [
+              73.738820337166,
+              18.589248220897645
+            ],
+            [
+              73.7393178206611,
+              18.589251549507484
+            ],
+            [
+              73.73932024702017,
+              18.588921739758142
+            ],
+            [
+              73.73882276448194,
+              18.588918411211562
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00124",
+        "survey_number": "SY-109/124",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 124 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.738820337166,
+              18.589248220897645
+            ],
+            [
+              73.73881790979918,
+              18.58957803057189
+            ],
+            [
+              73.73931539425115,
+              18.589581359244985
+            ],
+            [
+              73.7393178206611,
+              18.589251549507484
+            ],
+            [
+              73.738820337166,
+              18.589248220897645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00125",
+        "survey_number": "SY-109/125",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 125 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73931539425115,
+              18.589581359244985
+            ],
+            [
+              73.73881790979918,
+              18.58957803057189
+            ],
+            [
+              73.73881548238145,
+              18.5899078402343
+            ],
+            [
+              73.73931296779033,
+              18.58991116897066
+            ],
+            [
+              73.73931539425115,
+              18.589581359244985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00126",
+        "survey_number": "SY-109/126",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 126 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73982015501501,
+              18.588595257167867
+            ],
+            [
+              73.7393226733284,
+              18.588591929996973
+            ],
+            [
+              73.73932024702017,
+              18.588921739758142
+            ],
+            [
+              73.73981772966364,
+              18.58892506699227
+            ],
+            [
+              73.73982015501501,
+              18.588595257167867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00127",
+        "survey_number": "SY-109/127",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 127 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73981772966364,
+              18.58892506699227
+            ],
+            [
+              73.73932024702017,
+              18.588921739758142
+            ],
+            [
+              73.7393178206611,
+              18.589251549507484
+            ],
+            [
+              73.73981530426141,
+              18.589254876804848
+            ],
+            [
+              73.73981772966364,
+              18.58892506699227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00128",
+        "survey_number": "SY-109/128",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 128 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73981530426141,
+              18.589254876804848
+            ],
+            [
+              73.7393178206611,
+              18.589251549507484
+            ],
+            [
+              73.73931539425115,
+              18.589581359244985
+            ],
+            [
+              73.73981287880834,
+              18.589584686605583
+            ],
+            [
+              73.73981530426141,
+              18.589254876804848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00129",
+        "survey_number": "SY-109/129",
+        "landuse": "Residential",
+        "area_sqm": 1916.25,
+        "owner_name": "Citizen 129 (Registered)",
+        "property_tax_val": 5365500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73981287880834,
+              18.589584686605583
+            ],
+            [
+              73.73931539425115,
+              18.589581359244985
+            ],
+            [
+              73.73931296779033,
+              18.58991116897066
+            ],
+            [
+              73.73981045330443,
+              18.589914496394485
+            ],
+            [
+              73.73981287880834,
+              18.589584686605583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00130",
+        "survey_number": "SY-110/130",
+        "landuse": "Commercial",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 130 (Registered)",
+        "property_tax_val": 9450000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73830136300661,
+              18.592163479724334
+            ],
+            [
+              73.7383040246185,
+              18.591802044635422
+            ],
+            [
+              73.73780653391442,
+              18.59179871290977
+            ],
+            [
+              73.73780387125372,
+              18.592160147929306
+            ],
+            [
+              73.73830136300661,
+              18.592163479724334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00131",
+        "survey_number": "SY-110/131",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 131 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829870133358,
+              18.592524914799036
+            ],
+            [
+              73.73830136300661,
+              18.592163479724334
+            ],
+            [
+              73.73780387125372,
+              18.592160147929306
+            ],
+            [
+              73.73780120853186,
+              18.592521582934623
+            ],
+            [
+              73.73829870133358,
+              18.592524914799036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00132",
+        "survey_number": "SY-110/132",
+        "landuse": "Institutional",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 132 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829603959939,
+              18.59288634985952
+            ],
+            [
+              73.73829870133358,
+              18.592524914799036
+            ],
+            [
+              73.73780120853186,
+              18.592521582934623
+            ],
+            [
+              73.73779854574882,
+              18.592883017925725
+            ],
+            [
+              73.73829603959939,
+              18.59288634985952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00133",
+        "survey_number": "SY-110/133",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 133 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829603959939,
+              18.59288634985952
+            ],
+            [
+              73.73779854574882,
+              18.592883017925725
+            ],
+            [
+              73.73779588290462,
+              18.593244452902624
+            ],
+            [
+              73.73829337780406,
+              18.59324778490579
+            ],
+            [
+              73.73829603959939,
+              18.59288634985952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00134",
+        "survey_number": "SY-110/134",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 134 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73830136300661,
+              18.592163479724334
+            ],
+            [
+              73.73879885486481,
+              18.592166810206674
+            ],
+            [
+              73.73880151542792,
+              18.591805375048402
+            ],
+            [
+              73.7383040246185,
+              18.591802044635422
+            ],
+            [
+              73.73830136300661,
+              18.592163479724334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00135",
+        "survey_number": "SY-110/135",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 135 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73830136300661,
+              18.592163479724334
+            ],
+            [
+              73.73829870133358,
+              18.592524914799036
+            ],
+            [
+              73.7387961942406,
+              18.59252824535073
+            ],
+            [
+              73.73879885486481,
+              18.592166810206674
+            ],
+            [
+              73.73830136300661,
+              18.592163479724334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00136",
+        "survey_number": "SY-110/136",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 136 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73829870133358,
+              18.592524914799036
+            ],
+            [
+              73.73829603959939,
+              18.59288634985952
+            ],
+            [
+              73.73879353355528,
+              18.592889680480564
+            ],
+            [
+              73.7387961942406,
+              18.59252824535073
+            ],
+            [
+              73.73829870133358,
+              18.592524914799036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00137",
+        "survey_number": "SY-110/137",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 137 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73879353355528,
+              18.592889680480564
+            ],
+            [
+              73.73829603959939,
+              18.59288634985952
+            ],
+            [
+              73.73829337780406,
+              18.59324778490579
+            ],
+            [
+              73.73879087280882,
+              18.593251115596193
+            ],
+            [
+              73.73879353355528,
+              18.592889680480564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00138",
+        "survey_number": "SY-110/138",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 138 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73879885486481,
+              18.592166810206674
+            ],
+            [
+              73.73929634682831,
+              18.59217013937631
+            ],
+            [
+              73.7392990063426,
+              18.59180870414872
+            ],
+            [
+              73.73880151542792,
+              18.591805375048402
+            ],
+            [
+              73.73879885486481,
+              18.592166810206674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00139",
+        "survey_number": "SY-110/139",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 139 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73879885486481,
+              18.592166810206674
+            ],
+            [
+              73.7387961942406,
+              18.59252824535073
+            ],
+            [
+              73.73929368725294,
+              18.592531574589692
+            ],
+            [
+              73.73929634682831,
+              18.59217013937631
+            ],
+            [
+              73.73879885486481,
+              18.592166810206674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00140",
+        "survey_number": "SY-110/140",
+        "landuse": "Mixed-Use",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 140 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7387961942406,
+              18.59252824535073
+            ],
+            [
+              73.73879353355528,
+              18.592889680480564
+            ],
+            [
+              73.73929102761646,
+              18.592893009788856
+            ],
+            [
+              73.73929368725294,
+              18.592531574589692
+            ],
+            [
+              73.7387961942406,
+              18.59252824535073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00141",
+        "survey_number": "SY-110/141",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 141 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73929102761646,
+              18.592893009788856
+            ],
+            [
+              73.73879353355528,
+              18.592889680480564
+            ],
+            [
+              73.73879087280882,
+              18.593251115596193
+            ],
+            [
+              73.73928836791889,
+              18.593254444973812
+            ],
+            [
+              73.73929102761646,
+              18.592893009788856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00142",
+        "survey_number": "SY-110/142",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 142 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73979649736255,
+              18.59181203193636
+            ],
+            [
+              73.7392990063426,
+              18.59180870414872
+            ],
+            [
+              73.73929634682831,
+              18.59217013937631
+            ],
+            [
+              73.73979383889706,
+              18.59217346723325
+            ],
+            [
+              73.73979649736255,
+              18.59181203193636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00143",
+        "survey_number": "SY-110/143",
+        "landuse": "Institutional",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 143 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73979383889706,
+              18.59217346723325
+            ],
+            [
+              73.73929634682831,
+              18.59217013937631
+            ],
+            [
+              73.73929368725294,
+              18.592531574589692
+            ],
+            [
+              73.7397911803705,
+              18.592534902515933
+            ],
+            [
+              73.73979383889706,
+              18.59217346723325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00144",
+        "survey_number": "SY-110/144",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 144 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7397911803705,
+              18.592534902515933
+            ],
+            [
+              73.73929368725294,
+              18.592531574589692
+            ],
+            [
+              73.73929102761646,
+              18.592893009788856
+            ],
+            [
+              73.73978852178288,
+              18.592896337784396
+            ],
+            [
+              73.7397911803705,
+              18.592534902515933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00145",
+        "survey_number": "SY-110/145",
+        "landuse": "Residential",
+        "area_sqm": 2100.0,
+        "owner_name": "Citizen 145 (Registered)",
+        "property_tax_val": 5880000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73978852178288,
+              18.592896337784396
+            ],
+            [
+              73.73929102761646,
+              18.592893009788856
+            ],
+            [
+              73.73928836791889,
+              18.593254444973812
+            ],
+            [
+              73.73978586313419,
+              18.59325777303866
+            ],
+            [
+              73.73978852178288,
+              18.592896337784396
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00146",
+        "survey_number": "SY-111/146",
+        "landuse": "Commercial",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 146 (Registered)",
+        "property_tax_val": 8977500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831493658805,
+              18.59032016062226
+            ],
+            [
+              73.73831746482459,
+              18.589976797219272
+            ],
+            [
+              73.7378199794166,
+              18.589973465843986
+            ],
+            [
+              73.73781745018381,
+              18.590316829181067
+            ],
+            [
+              73.73831493658805,
+              18.59032016062226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00147",
+        "survey_number": "SY-111/147",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 147 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831240829635,
+              18.59066352401243
+            ],
+            [
+              73.73831493658805,
+              18.59032016062226
+            ],
+            [
+              73.73781745018381,
+              18.590316829181067
+            ],
+            [
+              73.73781492089584,
+              18.59066019250533
+            ],
+            [
+              73.73831240829635,
+              18.59066352401243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00148",
+        "survey_number": "SY-111/148",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 148 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73830987994947,
+              18.591006887389778
+            ],
+            [
+              73.73831240829635,
+              18.59066352401243
+            ],
+            [
+              73.73781492089584,
+              18.59066019250533
+            ],
+            [
+              73.73781239155267,
+              18.591003555816762
+            ],
+            [
+              73.73830987994947,
+              18.591006887389778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00149",
+        "survey_number": "SY-111/149",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 149 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383073515474,
+              18.591350250754292
+            ],
+            [
+              73.73830987994947,
+              18.591006887389778
+            ],
+            [
+              73.73781239155267,
+              18.591003555816762
+            ],
+            [
+              73.7378098621543,
+              18.591346919115367
+            ],
+            [
+              73.7383073515474,
+              18.591350250754292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00150",
+        "survey_number": "SY-111/150",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 150 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383073515474,
+              18.591350250754292
+            ],
+            [
+              73.7378098621543,
+              18.591346919115367
+            ],
+            [
+              73.7378073327007,
+              18.59169028240114
+            ],
+            [
+              73.73830482309015,
+              18.591693614105978
+            ],
+            [
+              73.7383073515474,
+              18.591350250754292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00151",
+        "survey_number": "SY-111/151",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 151 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831493658805,
+              18.59032016062226
+            ],
+            [
+              73.73881242309763,
+              18.590323490750897
+            ],
+            [
+              73.73881495033791,
+              18.58998012728202
+            ],
+            [
+              73.73831746482459,
+              18.589976797219272
+            ],
+            [
+              73.73831493658805,
+              18.59032016062226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00152",
+        "survey_number": "SY-111/152",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 152 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831493658805,
+              18.59032016062226
+            ],
+            [
+              73.73831240829635,
+              18.59066352401243
+            ],
+            [
+              73.73880989580219,
+              18.590666854206955
+            ],
+            [
+              73.73881242309763,
+              18.590323490750897
+            ],
+            [
+              73.73831493658805,
+              18.59032016062226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00153",
+        "survey_number": "SY-111/153",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 153 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831240829635,
+              18.59066352401243
+            ],
+            [
+              73.73830987994947,
+              18.591006887389778
+            ],
+            [
+              73.73880736845159,
+              18.591010217650187
+            ],
+            [
+              73.73880989580219,
+              18.590666854206955
+            ],
+            [
+              73.73831240829635,
+              18.59066352401243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00154",
+        "survey_number": "SY-111/154",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 154 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73830987994947,
+              18.591006887389778
+            ],
+            [
+              73.7383073515474,
+              18.591350250754292
+            ],
+            [
+              73.73880484104583,
+              18.591353581080583
+            ],
+            [
+              73.73880736845159,
+              18.591010217650187
+            ],
+            [
+              73.73830987994947,
+              18.591006887389778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00155",
+        "survey_number": "SY-111/155",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 155 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73880484104583,
+              18.591353581080583
+            ],
+            [
+              73.7383073515474,
+              18.591350250754292
+            ],
+            [
+              73.73830482309015,
+              18.591693614105978
+            ],
+            [
+              73.73880231358493,
+              18.59169694449815
+            ],
+            [
+              73.73880484104583,
+              18.591353581080583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00156",
+        "survey_number": "SY-111/156",
+        "landuse": "Vacant/Green",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 156 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881242309763,
+              18.590323490750897
+            ],
+            [
+              73.73930990971247,
+              18.590326819566975
+            ],
+            [
+              73.7393124359565,
+              18.58998345603224
+            ],
+            [
+              73.73881495033791,
+              18.58998012728202
+            ],
+            [
+              73.73881242309763,
+              18.590323490750897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00157",
+        "survey_number": "SY-111/157",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 157 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881242309763,
+              18.590323490750897
+            ],
+            [
+              73.73880989580219,
+              18.590666854206955
+            ],
+            [
+              73.7393073834133,
+              18.59067018308889
+            ],
+            [
+              73.73930990971247,
+              18.590326819566975
+            ],
+            [
+              73.73881242309763,
+              18.590323490750897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00158",
+        "survey_number": "SY-111/158",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 158 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73880989580219,
+              18.590666854206955
+            ],
+            [
+              73.73880736845159,
+              18.591010217650187
+            ],
+            [
+              73.739304857059,
+              18.591013546597974
+            ],
+            [
+              73.7393073834133,
+              18.59067018308889
+            ],
+            [
+              73.73880989580219,
+              18.590666854206955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00159",
+        "survey_number": "SY-111/159",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 159 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73880736845159,
+              18.591010217650187
+            ],
+            [
+              73.73880484104583,
+              18.591353581080583
+            ],
+            [
+              73.73930233064955,
+              18.59135691009423
+            ],
+            [
+              73.739304857059,
+              18.591013546597974
+            ],
+            [
+              73.73880736845159,
+              18.591010217650187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00160",
+        "survey_number": "SY-111/160",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 160 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73930233064955,
+              18.59135691009423
+            ],
+            [
+              73.73880484104583,
+              18.591353581080583
+            ],
+            [
+              73.73880231358493,
+              18.59169694449815
+            ],
+            [
+              73.73929980418498,
+              18.591700273577665
+            ],
+            [
+              73.73930233064955,
+              18.59135691009423
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00161",
+        "survey_number": "SY-111/161",
+        "landuse": "Mixed-Use",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 161 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73980992168033,
+              18.589986783469925
+            ],
+            [
+              73.7393124359565,
+              18.58998345603224
+            ],
+            [
+              73.73930990971247,
+              18.590326819566975
+            ],
+            [
+              73.73980739643255,
+              18.5903301470705
+            ],
+            [
+              73.73980992168033,
+              18.589986783469925
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00162",
+        "survey_number": "SY-111/162",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 162 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73980739643255,
+              18.5903301470705
+            ],
+            [
+              73.73930990971247,
+              18.590326819566975
+            ],
+            [
+              73.7393073834133,
+              18.59067018308889
+            ],
+            [
+              73.73980487112966,
+              18.59067351065824
+            ],
+            [
+              73.73980739643255,
+              18.5903301470705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00163",
+        "survey_number": "SY-111/163",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 163 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73980487112966,
+              18.59067351065824
+            ],
+            [
+              73.7393073834133,
+              18.59067018308889
+            ],
+            [
+              73.739304857059,
+              18.591013546597974
+            ],
+            [
+              73.73980234577165,
+              18.591016874233166
+            ],
+            [
+              73.73980487112966,
+              18.59067351065824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00164",
+        "survey_number": "SY-111/164",
+        "landuse": "Residential",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 164 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73980234577165,
+              18.591016874233166
+            ],
+            [
+              73.739304857059,
+              18.591013546597974
+            ],
+            [
+              73.73930233064955,
+              18.59135691009423
+            ],
+            [
+              73.73979982035853,
+              18.591360237795257
+            ],
+            [
+              73.73980234577165,
+              18.591016874233166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-IND-DL-00165",
+        "survey_number": "SY-111/165",
+        "landuse": "Institutional",
+        "area_sqm": 1995.0,
+        "owner_name": "Citizen 165 (Registered)",
+        "property_tax_val": 5586000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73979982035853,
+              18.591360237795257
+            ],
+            [
+              73.73930233064955,
+              18.59135691009423
+            ],
+            [
+              73.73929980418498,
+              18.591700273577665
+            ],
+            [
+              73.73979729489028,
+              18.591703601344516
+            ],
+            [
+              73.73979982035853,
+              18.591360237795257
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

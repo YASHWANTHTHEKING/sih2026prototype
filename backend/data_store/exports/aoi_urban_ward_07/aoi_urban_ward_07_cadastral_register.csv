@@ -1,0 +1,166 @@
+parcel_id,survey_number,area_sqm,perimeter_m,confidence_score,verification_status,building_count,building_coverage_ratio,landuse_class,owner_record,has_gnss_control,tax_assessment_annual_inr,tax_rate_per_sqm,lulc_confidence
+ULPIN-2026-d_07-00001,SY-100/1,1779.37,170.5,0.93,Needs GT Verification,1,0.77,Vacant/Green,Property Owner 1,True,800716,450,0.89
+ULPIN-2026-d_07-00002,SY-100/2,1779.38,170.5,0.93,Needs GT Verification,1,0.77,Vacant/Green,Property Owner 2,True,800721,450,0.881
+ULPIN-2026-d_07-00003,SY-100/3,1779.37,170.5,0.93,Needs GT Verification,1,0.77,Vacant/Green,Property Owner 3,True,800716,450,0.938
+ULPIN-2026-d_07-00004,SY-100/4,1779.38,170.5,0.93,Needs GT Verification,1,0.77,Vacant/Green,Property Owner 4,True,800721,450,0.967
+ULPIN-2026-d_07-00005,SY-100/5,2042.18,179.92,0.98,Needs GT Verification,1,0.679,Vacant/Green,Property Owner 5,True,918981,450,0.945
+ULPIN-2026-d_07-00006,SY-100/6,1779.38,170.5,0.93,Needs GT Verification,1,0.779,Vacant/Green,Property Owner 6,True,800721,450,0.896
+ULPIN-2026-d_07-00007,SY-100/7,1779.37,170.5,0.93,AI Confirmed,1,0.779,Vacant/Green,Property Owner 7,True,800716,450,0.953
+ULPIN-2026-d_07-00008,SY-100/8,1992.37,180.5,0.98,AI Confirmed,2,0.704,Vacant/Green,Property Owner 8,True,896566,450,0.908
+ULPIN-2026-d_07-00009,SY-100/9,1779.38,170.5,0.93,AI Confirmed,1,0.77,Vacant/Green,Property Owner 9,True,800721,450,0.884
+ULPIN-2026-d_07-00010,SY-100/10,1485.44,156.1,0.78,Needs GT Verification,1,0.922,Commercial,Property Owner 10,True,6238848,4200,0.894
+ULPIN-2026-d_07-00011,SY-100/11,1779.37,170.5,0.93,AI Confirmed,1,0.77,Vacant/Green,Property Owner 11,True,800716,450,0.96
+ULPIN-2026-d_07-00012,SY-100/12,1779.37,170.5,0.93,AI Confirmed,1,0.77,Vacant/Green,Property Owner 12,True,800716,450,0.944
+ULPIN-2026-d_07-00013,SY-100/13,1779.37,170.5,0.85,AI Confirmed,0,0.0,Vacant/Green,Property Owner 13,False,800716,450,0.895
+ULPIN-2026-d_07-00014,SY-100/14,1779.37,170.5,0.93,AI Confirmed,1,0.779,Vacant/Green,Property Owner 14,True,800716,450,0.92
+ULPIN-2026-d_07-00015,SY-100/15,2042.18,179.92,0.98,AI Confirmed,1,0.679,Vacant/Green,Property Owner 15,True,918981,450,0.962
+ULPIN-2026-d_07-00016,SY-100/16,1992.37,180.5,0.98,AI Confirmed,2,0.704,Vacant/Green,Property Owner 16,True,896566,450,0.934
+ULPIN-2026-d_07-00017,SY-101/17,1852.5,173.5,0.85,AI Confirmed,1,0.775,Vacant/Green,Property Owner 17,False,833625,450,0.95
+ULPIN-2026-d_07-00018,SY-101/18,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 18,True,833625,450,0.959
+ULPIN-2026-d_07-00019,SY-101/19,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 19,True,833625,450,0.905
+ULPIN-2026-d_07-00020,SY-101/20,1553.16,159.1,0.78,Needs GT Verification,1,0.924,Vacant/Green,Property Owner 20,True,698922,450,0.934
+ULPIN-2026-d_07-00021,SY-101/21,1852.5,173.5,0.93,Needs GT Verification,1,0.775,Vacant/Green,Property Owner 21,True,833625,450,0.924
+ULPIN-2026-d_07-00022,SY-101/22,1852.5,173.5,0.93,Needs GT Verification,1,0.784,Vacant/Green,Property Owner 22,True,833625,450,0.896
+ULPIN-2026-d_07-00023,SY-101/23,1852.5,173.5,0.93,Needs GT Verification,1,0.784,Vacant/Green,Property Owner 23,True,833625,450,0.965
+ULPIN-2026-d_07-00024,SY-101/24,2070.0,183.5,0.98,Needs GT Verification,2,0.709,Vacant/Green,Property Owner 24,True,931500,450,0.912
+ULPIN-2026-d_07-00025,SY-101/25,2119.81,182.92,0.98,Needs GT Verification,1,0.685,Vacant/Green,Property Owner 25,True,953914,450,0.919
+ULPIN-2026-d_07-00026,SY-101/26,1852.5,173.5,0.93,Needs GT Verification,1,0.784,Vacant/Green,Property Owner 26,True,833625,450,0.884
+ULPIN-2026-d_07-00027,SY-101/27,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 27,True,833625,450,0.929
+ULPIN-2026-d_07-00028,SY-101/28,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 28,True,833625,450,0.962
+ULPIN-2026-d_07-00029,SY-101/29,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 29,True,833625,450,0.942
+ULPIN-2026-d_07-00030,SY-101/30,1553.16,159.1,0.78,Needs GT Verification,1,0.924,Vacant/Green,Property Owner 30,True,698922,450,0.948
+ULPIN-2026-d_07-00031,SY-101/31,1852.5,173.5,0.85,AI Confirmed,1,0.775,Vacant/Green,Property Owner 31,False,833625,450,0.9
+ULPIN-2026-d_07-00032,SY-101/32,2070.0,183.5,0.98,AI Confirmed,2,0.709,Vacant/Green,Property Owner 32,True,931500,450,0.911
+ULPIN-2026-d_07-00033,SY-101/33,1852.5,173.5,0.93,AI Confirmed,1,0.784,Vacant/Green,Property Owner 33,True,833625,450,0.933
+ULPIN-2026-d_07-00034,SY-101/34,1852.5,173.5,0.85,AI Confirmed,1,0.784,Vacant/Green,Property Owner 34,False,833625,450,0.963
+ULPIN-2026-d_07-00035,SY-101/35,2119.81,182.92,0.98,AI Confirmed,1,0.685,Vacant/Green,Property Owner 35,True,953914,450,0.909
+ULPIN-2026-d_07-00036,SY-101/36,1852.5,173.5,0.93,AI Confirmed,1,0.784,Vacant/Green,Property Owner 36,True,833625,450,0.912
+ULPIN-2026-d_07-00037,SY-102/37,1950.0,177.5,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 37,True,877500,450,0.943
+ULPIN-2026-d_07-00038,SY-102/38,1950.0,177.5,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 38,True,877500,450,0.9
+ULPIN-2026-d_07-00039,SY-102/39,1950.0,177.5,0.93,AI Confirmed,0,0.0,Vacant/Green,Property Owner 39,True,877500,450,0.903
+ULPIN-2026-d_07-00040,SY-102/40,1643.46,163.1,0.78,Needs GT Verification,1,0.926,Vacant/Green,Property Owner 40,True,739557,450,0.939
+ULPIN-2026-d_07-00041,SY-102/41,1950.0,177.5,0.93,Needs GT Verification,1,0.79,Vacant/Green,Property Owner 41,True,877500,450,0.953
+ULPIN-2026-d_07-00042,SY-102/42,1950.0,177.5,0.93,Needs GT Verification,1,0.79,Vacant/Green,Property Owner 42,True,877500,450,0.917
+ULPIN-2026-d_07-00043,SY-102/43,1950.0,177.5,0.93,Needs GT Verification,1,0.79,Vacant/Green,Property Owner 43,True,877500,450,0.957
+ULPIN-2026-d_07-00044,SY-102/44,1950.0,177.5,0.93,Needs GT Verification,1,0.79,Vacant/Green,Property Owner 44,True,877500,450,0.91
+ULPIN-2026-d_07-00045,SY-102/45,2223.31,186.92,0.98,Needs GT Verification,1,0.685,Vacant/Green,Property Owner 45,True,1000489,450,0.929
+ULPIN-2026-d_07-00046,SY-102/46,1950.0,177.5,0.93,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 46,True,877500,450,0.936
+ULPIN-2026-d_07-00047,SY-102/47,1950.0,177.5,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 47,True,877500,450,0.931
+ULPIN-2026-d_07-00048,SY-102/48,2173.5,187.5,0.98,AI Confirmed,2,0.713,Vacant/Green,Property Owner 48,True,978075,450,0.917
+ULPIN-2026-d_07-00049,SY-102/49,1950.0,177.5,0.85,AI Confirmed,1,0.79,Vacant/Green,Property Owner 49,False,877500,450,0.922
+ULPIN-2026-d_07-00050,SY-102/50,1643.46,163.1,0.78,Needs GT Verification,1,0.937,Vacant/Green,Property Owner 50,True,739557,450,0.905
+ULPIN-2026-d_07-00051,SY-102/51,1950.0,177.5,0.93,AI Confirmed,1,0.79,Vacant/Green,Property Owner 51,True,877500,450,0.921
+ULPIN-2026-d_07-00052,SY-102/52,1950.0,177.5,0.93,AI Confirmed,0,0.0,Vacant/Green,Property Owner 52,True,877500,450,0.923
+ULPIN-2026-d_07-00053,SY-103/53,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 53,True,833625,450,0.924
+ULPIN-2026-d_07-00054,SY-103/54,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 54,True,833625,450,0.9
+ULPIN-2026-d_07-00055,SY-103/55,2119.81,182.92,0.98,AI Confirmed,1,0.685,Vacant/Green,Property Owner 55,True,953914,450,0.957
+ULPIN-2026-d_07-00056,SY-103/56,2070.0,183.5,0.98,AI Confirmed,2,0.709,Vacant/Green,Property Owner 56,True,931500,450,0.943
+ULPIN-2026-d_07-00057,SY-103/57,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 57,True,833625,450,0.939
+ULPIN-2026-d_07-00058,SY-103/58,1852.5,173.5,0.93,AI Confirmed,1,0.775,Vacant/Green,Property Owner 58,True,833625,450,0.886
+ULPIN-2026-d_07-00059,SY-103/59,1852.5,173.5,0.93,AI Confirmed,1,0.784,Vacant/Green,Property Owner 59,True,833625,450,0.89
+ULPIN-2026-d_07-00060,SY-103/60,1553.16,159.1,0.78,Needs GT Verification,1,0.935,Vacant/Green,Property Owner 60,True,698922,450,0.956
+ULPIN-2026-d_07-00061,SY-104/61,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 61,True,897750,450,0.938
+ULPIN-2026-d_07-00062,SY-104/62,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 62,True,897750,450,0.924
+ULPIN-2026-d_07-00063,SY-104/63,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 63,True,897750,450,0.932
+ULPIN-2026-d_07-00064,SY-104/64,2220.0,191.0,0.98,Needs GT Verification,2,0.717,Vacant/Green,Property Owner 64,True,999000,450,0.956
+ULPIN-2026-d_07-00065,SY-104/65,2273.56,190.42,0.93,Needs GT Verification,0,0.0,Vacant/Green,Property Owner 65,True,1023102,450,0.936
+ULPIN-2026-d_07-00066,SY-104/66,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 66,True,897750,450,0.925
+ULPIN-2026-d_07-00067,SY-104/67,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 67,True,897750,450,0.932
+ULPIN-2026-d_07-00068,SY-104/68,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 68,True,897750,450,0.887
+ULPIN-2026-d_07-00069,SY-105/69,2216.67,192.67,0.93,AI Confirmed,1,0.789,Vacant/Green,Property Owner 69,True,997501,450,0.956
+ULPIN-2026-d_07-00070,SY-105/70,1882.83,178.27,0.78,Needs GT Verification,1,0.929,Vacant/Green,Property Owner 70,True,847273,450,0.91
+ULPIN-2026-d_07-00071,SY-105/71,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 71,True,997501,450,0.904
+ULPIN-2026-d_07-00072,SY-105/72,2453.33,202.67,0.98,AI Confirmed,2,0.725,Vacant/Green,Property Owner 72,True,1103998,450,0.887
+ULPIN-2026-d_07-00073,SY-105/73,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 73,True,997501,450,0.905
+ULPIN-2026-d_07-00074,SY-105/74,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 74,True,997501,450,0.959
+ULPIN-2026-d_07-00075,SY-106/75,2635.39,206.09,0.98,AI Confirmed,1,0.704,Vacant/Green,Property Owner 75,True,1185925,450,0.887
+ULPIN-2026-d_07-00076,SY-106/76,2333.33,196.67,0.93,AI Confirmed,1,0.795,Vacant/Green,Property Owner 76,True,1049998,450,0.945
+ULPIN-2026-d_07-00077,SY-106/77,2333.33,196.67,0.93,AI Confirmed,1,0.795,Vacant/Green,Property Owner 77,True,1049998,450,0.9
+ULPIN-2026-d_07-00078,SY-106/78,2333.33,196.67,0.93,AI Confirmed,0,0.0,Vacant/Green,Property Owner 78,True,1049998,450,0.882
+ULPIN-2026-d_07-00079,SY-106/79,2333.33,196.67,0.93,AI Confirmed,1,0.803,Vacant/Green,Property Owner 79,True,1049998,450,0.918
+ULPIN-2026-d_07-00080,SY-106/80,1992.29,182.27,0.78,Needs GT Verification,1,0.94,Vacant/Green,Property Owner 80,True,896530,450,0.934
+ULPIN-2026-d_07-00081,SY-106/81,2333.33,196.67,0.93,Needs GT Verification,1,0.802,Vacant/Green,Property Owner 81,True,1049998,450,0.909
+ULPIN-2026-d_07-00082,SY-106/82,2333.33,196.67,0.93,Needs GT Verification,1,0.803,Vacant/Green,Property Owner 82,True,1049998,450,0.95
+ULPIN-2026-d_07-00083,SY-106/83,2333.33,196.67,0.93,Needs GT Verification,1,0.803,Vacant/Green,Property Owner 83,True,1049998,450,0.914
+ULPIN-2026-d_07-00084,SY-106/84,2333.33,196.67,0.93,Needs GT Verification,1,0.802,Vacant/Green,Property Owner 84,True,1049998,450,0.897
+ULPIN-2026-d_07-00085,SY-106/85,2635.39,206.09,0.9,Needs GT Verification,1,0.711,Vacant/Green,Property Owner 85,False,1185925,450,0.968
+ULPIN-2026-d_07-00086,SY-106/86,2333.33,196.67,0.85,Needs GT Verification,1,0.803,Vacant/Green,Property Owner 86,False,1049998,450,0.962
+ULPIN-2026-d_07-00087,SY-107/87,2216.67,192.67,0.93,AI Confirmed,1,0.789,Vacant/Green,Property Owner 87,True,997501,450,0.939
+ULPIN-2026-d_07-00088,SY-107/88,2333.33,196.67,0.98,AI Confirmed,1,0.75,Vacant/Green,Property Owner 88,True,1049998,450,0.96
+ULPIN-2026-d_07-00089,SY-107/89,2216.67,192.67,0.85,AI Confirmed,1,0.789,Vacant/Green,Property Owner 89,False,997501,450,0.94
+ULPIN-2026-d_07-00090,SY-107/90,1882.83,178.27,0.78,Needs GT Verification,1,0.929,Vacant/Green,Property Owner 90,True,847273,450,0.91
+ULPIN-2026-d_07-00091,SY-107/91,2216.67,192.67,0.93,AI Confirmed,1,0.789,Vacant/Green,Property Owner 91,True,997501,450,0.941
+ULPIN-2026-d_07-00092,SY-107/92,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 92,True,997501,450,0.943
+ULPIN-2026-d_07-00093,SY-107/93,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 93,True,997501,450,0.9
+ULPIN-2026-d_07-00094,SY-107/94,2216.67,192.67,0.85,AI Confirmed,1,0.796,Vacant/Green,Property Owner 94,False,997501,450,0.944
+ULPIN-2026-d_07-00095,SY-107/95,2512.72,202.09,0.98,AI Confirmed,1,0.703,Vacant/Green,Property Owner 95,True,1130724,450,0.946
+ULPIN-2026-d_07-00096,SY-107/96,2453.33,202.67,0.98,AI Confirmed,2,0.725,Vacant/Green,Property Owner 96,True,1103998,450,0.962
+ULPIN-2026-d_07-00097,SY-107/97,2216.67,192.67,0.85,AI Confirmed,1,0.796,Vacant/Green,Property Owner 97,False,997501,450,0.946
+ULPIN-2026-d_07-00098,SY-107/98,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 98,True,997501,450,0.901
+ULPIN-2026-d_07-00099,SY-107/99,2216.67,192.67,0.93,AI Confirmed,1,0.796,Vacant/Green,Property Owner 99,True,997501,450,0.893
+ULPIN-2026-d_07-00100,SY-107/100,1882.83,178.27,0.78,Needs GT Verification,1,0.938,Vacant/Green,Property Owner 100,True,847273,450,0.936
+ULPIN-2026-d_07-00101,SY-107/101,2216.67,192.67,0.93,Needs GT Verification,1,0.796,Vacant/Green,Property Owner 101,True,997501,450,0.892
+ULPIN-2026-d_07-00102,SY-108/102,2129.17,189.67,0.93,Needs GT Verification,1,0.784,Vacant/Green,Property Owner 102,True,958126,450,0.926
+ULPIN-2026-d_07-00103,SY-108/103,2129.17,189.67,0.93,Needs GT Verification,1,0.784,Vacant/Green,Property Owner 103,True,958126,450,0.941
+ULPIN-2026-d_07-00104,SY-108/104,2245.83,193.67,0.93,Needs GT Verification,0,0.0,Vacant/Green,Property Owner 104,True,1010623,450,0.961
+ULPIN-2026-d_07-00105,SY-108/105,2420.72,199.09,0.98,Needs GT Verification,1,0.69,Vacant/Green,Property Owner 105,True,1089324,450,0.933
+ULPIN-2026-d_07-00106,SY-108/106,2129.17,189.67,0.93,Needs GT Verification,1,0.792,Vacant/Green,Property Owner 106,True,958126,450,0.958
+ULPIN-2026-d_07-00107,SY-108/107,2129.17,189.67,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 107,True,958126,450,0.95
+ULPIN-2026-d_07-00108,SY-108/108,2129.17,189.67,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 108,True,958126,450,0.894
+ULPIN-2026-d_07-00109,SY-108/109,2129.17,189.67,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 109,True,958126,450,0.932
+ULPIN-2026-d_07-00110,SY-108/110,1800.73,175.27,0.78,Needs GT Verification,1,0.936,Vacant/Green,Property Owner 110,True,810328,450,0.966
+ULPIN-2026-d_07-00111,SY-108/111,2129.17,189.67,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 111,True,958126,450,0.896
+ULPIN-2026-d_07-00112,SY-108/112,2361.33,199.67,0.9,AI Confirmed,2,0.721,Vacant/Green,Property Owner 112,False,1062598,450,0.918
+ULPIN-2026-d_07-00113,SY-108/113,2129.17,189.67,0.85,AI Confirmed,1,0.792,Vacant/Green,Property Owner 113,False,958126,450,0.899
+ULPIN-2026-d_07-00114,SY-109/114,1916.25,178.0,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 114,True,862312,450,0.902
+ULPIN-2026-d_07-00115,SY-109/115,2190.31,187.42,0.98,AI Confirmed,1,0.683,Vacant/Green,Property Owner 115,True,985639,450,0.92
+ULPIN-2026-d_07-00116,SY-109/116,1916.25,178.0,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 116,True,862312,450,0.964
+ULPIN-2026-d_07-00117,SY-109/117,1916.25,178.0,0.93,AI Confirmed,0,0.0,Vacant/Green,Property Owner 117,True,862312,450,0.883
+ULPIN-2026-d_07-00118,SY-109/118,1916.25,178.0,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 118,True,862312,450,0.899
+ULPIN-2026-d_07-00119,SY-109/119,1916.25,178.0,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 119,True,862312,450,0.923
+ULPIN-2026-d_07-00120,SY-109/120,1608.81,163.6,0.78,Needs GT Verification,1,0.93,Vacant/Green,Property Owner 120,True,723964,450,0.966
+ULPIN-2026-d_07-00121,SY-109/121,1916.25,178.0,0.93,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 121,True,862312,450,0.884
+ULPIN-2026-d_07-00122,SY-109/122,1916.25,178.0,0.93,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 122,True,862312,450,0.909
+ULPIN-2026-d_07-00123,SY-109/123,1916.25,178.0,0.93,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 123,True,862312,450,0.929
+ULPIN-2026-d_07-00124,SY-109/124,1916.25,178.0,0.85,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 124,False,862312,450,0.95
+ULPIN-2026-d_07-00125,SY-109/125,2190.31,187.42,0.9,Needs GT Verification,1,0.683,Vacant/Green,Property Owner 125,False,985639,450,0.919
+ULPIN-2026-d_07-00126,SY-109/126,1916.25,178.0,0.93,Needs GT Verification,1,0.781,Vacant/Green,Property Owner 126,True,862312,450,0.964
+ULPIN-2026-d_07-00127,SY-109/127,1916.25,178.0,0.85,AI Confirmed,1,0.781,Vacant/Green,Property Owner 127,False,862312,450,0.927
+ULPIN-2026-d_07-00128,SY-109/128,2136.75,188.0,0.98,AI Confirmed,2,0.711,Vacant/Green,Property Owner 128,True,961537,450,0.89
+ULPIN-2026-d_07-00129,SY-109/129,1916.25,178.0,0.93,AI Confirmed,1,0.781,Vacant/Green,Property Owner 129,True,862312,450,0.896
+ULPIN-2026-d_07-00130,SY-110/130,1779.96,170.6,0.78,Needs GT Verification,1,0.934,Vacant/Green,Property Owner 130,True,800982,450,0.928
+ULPIN-2026-d_07-00131,SY-110/131,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 131,True,945000,450,0.891
+ULPIN-2026-d_07-00132,SY-110/132,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 132,True,945000,450,0.909
+ULPIN-2026-d_07-00133,SY-110/133,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 133,True,945000,450,0.905
+ULPIN-2026-d_07-00134,SY-110/134,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 134,True,945000,450,0.927
+ULPIN-2026-d_07-00135,SY-110/135,2384.56,194.42,0.98,AI Confirmed,1,0.697,Vacant/Green,Property Owner 135,True,1073052,450,0.967
+ULPIN-2026-d_07-00136,SY-110/136,2331.0,195.0,0.98,AI Confirmed,2,0.724,Vacant/Green,Property Owner 136,True,1048950,450,0.887
+ULPIN-2026-d_07-00137,SY-110/137,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 137,True,945000,450,0.916
+ULPIN-2026-d_07-00138,SY-110/138,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 138,True,945000,450,0.912
+ULPIN-2026-d_07-00139,SY-110/139,2100.0,185.0,0.93,AI Confirmed,1,0.792,Vacant/Green,Property Owner 139,True,945000,450,0.923
+ULPIN-2026-d_07-00140,SY-110/140,1779.96,170.6,0.78,Needs GT Verification,1,0.934,Vacant/Green,Property Owner 140,True,800982,450,0.966
+ULPIN-2026-d_07-00141,SY-110/141,2100.0,185.0,0.93,Needs GT Verification,1,0.792,Vacant/Green,Property Owner 141,True,945000,450,0.935
+ULPIN-2026-d_07-00142,SY-110/142,2100.0,185.0,0.85,Needs GT Verification,1,0.792,Vacant/Green,Property Owner 142,False,945000,450,0.962
+ULPIN-2026-d_07-00143,SY-110/143,2100.0,185.0,0.93,Needs GT Verification,1,0.792,Vacant/Green,Property Owner 143,True,945000,450,0.929
+ULPIN-2026-d_07-00144,SY-110/144,2331.0,195.0,0.98,Needs GT Verification,2,0.724,Vacant/Green,Property Owner 144,True,1048950,450,0.893
+ULPIN-2026-d_07-00145,SY-110/145,2384.56,194.42,0.98,Needs GT Verification,1,0.697,Vacant/Green,Property Owner 145,True,1073052,450,0.946
+ULPIN-2026-d_07-00146,SY-111/146,1995.0,181.0,0.85,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 146,False,897750,450,0.962
+ULPIN-2026-d_07-00147,SY-111/147,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 147,True,897750,450,0.942
+ULPIN-2026-d_07-00148,SY-111/148,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 148,True,897750,450,0.882
+ULPIN-2026-d_07-00149,SY-111/149,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 149,True,897750,450,0.948
+ULPIN-2026-d_07-00150,SY-111/150,1682.16,166.6,0.78,Needs GT Verification,1,0.932,Vacant/Green,Property Owner 150,True,756972,450,0.928
+ULPIN-2026-d_07-00151,SY-111/151,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 151,True,897750,450,0.969
+ULPIN-2026-d_07-00152,SY-111/152,2220.0,191.0,0.98,AI Confirmed,2,0.717,Vacant/Green,Property Owner 152,True,999000,450,0.97
+ULPIN-2026-d_07-00153,SY-111/153,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 153,True,897750,450,0.934
+ULPIN-2026-d_07-00154,SY-111/154,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 154,True,897750,450,0.927
+ULPIN-2026-d_07-00155,SY-111/155,2273.56,190.42,0.98,AI Confirmed,1,0.689,Vacant/Green,Property Owner 155,True,1023102,450,0.965
+ULPIN-2026-d_07-00156,SY-111/156,1995.0,181.0,0.93,AI Confirmed,0,0.0,Vacant/Green,Property Owner 156,True,897750,450,0.905
+ULPIN-2026-d_07-00157,SY-111/157,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 157,True,897750,450,0.918
+ULPIN-2026-d_07-00158,SY-111/158,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 158,True,897750,450,0.901
+ULPIN-2026-d_07-00159,SY-111/159,1995.0,181.0,0.93,AI Confirmed,1,0.786,Vacant/Green,Property Owner 159,True,897750,450,0.951
+ULPIN-2026-d_07-00160,SY-111/160,1682.16,166.6,0.7,Needs GT Verification,1,0.932,Vacant/Green,Property Owner 160,False,756972,450,0.965
+ULPIN-2026-d_07-00161,SY-111/161,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 161,True,897750,450,0.886
+ULPIN-2026-d_07-00162,SY-111/162,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 162,True,897750,450,0.912
+ULPIN-2026-d_07-00163,SY-111/163,1995.0,181.0,0.85,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 163,False,897750,450,0.946
+ULPIN-2026-d_07-00164,SY-111/164,1995.0,181.0,0.93,Needs GT Verification,1,0.786,Vacant/Green,Property Owner 164,True,897750,450,0.913
+ULPIN-2026-d_07-00165,SY-111/165,2273.56,190.42,0.98,Needs GT Verification,1,0.689,Vacant/Green,Property Owner 165,True,1023102,450,0.896

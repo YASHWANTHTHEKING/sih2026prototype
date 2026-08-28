@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2026-08-28T06:27:25.121261Z",
+    "action": "GT_PARCEL_SIGNOFF",
+    "parcel_id": "ULPIN-2026-7347-00039",
+    "survey_number": "SY-102/39",
+    "status": "Approved",
+    "surveyor_name": "Rajesh Sharma (Sr. Cadastral Officer)",
+    "surveyor_id": "GT-SURV-IND-0428",
+    "notes": "GNSS CORS base-station check confirmed physical boundary alignment with 1.4cm tolerance.",
+    "gnss_delta_cm": 1.4
+  }
+]

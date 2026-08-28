@@ -1,0 +1,6285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0001",
+        "height_mean_m": 7.08,
+        "height_max_m": 7.08,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7408626261396,
+              18.588907201216916
+            ],
+            [
+              73.74086471751664,
+              18.588622570705912
+            ],
+            [
+              73.74127691693991,
+              18.588625324230023
+            ],
+            [
+              73.74127482624706,
+              18.58890995478619
+            ],
+            [
+              73.7408626261396,
+              18.588907201216916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0002",
+        "height_mean_m": 10.15,
+        "height_max_m": 10.15,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74039830886358,
+              18.588904098416084
+            ],
+            [
+              73.74040040101134,
+              18.588619467955965
+            ],
+            [
+              73.74081733827721,
+              18.58862225415115
+            ],
+            [
+              73.74081524682153,
+              18.588906884656964
+            ],
+            [
+              73.74039830886358,
+              18.588904098416084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0003",
+        "height_mean_m": 6.92,
+        "height_max_m": 6.92,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73993872960915,
+              18.588901026150626
+            ],
+            [
+              73.73994082251976,
+              18.5886163957409
+            ],
+            [
+              73.74035302178126,
+              18.588619151284547
+            ],
+            [
+              73.74035092955484,
+              18.588903781739468
+            ],
+            [
+              73.73993872960915,
+              18.588901026150626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0004",
+        "height_mean_m": 9.95,
+        "height_max_m": 9.95,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.949,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73934648843426,
+              18.588897065393937
+            ],
+            [
+              73.73934858232793,
+              18.588612435049168
+            ],
+            [
+              73.73979868486012,
+              18.58861544534452
+            ],
+            [
+              73.73979659171357,
+              18.588900075738657
+            ],
+            [
+              73.73934648843426,
+              18.588897065393937
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0005",
+        "height_mean_m": 7.08,
+        "height_max_m": 7.08,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7388490059626,
+              18.588893736920866
+            ],
+            [
+              73.73885110068206,
+              18.588609106630695
+            ],
+            [
+              73.73930120311903,
+              18.588612118113478
+            ],
+            [
+              73.73929910914671,
+              18.588896748453045
+            ],
+            [
+              73.7388490059626,
+              18.588893736920866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0006",
+        "height_mean_m": 7.18,
+        "height_max_m": 7.18,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73835152359624,
+              18.58889040713535
+            ],
+            [
+              73.73835361914144,
+              18.588605776899794
+            ],
+            [
+              73.73880372148317,
+              18.58860878957001
+            ],
+            [
+              73.73880162668507,
+              18.58889341985498
+            ],
+            [
+              73.73835152359624,
+              18.58889040713535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0007",
+        "height_mean_m": 10.08,
+        "height_max_m": 10.08,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73785404133517,
+              18.588887076037388
+            ],
+            [
+              73.73785613770613,
+              18.58860244585646
+            ],
+            [
+              73.73830623995258,
+              18.588605459714117
+            ],
+            [
+              73.73830414432874,
+              18.58889008994447
+            ],
+            [
+              73.73785404133517,
+              18.588887076037388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0008",
+        "height_mean_m": 3.47,
+        "height_max_m": 3.47,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73720494559106,
+              18.588882727774294
+            ],
+            [
+              73.73720704303945,
+              18.588598097664686
+            ],
+            [
+              73.73771400017255,
+              18.588601493888735
+            ],
+            [
+              73.73771190356565,
+              18.588886124054053
+            ],
+            [
+              73.73720494559106,
+              18.588882727774294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0009",
+        "height_mean_m": 6.82,
+        "height_max_m": 6.82,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366506084918,
+              18.588879012525275
+            ],
+            [
+              73.73665270686033,
+              18.588594382476604
+            ],
+            [
+              73.73715966387373,
+              18.588597780190927
+            ],
+            [
+              73.7371575663467,
+              18.58888241029533
+            ],
+            [
+              73.7366506084918,
+              18.588879012525275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0010",
+        "height_mean_m": 10.08,
+        "height_max_m": 10.08,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1669.5,
+        "perimeter_m": 169.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73610100944575,
+              18.588875327421782
+            ],
+            [
+              73.73610310872652,
+              18.58859069743355
+            ],
+            [
+              73.7366053277058,
+              18.588594064863567
+            ],
+            [
+              73.73660322925862,
+              18.58887869490703
+            ],
+            [
+              73.73610100944575,
+              18.588875327421782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0011",
+        "height_mean_m": 3.45,
+        "height_max_m": 3.45,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74131978306934,
+              18.589240081235182
+            ],
+            [
+              73.74132187372737,
+              18.588955450684036
+            ],
+            [
+              73.74173881195874,
+              18.588958234889382
+            ],
+            [
+              73.7417367219928,
+              18.58924286548619
+            ],
+            [
+              73.74131978306934,
+              18.589240081235182
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0012",
+        "height_mean_m": 10.04,
+        "height_max_m": 10.04,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7408602027506,
+              18.58923701116309
+            ],
+            [
+              73.7408622941715,
+              18.588952380662295
+            ],
+            [
+              73.74127449438758,
+              18.588955134238734
+            ],
+            [
+              73.7412724036509,
+              18.589239764784686
+            ],
+            [
+              73.7408602027506,
+              18.58923701116309
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0013",
+        "height_mean_m": 7.06,
+        "height_max_m": 7.06,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74039588458152,
+              18.589233908303285
+            ],
+            [
+              73.74039797677315,
+              18.588949277853384
+            ],
+            [
+              73.74081491484094,
+              18.58895206410152
+            ],
+            [
+              73.7408128233414,
+              18.589236694597123
+            ],
+            [
+              73.74039588458152,
+              18.589233908303285
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0014",
+        "height_mean_m": 6.62,
+        "height_max_m": 6.62,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.899,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73993630444313,
+              18.589230835979443
+            ],
+            [
+              73.73993839739762,
+              18.58894620557993
+            ],
+            [
+              73.74035059745194,
+              18.58894896117594
+            ],
+            [
+              73.74034850518166,
+              18.58923359162065
+            ],
+            [
+              73.73993630444313,
+              18.589230835979443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0015",
+        "height_mean_m": 13.44,
+        "height_max_m": 13.44,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73934406212913,
+              18.589226875147478
+            ],
+            [
+              73.7393461560667,
+              18.588942244812927
+            ],
+            [
+              73.7397962594646,
+              18.588945255165484
+            ],
+            [
+              73.73979416627418,
+              18.58922988554941
+            ],
+            [
+              73.73934406212913,
+              18.589226875147478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0016",
+        "height_mean_m": 7.17,
+        "height_max_m": 7.17,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73884657870063,
+              18.58922354661115
+            ],
+            [
+              73.73884867346398,
+              18.58893891633119
+            ],
+            [
+              73.73929877676667,
+              18.58894192787121
+            ],
+            [
+              73.73929668275046,
+              18.589226558200565
+            ],
+            [
+              73.73884657870063,
+              18.58922354661115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0017",
+        "height_mean_m": 6.74,
+        "height_max_m": 6.74,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383490953774,
+              18.589220216762353
+            ],
+            [
+              73.73835119096653,
+              18.58893558653701
+            ],
+            [
+              73.73880129417397,
+              18.588938599264484
+            ],
+            [
+              73.73879919933196,
+              18.58922322953924
+            ],
+            [
+              73.7383490953774,
+              18.589220216762353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0018",
+        "height_mean_m": 7.11,
+        "height_max_m": 7.11,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73785161215947,
+              18.589216885601086
+            ],
+            [
+              73.73785370857439,
+              18.588932255430375
+            ],
+            [
+              73.73830381168655,
+              18.588935269345303
+            ],
+            [
+              73.73830171601877,
+              18.589219899565446
+            ],
+            [
+              73.73785161215947,
+              18.589216885601086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0019",
+        "height_mean_m": 6.86,
+        "height_max_m": 6.86,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7372025151669,
+              18.589212537255353
+            ],
+            [
+              73.73720461265927,
+              18.58892790715596
+            ],
+            [
+              73.7377115707674,
+              18.58893130344456
+            ],
+            [
+              73.73770947411657,
+              18.589215933599657
+            ],
+            [
+              73.7372025151669,
+              18.589212537255353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0020",
+        "height_mean_m": 10.06,
+        "height_max_m": 10.06,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73664817700144,
+              18.58920882193573
+            ],
+            [
+              73.73665027541395,
+              18.588924191897267
+            ],
+            [
+              73.73715723340241,
+              18.588927589676167
+            ],
+            [
+              73.7371551358314,
+              18.589212219770353
+            ],
+            [
+              73.73664817700144,
+              18.58920882193573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0021",
+        "height_mean_m": 7.16,
+        "height_max_m": 7.16,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1669.5,
+        "perimeter_m": 169.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73609857689829,
+              18.589205136762203
+            ],
+            [
+              73.73610067622307,
+              18.58892050678418
+            ],
+            [
+              73.73660289616828,
+              18.588923874278198
+            ],
+            [
+              73.73660079767713,
+              18.589208504311443
+            ],
+            [
+              73.73609857689829,
+              18.589205136762203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0022",
+        "height_mean_m": 6.79,
+        "height_max_m": 6.79,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74131736051353,
+              18.58956989122787
+            ],
+            [
+              73.74131945121539,
+              18.589285260686935
+            ],
+            [
+              73.74173639024869,
+              18.589288044945196
+            ],
+            [
+              73.74173430023893,
+              18.58957267553179
+            ],
+            [
+              73.74131736051353,
+              18.58956989122787
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0023",
+        "height_mean_m": 7.11,
+        "height_max_m": 7.11,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74085777931082,
+              18.589566821097428
+            ],
+            [
+              73.74085987077555,
+              18.58928219060685
+            ],
+            [
+              73.74127207178445,
+              18.589284944235622
+            ],
+            [
+              73.74126998100395,
+              18.589569574771364
+            ],
+            [
+              73.74085777931082,
+              18.589566821097428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0024",
+        "height_mean_m": 6.65,
+        "height_max_m": 6.65,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.9,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74039346024864,
+              18.589563718178653
+            ],
+            [
+              73.74039555248413,
+              18.58927908773897
+            ],
+            [
+              73.74081249135386,
+              18.589281874040054
+            ],
+            [
+              73.74081039981047,
+              18.589566504525443
+            ],
+            [
+              73.74039346024864,
+              18.589563718178653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0025",
+        "height_mean_m": 6.82,
+        "height_max_m": 6.82,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73993387922627,
+              18.58956064579643
+            ],
+            [
+              73.73993597222464,
+              18.589276015407126
+            ],
+            [
+              73.74034817307178,
+              18.589278771055515
+            ],
+            [
+              73.74034608075765,
+              18.589563401490004
+            ],
+            [
+              73.73993387922627,
+              18.58956064579643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0026",
+        "height_mean_m": 10.03,
+        "height_max_m": 10.03,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73934163577313,
+              18.58955668488919
+            ],
+            [
+              73.7393437297546,
+              18.58927205456485
+            ],
+            [
+              73.73979383401824,
+              18.589275064974625
+            ],
+            [
+              73.73979174078393,
+              18.589559695348335
+            ],
+            [
+              73.73934163577313,
+              18.58955668488919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0027",
+        "height_mean_m": 6.76,
+        "height_max_m": 6.76,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73884415138775,
+              18.589553356289606
+            ],
+            [
+              73.73884624619502,
+              18.589268726019863
+            ],
+            [
+              73.73929635036345,
+              18.589271737617114
+            ],
+            [
+              73.73929425630334,
+              18.58955636793625
+            ],
+            [
+              73.73884415138775,
+              18.589553356289606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0028",
+        "height_mean_m": 6.78,
+        "height_max_m": 6.78,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73834666710765,
+              18.58955002637753
+            ],
+            [
+              73.73834876274071,
+              18.589265396162393
+            ],
+            [
+              73.73879886681388,
+              18.589268408947127
+            ],
+            [
+              73.73879677192797,
+              18.589553039211673
+            ],
+            [
+              73.73834666710765,
+              18.58955002637753
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0029",
+        "height_mean_m": 3.93,
+        "height_max_m": 3.93,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.859,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73784918293286,
+              18.58954669515295
+            ],
+            [
+              73.7378512793917,
+              18.589262064992454
+            ],
+            [
+              73.7383013833696,
+              18.58926507896466
+            ],
+            [
+              73.73829928765788,
+              18.589549709174594
+            ],
+            [
+              73.73784918293286,
+              18.58954669515295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0030",
+        "height_mean_m": 6.7,
+        "height_max_m": 6.7,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.9,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73720008469179,
+              18.589542346724578
+            ],
+            [
+              73.73720218222812,
+              18.589257716635398
+            ],
+            [
+              73.73770914131136,
+              18.589261112988545
+            ],
+            [
+              73.73770704461656,
+              18.589545743133428
+            ],
+            [
+              73.73720008469179,
+              18.589542346724578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0031",
+        "height_mean_m": 3.6,
+        "height_max_m": 3.6,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.854,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366457454601,
+              18.58953863133435
+            ],
+            [
+              73.73664784391659,
+              18.589254001306102
+            ],
+            [
+              73.73715480288014,
+              18.589257399149574
+            ],
+            [
+              73.73715270526516,
+              18.58954202923355
+            ],
+            [
+              73.7366457454601,
+              18.58953863133435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0032",
+        "height_mean_m": 6.94,
+        "height_max_m": 6.94,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74131493790692,
+              18.58989970120872
+            ],
+            [
+              73.74131702865262,
+              18.589615070678
+            ],
+            [
+              73.74173396848788,
+              18.58961785498917
+            ],
+            [
+              73.74173187843431,
+              18.58990248556556
+            ],
+            [
+              73.74131493790692,
+              18.58989970120872
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0033",
+        "height_mean_m": 10.21,
+        "height_max_m": 10.21,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74085535582022,
+              18.589896631019933
+            ],
+            [
+              73.7408574473288,
+              18.589612000539567
+            ],
+            [
+              73.74126964913054,
+              18.58961475422067
+            ],
+            [
+              73.74126755830622,
+              18.5898993847462
+            ],
+            [
+              73.74085535582022,
+              18.589896631019933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0034",
+        "height_mean_m": 10.23,
+        "height_max_m": 10.23,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1386.0,
+        "perimeter_m": 151.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74039103586495,
+              18.589893528042197
+            ],
+            [
+              73.74039312814429,
+              18.589608897612713
+            ],
+            [
+              73.74081006781599,
+              18.589611683966762
+            ],
+            [
+              73.74080797622875,
+              18.589896314441937
+            ],
+            [
+              73.74039103586495,
+              18.589893528042197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0035",
+        "height_mean_m": 6.97,
+        "height_max_m": 6.97,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1370.25,
+        "perimeter_m": 150.0,
+        "confidence_score": 0.905,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73993145395859,
+              18.589890455601576
+            ],
+            [
+              73.73993354700083,
+              18.589605825222495
+            ],
+            [
+              73.74034574864082,
+              18.589608580923244
+            ],
+            [
+              73.74034365628282,
+              18.58989321134753
+            ],
+            [
+              73.73993145395859,
+              18.589890455601576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0036",
+        "height_mean_m": 6.84,
+        "height_max_m": 6.84,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73933920936628,
+              18.58988649461906
+            ],
+            [
+              73.73934130339164,
+              18.589601864304935
+            ],
+            [
+              73.73979140852103,
+              18.58960487477192
+            ],
+            [
+              73.73978931524283,
+              18.58988950513542
+            ],
+            [
+              73.73933920936628,
+              18.58988649461906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0037",
+        "height_mean_m": 6.61,
+        "height_max_m": 6.61,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.899,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.738841724024,
+              18.589883165956227
+            ],
+            [
+              73.73884381887517,
+              18.58959853569669
+            ],
+            [
+              73.73929392390936,
+              18.589601547351176
+            ],
+            [
+              73.73929182980532,
+              18.589886177660105
+            ],
+            [
+              73.738841724024,
+              18.589883165956227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0038",
+        "height_mean_m": 9.83,
+        "height_max_m": 9.83,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1496.25,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.948,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.738344238787,
+              18.589879835980867
+            ],
+            [
+              73.738346334464,
+              18.589595205775947
+            ],
+            [
+              73.7387964394029,
+              18.58959821861793
+            ],
+            [
+              73.73879434447309,
+              18.589882848872264
+            ],
+            [
+              73.738344238787,
+              18.589879835980867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0039",
+        "height_mean_m": 3.69,
+        "height_max_m": 3.69,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.855,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73719765416573,
+              18.58987215618197
+            ],
+            [
+              73.73719975174602,
+              18.589587526103003
+            ],
+            [
+              73.73770671180436,
+              18.589590922520696
+            ],
+            [
+              73.73770461506561,
+              18.589875552655364
+            ],
+            [
+              73.73719765416573,
+              18.58987215618197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0040",
+        "height_mean_m": 6.86,
+        "height_max_m": 6.86,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1685.25,
+        "perimeter_m": 170.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73664331386777,
+              18.58986844072113
+            ],
+            [
+              73.73664541236828,
+              18.589583810703097
+            ],
+            [
+              73.73715237230691,
+              18.589587208611142
+            ],
+            [
+              73.73715027464797,
+              18.589871838684907
+            ],
+            [
+              73.73664331386777,
+              18.58986844072113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0041",
+        "height_mean_m": 7.12,
+        "height_max_m": 7.12,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1669.5,
+        "perimeter_m": 169.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73609371165037,
+              18.589864755407532
+            ],
+            [
+              73.73609581106318,
+              18.589580125449938
+            ],
+            [
+              73.73659803294035,
+              18.58958349307196
+            ],
+            [
+              73.7365959343612,
+              18.58986812308478
+            ],
+            [
+              73.73609371165037,
+              18.589864755407532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0042",
+        "height_mean_m": 3.93,
+        "height_max_m": 3.93,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.859,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74131188468655,
+              18.590315352126634
+            ],
+            [
+              73.74131407504848,
+              18.59001716777438
+            ],
+            [
+              73.74173101586149,
+              18.590019952150065
+            ],
+            [
+              73.74172882622466,
+              18.590318136550163
+            ],
+            [
+              73.74131188468655,
+              18.590315352126634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0043",
+        "height_mean_m": 7.09,
+        "height_max_m": 7.09,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74085230148573,
+              18.590312281864318
+            ],
+            [
+              73.74085449264692,
+              18.590014097564822
+            ],
+            [
+              73.7412666954153,
+              18.59001685130972
+            ],
+            [
+              73.74126450497097,
+              18.590315035656534
+            ],
+            [
+              73.74085230148573,
+              18.590312281864318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0044",
+        "height_mean_m": 19.91,
+        "height_max_m": 19.91,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74038798040488,
+              18.590309178812266
+            ],
+            [
+              73.74039017237352,
+              18.590010994566075
+            ],
+            [
+              73.74080711302298,
+              18.590013780984677
+            ],
+            [
+              73.7408049217794,
+              18.590311965278737
+            ],
+            [
+              73.74038798040488,
+              18.590309178812266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0045",
+        "height_mean_m": 19.86,
+        "height_max_m": 19.86,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73992839738442,
+              18.59030610629806
+            ],
+            [
+              73.73993059015233,
+              18.59000792210466
+            ],
+            [
+              73.74034279275895,
+              18.590010677869266
+            ],
+            [
+              73.7403406007079,
+              18.590308862110007
+            ],
+            [
+              73.73992839738442,
+              18.59030610629806
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0046",
+        "height_mean_m": 10.38,
+        "height_max_m": 10.38,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73933615135641,
+              18.590302145220683
+            ],
+            [
+              73.73933834515428,
+              18.590003961095338
+            ],
+            [
+              73.73978845133921,
+              18.590006971632075
+            ],
+            [
+              73.7397862583241,
+              18.590305155809137
+            ],
+            [
+              73.73933615135641,
+              18.590302145220683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0047",
+        "height_mean_m": 7.2,
+        "height_max_m": 7.2,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73834117836518,
+              18.590295486423003
+            ],
+            [
+              73.73834337389337,
+              18.58999730241207
+            ],
+            [
+              73.73879347988782,
+              18.590000315323866
+            ],
+            [
+              73.73879128514238,
+              18.590298499386567
+            ],
+            [
+              73.73834117836518,
+              18.590295486423003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0048",
+        "height_mean_m": 9.82,
+        "height_max_m": 9.82,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.947,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73784369202752,
+              18.59029215505534
+            ],
+            [
+              73.73784588842088,
+              18.589993971101638
+            ],
+            [
+              73.73829599432003,
+              18.58999698520096
+            ],
+            [
+              73.73829379870942,
+              18.590295169206442
+            ],
+            [
+              73.73784369202752,
+              18.59029215505534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0049",
+        "height_mean_m": 9.9,
+        "height_max_m": 9.9,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.948,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73719459096442,
+              18.59028780644018
+            ],
+            [
+              73.7371967884866,
+              18.5899896225612
+            ],
+            [
+              73.7377037497338,
+              18.58999301905758
+            ],
+            [
+              73.73770155309325,
+              18.59029120299492
+            ],
+            [
+              73.73719459096442,
+              18.59028780644018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0050",
+        "height_mean_m": 6.93,
+        "height_max_m": 6.93,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73664024932266,
+              18.590284090890353
+            ],
+            [
+              73.73664244780889,
+              18.589985907075206
+            ],
+            [
+              73.73714940893638,
+              18.589989305061984
+            ],
+            [
+              73.7371472113318,
+              18.590287488935513
+            ],
+            [
+              73.73664024932266,
+              18.590284090890353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0051",
+        "height_mean_m": 3.9,
+        "height_max_m": 3.9,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.858,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73609064577295,
+              18.590280405488492
+            ],
+            [
+              73.73609284521497,
+              18.58998222173667
+            ],
+            [
+              73.73659506826986,
+              18.589985589436704
+            ],
+            [
+              73.73659286970124,
+              18.590283773246394
+            ],
+            [
+              73.73609064577295,
+              18.590280405488492
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0052",
+        "height_mean_m": 3.99,
+        "height_max_m": 3.99,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.86,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74130936240017,
+              18.590658715914216
+            ],
+            [
+              73.7413115528099,
+              18.590360531573104
+            ],
+            [
+              73.74172849445787,
+              18.590363316003877
+            ],
+            [
+              73.74172630477325,
+              18.590661500392827
+            ],
+            [
+              73.74130936240017,
+              18.590658715914216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0053",
+        "height_mean_m": 9.86,
+        "height_max_m": 9.86,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.948,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74084977827899,
+              18.59065564559116
+            ],
+            [
+              73.74085196948799,
+              18.590357461302798
+            ],
+            [
+              73.74126417308185,
+              18.59036021510218
+            ],
+            [
+              73.74126198258972,
+              18.59065839943786
+            ],
+            [
+              73.74084977827899,
+              18.59065564559116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0054",
+        "height_mean_m": 3.7,
+        "height_max_m": 3.7,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74038545626827,
+              18.590652542477706
+            ],
+            [
+              73.74038764828477,
+              18.590354358242667
+            ],
+            [
+              73.74080458976918,
+              18.59035714471639
+            ],
+            [
+              73.74080239847778,
+              18.590655328999315
+            ],
+            [
+              73.74038545626827,
+              18.590652542477706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0055",
+        "height_mean_m": 10.37,
+        "height_max_m": 10.37,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73992587232745,
+              18.59064946990272
+            ],
+            [
+              73.73992806514323,
+              18.59035128572046
+            ],
+            [
+              73.74034026857531,
+              18.590354041539584
+            ],
+            [
+              73.7403380764764,
+              18.590652225769194
+            ],
+            [
+              73.73992587232745,
+              18.59064946990272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0056",
+        "height_mean_m": 6.9,
+        "height_max_m": 6.9,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73933362511342,
+              18.590645508746974
+            ],
+            [
+              73.73933581895918,
+              18.59034732463277
+            ],
+            [
+              73.73978592604546,
+              18.590350335229065
+            ],
+            [
+              73.73978373298249,
+              18.59064851939499
+            ],
+            [
+              73.73933362511342,
+              18.590645508746974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0057",
+        "height_mean_m": 13.35,
+        "height_max_m": 13.35,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7388361375689,
+              18.590642179938552
+            ],
+            [
+              73.73883833227983,
+              18.59034399588154
+            ],
+            [
+              73.7392884392709,
+              18.590347007665393
+            ],
+            [
+              73.73928624534274,
+              18.590645191774147
+            ],
+            [
+              73.7388361375689,
+              18.590642179938552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0058",
+        "height_mean_m": 7.05,
+        "height_max_m": 7.05,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73833865012965,
+              18.590638849817555
+            ],
+            [
+              73.73834084570575,
+              18.590340665817763
+            ],
+            [
+              73.73879095260158,
+              18.59034367878916
+            ],
+            [
+              73.73878875780824,
+              18.590641862840723
+            ],
+            [
+              73.73833865012965,
+              18.590638849817555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0059",
+        "height_mean_m": 3.61,
+        "height_max_m": 3.61,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.854,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73784116279572,
+              18.59063551838398
+            ],
+            [
+              73.737843359237,
+              18.590337334441422
+            ],
+            [
+              73.73829346603753,
+              18.590340348600375
+            ],
+            [
+              73.73829127037902,
+              18.590638532594717
+            ],
+            [
+              73.73784116279572,
+              18.59063551838398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0060",
+        "height_mean_m": 13.52,
+        "height_max_m": 13.52,
+        "estimated_floors": 5,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73719206043272,
+              18.590631169682784
+            ],
+            [
+              73.73719425800287,
+              18.59033298581494
+            ],
+            [
+              73.7377012202653,
+              18.590336382378524
+            ],
+            [
+              73.7376990235768,
+              18.590634566304725
+            ],
+            [
+              73.73719206043272,
+              18.590631169682784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0061",
+        "height_mean_m": 3.42,
+        "height_max_m": 3.42,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.851,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73663771768086,
+              18.590627454059447
+            ],
+            [
+              73.73663991621505,
+              18.590329270255445
+            ],
+            [
+              73.73714687835778,
+              18.590332668309443
+            ],
+            [
+              73.73714468070523,
+              18.590630852171838
+            ],
+            [
+              73.73663771768086,
+              18.590627454059447
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0062",
+        "height_mean_m": 3.82,
+        "height_max_m": 3.82,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.857,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73608811303049,
+              18.590623768584678
+            ],
+            [
+              73.73609031252052,
+              18.59032558484399
+            ],
+            [
+              73.73659253658116,
+              18.590328952610655
+            ],
+            [
+              73.73659033796456,
+              18.590627136409207
+            ],
+            [
+              73.73608811303049,
+              18.590623768584678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0063",
+        "height_mean_m": 6.82,
+        "height_max_m": 6.82,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74130684005875,
+              18.591002079688973
+            ],
+            [
+              73.74130903051629,
+              18.590703895359
+            ],
+            [
+              73.74172597299923,
+              18.59070667984486
+            ],
+            [
+              73.74172378326683,
+              18.591004864222676
+            ],
+            [
+              73.74130684005875,
+              18.591002079688973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0064",
+        "height_mean_m": 3.8,
+        "height_max_m": 3.8,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.857,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74084725501719,
+              18.590999009305172
+            ],
+            [
+              73.740849446274,
+              18.590700825027948
+            ],
+            [
+              73.74126165069335,
+              18.590703578881815
+            ],
+            [
+              73.74125946015342,
+              18.591001763206354
+            ],
+            [
+              73.74084725501719,
+              18.590999009305172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0065",
+        "height_mean_m": 10.05,
+        "height_max_m": 10.05,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74038293207659,
+              18.59099590613033
+            ],
+            [
+              73.74038512414093,
+              18.59069772190642
+            ],
+            [
+              73.7408020664603,
+              18.59070050843528
+            ],
+            [
+              73.7407998751211,
+              18.590998692707064
+            ],
+            [
+              73.74038293207659,
+              18.59099590613033
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0066",
+        "height_mean_m": 6.93,
+        "height_max_m": 6.93,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73992334721538,
+              18.59099283349455
+            ],
+            [
+              73.73992554007901,
+              18.59069464932343
+            ],
+            [
+              73.74033774433659,
+              18.590697405197076
+            ],
+            [
+              73.74033555218985,
+              18.59099558941555
+            ],
+            [
+              73.73992334721538,
+              18.59099283349455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0067",
+        "height_mean_m": 3.44,
+        "height_max_m": 3.44,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7393310988153,
+              18.59098887226044
+            ],
+            [
+              73.73933329270893,
+              18.590690688157373
+            ],
+            [
+              73.7397834006966,
+              18.59069369881323
+            ],
+            [
+              73.73978120758576,
+              18.590991882968023
+            ],
+            [
+              73.7393310988153,
+              18.59098887226044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0068",
+        "height_mean_m": 3.85,
+        "height_max_m": 3.85,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.858,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73883361027447,
+              18.590985543386164
+            ],
+            [
+              73.7388358050333,
+              18.59068735934029
+            ],
+            [
+              73.73928591292575,
+              18.59069037118373
+            ],
+            [
+              73.73928371894974,
+              18.59098855528134
+            ],
+            [
+              73.73883361027447,
+              18.590985543386164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0069",
+        "height_mean_m": 6.73,
+        "height_max_m": 6.73,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73833612183894,
+              18.590982213199275
+            ],
+            [
+              73.73833831746296,
+              18.590684029210617
+            ],
+            [
+              73.73878842526017,
+              18.590687042241633
+            ],
+            [
+              73.73878623041894,
+              18.59098522628206
+            ],
+            [
+              73.73833612183894,
+              18.590982213199275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0070",
+        "height_mean_m": 6.62,
+        "height_max_m": 6.62,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.899,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73783863350872,
+              18.59097888169979
+            ],
+            [
+              73.73784082999795,
+              18.59068069776837
+            ],
+            [
+              73.73829093769986,
+              18.59068371198696
+            ],
+            [
+              73.73828874199343,
+              18.590981895970163
+            ],
+            [
+              73.73783863350872,
+              18.59097888169979
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0071",
+        "height_mean_m": 3.47,
+        "height_max_m": 3.47,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73718952984582,
+              18.59097453291256
+            ],
+            [
+              73.73719172746391,
+              18.590676349055858
+            ],
+            [
+              73.73769869074158,
+              18.590679745686643
+            ],
+            [
+              73.73769649400515,
+              18.590977929601703
+            ],
+            [
+              73.73718952984582,
+              18.59097453291256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0072",
+        "height_mean_m": 13.07,
+        "height_max_m": 13.07,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366351859838,
+              18.590970817215716
+            ],
+            [
+              73.73663738456598,
+              18.590672633422848
+            ],
+            [
+              73.73714434772394,
+              18.590676031544078
+            ],
+            [
+              73.73714215002343,
+              18.59097421539533
+            ],
+            [
+              73.7366351859838,
+              18.590970817215716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0073",
+        "height_mean_m": 3.72,
+        "height_max_m": 3.72,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73608558023277,
+              18.590967131668027
+            ],
+            [
+              73.7360877797708,
+              18.590668947938482
+            ],
+            [
+              73.73659000483718,
+              18.590672315771783
+            ],
+            [
+              73.73658780617261,
+              18.590970499559187
+            ],
+            [
+              73.73608558023277,
+              18.590967131668027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0074",
+        "height_mean_m": 10.06,
+        "height_max_m": 10.06,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74130431766228,
+              18.59134544345091
+            ],
+            [
+              73.74130650816763,
+              18.59104725913207
+            ],
+            [
+              73.74172345148557,
+              18.591050043673015
+            ],
+            [
+              73.74172126170537,
+              18.591348228039692
+            ],
+            [
+              73.74130431766228,
+              18.59134544345091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0075",
+        "height_mean_m": 6.81,
+        "height_max_m": 6.81,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7408447317003,
+              18.59134237300636
+            ],
+            [
+              73.74084692300495,
+              18.59104418874027
+            ],
+            [
+              73.7412591282498,
+              18.59104694264862
+            ],
+            [
+              73.74125693766206,
+              18.591345126962025
+            ],
+            [
+              73.7408447317003,
+              18.59134237300636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0076",
+        "height_mean_m": 6.72,
+        "height_max_m": 6.72,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74038040782982,
+              18.59133926977012
+            ],
+            [
+              73.740382599942,
+              18.59104108555735
+            ],
+            [
+              73.74079954309637,
+              18.59104387214134
+            ],
+            [
+              73.74079735170933,
+              18.591342056401984
+            ],
+            [
+              73.74038040782982,
+              18.59133926977012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0077",
+        "height_mean_m": 10.3,
+        "height_max_m": 10.3,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73992082204822,
+              18.591336197073552
+            ],
+            [
+              73.7399230149597,
+              18.59103801291357
+            ],
+            [
+              73.74033522004278,
+              18.59104076884174
+            ],
+            [
+              73.74033302784818,
+              18.59133895304907
+            ],
+            [
+              73.73992082204822,
+              18.591336197073552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0078",
+        "height_mean_m": 3.74,
+        "height_max_m": 3.74,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73932857246204,
+              18.591332235761072
+            ],
+            [
+              73.73933076640354,
+              18.591034051669144
+            ],
+            [
+              73.73978087529262,
+              18.591037062384565
+            ],
+            [
+              73.73977868213393,
+              18.59133524652822
+            ],
+            [
+              73.73932857246204,
+              18.591332235761072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0079",
+        "height_mean_m": 3.48,
+        "height_max_m": 3.48,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7388310829249,
+              18.59132890682094
+            ],
+            [
+              73.73883327773163,
+              18.591030722786204
+            ],
+            [
+              73.73928338652549,
+              18.591033734689226
+            ],
+            [
+              73.73928119250158,
+              18.59133191877571
+            ],
+            [
+              73.7388310829249,
+              18.59132890682094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0080",
+        "height_mean_m": 6.79,
+        "height_max_m": 6.79,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73833359349305,
+              18.59132557656817
+            ],
+            [
+              73.738335789165,
+              18.591027392590654
+            ],
+            [
+              73.73878589786361,
+              18.591030405681273
+            ],
+            [
+              73.73878370297449,
+              18.591328589710564
+            ],
+            [
+              73.73833359349305,
+              18.59132557656817
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0081",
+        "height_mean_m": 10.3,
+        "height_max_m": 10.3,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73783610416652,
+              18.591322245002775
+            ],
+            [
+              73.73783830070369,
+              18.591024061082493
+            ],
+            [
+              73.738288409307,
+              18.591027075360714
+            ],
+            [
+              73.73828621355266,
+              18.591325259332784
+            ],
+            [
+              73.73783610416652,
+              18.591322245002775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0082",
+        "height_mean_m": 13.41,
+        "height_max_m": 13.41,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73718699920367,
+              18.59131789612951
+            ],
+            [
+              73.73718919686974,
+              18.59101971228394
+            ],
+            [
+              73.73769616116267,
+              18.591023108981926
+            ],
+            [
+              73.7376939643783,
+              18.591321292885848
+            ],
+            [
+              73.73718699920367,
+              18.59131789612951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0083",
+        "height_mean_m": 9.91,
+        "height_max_m": 9.91,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.949,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73663265423149,
+              18.591314180359156
+            ],
+            [
+              73.73663485286164,
+              18.591015996577422
+            ],
+            [
+              73.73714181703487,
+              18.591019394765887
+            ],
+            [
+              73.73713961928641,
+              18.591317578605995
+            ],
+            [
+              73.73663265423149,
+              18.591314180359156
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0084",
+        "height_mean_m": 6.72,
+        "height_max_m": 6.72,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73608304737978,
+              18.59131049473855
+            ],
+            [
+              73.7360852469658,
+              18.591012311020144
+            ],
+            [
+              73.73658747303797,
+              18.59101567892007
+            ],
+            [
+              73.7365852743254,
+              18.591313862696342
+            ],
+            [
+              73.73608304737978,
+              18.59131049473855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0085",
+        "height_mean_m": 13.36,
+        "height_max_m": 13.36,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74130179521076,
+              18.59168880720001
+            ],
+            [
+              73.7413039857639,
+              18.59139062289231
+            ],
+            [
+              73.74172092991687,
+              18.591393407488347
+            ],
+            [
+              73.74171874008887,
+              18.59169159184389
+            ],
+            [
+              73.74130179521076,
+              18.59168880720001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0086",
+        "height_mean_m": 10.23,
+        "height_max_m": 10.23,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74084220832837,
+              18.591685736694718
+            ],
+            [
+              73.74084439968082,
+              18.591387552439766
+            ],
+            [
+              73.7412566057512,
+              18.591390306402598
+            ],
+            [
+              73.74125441511566,
+              18.591688490704865
+            ],
+            [
+              73.74084220832837,
+              18.591685736694718
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0087",
+        "height_mean_m": 19.4,
+        "height_max_m": 19.4,
+        "estimated_floors": 6,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74037788352796,
+              18.591682633397088
+            ],
+            [
+              73.74038007568798,
+              18.591384449195456
+            ],
+            [
+              73.74079701967737,
+              18.59138723583457
+            ],
+            [
+              73.7407948282425,
+              18.591685420084083
+            ],
+            [
+              73.74037788352796,
+              18.591682633397088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0088",
+        "height_mean_m": 6.88,
+        "height_max_m": 6.88,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73991829682593,
+              18.591679560639733
+            ],
+            [
+              73.73992048978528,
+              18.591381376490887
+            ],
+            [
+              73.74033269569387,
+              18.591384132473582
+            ],
+            [
+              73.74033050345143,
+              18.59168231666978
+            ],
+            [
+              73.73991829682593,
+              18.591679560639733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0089",
+        "height_mean_m": 6.89,
+        "height_max_m": 6.89,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73932604605365,
+              18.591675599248884
+            ],
+            [
+              73.73932824004304,
+              18.591377415168097
+            ],
+            [
+              73.73977834983354,
+              18.59138042594308
+            ],
+            [
+              73.73977615662699,
+              18.59167861007559
+            ],
+            [
+              73.73932604605365,
+              18.591675599248884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0090",
+        "height_mean_m": 6.83,
+        "height_max_m": 6.83,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73882855552017,
+              18.59167227024289
+            ],
+            [
+              73.7388307503748,
+              18.5913740862193
+            ],
+            [
+              73.7392808600701,
+              18.591377098181905
+            ],
+            [
+              73.7392786659983,
+              18.591675282257242
+            ],
+            [
+              73.73882855552017,
+              18.59167227024289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0091",
+        "height_mean_m": 7.02,
+        "height_max_m": 7.02,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.905,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.738331065092,
+              18.59166893992424
+            ],
+            [
+              73.73833326081186,
+              18.591370755957858
+            ],
+            [
+              73.7387833704119,
+              18.591373769108092
+            ],
+            [
+              73.73878117547486,
+              18.591671953126237
+            ],
+            [
+              73.738331065092,
+              18.59166893992424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0092",
+        "height_mean_m": 6.63,
+        "height_max_m": 6.63,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.899,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73783357476913,
+              18.591665608292928
+            ],
+            [
+              73.73783577135424,
+              18.59136742438379
+            ],
+            [
+              73.73828588085898,
+              18.591370438721643
+            ],
+            [
+              73.7382836850567,
+              18.591668622682576
+            ],
+            [
+              73.73783357476913,
+              18.591665608292928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0093",
+        "height_mean_m": 3.43,
+        "height_max_m": 3.43,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7371844685063,
+              18.59166125933363
+            ],
+            [
+              73.73718666622032,
+              18.591363075499203
+            ],
+            [
+              73.73769363152854,
+              18.591366472264383
+            ],
+            [
+              73.73769143469623,
+              18.59166465615717
+            ],
+            [
+              73.7371844685063,
+              18.59166125933363
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0094",
+        "height_mean_m": 6.94,
+        "height_max_m": 6.94,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73663012242392,
+              18.591657543489763
+            ],
+            [
+              73.73663232110206,
+              18.591359359719174
+            ],
+            [
+              73.73713928629057,
+              18.591362757974863
+            ],
+            [
+              73.73713708849415,
+              18.591660941803838
+            ],
+            [
+              73.73663012242392,
+              18.591657543489763
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0095",
+        "height_mean_m": 3.58,
+        "height_max_m": 3.58,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.854,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73608051447151,
+              18.59165385779625
+            ],
+            [
+              73.73608271410554,
+              18.59135567408898
+            ],
+            [
+              73.73658494118351,
+              18.591359042055537
+            ],
+            [
+              73.73658274242295,
+              18.591657225820665
+            ],
+            [
+              73.73608051447151,
+              18.59165385779625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0096",
+        "height_mean_m": 10.29,
+        "height_max_m": 10.29,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7412983433458,
+              18.59215867336221
+            ],
+            [
+              73.7413006667278,
+              18.59184241729414
+            ],
+            [
+              73.74171761197947,
+              18.591845201962666
+            ],
+            [
+              73.74171528936661,
+              18.592161458081474
+            ],
+            [
+              73.7412983433458,
+              18.59215867336221
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0097",
+        "height_mean_m": 6.9,
+        "height_max_m": 6.9,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083875520382,
+              18.59215560277379
+            ],
+            [
+              73.74084107943361,
+              18.59183934676167
+            ],
+            [
+              73.74125328659022,
+              18.591842100796192
+            ],
+            [
+              73.74125096312083,
+              18.592158356858494
+            ],
+            [
+              73.74083875520382,
+              18.59215560277379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0098",
+        "height_mean_m": 7.07,
+        "height_max_m": 7.07,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403744291309,
+              18.592152499392153
+            ],
+            [
+              73.74037675421718,
+              18.59183624343658
+            ],
+            [
+              73.7407936993053,
+              18.59183903014824
+            ],
+            [
+              73.74079137498812,
+              18.592155286154586
+            ],
+            [
+              73.7403744291309,
+              18.592152499392153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0099",
+        "height_mean_m": 6.97,
+        "height_max_m": 6.97,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.905,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7399148411693,
+              18.59214942655161
+            ],
+            [
+              73.73991716710339,
+              18.59183317065203
+            ],
+            [
+              73.74032937409821,
+              18.591835926706466
+            ],
+            [
+              73.74032704892451,
+              18.592152182656257
+            ],
+            [
+              73.7399148411693,
+              18.59214942655161
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0100",
+        "height_mean_m": 6.67,
+        "height_max_m": 6.67,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.9,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73932258877386,
+              18.592145465053516
+            ],
+            [
+              73.73932491580047,
+              18.59182920922612
+            ],
+            [
+              73.73977502677708,
+              18.591832220079475
+            ],
+            [
+              73.73977270058079,
+              18.592148475961736
+            ],
+            [
+              73.73932258877386,
+              18.592145465053516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0101",
+        "height_mean_m": 3.73,
+        "height_max_m": 3.73,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73882509687695,
+              18.592142135957396
+            ],
+            [
+              73.73882742482125,
+              18.591825880190658
+            ],
+            [
+              73.73927753570267,
+              18.59182889223167
+            ],
+            [
+              73.73927520858867,
+              18.592145148053298
+            ],
+            [
+              73.73882509687695,
+              18.592142135957396
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0102",
+        "height_mean_m": 3.55,
+        "height_max_m": 3.55,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.853,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73832760508533,
+              18.592138805548593
+            ],
+            [
+              73.73832993394733,
+              18.59182254984254
+            ],
+            [
+              73.73878004473349,
+              18.59182556307121
+            ],
+            [
+              73.73877771670178,
+              18.592141818832165
+            ],
+            [
+              73.73832760508533,
+              18.592138805548593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0103",
+        "height_mean_m": 3.73,
+        "height_max_m": 3.73,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73783011339903,
+              18.592135473827096
+            ],
+            [
+              73.73783244317875,
+              18.591819218181744
+            ],
+            [
+              73.7382825538696,
+              18.591822232598066
+            ],
+            [
+              73.73828022492019,
+              18.59213848829834
+            ],
+            [
+              73.73783011339903,
+              18.592135473827096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0104",
+        "height_mean_m": 7.0,
+        "height_max_m": 7.0,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.905,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73718100535724,
+              18.592131124750054
+            ],
+            [
+              73.73718333633433,
+              18.59181486918395
+            ],
+            [
+              73.73769030297849,
+              18.591818266037556
+            ],
+            [
+              73.73768797293658,
+              18.592134521665553
+            ],
+            [
+              73.73718100535724,
+              18.592131124750054
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0105",
+        "height_mean_m": 7.08,
+        "height_max_m": 7.08,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662665775561,
+              18.592127408805595
+            ],
+            [
+              73.73662898975527,
+              18.591811153307198
+            ],
+            [
+              73.73713595627972,
+              18.591814551651346
+            ],
+            [
+              73.73713362521524,
+              18.59213080721167
+            ],
+            [
+              73.73662665775561,
+              18.592127408805595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0106",
+        "height_mean_m": 19.43,
+        "height_max_m": 19.43,
+        "estimated_floors": 6,
+        "footprint_area_sqm": 1855.0,
+        "perimeter_m": 176.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73607704829693,
+              18.5921237230123
+            ],
+            [
+              73.73607938131045,
+              18.591807467581063
+            ],
+            [
+              73.73658160971186,
+              18.591810835635293
+            ],
+            [
+              73.73657927762478,
+              18.5921270911279
+            ],
+            [
+              73.73607704829693,
+              18.5921237230123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0107",
+        "height_mean_m": 19.73,
+        "height_max_m": 19.73,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7412956879949,
+              18.592520108855243
+            ],
+            [
+              73.74129801143027,
+              18.59220385279961
+            ],
+            [
+              73.74171495756096,
+              18.592206637526125
+            ],
+            [
+              73.74171263489474,
+              18.592522893632495
+            ],
+            [
+              73.7412956879949,
+              18.592520108855243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0108",
+        "height_mean_m": 7.17,
+        "height_max_m": 7.17,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083609888402,
+              18.59251703820289
+            ],
+            [
+              73.74083842316719,
+              18.592200782203207
+            ],
+            [
+              73.74125063119281,
+              18.592203536295077
+            ],
+            [
+              73.74124830767006,
+              18.59251979234494
+            ],
+            [
+              73.74083609888402,
+              18.59251703820289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0109",
+        "height_mean_m": 6.62,
+        "height_max_m": 6.62,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.899,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74037177183216,
+              18.592513934756624
+            ],
+            [
+              73.74037409697189,
+              18.592197678813484
+            ],
+            [
+              73.740791042939,
+              18.592200465583172
+            ],
+            [
+              73.74078871856841,
+              18.592516721577088
+            ],
+            [
+              73.74037177183216,
+              18.592513934756624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0110",
+        "height_mean_m": 7.17,
+        "height_max_m": 7.17,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73991218290165,
+              18.59251086185209
+            ],
+            [
+              73.73991450888917,
+              18.592194605964945
+            ],
+            [
+              73.74032671675302,
+              18.59219736207677
+            ],
+            [
+              73.7403243915259,
+              18.592513618014134
+            ],
+            [
+              73.73991218290165,
+              18.59251086185209
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0111",
+        "height_mean_m": 6.75,
+        "height_max_m": 6.75,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7393199292576,
+              18.592506900271502
+            ],
+            [
+              73.73932225633767,
+              18.59219064445654
+            ],
+            [
+              73.73977236826322,
+              18.592193655372593
+            ],
+            [
+              73.73977004201349,
+              18.592509911242423
+            ],
+            [
+              73.7393199292576,
+              18.592506900271502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0112",
+        "height_mean_m": 6.92,
+        "height_max_m": 6.92,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73882243631188,
+              18.592503571106064
+            ],
+            [
+              73.73882476430965,
+              18.59218731535176
+            ],
+            [
+              73.73927487613999,
+              18.592190327455494
+            ],
+            [
+              73.73927254897254,
+              18.59250658326468
+            ],
+            [
+              73.73882243631188,
+              18.592503571106064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0113",
+        "height_mean_m": 6.87,
+        "height_max_m": 6.87,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73832494347143,
+              18.592500240627906
+            ],
+            [
+              73.73832727238694,
+              18.592183984934284
+            ],
+            [
+              73.738777384122,
+              18.592186998225696
+            ],
+            [
+              73.73877505603683,
+              18.592503253974225
+            ],
+            [
+              73.73832494347143,
+              18.592500240627906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0114",
+        "height_mean_m": 10.17,
+        "height_max_m": 10.17,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7378274507363,
+              18.59249690883702
+            ],
+            [
+              73.73782978056954,
+              18.592180653204114
+            ],
+            [
+              73.7382798922093,
+              18.5921836676832
+            ],
+            [
+              73.7382775632064,
+              18.59249992337104
+            ],
+            [
+              73.7378274507363,
+              18.59249690883702
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0115",
+        "height_mean_m": 10.18,
+        "height_max_m": 10.18,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73717834132606,
+              18.592492559669427
+            ],
+            [
+              73.73718067235669,
+              18.592176304115757
+            ],
+            [
+              73.73768764006962,
+              18.5921797010401
+            ],
+            [
+              73.73768530997418,
+              18.59249595665566
+            ],
+            [
+              73.73717834132606,
+              18.592492559669427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0116",
+        "height_mean_m": 9.91,
+        "height_max_m": 9.91,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.949,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662399255572,
+              18.59248884364758
+            ],
+            [
+              73.73662632460896,
+              18.59217258816162
+            ],
+            [
+              73.73713329220219,
+              18.592175986576542
+            ],
+            [
+              73.73713096108416,
+              18.592492242124422
+            ],
+            [
+              73.73662399255572,
+              18.59248884364758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0117",
+        "height_mean_m": 9.99,
+        "height_max_m": 9.99,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1855.0,
+        "perimeter_m": 176.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73607438193835,
+              18.592485157777535
+            ],
+            [
+              73.73607671500545,
+              18.59216890235873
+            ],
+            [
+              73.73657894446566,
+              18.5921722704831
+            ],
+            [
+              73.73657661232502,
+              18.59248852596327
+            ],
+            [
+              73.73607438193835,
+              18.592485157777535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0118",
+        "height_mean_m": 6.76,
+        "height_max_m": 6.76,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74129303258302,
+              18.59288154433407
+            ],
+            [
+              73.74129535607176,
+              18.592565288290878
+            ],
+            [
+              73.74171230308146,
+              18.592568073075377
+            ],
+            [
+              73.74170998036189,
+              18.592884329169312
+            ],
+            [
+              73.74129303258302,
+              18.59288154433407
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0119",
+        "height_mean_m": 9.83,
+        "height_max_m": 9.83,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.947,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7408334425032,
+              18.59287847361777
+            ],
+            [
+              73.74083576683977,
+              18.592562217630526
+            ],
+            [
+              73.74124797573442,
+              18.59256497177975
+            ],
+            [
+              73.74124565215828,
+              18.592881227817173
+            ],
+            [
+              73.7408334425032,
+              18.59287847361777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0120",
+        "height_mean_m": 3.5,
+        "height_max_m": 3.5,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.853,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403691144724,
+              18.59287537010688
+            ],
+            [
+              73.74037143966554,
+              18.592559114176183
+            ],
+            [
+              73.74078838651165,
+              18.5925619010039
+            ],
+            [
+              73.7407860620877,
+              18.592878156985375
+            ],
+            [
+              73.7403691144724,
+              18.59287537010688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0121",
+        "height_mean_m": 13.45,
+        "height_max_m": 13.45,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73931726968027,
+              18.592868335475277
+            ],
+            [
+              73.73931959681379,
+              18.592552079672753
+            ],
+            [
+              73.73976970968828,
+              18.592555090651512
+            ],
+            [
+              73.7397673833851,
+              18.5928713465089
+            ],
+            [
+              73.73931726968027,
+              18.592868335475277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0122",
+        "height_mean_m": 9.85,
+        "height_max_m": 9.85,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.948,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881977568568,
+              18.592865006240515
+            ],
+            [
+              73.73882210373695,
+              18.59254875049865
+            ],
+            [
+              73.73927221651623,
+              18.59255176266511
+            ],
+            [
+              73.7392698892953,
+              18.59286801846186
+            ],
+            [
+              73.73881977568568,
+              18.592865006240515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0123",
+        "height_mean_m": 3.48,
+        "height_max_m": 3.48,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7383222817964,
+              18.592861675693
+            ],
+            [
+              73.73832461076539,
+              18.592545420011824
+            ],
+            [
+              73.73877472344941,
+              18.592548433365984
+            ],
+            [
+              73.73877239531075,
+              18.592864689102072
+            ],
+            [
+              73.7383222817964,
+              18.592861675693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0124",
+        "height_mean_m": 3.91,
+        "height_max_m": 3.91,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.859,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73782478801242,
+              18.592858343832738
+            ],
+            [
+              73.73782711789917,
+              18.59254208821227
+            ],
+            [
+              73.73827723048788,
+              18.592545102754134
+            ],
+            [
+              73.73827490143147,
+              18.592861358429534
+            ],
+            [
+              73.73782478801242,
+              18.592858343832738
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0125",
+        "height_mean_m": 9.88,
+        "height_max_m": 9.88,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.948,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73717567723367,
+              18.592853994574572
+            ],
+            [
+              73.73717800831785,
+              18.59253773903335
+            ],
+            [
+              73.7376849770996,
+              18.592541136028427
+            ],
+            [
+              73.73768264695063,
+              18.592857391631547
+            ],
+            [
+              73.73717567723367,
+              18.592853994574572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0126",
+        "height_mean_m": 13.18,
+        "height_max_m": 13.18,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73662132729463,
+              18.59285027847535
+            ],
+            [
+              73.73662365940143,
+              18.592534023001832
+            ],
+            [
+              73.73713062806347,
+              18.592537421487517
+            ],
+            [
+              73.73712829689188,
+              18.592853677022955
+            ],
+            [
+              73.73662132729463,
+              18.59285027847535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0127",
+        "height_mean_m": 3.76,
+        "height_max_m": 3.76,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1855.0,
+        "perimeter_m": 176.0,
+        "confidence_score": 0.856,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73607171551852,
+              18.592846592528552
+            ],
+            [
+              73.73607404863922,
+              18.592530337122188
+            ],
+            [
+              73.73657627915824,
+              18.59253370531669
+            ],
+            [
+              73.73657394696403,
+              18.59284996078442
+            ],
+            [
+              73.73607171551852,
+              18.592846592528552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0128",
+        "height_mean_m": 3.47,
+        "height_max_m": 3.47,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.852,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74083078606135,
+              18.593239909018436
+            ],
+            [
+              73.7408331104513,
+              18.59292365304363
+            ],
+            [
+              73.74124532021501,
+              18.592926407250204
+            ],
+            [
+              73.7412429965855,
+              18.593242663275195
+            ],
+            [
+              73.74083078606135,
+              18.593239909018436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0129",
+        "height_mean_m": 6.91,
+        "height_max_m": 6.91,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1540.0,
+        "perimeter_m": 158.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7403664570516,
+              18.59323680544292
+            ],
+            [
+              73.74036878229815,
+              18.592920549524667
+            ],
+            [
+              73.7407857300233,
+              18.592923336410415
+            ],
+            [
+              73.74078340554595,
+              18.59323959237945
+            ],
+            [
+              73.7403664570516,
+              18.59323680544292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0130",
+        "height_mean_m": 6.67,
+        "height_max_m": 6.67,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1522.5,
+        "perimeter_m": 157.0,
+        "confidence_score": 0.9,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73990686618318,
+              18.593233732410415
+            ],
+            [
+              73.73990919227758,
+              18.592917476548145
+            ],
+            [
+              73.7403214018795,
+              18.59292023277476
+            ],
+            [
+              73.74031907654555,
+              18.593236488687246
+            ],
+            [
+              73.73990686618318,
+              18.593233732410415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0131",
+        "height_mean_m": 3.42,
+        "height_max_m": 3.42,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.851,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73931461004184,
+              18.593229770664838
+            ],
+            [
+              73.73931693722882,
+              18.592913514874752
+            ],
+            [
+              73.73976705105227,
+              18.592916525916205
+            ],
+            [
+              73.73976472469568,
+              18.593232781761152
+            ],
+            [
+              73.73931461004184,
+              18.593229770664838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0132",
+        "height_mean_m": 3.66,
+        "height_max_m": 3.66,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.855,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73881711499838,
+              18.59322644136075
+            ],
+            [
+              73.73881944310311,
+              18.59291018563132
+            ],
+            [
+              73.73926955683135,
+              18.592913197860504
+            ],
+            [
+              73.73926722955699,
+              18.593229453644817
+            ],
+            [
+              73.73881711499838,
+              18.59322644136075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0133",
+        "height_mean_m": 10.32,
+        "height_max_m": 10.32,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831962006021,
+              18.593223110743878
+            ],
+            [
+              73.73832194908272,
+              18.59290685507514
+            ],
+            [
+              73.73877206271568,
+              18.592909868492058
+            ],
+            [
+              73.73876973452354,
+              18.593226124215697
+            ],
+            [
+              73.73831962006021,
+              18.593223110743878
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0134",
+        "height_mean_m": 6.95,
+        "height_max_m": 6.95,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1662.5,
+        "perimeter_m": 165.0,
+        "confidence_score": 0.904,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73782212522737,
+              18.59321977881424
+            ],
+            [
+              73.73782445516763,
+              18.592903523206203
+            ],
+            [
+              73.73827456870531,
+              18.59290653781085
+            ],
+            [
+              73.7382722395954,
+              18.59322279347381
+            ],
+            [
+              73.73782212522737,
+              18.59321977881424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0135",
+        "height_mean_m": 10.01,
+        "height_max_m": 10.01,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73717301308008,
+              18.593215429465513
+            ],
+            [
+              73.73717534421782,
+              18.592899173936722
+            ],
+            [
+              73.7376823140684,
+              18.592902571002533
+            ],
+            [
+              73.7376799838659,
+              18.59321882659322
+            ],
+            [
+              73.73717301308008,
+              18.593215429465513
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0136",
+        "height_mean_m": 19.6,
+        "height_max_m": 19.6,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1872.5,
+        "perimeter_m": 177.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7366186619723,
+              18.5932117132889
+            ],
+            [
+              73.73662099413268,
+              18.59289545782782
+            ],
+            [
+              73.73712796386354,
+              18.59289885638428
+            ],
+            [
+              73.73712563263841,
+              18.593215111907284
+            ],
+            [
+              73.7366186619723,
+              18.5932117132889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0137",
+        "height_mean_m": 10.32,
+        "height_max_m": 10.32,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74128732324091,
+              18.593658630565415
+            ],
+            [
+              73.74128951406833,
+              18.593360446321622
+            ],
+            [
+              73.74170646301195,
+              18.5933632312337
+            ],
+            [
+              73.74170427290979,
+              18.593661415525336
+            ],
+            [
+              73.74128732324091,
+              18.593658630565415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0138",
+        "height_mean_m": 7.13,
+        "height_max_m": 7.13,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74082773107777,
+              18.593655559711642
+            ],
+            [
+              73.7408299227046,
+              18.593357375520597
+            ],
+            [
+              73.74124213351121,
+              18.59336012979599
+            ],
+            [
+              73.7412399426014,
+              18.593658314034347
+            ],
+            [
+              73.74082773107777,
+              18.593655559711642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0139",
+        "height_mean_m": 13.17,
+        "height_max_m": 13.17,
+        "estimated_floors": 4,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036340094221,
+              18.593652456061807
+            ],
+            [
+              73.7403655933767,
+              18.593354271924078
+            ],
+            [
+              73.74078254215675,
+              18.593357058879466
+            ],
+            [
+              73.74078035044751,
+              18.59365524306507
+            ],
+            [
+              73.74036340094221,
+              18.593652456061807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0140",
+        "height_mean_m": 7.19,
+        "height_max_m": 7.19,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73990380895945,
+              18.59364938295571
+            ],
+            [
+              73.73990600219336,
+              18.593351198870774
+            ],
+            [
+              73.74031821283818,
+              18.593353955166254
+            ],
+            [
+              73.74031602032129,
+              18.593652139298538
+            ],
+            [
+              73.73990380895945,
+              18.59364938295571
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0141",
+        "height_mean_m": 6.67,
+        "height_max_m": 6.67,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.9,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73931155138212,
+              18.593645421115262
+            ],
+            [
+              73.7393137456462,
+              18.593347237098385
+            ],
+            [
+              73.73976386060843,
+              18.593350248215078
+            ],
+            [
+              73.7397616671273,
+              18.593648432283683
+            ],
+            [
+              73.73931155138212,
+              18.593645421115262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0142",
+        "height_mean_m": 19.66,
+        "height_max_m": 19.66,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831655898802,
+              18.593638761034825
+            ],
+            [
+              73.73831875498279,
+              18.593340577132356
+            ],
+            [
+              73.73876886975454,
+              18.593343590624567
+            ],
+            [
+              73.73876667454272,
+              18.593641774578803
+            ],
+            [
+              73.73831655898802,
+              18.593638761034825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0143",
+        "height_mean_m": 9.81,
+        "height_max_m": 9.81,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.947,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73781906294893,
+              18.59363542902539
+            ],
+            [
+              73.73782125980905,
+              18.593337245180166
+            ],
+            [
+              73.7382713744855,
+              18.593340259860135
+            ],
+            [
+              73.73826917840832,
+              18.59363844375715
+            ],
+            [
+              73.73781906294893,
+              18.59363542902539
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0144",
+        "height_mean_m": 7.15,
+        "height_max_m": 7.15,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7371699492278,
+              18.593631079572514
+            ],
+            [
+              73.737172147217,
+              18.593332895802
+            ],
+            [
+              73.7376791183502,
+              18.593336292952703
+            ],
+            [
+              73.73767692124284,
+              18.59363447678157
+            ],
+            [
+              73.7371699492278,
+              18.593631079572514
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0145",
+        "height_mean_m": 7.09,
+        "height_max_m": 7.09,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.906,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661559677593,
+              18.593627363306915
+            ],
+            [
+              73.73661779572936,
+              18.59332917960025
+            ],
+            [
+              73.73712476674285,
+              18.593332578241625
+            ],
+            [
+              73.73712256867125,
+              18.593630762006676
+            ],
+            [
+              73.73661559677593,
+              18.593627363306915
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0146",
+        "height_mean_m": 19.76,
+        "height_max_m": 19.76,
+        "estimated_floors": 7,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73606598250849,
+              18.593623677195094
+            ],
+            [
+              73.73606818241791,
+              18.59332549355175
+            ],
+            [
+              73.7365704152664,
+              18.593328861900556
+            ],
+            [
+              73.73656821623057,
+              18.593627045601767
+            ],
+            [
+              73.73606598250849,
+              18.593623677195094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0147",
+        "height_mean_m": 6.82,
+        "height_max_m": 6.82,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74128480041853,
+              18.594001994228105
+            ],
+            [
+              73.74128699129375,
+              18.59370380999545
+            ],
+            [
+              73.7417039410725,
+              18.59370659496262
+            ],
+            [
+              73.74170175092254,
+              18.594004779243114
+            ],
+            [
+              73.74128480041853,
+              18.594001994228105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0148",
+        "height_mean_m": 7.18,
+        "height_max_m": 7.18,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74082520733484,
+              18.593998923313578
+            ],
+            [
+              73.74082739900949,
+              18.59370073913368
+            ],
+            [
+              73.74123961064174,
+              18.593703493463558
+            ],
+            [
+              73.7412374196841,
+              18.594001677690777
+            ],
+            [
+              73.74082520733484,
+              18.593998923313578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0149",
+        "height_mean_m": 7.13,
+        "height_max_m": 7.13,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1452.0,
+        "perimeter_m": 154.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.74036087626922,
+              18.593995819602355
+            ],
+            [
+              73.74036306875155,
+              18.593697635475767
+            ],
+            [
+              73.74078001836672,
+              18.59370042248629
+            ],
+            [
+              73.74077782660966,
+              18.593998606660744
+            ],
+            [
+              73.74036087626922,
+              18.593995819602355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0150",
+        "height_mean_m": 10.08,
+        "height_max_m": 10.08,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1435.5,
+        "perimeter_m": 153.0,
+        "confidence_score": 0.95,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73990128336591,
+              18.593992746435465
+            ],
+            [
+              73.73990347664767,
+              18.593694562361673
+            ],
+            [
+              73.74031568811813,
+              18.593697318711683
+            ],
+            [
+              73.7403134955534,
+              18.593995502832822
+            ],
+            [
+              73.73990128336591,
+              18.593992746435465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0151",
+        "height_mean_m": 6.73,
+        "height_max_m": 6.73,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.901,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73930902460229,
+              18.59398878451665
+            ],
+            [
+              73.73931121891424,
+              18.593690600510914
+            ],
+            [
+              73.73976133477805,
+              18.593693611687176
+            ],
+            [
+              73.73975914124904,
+              18.593991795744632
+            ],
+            [
+              73.73930902460229,
+              18.59398878451665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0152",
+        "height_mean_m": 6.88,
+        "height_max_m": 6.88,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.903,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7388115273561,
+              18.59398545506697
+            ],
+            [
+              73.73881372253344,
+              18.593687271118437
+            ],
+            [
+              73.73926383830201,
+              18.593690283482477
+            ],
+            [
+              73.73926164390762,
+              18.593988467482767
+            ],
+            [
+              73.7388115273561,
+              18.59398545506697
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0153",
+        "height_mean_m": 3.92,
+        "height_max_m": 3.92,
+        "estimated_floors": 1,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.859,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73831403021521,
+              18.593982124304464
+            ],
+            [
+              73.73831622625791,
+              18.59368394041314
+            ],
+            [
+              73.73876634193122,
+              18.593686953964962
+            ],
+            [
+              73.73876414667149,
+              18.593985137908057
+            ],
+            [
+              73.73831403021521,
+              18.593982124304464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0154",
+        "height_mean_m": 7.13,
+        "height_max_m": 7.13,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1567.5,
+        "perimeter_m": 161.0,
+        "confidence_score": 0.907,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73781653317965,
+              18.593978792229123
+            ],
+            [
+              73.73781873008771,
+              18.59368060839504
+            ],
+            [
+              73.73826884566573,
+              18.59368362313464
+            ],
+            [
+              73.73826664954062,
+              18.59398180702052
+            ],
+            [
+              73.73781653317965,
+              18.593978792229123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0155",
+        "height_mean_m": 7.19,
+        "height_max_m": 7.19,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.908,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73716741815836,
+              18.593974442690204
+            ],
+            [
+              73.7371696161955,
+              18.593676258930838
+            ],
+            [
+              73.73767658834414,
+              18.593679656148737
+            ],
+            [
+              73.73767439118885,
+              18.593977839966463
+            ],
+            [
+              73.73716741815836,
+              18.593974442690204
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0156",
+        "height_mean_m": 6.77,
+        "height_max_m": 6.77,
+        "estimated_floors": 2,
+        "footprint_area_sqm": 1765.5,
+        "perimeter_m": 173.0,
+        "confidence_score": 0.902,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73661306459613,
+              18.593970726351092
+            ],
+            [
+              73.73661526359754,
+              18.593672542655572
+            ],
+            [
+              73.73712223562647,
+              18.593675941364175
+            ],
+            [
+              73.7371200375069,
+              18.593974125118088
+            ],
+            [
+              73.73661306459613,
+              18.593970726351092
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-custom_1787899007-0157",
+        "height_mean_m": 9.83,
+        "height_max_m": 9.83,
+        "estimated_floors": 3,
+        "footprint_area_sqm": 1749.0,
+        "perimeter_m": 172.0,
+        "confidence_score": 0.947,
+        "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.73606344922781,
+              18.59396704016636
+            ],
+            [
+              73.73606564918525,
+              18.59366885653415
+            ],
+            [
+              73.73656788303968,
+              18.59367222494959
+            ],
+            [
+              73.73656568395586,
+              18.59397040863966
+            ],
+            [
+              73.73606344922781,
+              18.59396704016636
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

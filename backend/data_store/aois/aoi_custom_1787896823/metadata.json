@@ -1,0 +1,26 @@
+{
+  "aoi_id": "aoi_custom_1787896823",
+  "name": "Custom Parcel Zone (28.6281, 77.2433)",
+  "location": "Varanasi, Uttar Pradesh, India",
+  "bounds_projected": [
+    718810.0480801838,
+    3168346.3076313157,
+    719810.0480801838,
+    3169346.3076313157
+  ],
+  "center_lat": 28.628146,
+  "center_lon": 77.24335,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    1200,
+    1200
+  ],
+  "ground_resolution_m_per_px": 0.8333333333333334,
+  "total_area_hectares": 100.0,
+  "total_gt_parcels": 520,
+  "total_gt_buildings": 493,
+  "total_gt_roads": 5,
+  "total_gnss_points": 173,
+  "created_at": "2026-08-28T10:45:00Z"
+}

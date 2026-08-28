@@ -1,0 +1,773 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-001",
+        "hierarchy": "Major Arterial",
+        "estimated_width_m": 10.0,
+        "length_m": 599.5,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73778514049718,
+            18.588584346207124
+          ],
+          [
+            73.7377452341865,
+            18.594001353872642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-002",
+        "hierarchy": "Major Arterial",
+        "estimated_width_m": 10.0,
+        "length_m": 413.5,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73783204562388,
+            18.589935590776612
+          ],
+          [
+            73.74175033745846,
+            18.589961793478466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-003",
+        "hierarchy": "Major Arterial",
+        "estimated_width_m": 10.0,
+        "length_m": 599.5,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7398698250335,
+            18.588598296863715
+          ],
+          [
+            73.73982998458985,
+            18.594015308884067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-004",
+        "hierarchy": "Major Arterial",
+        "estimated_width_m": 10.0,
+        "length_m": 193.5,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73989215848783,
+            18.593292818659506
+          ],
+          [
+            73.7417257850683,
+            18.5933050726076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-005",
+        "hierarchy": "Major Arterial",
+        "estimated_width_m": 10.0,
+        "length_m": 174.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73605619633034,
+            18.59173095186356
+          ],
+          [
+            73.73770502129992,
+            18.5917420043947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-006",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73790691581686,
+            18.59327953135869
+          ],
+          [
+            73.73817224648249,
+            18.593281308437312
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-007",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73898902085672,
+            18.591750601408236
+          ],
+          [
+            73.73925434926586,
+            18.591752376822736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-008",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.74008823874661,
+            18.59175795426612
+          ],
+          [
+            73.74035356727974,
+            18.591759728133756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-009",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 24.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7395623197783,
+            18.591754437103507
+          ],
+          [
+            73.7397897441826,
+            18.591755958218712
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-010",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73719715977452,
+            18.58993133744984
+          ],
+          [
+            73.73746248518323,
+            18.589933115219548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-011",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73822620184724,
+            18.59174549501169
+          ],
+          [
+            73.73849153017028,
+            18.591747271499663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-012",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.74115902908136,
+            18.5917651108019
+          ],
+          [
+            73.74142435773516,
+            18.59176688316268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-013",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73840914888784,
+            18.593282894799113
+          ],
+          [
+            73.73867447961018,
+            18.593284671170924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-014",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73672336447643,
+            18.589928161932505
+          ],
+          [
+            73.73698868983158,
+            18.589929940368886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-015",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73667976187825,
+            18.59327130751276
+          ],
+          [
+            73.73694509240522,
+            18.593273086318423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-016",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.74044358946742,
+            18.59176032989688
+          ],
+          [
+            73.7407089180406,
+            18.59176210326445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-017",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73930937824593,
+            18.59328892025909
+          ],
+          [
+            73.73957470906987,
+            18.593290695363965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-018",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.74081789228467,
+            18.591762831503683
+          ],
+          [
+            73.74108322090005,
+            18.59176460434453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-019",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73870947845805,
+            18.59174873047832
+          ],
+          [
+            73.73897480683564,
+            18.591750506286207
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-020",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73634906625855,
+            18.58992565243207
+          ],
+          [
+            73.7366143915714,
+            18.589927431395118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-021",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73788032747112,
+            18.591743178672118
+          ],
+          [
+            73.73814565575509,
+            18.591744955646817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-022",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73701616308718,
+            18.593273562720817
+          ],
+          [
+            73.73728149365216,
+            18.593275341053044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-023",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73894928646132,
+            18.593286510590925
+          ],
+          [
+            73.73921461724464,
+            18.593288286202572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-024",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73735256434432,
+            18.593275817328628
+          ],
+          [
+            73.73761789494732,
+            18.593277595187416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-025",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73620121939653,
+            18.593268098365634
+          ],
+          [
+            73.73646654986938,
+            18.59326987784477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-026",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 26.5,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73867921765907,
+            18.593284702888454
+          ],
+          [
+            73.73893033426366,
+            18.59328638374723
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-027",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 20.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73752881654009,
+            18.589933559603637
+          ],
+          [
+            73.73771833471287,
+            18.589934829143893
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-028",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 26.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.7360979548294,
+            18.589923968426724
+          ],
+          [
+            73.73634432830681,
+            18.58992562066147
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-029",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 15.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73647128791382,
+            18.59326990961779
+          ],
+          [
+            73.7366134292512,
+            18.593270862753002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-030",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 28.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.74143383375905,
+            18.591766946454378
+          ],
+          [
+            73.74169916244381,
+            18.591768718428437
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-031",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 18.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73925908727344,
+            18.591752408523178
+          ],
+          [
+            73.73942965555261,
+            18.591753549659625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "AI-RD-032",
+        "hierarchy": "Access Lane / Footpath",
+        "estimated_width_m": 3.5,
+        "length_m": 16.0,
+        "surface_type": "Paved Asphalt",
+        "connectivity_degree": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.73604486395335,
+            18.59326704956915
+          ],
+          [
+            73.73619648135264,
+            18.59326806658583
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5600 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00001",
+        "survey_number": "SY-100/1",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "Approved",
+        "building_count": 1,
+        "building_coverage_ratio": 0.702,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 1",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.953,
+        "gt_surveyor": "Officer Test",
+        "gt_surveyor_id": "GT-TEST-01",
+        "gt_signoff_date": "2026-08-28T05:24:47.580747Z",
+        "gt_notes": "Automated unit test signoff",
+        "gnss_delta_cm": 1.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2321049329271,
+              28.615083955830144
+            ],
+            [
+              77.23210073519486,
+              28.614885524459815
+            ],
+            [
+              77.23156410791864,
+              28.614894362813047
+            ],
+            [
+              77.23156830464374,
+              28.61509279425585
+            ],
+            [
+              77.2321049329271,
+              28.615083955830144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00002",
+        "survey_number": "SY-100/2",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.702,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 2",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.917
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2321049329271,
+              28.615083955830144
+            ],
+            [
+              77.23156830464374,
+              28.61509279425585
+            ],
+            [
+              77.23157250141125,
+              28.61529122569228
+            ],
+            [
+              77.23210913070176,
+              28.615282387194114
+            ],
+            [
+              77.2321049329271,
+              28.615083955830144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00003",
+        "survey_number": "SY-100/3",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.697,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 3",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.898
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2321049329271,
+              28.615083955830144
+            ],
+            [
+              77.23264156096884,
+              28.615075115282863
+            ],
+            [
+              77.23263736222945,
+              28.614876683985003
+            ],
+            [
+              77.23210073519486,
+              28.614885524459815
+            ],
+            [
+              77.2321049329271,
+              28.615083955830144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00004",
+        "survey_number": "SY-100/4",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.697,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 4",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.931
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23264156096884,
+              28.615075115282863
+            ],
+            [
+              77.2321049329271,
+              28.615083955830144
+            ],
+            [
+              77.23210913070176,
+              28.615282387194114
+            ],
+            [
+              77.23264575975067,
+              28.615273546574354
+            ],
+            [
+              77.23264156096884,
+              28.615075115282863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00005",
+        "survey_number": "SY-100/5",
+        "area_sqm": 1385.56,
+        "perimeter_m": 158.42,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.585,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Property Owner 5",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4295236,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.885
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23262622874243,
+              28.615075367899376
+            ],
+            [
+              77.23262633063136,
+              28.615076692796695
+            ],
+            [
+              77.23262657919678,
+              28.615078002501726
+            ],
+            [
+              77.23262697204487,
+              28.615079284401244
+            ],
+            [
+              77.23262750539229,
+              28.615080526149885
+            ],
+            [
+              77.23262817410262,
+              28.615081715788936
+            ],
+            [
+              77.23262897173579,
+              28.61508284186149
+            ],
+            [
+              77.2326298906102,
+              28.615083893522876
+            ],
+            [
+              77.23263092187658,
+              28.615084860645005
+            ],
+            [
+              77.23263205560325,
+              28.615085733913965
+            ],
+            [
+              77.23263328087182,
+              28.61508650491968
+            ],
+            [
+              77.23263458588228,
+              28.615087166236975
+            ],
+            [
+              77.23263595806667,
+              28.61508771149696
+            ],
+            [
+              77.23263738421007,
+              28.61508813544853
+            ],
+            [
+              77.23263885057794,
+              28.615088434008754
+            ],
+            [
+              77.23264034304839,
+              28.61508860430235
+            ],
+            [
+              77.23264184724806,
+              28.61508864468931
+            ],
+            [
+              77.2331784751168,
+              28.6150798020155
+            ],
+            [
+              77.23317997655846,
+              28.615079712100936
+            ],
+            [
+              77.2331814607827,
+              28.615079492756756
+            ],
+            [
+              77.23318291349565,
+              28.615079146095354
+            ],
+            [
+              77.2331843207069,
+              28.615078675455266
+            ],
+            [
+              77.2331856688642,
+              28.615078085369046
+            ],
+            [
+              77.23318694498406,
+              28.61507738151952
+            ],
+            [
+              77.23318813677676,
+              28.615076570685147
+            ],
+            [
+              77.23318923276467,
+              28.615075660674734
+            ],
+            [
+              77.23319022239284,
+              28.615074660252144
+            ],
+            [
+              77.23319109613061,
+              28.615073579052016
+            ],
+            [
+              77.23319184556341,
+              28.615072427486894
+            ],
+            [
+              77.2331924634738,
+              28.615071216646996
+            ],
+            [
+              77.23319294391092,
+              28.615069958193367
+            ],
+            [
+              77.23319328224798,
+              28.61506866424558
+            ],
+            [
+              77.23319347522657,
+              28.615067347265104
+            ],
+            [
+              77.23319352098821,
+              28.615066019935142
+            ],
+            [
+              77.2331893212129,
+              28.614867588711856
+            ],
+            [
+              77.23318921931732,
+              28.614866263815284
+            ],
+            [
+              77.23318897074567,
+              28.614864954111628
+            ],
+            [
+              77.23318857789185,
+              28.614863672214017
+            ],
+            [
+              77.23318804453928,
+              28.614862430467863
+            ],
+            [
+              77.23318737582439,
+              28.614861240831818
+            ],
+            [
+              77.23318657818731,
+              28.61486011476275
+            ],
+            [
+              77.23318565930973,
+              28.614859063105325
+            ],
+            [
+              77.23318462804093,
+              28.614858095987543
+            ],
+            [
+              77.2331834943126,
+              28.614857222723302
+            ],
+            [
+              77.23318226904314,
+              28.614856451722616
+            ],
+            [
+              77.23318096403258,
+              28.614855790410616
+            ],
+            [
+              77.23317959184888,
+              28.614855245156107
+            ],
+            [
+              77.23317816570693,
+              28.614854821210198
+            ],
+            [
+              77.23317669934123,
+              28.61485452265571
+            ],
+            [
+              77.23317520687367,
+              28.614854352367878
+            ],
+            [
+              77.23317370267756,
+              28.61485431198667
+            ],
+            [
+              77.2326370759533,
+              28.614863154578092
+            ],
+            [
+              77.23263557451384,
+              28.614863244486493
+            ],
+            [
+              77.23263409029104,
+              28.614863463824594
+            ],
+            [
+              77.23263263757877,
+              28.614863810480045
+            ],
+            [
+              77.23263123036747,
+              28.614864281114393
+            ],
+            [
+              77.23262988220934,
+              28.614864871195138
+            ],
+            [
+              77.23262860608786,
+              28.6148655750395
+            ],
+            [
+              77.23262741429276,
+              28.61486638586907
+            ],
+            [
+              77.23262631830171,
+              28.614867295875126
+            ],
+            [
+              77.23262532866973,
+              28.614868296293814
+            ],
+            [
+              77.23262445492742,
+              28.61486937749054
+            ],
+            [
+              77.23262370548949,
+              28.61487052905281
+            ],
+            [
+              77.23262308757342,
+              28.614871739890447
+            ],
+            [
+              77.23262260713005,
+              28.61487299834242
+            ],
+            [
+              77.23262226878636,
+              28.614874292289162
+            ],
+            [
+              77.23262207580075,
+              28.614875609269237
+            ],
+            [
+              77.23262203003182,
+              28.61487693659944
+            ],
+            [
+              77.23262622874243,
+              28.615075367899376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00006",
+        "survey_number": "SY-100/6",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.702,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 6",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.947
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23317818876892,
+              28.615066272614005
+            ],
+            [
+              77.23264156096884,
+              28.615075115282863
+            ],
+            [
+              77.23264575975067,
+              28.615273546574354
+            ],
+            [
+              77.23318238855789,
+              28.615264703832995
+            ],
+            [
+              77.23317818876892,
+              28.615066272614005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00007",
+        "survey_number": "SY-100/7",
+        "area_sqm": 1155.0,
+        "perimeter_m": 149.0,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.697,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 7",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4851000,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.902
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23371061557356,
+              28.61485899667071
+            ],
+            [
+              77.23317398902238,
+              28.61486784138864
+            ],
+            [
+              77.23317818876892,
+              28.615066272614005
+            ],
+            [
+              77.23371481632724,
+              28.61505742782357
+            ],
+            [
+              77.23371061557356,
+              28.61485899667071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00008",
+        "survey_number": "SY-100/8",
+        "area_sqm": 1332.0,
+        "perimeter_m": 159.0,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 2,
+        "building_coverage_ratio": 0.613,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Property Owner 8",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4129200,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.959
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23371443443878,
+              28.615039388628116
+            ],
+            [
+              77.23314714253804,
+              28.615048738764102
+            ],
+            [
+              77.23315172406113,
+              28.61526520918966
+            ],
+            [
+              77.23371901712339,
+              28.61525585897005
+            ],
+            [
+              77.23371443443878,
+              28.615039388628116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00009",
+        "survey_number": "SY-101/9",
+        "area_sqm": 1283.33,
+        "perimeter_m": 160.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.706,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 9",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 5389986,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.884
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23027358144189,
+              28.615114109977135
+            ],
+            [
+              77.23026938714676,
+              28.61491567835958
+            ],
+            [
+              77.22967313368703,
+              28.614925490576354
+            ],
+            [
+              77.2296773268631,
+              28.615123922274353
+            ],
+            [
+              77.23027358144189,
+              28.615114109977135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00010",
+        "survey_number": "SY-101/10",
+        "area_sqm": 1007.09,
+        "perimeter_m": 146.27,
+        "confidence_score": 0.78,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.9,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 10",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 4229778,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.888
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025552590228,
+              28.615130648109844
+            ],
+            [
+              77.22969606866302,
+              28.615139854854316
+            ],
+            [
+              77.22969957574735,
+              28.61530581590343
+            ],
+            [
+              77.23025903386478,
+              28.615296609095832
+            ],
+            [
+              77.23025552590228,
+              28.615130648109844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00011",
+        "survey_number": "SY-101/11",
+        "area_sqm": 1283.33,
+        "perimeter_m": 160.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.706,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 11",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 5389986,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23027358144189,
+              28.615114109977135
+            ],
+            [
+              77.23086983572263,
+              28.61510429506068
+            ],
+            [
+              77.23086564030845,
+              28.614905863523582
+            ],
+            [
+              77.23026938714676,
+              28.61491567835958
+            ],
+            [
+              77.23027358144189,
+              28.615114109977135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00012",
+        "survey_number": "SY-101/12",
+        "area_sqm": 1283.33,
+        "perimeter_m": 160.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.706,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 12",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 5389986,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.927
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23086983572263,
+              28.61510429506068
+            ],
+            [
+              77.23027358144189,
+              28.615114109977135
+            ],
+            [
+              77.23027777577941,
+              28.61531254158832
+            ],
+            [
+              77.23087403117923,
+              28.615302726591395
+            ],
+            [
+              77.23086983572263,
+              28.61510429506068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00013",
+        "survey_number": "SY-101/13",
+        "area_sqm": 1283.33,
+        "perimeter_m": 160.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.706,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 13",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 5389986,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.947
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23146189317198,
+              28.614896046068363
+            ],
+            [
+              77.23086564030845,
+              28.614905863523582
+            ],
+            [
+              77.23086983572263,
+              28.61510429506068
+            ],
+            [
+              77.23146608970524,
+              28.615094477524966
+            ],
+            [
+              77.23146189317198,
+              28.614896046068363
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00014",
+        "survey_number": "SY-101/14",
+        "area_sqm": 1283.33,
+        "perimeter_m": 160.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.706,
+        "landuse_class": "Commercial",
+        "owner_record": "Property Owner 14",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 5389986,
+        "tax_rate_per_sqm": 4200,
+        "lulc_confidence": 0.95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23146608970524,
+              28.615094477524966
+            ],
+            [
+              77.23086983572263,
+              28.61510429506068
+            ],
+            [
+              77.23087403117923,
+              28.615302726591395
+            ],
+            [
+              77.23147028628091,
+              28.61529290897519
+            ],
+            [
+              77.23146608970524,
+              28.615094477524966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00015",
+        "survey_number": "SY-102/15",
+        "area_sqm": 2512.72,
+        "perimeter_m": 202.09,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.7,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 15",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1130724,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.945
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2302384078707,
+              28.613449990077864
+            ],
+            [
+              77.23023990929407,
+              28.61344990019704
+            ],
+            [
+              77.23024139350403,
+              28.613449680885967
+            ],
+            [
+              77.23024284620682,
+              28.613449334256735
+            ],
+            [
+              77.23024425341214,
+              28.613448863647587
+            ],
+            [
+              77.23024560156777,
+              28.61344827359073
+            ],
+            [
+              77.23024687769029,
+              28.613447569768756
+            ],
+            [
+              77.23024806948992,
+              28.61344675895986
+            ],
+            [
+              77.23024916548897,
+              28.613445848972553
+            ],
+            [
+              77.23025015513238,
+              28.61344484857053
+            ],
+            [
+              77.23025102888934,
+              28.613443767388205
+            ],
+            [
+              77.23025177834509,
+              28.61344261583798
+            ],
+            [
+              77.23025239628197,
+              28.613441405009876
+            ],
+            [
+              77.23025287674892,
+              28.613440146564844
+            ],
+            [
+              77.23025321511875,
+              28.61343885262242
+            ],
+            [
+              77.23025340813284,
+              28.61343753564396
+            ],
+            [
+              77.23025345393232,
+              28.613436208312695
+            ],
+            [
+              77.2302462098367,
+              28.613093462697922
+            ],
+            [
+              77.23024610798124,
+              28.61309213779667
+            ],
+            [
+              77.23024585945151,
+              28.61309082808502
+            ],
+            [
+              77.23024546664102,
+              28.61308954617623
+            ],
+            [
+              77.23024493333273,
+              28.61308830441574
+            ],
+            [
+              77.2302442646627,
+              28.613087114762422
+            ],
+            [
+              77.23024346707058,
+              28.613085988673255
+            ],
+            [
+              77.23024254823765,
+              28.613084936993115
+            ],
+            [
+              77.23024151701276,
+              28.613083969850223
+            ],
+            [
+              77.23024038332716,
+              28.613083096558732
+            ],
+            [
+              77.23023915809887,
+              28.613082325528875
+            ],
+            [
+              77.2302378531275,
+              28.613081664186105
+            ],
+            [
+              77.23023648098062,
+              28.613081118899526
+            ],
+            [
+              77.2302350548728,
+              28.613080694920523
+            ],
+            [
+              77.23023358853818,
+              28.613080396332258
+            ],
+            [
+              77.23023209609839,
+              28.613080226010293
+            ],
+            [
+              77.23023059192643,
+              28.61308018559492
+            ],
+            [
+              77.2296343488175,
+              28.613089997067576
+            ],
+            [
+              77.22963284739822,
+              28.613090086941437
+            ],
+            [
+              77.22963136319153,
+              28.613090306245642
+            ],
+            [
+              77.22962991049111,
+              28.61309065286817
+            ],
+            [
+              77.22962850328729,
+              28.61309112347085
+            ],
+            [
+              77.22962715513218,
+              28.61309171352151
+            ],
+            [
+              77.22962587900923,
+              28.613092417337675
+            ],
+            [
+              77.22962468720824,
+              28.613093228141185
+            ],
+            [
+              77.22962359120689,
+              28.613094138123568
+            ],
+            [
+              77.22962260156027,
+              28.613095138521217
+            ],
+            [
+              77.22962172779921,
+              28.613096219699727
+            ],
+            [
+              77.22962097833853,
+              28.613097371246774
+            ],
+            [
+              77.22962036039593,
+              28.613098582072343
+            ],
+            [
+              77.22961987992255,
+              28.61309984051551
+            ],
+            [
+              77.2296195415456,
+              28.61310113445679
+            ],
+            [
+              77.22961934852385,
+              28.613102451434813
+            ],
+            [
+              77.22961930271624,
+              28.613103778766362
+            ],
+            [
+              77.22962654477968,
+              28.613446524527223
+            ],
+            [
+              77.22962664662805,
+              28.61344784942929
+            ],
+            [
+              77.22962689515133,
+              28.613449159142387
+            ],
+            [
+              77.22962728795609,
+              28.613450441053256
+            ],
+            [
+              77.22962782125941,
+              28.613451682816414
+            ],
+            [
+              77.22962848992533,
+              28.613452872472973
+            ],
+            [
+              77.22962928751417,
+              28.61345399856592
+            ],
+            [
+              77.22963020634477,
+              28.61345505025034
+            ],
+            [
+              77.22963123756824,
+              28.613456017397937
+            ],
+            [
+              77.2296323712534,
+              28.61345689069455
+            ],
+            [
+              77.2296335964822,
+              28.613457661729864
+            ],
+            [
+              77.22963490145501,
+              28.613458323078362
+            ],
+            [
+              77.22963627360426,
+              28.613458868370916
+            ],
+            [
+              77.22963769971534,
+              28.613459292356055
+            ],
+            [
+              77.22963916605408,
+              28.613459590950555
+            ],
+            [
+              77.2296406584988,
+              28.613459761278797
+            ],
+            [
+              77.22964216267641,
+              28.613459801700433
+            ],
+            [
+              77.2302384078707,
+              28.613449990077864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00016",
+        "survey_number": "SY-102/16",
+        "area_sqm": 2333.33,
+        "perimeter_m": 196.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.754,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 16",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1049998,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.956
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23024536609131,
+              28.613779206245276
+            ],
+            [
+              77.2302377406502,
+              28.613418421403352
+            ],
+            [
+              77.22964149563394,
+              28.613428233013128
+            ],
+            [
+              77.22964911904052,
+              28.613789018001317
+            ],
+            [
+              77.23024536609131,
+              28.613779206245276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00017",
+        "survey_number": "SY-102/17",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.85,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 17",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.915
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025261039014,
+              28.61412195182558
+            ],
+            [
+              77.23024536609131,
+              28.613779206245276
+            ],
+            [
+              77.22964911904052,
+              28.613789018001317
+            ],
+            [
+              77.22965636140657,
+              28.614131763720565
+            ],
+            [
+              77.23025261039014,
+              28.61412195182558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00018",
+        "survey_number": "SY-102/18",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 18",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025985481547,
+              28.61446469738686
+            ],
+            [
+              77.23025261039014,
+              28.61412195182558
+            ],
+            [
+              77.22965636140657,
+              28.614131763720565
+            ],
+            [
+              77.22966360389903,
+              28.6144745094208
+            ],
+            [
+              77.23025985481547,
+              28.61446469738686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00019",
+        "survey_number": "SY-102/19",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 19",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.911
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025985481547,
+              28.61446469738686
+            ],
+            [
+              77.22966360389903,
+              28.6144745094208
+            ],
+            [
+              77.22967084651795,
+              28.614817255102018
+            ],
+            [
+              77.23026709936728,
+              28.61480744292913
+            ],
+            [
+              77.23025985481547,
+              28.61446469738686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00020",
+        "survey_number": "SY-102/20",
+        "area_sqm": 1882.83,
+        "perimeter_m": 178.27,
+        "confidence_score": 0.78,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.935,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 20",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 847273,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.925
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025617719027,
+              28.613419922527704
+            ],
+            [
+              77.23081562510114,
+              28.6134107139763
+            ],
+            [
+              77.23080906563762,
+              28.61310043911741
+            ],
+            [
+              77.23024961936841,
+              28.61310964755077
+            ],
+            [
+              77.23025617719027,
+              28.613419922527704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00021",
+        "survey_number": "SY-102/21",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 21",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.939
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23023812191892,
+              28.613436460645957
+            ],
+            [
+              77.23024536609131,
+              28.613779206245276
+            ],
+            [
+              77.23084161284403,
+              28.613769391870136
+            ],
+            [
+              77.23083436673886,
+              28.613426646409792
+            ],
+            [
+              77.23023812191892,
+              28.613436460645957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00022",
+        "survey_number": "SY-102/22",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.85,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 22",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.967
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23024536609131,
+              28.613779206245276
+            ],
+            [
+              77.23025261039014,
+              28.61412195182558
+            ],
+            [
+              77.23084885907569,
+              28.614112137311455
+            ],
+            [
+              77.23084161284403,
+              28.613769391870136
+            ],
+            [
+              77.23024536609131,
+              28.613779206245276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00023",
+        "survey_number": "SY-102/23",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 23",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.925
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23025261039014,
+              28.61412195182558
+            ],
+            [
+              77.23025985481547,
+              28.61446469738686
+            ],
+            [
+              77.23085610543387,
+              28.614454882733742
+            ],
+            [
+              77.23084885907569,
+              28.614112137311455
+            ],
+            [
+              77.23025261039014,
+              28.61412195182558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00024",
+        "survey_number": "SY-102/24",
+        "area_sqm": 2453.33,
+        "perimeter_m": 202.67,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.724,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 24",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1103998,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.948
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23022880920644,
+              28.61444716282966
+            ],
+            [
+              77.2302364349423,
+              28.61480794761905
+            ],
+            [
+              77.23086335191856,
+              28.614797628137026
+            ],
+            [
+              77.23085572404344,
+              28.614436843501462
+            ],
+            [
+              77.23022880920644,
+              28.61444716282966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00025",
+        "survey_number": "SY-102/25",
+        "area_sqm": 2512.72,
+        "perimeter_m": 202.09,
+        "confidence_score": 0.9,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.7,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 25",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1130724,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23143869529767,
+              28.613073831749855
+            ],
+            [
+              77.23143859342733,
+              28.613072506850333
+            ],
+            [
+              77.231438344883,
+              28.613071197141704
+            ],
+            [
+              77.23143795205834,
+              28.61306991523715
+            ],
+            [
+              77.23143741873646,
+              28.613068673482136
+            ],
+            [
+              77.23143675005355,
+              28.613067483835437
+            ],
+            [
+              77.23143595244937,
+              28.61306635775399
+            ],
+            [
+              77.2314350336053,
+              28.613065306082582
+            ],
+            [
+              77.23143400237034,
+              28.613064338949375
+            ],
+            [
+              77.23143286867577,
+              28.613063465668386
+            ],
+            [
+              77.23143164343976,
+              28.613062694649802
+            ],
+            [
+              77.23143033846198,
+              28.613062033318915
+            ],
+            [
+              77.23142896631008,
+              28.61306148804475
+            ],
+            [
+              77.23142754019862,
+              28.61306106407855
+            ],
+            [
+              77.23142607386183,
+              28.61306076550337
+            ],
+            [
+              77.23142458142134,
+              28.613060595194636
+            ],
+            [
+              77.23142307725014,
+              28.61306055479253
+            ],
+            [
+              77.23082683473734,
+              28.61307037150324
+            ],
+            [
+              77.23082533332031,
+              28.613070461390247
+            ],
+            [
+              77.23082384911729,
+              28.613070680707377
+            ],
+            [
+              77.23082239642198,
+              28.61307102734245
+            ],
+            [
+              77.23082098922463,
+              28.61307149795722
+            ],
+            [
+              77.23081964107726,
+              28.613072088019365
+            ],
+            [
+              77.2308183649633,
+              28.613072791846317
+            ],
+            [
+              77.23081717317244,
+              28.613073602659806
+            ],
+            [
+              77.23081607718227,
+              28.613074512651263
+            ],
+            [
+              77.23081508754774,
+              28.61307551305698
+            ],
+            [
+              77.23081421379963,
+              28.613076594242507
+            ],
+            [
+              77.23081346435255,
+              28.613077745795422
+            ],
+            [
+              77.23081284642412,
+              28.613078956625674
+            ],
+            [
+              77.23081236596536,
+              28.613080215072284
+            ],
+            [
+              77.23081202760329,
+              28.613081509015714
+            ],
+            [
+              77.2308118345966,
+              28.613082825994614
+            ],
+            [
+              77.23081178880399,
+              28.61308415332574
+            ],
+            [
+              77.23081903473295,
+              28.613426898808676
+            ],
+            [
+              77.2308191365962,
+              28.613428223709008
+            ],
+            [
+              77.23081938513405,
+              28.613429533419104
+            ],
+            [
+              77.23081977795297,
+              28.613430815325724
+            ],
+            [
+              77.2308203112699,
+              28.613432057083408
+            ],
+            [
+              77.2308209799487,
+              28.613433246733358
+            ],
+            [
+              77.23082177754961,
+              28.613434372818578
+            ],
+            [
+              77.23082269639134,
+              28.613435424494256
+            ],
+            [
+              77.23082372762491,
+              28.61343639163218
+            ],
+            [
+              77.23082486131901,
+              28.61343726491827
+            ],
+            [
+              77.23082608655551,
+              28.61343803594232
+            ],
+            [
+              77.23082739153473,
+              28.613438697278944
+            ],
+            [
+              77.23082876368902,
+              28.613439242559075
+            ],
+            [
+              77.23083018980374,
+              28.613439666531413
+            ],
+            [
+              77.23083165614464,
+              28.61343996511283
+            ],
+            [
+              77.23083314859008,
+              28.613440135427844
+            ],
+            [
+              77.23083465276693,
+              28.61344017583622
+            ],
+            [
+              77.23143089736509,
+              28.61343035897551
+            ],
+            [
+              77.2314323987862,
+              28.613430269081526
+            ],
+            [
+              77.23143388299248,
+              28.61343004975754
+            ],
+            [
+              77.23143533569018,
+              28.613429703115756
+            ],
+            [
+              77.23143674288902,
+              28.61342923249451
+            ],
+            [
+              77.2314380910369,
+              28.613428642426182
+            ],
+            [
+              77.23143936715044,
+              28.61342793859342
+            ],
+            [
+              77.23144055893994,
+              28.613427127774543
+            ],
+            [
+              77.23144165492782,
+              28.613426217778173
+            ],
+            [
+              77.23144264455912,
+              28.61342521736807
+            ],
+            [
+              77.23144351830315,
+              28.613424136178736
+            ],
+            [
+              77.23144426774527,
+              28.613422984622623
+            ],
+            [
+              77.23144488566798,
+              28.613421773789856
+            ],
+            [
+              77.23144536612031,
+              28.61342051534139
+            ],
+            [
+              77.23144570447528,
+              28.613419221396803
+            ],
+            [
+              77.23144589747432,
+              28.61341790441746
+            ],
+            [
+              77.23144594325876,
+              28.613416577086618
+            ],
+            [
+              77.23143869529767,
+              28.613073831749855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00026",
+        "survey_number": "SY-102/26",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 0,
+        "building_coverage_ratio": 0.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 26",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.927
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2314306112607,
+              28.613416829554573
+            ],
+            [
+              77.23083436673886,
+              28.613426646409792
+            ],
+            [
+              77.23084161284403,
+              28.613769391870136
+            ],
+            [
+              77.23143785929864,
+              28.613759574875886
+            ],
+            [
+              77.2314306112607,
+              28.613416829554573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00027",
+        "survey_number": "SY-102/27",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 27",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23143785929864,
+              28.613759574875886
+            ],
+            [
+              77.23084161284403,
+              28.613769391870136
+            ],
+            [
+              77.23084885907569,
+              28.614112137311455
+            ],
+            [
+              77.23144510746313,
+              28.614102320178176
+            ],
+            [
+              77.23143785929864,
+              28.613759574875886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00028",
+        "survey_number": "SY-102/28",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 28",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.939
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23144510746313,
+              28.614102320178176
+            ],
+            [
+              77.23084885907569,
+              28.614112137311455
+            ],
+            [
+              77.23085610543387,
+              28.614454882733742
+            ],
+            [
+              77.23145235575414,
+              28.61444506546145
+            ],
+            [
+              77.23144510746313,
+              28.614102320178176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00029",
+        "survey_number": "SY-102/29",
+        "area_sqm": 2216.67,
+        "perimeter_m": 192.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.794,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 29",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 997501,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.955
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23145235575414,
+              28.61444506546145
+            ],
+            [
+              77.23085610543387,
+              28.614454882733742
+            ],
+            [
+              77.23086335191856,
+              28.614797628137026
+            ],
+            [
+              77.23145960417172,
+              28.61478781072571
+            ],
+            [
+              77.23145235575414,
+              28.61444506546145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00030",
+        "survey_number": "SY-103/30",
+        "area_sqm": 1800.73,
+        "perimeter_m": 175.27,
+        "confidence_score": 0.78,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.928,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 30",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 810328,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23018973803386,
+              28.61201797683476
+            ],
+            [
+              77.2301834667127,
+              28.611721231215476
+            ],
+            [
+              77.22962402751288,
+              28.61173043666308
+            ],
+            [
+              77.22963029726407,
+              28.612027182395234
+            ],
+            [
+              77.23018973803386,
+              28.61201797683476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00031",
+        "survey_number": "SY-103/31",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.793,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 31",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.929
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23021543703938,
+              28.612363125619776
+            ],
+            [
+              77.23020847932067,
+              28.61203390937689
+            ],
+            [
+              77.2296122421115,
+              28.612043720425397
+            ],
+            [
+              77.22961919797386,
+              28.612372936801744
+            ],
+            [
+              77.23021543703938,
+              28.612363125619776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00032",
+        "survey_number": "SY-103/32",
+        "area_sqm": 2245.83,
+        "perimeter_m": 193.67,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.744,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 32",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1010623,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.933
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23022239487476,
+              28.61269234184512
+            ],
+            [
+              77.2302150557915,
+              28.61234508637404
+            ],
+            [
+              77.2296188168277,
+              28.61235489754869
+            ],
+            [
+              77.22962615395285,
+              28.612702153160537
+            ],
+            [
+              77.23022239487476,
+              28.61269234184512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00033",
+        "survey_number": "SY-103/33",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.793,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 33",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.944
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23022239487476,
+              28.61269234184512
+            ],
+            [
+              77.22962615395285,
+              28.612702153160537
+            ],
+            [
+              77.2296331100485,
+              28.613031369501787
+            ],
+            [
+              77.23022935282684,
+              28.613021558052903
+            ],
+            [
+              77.23022239487476,
+              28.61269234184512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00034",
+        "survey_number": "SY-103/34",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.785,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 34",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.897
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23020847932067,
+              28.61203390937689
+            ],
+            [
+              77.23080471623182,
+              28.612024095709465
+            ],
+            [
+              77.23079775677346,
+              28.61169487958254
+            ],
+            [
+              77.23020152171864,
+              28.611704693116465
+            ],
+            [
+              77.23020847932067,
+              28.61203390937689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00035",
+        "survey_number": "SY-103/35",
+        "area_sqm": 2420.72,
+        "perimeter_m": 199.09,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.698,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 35",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1089324,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.881
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23020819338952,
+              28.61202037994188
+            ],
+            [
+              77.23020669198637,
+              28.61202046982125
+            ],
+            [
+              77.23020520779622,
+              28.612020689130876
+            ],
+            [
+              77.2302037551126,
+              28.612021035758683
+            ],
+            [
+              77.23020234792568,
+              28.612021506366464
+            ],
+            [
+              77.23020099978744,
+              28.612022096421995
+            ],
+            [
+              77.23019972368115,
+              28.61202280024272
+            ],
+            [
+              77.23019853189643,
+              28.61202361105049
+            ],
+            [
+              77.23019743591082,
+              28.612024521036762
+            ],
+            [
+              77.23019644627925,
+              28.612025521437882
+            ],
+            [
+              77.23019557253244,
+              28.612026602619434
+            ],
+            [
+              77.230194823085,
+              28.61202775416906
+            ],
+            [
+              77.23019420515458,
+              28.612028964996707
+            ],
+            [
+              77.23019372469216,
+              28.612030223441444
+            ],
+            [
+              77.23019338632484,
+              28.612031517383762
+            ],
+            [
+              77.23019319331135,
+              28.61203283436229
+            ],
+            [
+              77.23019314751045,
+              28.612034161693803
+            ],
+            [
+              77.23020010518142,
+              28.612363377940127
+            ],
+            [
+              77.23020020703495,
+              28.612364702841603
+            ],
+            [
+              77.23020045556176,
+              28.612366012553586
+            ],
+            [
+              77.2302008483684,
+              28.612367294462832
+            ],
+            [
+              77.23020138167195,
+              28.612368536223833
+            ],
+            [
+              77.23020205033636,
+              28.61236972587777
+            ],
+            [
+              77.23020284792207,
+              28.612370851967615
+            ],
+            [
+              77.23020376674792,
+              28.612371903648498
+            ],
+            [
+              77.23020479796506,
+              28.61237287079216
+            ],
+            [
+              77.23020593164233,
+              28.612373744084493
+            ],
+            [
+              77.2302071568618,
+              28.612374515115192
+            ],
+            [
+              77.23020846182393,
+              28.61237517645881
+            ],
+            [
+              77.23020983396123,
+              28.612375721746247
+            ],
+            [
+              77.23021126005924,
+              28.612376145726092
+            ],
+            [
+              77.23021272638387,
+              28.612376444315174
+            ],
+            [
+              77.2302142188136,
+              28.612376614637927
+            ],
+            [
+              77.23021572297552,
+              28.612376655054042
+            ],
+            [
+              77.23081196181931,
+              28.61236684124763
+            ],
+            [
+              77.23081346322638,
+              28.612366751361314
+            ],
+            [
+              77.23081494741965,
+              28.612366532044824
+            ],
+            [
+              77.23081640010544,
+              28.612366185410337
+            ],
+            [
+              77.23081780729363,
+              28.612365714796102
+            ],
+            [
+              77.23081915543226,
+              28.612365124734403
+            ],
+            [
+              77.23082043153796,
+              28.61236442090786
+            ],
+            [
+              77.23082162332118,
+              28.61236361009471
+            ],
+            [
+              77.23082271930436,
+              28.612362700103535
+            ],
+            [
+              77.23082370893259,
+              28.612361699698038
+            ],
+            [
+              77.23082458267523,
+              28.612360618512685
+            ],
+            [
+              77.23082533211763,
+              28.612359466959877
+            ],
+            [
+              77.23082595004226,
+              28.612358256129696
+            ],
+            [
+              77.2308264304982,
+              28.612356997683115
+            ],
+            [
+              77.23082676885838,
+              28.612355703739645
+            ],
+            [
+              77.23082696186422,
+              28.61235438676067
+            ],
+            [
+              77.23082700765697,
+              28.61235305942944
+            ],
+            [
+              77.23082004803418,
+              28.61202384332348
+            ],
+            [
+              77.23081994617351,
+              28.61202251842283
+            ],
+            [
+              77.23081969764021,
+              28.612021208712292
+            ],
+            [
+              77.23081930482778,
+              28.61201992680513
+            ],
+            [
+              77.2308187715192,
+              28.612018685046813
+            ],
+            [
+              77.23081810285053,
+              28.61201749539612
+            ],
+            [
+              77.23081730526144,
+              28.61201636931007
+            ],
+            [
+              77.23081638643315,
+              28.612015317633464
+            ],
+            [
+              77.23081535521446,
+              28.612014350494515
+            ],
+            [
+              77.23081422153656,
+              28.612013477207316
+            ],
+            [
+              77.23081299631744,
+              28.612012706182085
+            ],
+            [
+              77.23081169135658,
+              28.612012044844228
+            ],
+            [
+              77.23081031922148,
+              28.61201149956277
+            ],
+            [
+              77.23080889312652,
+              28.612011075589077
+            ],
+            [
+              77.23080742680582,
+              28.61201077700623
+            ],
+            [
+              77.23080593438081,
+              28.612010606689783
+            ],
+            [
+              77.23080443022437,
+              28.61201056627995
+            ],
+            [
+              77.23020819338952,
+              28.61202037994188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00036",
+        "survey_number": "SY-103/36",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.785,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 36",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.914
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23021543703938,
+              28.612363125619776
+            ],
+            [
+              77.23022239487476,
+              28.61269234184512
+            ],
+            [
+              77.23081863549865,
+              28.612682527910703
+            ],
+            [
+              77.2308116758069,
+              28.612353311818858
+            ],
+            [
+              77.23021543703938,
+              28.612363125619776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00037",
+        "survey_number": "SY-103/37",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.793,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 37",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.912
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23081863549865,
+              28.612682527910703
+            ],
+            [
+              77.23022239487476,
+              28.61269234184512
+            ],
+            [
+              77.23022935282684,
+              28.613021558052903
+            ],
+            [
+              77.23082559530714,
+              28.61301174398499
+            ],
+            [
+              77.23081863549865,
+              28.612682527910703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00038",
+        "survey_number": "SY-103/38",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.785,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 38",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.916
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2313939915302,
+              28.611685063429732
+            ],
+            [
+              77.23079775677346,
+              28.61169487958254
+            ],
+            [
+              77.23080471623182,
+              28.612024095709465
+            ],
+            [
+              77.23140095284487,
+              28.612014279423136
+            ],
+            [
+              77.2313939915302,
+              28.611685063429732
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00039",
+        "survey_number": "SY-103/39",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 0,
+        "building_coverage_ratio": 0.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 39",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.906
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23140095284487,
+              28.612014279423136
+            ],
+            [
+              77.23080471623182,
+              28.612024095709465
+            ],
+            [
+              77.2308116758069,
+              28.612353311818858
+            ],
+            [
+              77.23140791427629,
+              28.61234349539899
+            ],
+            [
+              77.23140095284487,
+              28.612014279423136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00040",
+        "survey_number": "SY-103/40",
+        "area_sqm": 1800.73,
+        "perimeter_m": 175.27,
+        "confidence_score": 0.7,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.928,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 40",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 810328,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.887
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23138985936878,
+              28.61236003365296
+            ],
+            [
+              77.23083041724473,
+              28.612369244265675
+            ],
+            [
+              77.2308366905528,
+              28.612665989725567
+            ],
+            [
+              77.23139613424685,
+              28.612656778999924
+            ],
+            [
+              77.23138985936878,
+              28.61236003365296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00041",
+        "survey_number": "SY-103/41",
+        "area_sqm": 2129.17,
+        "perimeter_m": 189.67,
+        "confidence_score": 0.85,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.793,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 41",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 958126,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.955
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23141487582444,
+              28.6126727113573
+            ],
+            [
+              77.23081863549865,
+              28.612682527910703
+            ],
+            [
+              77.23082559530714,
+              28.61301174398499
+            ],
+            [
+              77.23142183748935,
+              28.613001927298065
+            ],
+            [
+              77.23141487582444,
+              28.6126727113573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00042",
+        "survey_number": "SY-104/42",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.779,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 42",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.893
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23203977745655,
+              28.61200375906731
+            ],
+            [
+              77.23203281415296,
+              28.611674543217013
+            ],
+            [
+              77.23149620317284,
+              28.61168338039772
+            ],
+            [
+              77.23150316480574,
+              28.612012596368228
+            ],
+            [
+              77.23203977745655,
+              28.61200375906731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00043",
+        "survey_number": "SY-104/43",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 43",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.908
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2320467408769,
+              28.61233297490005
+            ],
+            [
+              77.23203977745655,
+              28.61200375906731
+            ],
+            [
+              77.23150316480574,
+              28.612012596368228
+            ],
+            [
+              77.2315101265554,
+              28.612341812321187
+            ],
+            [
+              77.2320467408769,
+              28.61233297490005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00044",
+        "survey_number": "SY-104/44",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.779,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 44",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.884
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23205370441404,
+              28.612662190715252
+            ],
+            [
+              77.2320467408769,
+              28.61233297490005
+            ],
+            [
+              77.2315101265554,
+              28.612341812321187
+            ],
+            [
+              77.23151708842178,
+              28.61267102825661
+            ],
+            [
+              77.23205370441404,
+              28.612662190715252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00045",
+        "survey_number": "SY-104/45",
+        "area_sqm": 2190.31,
+        "perimeter_m": 187.42,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.689,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 45",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 985639,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.944
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23206903629598,
+              28.612661938182903
+            ],
+            [
+              77.23206893441852,
+              28.612660613284202
+            ],
+            [
+              77.2320686858678,
+              28.612659303577022
+            ],
+            [
+              77.2320682930375,
+              28.61265802167457
+            ],
+            [
+              77.2320677597108,
+              28.612656779922258
+            ],
+            [
+              77.23206709102392,
+              28.61265559027885
+            ],
+            [
+              77.23206629341671,
+              28.612654464201267
+            ],
+            [
+              77.23206537457054,
+              28.61265341253422
+            ],
+            [
+              77.23206434333443,
+              28.612652445405853
+            ],
+            [
+              77.2320632096397,
+              28.612651572130147
+            ],
+            [
+              77.2320619844045,
+              28.612650801117212
+            ],
+            [
+              77.23206067942849,
+              28.612650139792304
+            ],
+            [
+              77.23205930727929,
+              28.612649594524367
+            ],
+            [
+              77.23205788117144,
+              28.612649170564616
+            ],
+            [
+              77.23205641483918,
+              28.61264887199603
+            ],
+            [
+              77.23205492240403,
+              28.61264870169396
+            ],
+            [
+              77.23205341823898,
+              28.61264866129853
+            ],
+            [
+              77.23151680231538,
+              28.61265749883495
+            ],
+            [
+              77.23151530090534,
+              28.612657588729256
+            ],
+            [
+              77.23151381671005,
+              28.612657808053562
+            ],
+            [
+              77.23151236402313,
+              28.612658154695623
+            ],
+            [
+              77.23151095683473,
+              28.612658625317092
+            ],
+            [
+              77.23150960869684,
+              28.61265921538565
+            ],
+            [
+              77.23150833259275,
+              28.612659919218597
+            ],
+            [
+              77.23150714081207,
+              28.612660730037664
+            ],
+            [
+              77.23150604483227,
+              28.612661640034187
+            ],
+            [
+              77.23150505520826,
+              28.61266264044441
+            ],
+            [
+              77.23150418147064,
+              28.61266372163387
+            ],
+            [
+              77.23150343203402,
+              28.612664873190095
+            ],
+            [
+              77.2315028141158,
+              28.612666084022973
+            ],
+            [
+              77.23150233366695,
+              28.612667342471546
+            ],
+            [
+              77.23150199531446,
+              28.61266863641624
+            ],
+            [
+              77.23150180231683,
+              28.612669953395685
+            ],
+            [
+              77.23150175653274,
+              28.61267128072662
+            ],
+            [
+              77.23150871846815,
+              28.613000496647913
+            ],
+            [
+              77.23150882033924,
+              28.61300182154736
+            ],
+            [
+              77.2315090688842,
+              28.61300313125584
+            ],
+            [
+              77.23150946170938,
+              28.613004413160155
+            ],
+            [
+              77.23150999503173,
+              28.613005654914865
+            ],
+            [
+              77.231510663715,
+              28.6130068445612
+            ],
+            [
+              77.23151146131946,
+              28.613007970642183
+            ],
+            [
+              77.23151238016371,
+              28.613009022313072
+            ],
+            [
+              77.2315134113988,
+              28.613009989445683
+            ],
+            [
+              77.23151454509335,
+              28.613010862725986
+            ],
+            [
+              77.23151577032928,
+              28.613011633743834
+            ],
+            [
+              77.23151707530688,
+              28.613012295073904
+            ],
+            [
+              77.23151844745853,
+              28.6130128403472
+            ],
+            [
+              77.23151987356961,
+              28.613013264312457
+            ],
+            [
+              77.23152133990592,
+              28.613013562886636
+            ],
+            [
+              77.23152283234583,
+              28.613013733194343
+            ],
+            [
+              77.23152433651634,
+              28.613013773595373
+            ],
+            [
+              77.23206095424801,
+              28.613004935928863
+            ],
+            [
+              77.23206245566207,
+              28.613004846028254
+            ],
+            [
+              77.23206393986062,
+              28.61300462669776
+            ],
+            [
+              77.23206539255001,
+              28.613004280049633
+            ],
+            [
+              77.23206679974004,
+              28.613003809422292
+            ],
+            [
+              77.23206814787868,
+              28.613003219348144
+            ],
+            [
+              77.23206942398264,
+              28.613002515509926
+            ],
+            [
+              77.23207061576231,
+              28.61300170468599
+            ],
+            [
+              77.23207171174025,
+              28.613000794685018
+            ],
+            [
+              77.23207270136152,
+              28.612999794270813
+            ],
+            [
+              77.2320735750956,
+              28.612998713077907
+            ],
+            [
+              77.23207432452793,
+              28.612997561518792
+            ],
+            [
+              77.23207494244102,
+              28.612996350683613
+            ],
+            [
+              77.2320754228841,
+              28.61299509223337
+            ],
+            [
+              77.23207576123022,
+              28.612993798287626
+            ],
+            [
+              77.23207595422093,
+              28.61299248130779
+            ],
+            [
+              77.23207599999763,
+              28.612991153977113
+            ],
+            [
+              77.23206903629598,
+              28.612661938182903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00046",
+        "survey_number": "SY-104/46",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.774,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 46",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.938
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23203977745655,
+              28.61200375906731
+            ],
+            [
+              77.23257638986576,
+              28.611994919645063
+            ],
+            [
+              77.23256942489148,
+              28.611665703915016
+            ],
+            [
+              77.23203281415296,
+              28.611674543217013
+            ],
+            [
+              77.23203977745655,
+              28.61200375906731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00047",
+        "survey_number": "SY-104/47",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.782,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 47",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.901
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23203977745655,
+              28.61200375906731
+            ],
+            [
+              77.2320467408769,
+              28.61233297490005
+            ],
+            [
+              77.23258335495683,
+              28.61232413535757
+            ],
+            [
+              77.23257638986576,
+              28.611994919645063
+            ],
+            [
+              77.23203977745655,
+              28.61200375906731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00048",
+        "survey_number": "SY-104/48",
+        "area_sqm": 2136.75,
+        "perimeter_m": 188.0,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 2,
+        "building_coverage_ratio": 0.704,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 48",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 961537,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.944
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23201569565282,
+              28.612315440729056
+            ],
+            [
+              77.23202304064957,
+              28.612662695774763
+            ],
+            [
+              77.2325903201647,
+              28.612653351052522
+            ],
+            [
+              77.23258297330497,
+              28.612306096140905
+            ],
+            [
+              77.23201569565282,
+              28.612315440729056
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00049",
+        "survey_number": "SY-104/49",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.782,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 49",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.931
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2325903201647,
+              28.612653351052522
+            ],
+            [
+              77.23205370441404,
+              28.612662190715252
+            ],
+            [
+              77.23206066806794,
+              28.612991406512897
+            ],
+            [
+              77.23259728548938,
+              28.612982566729926
+            ],
+            [
+              77.2325903201647,
+              28.612653351052522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00050",
+        "survey_number": "SY-104/50",
+        "area_sqm": 1608.81,
+        "perimeter_m": 163.6,
+        "confidence_score": 0.78,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.928,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 50",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 723964,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.953
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23259444451747,
+              28.61197838124589
+            ],
+            [
+              77.23309426034537,
+              28.611970145985133
+            ],
+            [
+              77.23308798087321,
+              28.611673400952313
+            ],
+            [
+              77.23258816644794,
+              28.611681636112095
+            ],
+            [
+              77.23259444451747,
+              28.61197838124589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00051",
+        "survey_number": "SY-104/51",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 51",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.941
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23257638986576,
+              28.611994919645063
+            ],
+            [
+              77.23258335495683,
+              28.61232413535757
+            ],
+            [
+              77.2331199687951,
+              28.612315293693758
+            ],
+            [
+              77.23311300203332,
+              28.611986078101523
+            ],
+            [
+              77.23257638986576,
+              28.611994919645063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00052",
+        "survey_number": "SY-104/52",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.85,
+        "verification_status": "AI Confirmed",
+        "building_count": 0,
+        "building_coverage_ratio": 0.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 52",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.935
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23258335495683,
+              28.61232413535757
+            ],
+            [
+              77.2325903201647,
+              28.612653351052522
+            ],
+            [
+              77.23312693567371,
+              28.612644509268428
+            ],
+            [
+              77.2331199687951,
+              28.612315293693758
+            ],
+            [
+              77.23258335495683,
+              28.61232413535757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00053",
+        "survey_number": "SY-104/53",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.85,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 53",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.904
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23312693567371,
+              28.612644509268428
+            ],
+            [
+              77.2325903201647,
+              28.612653351052522
+            ],
+            [
+              77.23259728548938,
+              28.612982566729926
+            ],
+            [
+              77.23313390266914,
+              28.61297372482556
+            ],
+            [
+              77.23312693567371,
+              28.612644509268428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00054",
+        "survey_number": "SY-104/54",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.774,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 54",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23364264564354,
+              28.611648018947186
+            ],
+            [
+              77.23310603538837,
+              28.611656862491742
+            ],
+            [
+              77.23311300203332,
+              28.611986078101523
+            ],
+            [
+              77.23364961395919,
+              28.611977234436658
+            ],
+            [
+              77.23364264564354,
+              28.611648018947186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00055",
+        "survey_number": "SY-104/55",
+        "area_sqm": 2190.31,
+        "perimeter_m": 187.42,
+        "confidence_score": 0.9,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.684,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 55",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 985639,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.936
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23366494572494,
+              28.61197698172936
+            ],
+            [
+              77.23366484382878,
+              28.611975656832804
+            ],
+            [
+              77.23366459526066,
+              28.611974347129447
+            ],
+            [
+              77.23366420241445,
+              28.611973065232444
+            ],
+            [
+              77.23366366907344,
+              28.611971823487167
+            ],
+            [
+              77.23366300037402,
+              28.61197063385229
+            ],
+            [
+              77.23366220275615,
+              28.611969507784643
+            ],
+            [
+              77.23366128390128,
+              28.611968456128892
+            ],
+            [
+              77.23366025265854,
+              28.61196748901302
+            ],
+            [
+              77.23365911895932,
+              28.61196661575092
+            ],
+            [
+              77.23365789372181,
+              28.611965844752543
+            ],
+            [
+              77.23365658874566,
+              28.611965183443054
+            ],
+            [
+              77.23365521659852,
+              28.611964638191193
+            ],
+            [
+              77.23365379049494,
+              28.61196421424805
+            ],
+            [
+              77.23365232416903,
+              28.61196391569644
+            ],
+            [
+              77.23365083174235,
+              28.611963745411554
+            ],
+            [
+              77.23364932758774,
+              28.611963705033336
+            ],
+            [
+              77.23311271573053,
+              28.611972548693238
+            ],
+            [
+              77.23311121433282,
+              28.611972638604644
+            ],
+            [
+              77.23310973015165,
+              28.61197285794573
+            ],
+            [
+              77.23310827748047,
+              28.61197320460413
+            ],
+            [
+              77.23310687030929,
+              28.61197367524132
+            ],
+            [
+              77.23310552218993,
+              28.611974265324836
+            ],
+            [
+              77.23310424610554,
+              28.611974969171843
+            ],
+            [
+              77.2331030543455,
+              28.611975780003895
+            ],
+            [
+              77.23310195838712,
+              28.611976690012266
+            ],
+            [
+              77.23310096878502,
+              28.611977690433054
+            ],
+            [
+              77.23310009506967,
+              28.61197877163168
+            ],
+            [
+              77.23309934565543,
+              28.611979923195616
+            ],
+            [
+              77.23309872775951,
+              28.61198113403465
+            ],
+            [
+              77.23309824733268,
+              28.611982392487757
+            ],
+            [
+              77.23309790900164,
+              28.611983686435366
+            ],
+            [
+              77.23309771602474,
+              28.611985003416017
+            ],
+            [
+              77.23309767026045,
+              28.611986330746486
+            ],
+            [
+              77.2331046369745,
+              28.612315546342156
+            ],
+            [
+              77.23310473886428,
+              28.612316871239436
+            ],
+            [
+              77.23310498742663,
+              28.6123181809441
+            ],
+            [
+              77.23310538026774,
+              28.61231946284298
+            ],
+            [
+              77.23310591360438,
+              28.612320704590662
+            ],
+            [
+              77.23310658230021,
+              28.61232189422846
+            ],
+            [
+              77.23310737991532,
+              28.612323020299506
+            ],
+            [
+              77.23310829876827,
+              28.612324071959097
+            ],
+            [
+              77.23310933000997,
+              28.612325039079213
+            ],
+            [
+              77.23311046370902,
+              28.61232591234592
+            ],
+            [
+              77.23311168894728,
+              28.612326683349185
+            ],
+            [
+              77.23311299392502,
+              28.61232734466385
+            ],
+            [
+              77.23311436607459,
+              28.612327889921065
+            ],
+            [
+              77.23311579218144,
+              28.612328313869707
+            ],
+            [
+              77.23311725851137,
+              28.61232861242692
+            ],
+            [
+              77.23311875094284,
+              28.612328782717444
+            ],
+            [
+              77.23312025510288,
+              28.612328823101265
+            ],
+            [
+              77.2336568687681,
+              28.61231997931118
+            ],
+            [
+              77.23365837016982,
+              28.612319889393486
+            ],
+            [
+              77.23365985435427,
+              28.612319670046187
+            ],
+            [
+              77.23366130702792,
+              28.61231932338173
+            ],
+            [
+              77.2336627142007,
+              28.612318852738667
+            ],
+            [
+              77.23366406232081,
+              28.61231826264956
+            ],
+            [
+              77.23366533840507,
+              28.612317558797287
+            ],
+            [
+              77.23366653016411,
+              28.612316747960353
+            ],
+            [
+              77.23366762612065,
+              28.61231583794753
+            ],
+            [
+              77.23366861571999,
+              28.612314837522767
+            ],
+            [
+              77.23366948943179,
+              28.6123137563207
+            ],
+            [
+              77.23367023884173,
+              28.61231260475388
+            ],
+            [
+              77.23367085673253,
+              28.612311393912538
+            ],
+            [
+              77.23367133715362,
+              28.612310135457744
+            ],
+            [
+              77.23367167547828,
+              28.61230884150911
+            ],
+            [
+              77.23367186844825,
+              28.612307524528067
+            ],
+            [
+              77.23367191420515,
+              28.612306197197853
+            ],
+            [
+              77.23366494572494,
+              28.61197698172936
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00056",
+        "survey_number": "SY-104/56",
+        "area_sqm": 2136.75,
+        "perimeter_m": 188.0,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.694,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 56",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 961537,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.925
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23308892341555,
+              28.612297759778375
+            ],
+            [
+              77.23309627193683,
+              28.612645014570386
+            ],
+            [
+              77.23366355094102,
+              28.612635665362976
+            ],
+            [
+              77.23365620055671,
+              28.612288410705105
+            ],
+            [
+              77.23308892341555,
+              28.612297759778375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00057",
+        "survey_number": "SY-104/57",
+        "area_sqm": 1916.25,
+        "perimeter_m": 178.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.782,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 57",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 862312,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.885
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23366355094102,
+              28.612635665362976
+            ],
+            [
+              77.23312693567371,
+              28.612644509268428
+            ],
+            [
+              77.23313390266914,
+              28.61297372482556
+            ],
+            [
+              77.23367051960719,
+              28.612964880799804
+            ],
+            [
+              77.23366355094102,
+              28.612635665362976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00058",
+        "survey_number": "SY-105/58",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 58",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.896
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23206944434605,
+              28.613406308589052
+            ],
+            [
+              77.23206219436386,
+              28.613063563397713
+            ],
+            [
+              77.23152557633465,
+              28.613072401085635
+            ],
+            [
+              77.23153282457737,
+              28.61341514640213
+            ],
+            [
+              77.23206944434605,
+              28.613406308589052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00059",
+        "survey_number": "SY-105/59",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 59",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23207669445482,
+              28.61374905376137
+            ],
+            [
+              77.23206944434605,
+              28.613406308589052
+            ],
+            [
+              77.23153282457737,
+              28.61341514640213
+            ],
+            [
+              77.23154007294664,
+              28.613757891699617
+            ],
+            [
+              77.23207669445482,
+              28.61374905376137
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00060",
+        "survey_number": "SY-105/60",
+        "area_sqm": 1682.16,
+        "perimeter_m": 166.6,
+        "confidence_score": 0.78,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.935,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 60",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 756972,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.895
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23206520275059,
+              28.614075866672607
+            ],
+            [
+              77.23205863943363,
+              28.613765592108887
+            ],
+            [
+              77.23155881475212,
+              28.613773824022594
+            ],
+            [
+              77.23156537660233,
+              28.614084098691844
+            ],
+            [
+              77.23206520275059,
+              28.614075866672607
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00061",
+        "survey_number": "SY-105/61",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 61",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.935
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23209119505209,
+              28.614434544048944
+            ],
+            [
+              77.23208394469017,
+              28.61409179891468
+            ],
+            [
+              77.23154732144246,
+              28.614100636978065
+            ],
+            [
+              77.23155457006483,
+              28.614443382237507
+            ],
+            [
+              77.23209119505209,
+              28.614434544048944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00062",
+        "survey_number": "SY-105/62",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.85,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 62",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.934
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23209119505209,
+              28.614434544048944
+            ],
+            [
+              77.23155457006483,
+              28.614443382237507
+            ],
+            [
+              77.23156181881374,
+              28.614786127477913
+            ],
+            [
+              77.23209844554061,
+              28.614777289164206
+            ],
+            [
+              77.23209119505209,
+              28.614434544048944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00063",
+        "survey_number": "SY-105/63",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 63",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.962
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23206944434605,
+              28.613406308589052
+            ],
+            [
+              77.23260606387315,
+              28.613397468654536
+            ],
+            [
+              77.23259881215148,
+              28.613054723588387
+            ],
+            [
+              77.23206219436386,
+              28.613063563397713
+            ],
+            [
+              77.23206944434605,
+              28.613406308589052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00064",
+        "survey_number": "SY-105/64",
+        "area_sqm": 2220.0,
+        "perimeter_m": 191.0,
+        "confidence_score": 0.98,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.714,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 64",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 999000,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.917
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23203839878985,
+              28.613388774443596
+            ],
+            [
+              77.23204603037517,
+              28.613749558843566
+            ],
+            [
+              77.23261331572141,
+              28.61374021370167
+            ],
+            [
+              77.23260568220043,
+              28.613379429441007
+            ],
+            [
+              77.23203839878985,
+              28.613388774443596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00065",
+        "survey_number": "SY-105/65",
+        "area_sqm": 2273.56,
+        "perimeter_m": 190.42,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 0,
+        "building_coverage_ratio": 0.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 65",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1023102,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.887
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23207640826392,
+              28.61373552434703
+            ],
+            [
+              77.23207490683953,
+              28.613735614248363
+            ],
+            [
+              77.23207342263082,
+              28.613735833579543
+            ],
+            [
+              77.23207196993158,
+              28.613736180228273
+            ],
+            [
+              77.23207056273202,
+              28.613736650856165
+            ],
+            [
+              77.23206921458431,
+              28.613737240930796
+            ],
+            [
+              77.23206793847181,
+              28.613737944769433
+            ],
+            [
+              77.2320667466842,
+              28.61373875559371
+            ],
+            [
+              77.23206565069901,
+              28.613739665595
+            ],
+            [
+              77.2320646610712,
+              28.613740666009445
+            ],
+            [
+              77.23206378733143,
+              28.61374174720252
+            ],
+            [
+              77.23206303789429,
+              28.61374289876176
+            ],
+            [
+              77.23206241997727,
+              28.61374410959702
+            ],
+            [
+              77.23206193953129,
+              28.613745368047283
+            ],
+            [
+              77.23206160118322,
+              28.61374666199301
+            ],
+            [
+              77.23206140819163,
+              28.613747978972757
+            ],
+            [
+              77.23206136241508,
+              28.613749306303333
+            ],
+            [
+              77.23206861260074,
+              28.61409205146021
+            ],
+            [
+              77.23206871448086,
+              28.61409337635857
+            ],
+            [
+              77.23206896303624,
+              28.61409468606531
+            ],
+            [
+              77.23206935587314,
+              28.614095967967206
+            ],
+            [
+              77.23206988920835,
+              28.614097209718864
+            ],
+            [
+              77.23207055790554,
+              28.6140983993615
+            ],
+            [
+              77.23207135552484,
+              28.614099525438245
+            ],
+            [
+              77.23207227438468,
+              28.614100577104338
+            ],
+            [
+              77.23207330563598,
+              28.61410154423166
+            ],
+            [
+              77.23207443934722,
+              28.61410241750624
+            ],
+            [
+              77.23207566460013,
+              28.61410318851798
+            ],
+            [
+              77.23207696959486,
+              28.614103849841605
+            ],
+            [
+              77.23207834176362,
+              28.614104395108185
+            ],
+            [
+              77.2320797678916,
+              28.61410481906654
+            ],
+            [
+              77.23208123424449,
+              28.614105117633684
+            ],
+            [
+              77.23208272670041,
+              28.614105287934283
+            ],
+            [
+              77.23208423088627,
+              28.614105328328222
+            ],
+            [
+              77.23262085396104,
+              28.614096488138394
+            ],
+            [
+              77.23262235538967,
+              28.614096398230753
+            ],
+            [
+              77.23262383960181,
+              28.614096178893355
+            ],
+            [
+              77.23262529230371,
+              28.614095832238537
+            ],
+            [
+              77.23262669950503,
+              28.61409536160479
+            ],
+            [
+              77.23262804765368,
+              28.61409477152456
+            ],
+            [
+              77.2326293237662,
+              28.614094067680643
+            ],
+            [
+              77.23263051555297,
+              28.614093256851447
+            ],
+            [
+              77.2326316115364,
+              28.614092346845723
+            ],
+            [
+              77.2326326011616,
+              28.614091346427294
+            ],
+            [
+              77.23263347489791,
+              28.614090265230754
+            ],
+            [
+              77.2326342243308,
+              28.614089113668623
+            ],
+            [
+              77.2326348422428,
+              28.614087902831063
+            ],
+            [
+              77.23263532268312,
+              28.61408664437912
+            ],
+            [
+              77.2326356610248,
+              28.61408535043236
+            ],
+            [
+              77.23263585400949,
+              28.614084033452205
+            ],
+            [
+              77.23263589977861,
+              28.6140827061219
+            ],
+            [
+              77.23262864775404,
+              28.61373996109737
+            ],
+            [
+              77.23262854586757,
+              28.613738636199727
+            ],
+            [
+              77.23262829730648,
+              28.613737326494306
+            ],
+            [
+              77.23262790446454,
+              28.613736044594255
+            ],
+            [
+              77.23262737112505,
+              28.613734802845013
+            ],
+            [
+              77.23262670242437,
+              28.613733613205273
+            ],
+            [
+              77.23262590480243,
+              28.61373248713193
+            ],
+            [
+              77.23262498594079,
+              28.613731435469678
+            ],
+            [
+              77.23262395468859,
+              28.61373046834658
+            ],
+            [
+              77.23262282097735,
+              28.613729595076574
+            ],
+            [
+              77.23262159572532,
+              28.613728824069742
+            ],
+            [
+              77.23262029073236,
+              28.613728162751265
+            ],
+            [
+              77.23261891856626,
+              28.61372761749002
+            ],
+            [
+              77.2326174924417,
+              28.61372719353715
+            ],
+            [
+              77.23261602609305,
+              28.613726894975596
+            ],
+            [
+              77.23261453364208,
+              28.613726724680618
+            ],
+            [
+              77.23261302946185,
+              28.613726684292267
+            ],
+            [
+              77.23207640826392,
+              28.61373552434703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00066",
+        "survey_number": "SY-105/66",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 66",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23208394469017,
+              28.61409179891468
+            ],
+            [
+              77.23209119505209,
+              28.614434544048944
+            ],
+            [
+              77.23262781979777,
+              28.614425703738867
+            ],
+            [
+              77.23262056769629,
+              28.614082958729785
+            ],
+            [
+              77.23208394469017,
+              28.61409179891468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00067",
+        "survey_number": "SY-105/67",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.85,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 67",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.912
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23262781979777,
+              28.614425703738867
+            ],
+            [
+              77.23209119505209,
+              28.614434544048944
+            ],
+            [
+              77.23209844554061,
+              28.614777289164206
+            ],
+            [
+              77.23263507202586,
+              28.614768448728938
+            ],
+            [
+              77.23262781979777,
+              28.614425703738867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00068",
+        "survey_number": "SY-105/68",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 68",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.962
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23260606387315,
+              28.613397468654536
+            ],
+            [
+              77.23314268315858,
+              28.613388626598592
+            ],
+            [
+              77.23313542969746,
+              28.61304588165765
+            ],
+            [
+              77.23259881215148,
+              28.613054723588387
+            ],
+            [
+              77.23260606387315,
+              28.613397468654536
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00069",
+        "survey_number": "SY-105/69",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 69",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.881
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23260606387315,
+              28.613397468654536
+            ],
+            [
+              77.23261331572141,
+              28.61374021370167
+            ],
+            [
+              77.23314993674633,
+              28.61373137152051
+            ],
+            [
+              77.23314268315858,
+              28.613388626598592
+            ],
+            [
+              77.23260606387315,
+              28.613397468654536
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00070",
+        "survey_number": "SY-105/70",
+        "area_sqm": 1682.16,
+        "perimeter_m": 166.6,
+        "confidence_score": 0.7,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.935,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 70",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 756972,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.888
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23263205767512,
+              28.61375614586732
+            ],
+            [
+              77.23263862267477,
+              28.61406642030994
+            ],
+            [
+              77.2331384483729,
+              28.614058184338667
+            ],
+            [
+              77.2331318819065,
+              28.613747910001635
+            ],
+            [
+              77.23263205767512,
+              28.61375614586732
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00071",
+        "survey_number": "SY-105/71",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.788,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 71",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.922
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23262056769629,
+              28.614082958729785
+            ],
+            [
+              77.23262781979777,
+              28.614425703738867
+            ],
+            [
+              77.23316444430175,
+              28.61441686130726
+            ],
+            [
+              77.23315719046072,
+              28.6140741164234
+            ],
+            [
+              77.23262056769629,
+              28.614082958729785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00072",
+        "survey_number": "SY-105/72",
+        "area_sqm": 2220.0,
+        "perimeter_m": 191.0,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 2,
+        "building_coverage_ratio": 0.716,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 72",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 999000,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.893
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23259677384561,
+              28.614408169745687
+            ],
+            [
+              77.23260440766178,
+              28.61476895395382
+            ],
+            [
+              77.23317169826943,
+              28.614759606172118
+            ],
+            [
+              77.23316406251749,
+              28.614398822103325
+            ],
+            [
+              77.23259677384561,
+              28.614408169745687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00073",
+        "survey_number": "SY-105/73",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.85,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 73",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.916
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2336720470017,
+              28.613037037605533
+            ],
+            [
+              77.23313542969746,
+              28.61304588165765
+            ],
+            [
+              77.23314268315858,
+              28.613388626598592
+            ],
+            [
+              77.23367930220229,
+              28.613379782421216
+            ],
+            [
+              77.2336720470017,
+              28.613037037605533
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00074",
+        "survey_number": "SY-105/74",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 74",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.896
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23367930220229,
+              28.613379782421216
+            ],
+            [
+              77.23314268315858,
+              28.613388626598592
+            ],
+            [
+              77.23314993674633,
+              28.61373137152051
+            ],
+            [
+              77.23368655752952,
+              28.61372252721789
+            ],
+            [
+              77.23367930220229,
+              28.613379782421216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00075",
+        "survey_number": "SY-105/75",
+        "area_sqm": 2273.56,
+        "perimeter_m": 190.42,
+        "confidence_score": 0.98,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.687,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 75",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 1023102,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.969
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23370188954834,
+              28.61372227449235
+            ],
+            [
+              77.23370178764849,
+              28.613720949596267
+            ],
+            [
+              77.23370153907426,
+              28.613719639893546
+            ],
+            [
+              77.23370114621957,
+              28.613718357997335
+            ],
+            [
+              77.23370061286784,
+              28.613717116253014
+            ],
+            [
+              77.23369994415556,
+              28.613715926619243
+            ],
+            [
+              77.23369914652277,
+              28.61371480055284
+            ],
+            [
+              77.23369822765112,
+              28.613713748898444
+            ],
+            [
+              77.23369719638983,
+              28.613712781784066
+            ],
+            [
+              77.23369606267055,
+              28.613711908523538
+            ],
+            [
+              77.23369483741158,
+              28.61371113752682
+            ],
+            [
+              77.23369353241284,
+              28.613710476219055
+            ],
+            [
+              77.2336921602422,
+              28.613709930968977
+            ],
+            [
+              77.23369073411439,
+              28.613709507027647
+            ],
+            [
+              77.23368926776378,
+              28.61370920847785
+            ],
+            [
+              77.23368777531216,
+              28.61370903819479
+            ],
+            [
+              77.23368627113261,
+              28.613708997818375
+            ],
+            [
+              77.23314965041808,
+              28.613717842116056
+            ],
+            [
+              77.2331481489957,
+              28.61371793202922
+            ],
+            [
+              77.23314666479031,
+              28.613718151372026
+            ],
+            [
+              77.23314521209565,
+              28.61371849803206
+            ],
+            [
+              77.23314380490193,
+              28.613718968670835
+            ],
+            [
+              77.23314245676121,
+              28.61371955875579
+            ],
+            [
+              77.2331411806568,
+              28.61372026260413
+            ],
+            [
+              77.23313998887829,
+              28.6137210734374
+            ],
+            [
+              77.23313889290317,
+              28.61372198344684
+            ],
+            [
+              77.23313790328626,
+              28.613722983868556
+            ],
+            [
+              77.23313702955812,
+              28.613724065067945
+            ],
+            [
+              77.23313628013325,
+              28.61372521663247
+            ],
+            [
+              77.23313566222899,
+              28.61372642747194
+            ],
+            [
+              77.23313518179611,
+              28.613727685925294
+            ],
+            [
+              77.23313484346147,
+              28.613728979872967
+            ],
+            [
+              77.2331346504834,
+              28.61373029685351
+            ],
+            [
+              77.23313460472039,
+              28.613731624183696
+            ],
+            [
+              77.2331418583851,
+              28.61407436909017
+            ],
+            [
+              77.23314196027862,
+              28.61407569398697
+            ],
+            [
+              77.23314220884711,
+              28.614077003691012
+            ],
+            [
+              77.23314260169676,
+              28.61407828558908
+            ],
+            [
+              77.2331431350442,
+              28.614079527335804
+            ],
+            [
+              77.23314380375301,
+              28.614080716972484
+            ],
+            [
+              77.23314460138316,
+              28.614081843042275
+            ],
+            [
+              77.23314552025302,
+              28.614082894700495
+            ],
+            [
+              77.2331465515134,
+              28.614083861819122
+            ],
+            [
+              77.2331476852327,
+              28.61408473508423
+            ],
+            [
+              77.23314891049255,
+              28.614085506085836
+            ],
+            [
+              77.23315021549304,
+              28.61408616739875
+            ],
+            [
+              77.23315158766631,
+              28.614086712654178
+            ],
+            [
+              77.23315301379756,
+              28.614087136601
+            ],
+            [
+              77.2331544801524,
+              28.61408743515638
+            ],
+            [
+              77.23315597260898,
+              28.614087605445064
+            ],
+            [
+              77.23315747679415,
+              28.614087645827066
+            ],
+            [
+              77.23369409938552,
+              28.614078801394253
+            ],
+            [
+              77.23369560081213,
+              28.61407871147478
+            ],
+            [
+              77.23369708502096,
+              28.614078492125756
+            ],
+            [
+              77.23369853771827,
+              28.614078145459644
+            ],
+            [
+              77.23369994491378,
+              28.614077674815015
+            ],
+            [
+              77.23370129305543,
+              28.614077084724443
+            ],
+            [
+              77.23370256915986,
+              28.614076380870817
+            ],
+            [
+              77.23370376093752,
+              28.61407557003265
+            ],
+            [
+              77.2337048569109,
+              28.614074660018765
+            ],
+            [
+              77.2337058465252,
+              28.61407365959306
+            ],
+            [
+              77.23370672024988,
+              28.614072578390218
+            ],
+            [
+              77.2337074696705,
+              28.614071426822797
+            ],
+            [
+              77.23370808756975,
+              28.614070215981037
+            ],
+            [
+              77.2337085679969,
+              28.614068957525983
+            ],
+            [
+              77.2337089063252,
+              28.614067663577284
+            ],
+            [
+              77.23370909929636,
+              28.614066346596335
+            ],
+            [
+              77.23370914505196,
+              28.614065019266423
+            ],
+            [
+              77.23370188954834,
+              28.61372227449235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00076",
+        "survey_number": "SY-105/76",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 76",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.947
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23369381298343,
+              28.614065271995532
+            ],
+            [
+              77.23315719046072,
+              28.6140741164234
+            ],
+            [
+              77.23316444430175,
+              28.61441686130726
+            ],
+            [
+              77.23370106856402,
+              28.614408016754147
+            ],
+            [
+              77.23369381298343,
+              28.614065271995532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-ward-00077",
+        "survey_number": "SY-105/77",
+        "area_sqm": 1995.0,
+        "perimeter_m": 181.0,
+        "confidence_score": 0.93,
+        "verification_status": "AI Confirmed",
+        "building_count": 1,
+        "building_coverage_ratio": 0.783,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Property Owner 77",
+        "has_gnss_control": true,
+        "tax_assessment_annual_inr": 897750,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23370106856402,
+              28.614408016754147
+            ],
+            [
+              77.23316444430175,
+              28.61441686130726
+            ],
+            [
+              77.23317169826943,
+              28.614759606172118
+            ],
+            [
+              77.23370832427126,
+              28.614750761493738
+            ],
+            [
+              77.23370106856402,
+              28.614408016754147
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_PRIMARY_01",
+        "name": "MG Road / Revenue Arterial",
+        "hierarchy": "Major Arterial",
+        "width_m": 14.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.20593108440583,
+            28.613832695230045
+          ],
+          [
+            77.20869788508514,
+            28.61412147240026
+          ],
+          [
+            77.21206683465826,
+            28.613868017954427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_ACCESS_1",
+        "name": "Survey Access Sector Lane 1",
+        "hierarchy": "Secondary Access",
+        "width_m": 9.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.2059652153428,
+            28.615465273305144
+          ],
+          [
+            77.21210276244666,
+            28.61558176681707
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_ACCESS_2",
+        "name": "Survey Access Sector Lane 2",
+        "hierarchy": "Secondary Access",
+        "width_m": 9.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.20590412108689,
+            28.612542868048504
+          ],
+          [
+            77.2120324225597,
+            28.6122264264934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_ACCESS_3",
+        "name": "Survey Access Sector Lane 3",
+        "hierarchy": "Secondary Access",
+        "width_m": 9.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.20783945882748,
+            28.61121206294952
+          ],
+          [
+            77.20770737312141,
+            28.61662791461619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RD_ACCESS_4",
+        "name": "Survey Access Sector Lane 4",
+        "hierarchy": "Secondary Access",
+        "width_m": 9.0,
+        "surface": "Asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.21004725380908,
+            28.611176076425696
+          ],
+          [
+            77.21040592733416,
+            28.61658392125103
+          ]
+        ]
+      }
+    }
+  ]
+}

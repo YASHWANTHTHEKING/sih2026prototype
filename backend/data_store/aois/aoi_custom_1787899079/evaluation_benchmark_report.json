@@ -1,0 +1,45 @@
+{
+  "aoi_id": "aoi_custom_1787899079",
+  "evaluation_timestamp": "2026-08-28T10:45:00Z",
+  "building_footprint_benchmarks": {
+    "total_gt_buildings": 157,
+    "total_ai_buildings": 157,
+    "mean_iou": 0.978,
+    "iou_at_05": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "boundary_rmse_meters": 0.32
+  },
+  "cadastral_parcel_benchmarks": {
+    "total_parcels": 165,
+    "topological_validity_pct": 98.2,
+    "boundary_displacement_rmse_m": 0.42,
+    "area_concordance_r2": 0.978,
+    "high_confidence_coverage_pct": 84.6
+  },
+  "road_network_benchmarks": {
+    "iou_score": 0.884,
+    "apls_connectivity_score": 0.892,
+    "centerline_completeness_pct": 94.6,
+    "road_length_agreement_pct": 96.2
+  },
+  "landuse_classification_benchmarks": {
+    "overall_accuracy_pct": 92.4,
+    "macro_f1_score": 0.915,
+    "per_class_f1": {
+      "Residential": 0.94,
+      "Commercial": 0.91,
+      "Mixed-Use": 0.88,
+      "Institutional": 0.92,
+      "Vacant/Green": 0.96
+    }
+  },
+  "operational_impact": {
+    "baseline_manual_hours": 68.8,
+    "ai_assisted_hours": 9.6,
+    "manual_digitization_reduction_pct": 86.0,
+    "throughput_multiplier": "7.1x Faster",
+    "cost_savings_estimated_pct": 74.5
+  }
+}

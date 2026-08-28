@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2026-08-28T05:24:47.596491Z",
+    "action": "GT_PARCEL_SIGNOFF",
+    "parcel_id": "ULPIN-2026-ward-00001",
+    "survey_number": "SY-100/1",
+    "status": "Approved",
+    "surveyor_name": "Officer Test",
+    "surveyor_id": "GT-TEST-01",
+    "notes": "Automated unit test signoff",
+    "gnss_delta_cm": 1.2
+  }
+]

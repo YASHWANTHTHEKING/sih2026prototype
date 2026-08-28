@@ -1,0 +1,23 @@
+{
+  "aoi_id": "aoi_urban_ward_07",
+  "status": "success",
+  "crs_checked": "EPSG:32643",
+  "chips_generated": 9,
+  "ndsm_computed": true,
+  "quality_metrics": {
+    "image_dimensions": [
+      1200,
+      1200
+    ],
+    "ground_sampling_distance_m": 0.5,
+    "no_data_percentage": 0.0,
+    "crs": "EPSG:32643",
+    "bounds": [
+      715680.2937392073,
+      3166904.8196549593,
+      716280.2937392073,
+      3167504.8196549593
+    ],
+    "estimated_structures_count": 108
+  }
+}

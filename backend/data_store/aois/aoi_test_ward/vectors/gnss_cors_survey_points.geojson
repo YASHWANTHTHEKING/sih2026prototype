@@ -1,0 +1,480 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0001",
+        "parcel_ref": "ULPIN-IND-DL-00003",
+        "easting": 718237.5,
+        "northing": 3167378.0,
+        "elevation_m": 214.604,
+        "accuracy_cm": 2.17,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2321049329271,
+          28.61508395583015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0002",
+        "parcel_ref": "ULPIN-IND-DL-00006",
+        "easting": 718342.5,
+        "northing": 3167378.0,
+        "elevation_m": 215.383,
+        "accuracy_cm": 1.14,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23317818876892,
+          28.615066272614005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0003",
+        "parcel_ref": "ULPIN-IND-DL-00009",
+        "easting": 718058.3333,
+        "northing": 3167378.0,
+        "elevation_m": 213.28,
+        "accuracy_cm": 2.01,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23027358144189,
+          28.61511410997714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0004",
+        "parcel_ref": "ULPIN-IND-DL-00012",
+        "easting": 718116.6667,
+        "northing": 3167378.0,
+        "elevation_m": 213.725,
+        "accuracy_cm": 1.74,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23086983572263,
+          28.61510429506068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0005",
+        "parcel_ref": "ULPIN-IND-DL-00015",
+        "easting": 718058.3333,
+        "northing": 3167192.0,
+        "elevation_m": 211.782,
+        "accuracy_cm": 1.88,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23023812191892,
+          28.613436460645957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0006",
+        "parcel_ref": "ULPIN-IND-DL-00018",
+        "easting": 718058.3333,
+        "northing": 3167306.0,
+        "elevation_m": 212.814,
+        "accuracy_cm": 1.98,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23025985481547,
+          28.61446469738686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0007",
+        "parcel_ref": "ULPIN-IND-DL-00021",
+        "easting": 718058.3333,
+        "northing": 3167192.0,
+        "elevation_m": 211.782,
+        "accuracy_cm": 1.61,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23023812191892,
+          28.613436460645957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0008",
+        "parcel_ref": "ULPIN-IND-DL-00024",
+        "easting": 718116.6667,
+        "northing": 3167306.0,
+        "elevation_m": 213.355,
+        "accuracy_cm": 1.68,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23085610543387,
+          28.614454882733746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0009",
+        "parcel_ref": "ULPIN-IND-DL-00027",
+        "easting": 718175.0,
+        "northing": 3167230.0,
+        "elevation_m": 212.783,
+        "accuracy_cm": 1.35,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23143785929864,
+          28.61375957487589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0010",
+        "parcel_ref": "ULPIN-IND-DL-00030",
+        "easting": 718058.3333,
+        "northing": 3167036.5,
+        "elevation_m": 210.67,
+        "accuracy_cm": 1.08,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23020847932067,
+          28.61203390937689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0011",
+        "parcel_ref": "ULPIN-IND-DL-00033",
+        "easting": 718058.3333,
+        "northing": 3167109.5,
+        "elevation_m": 211.164,
+        "accuracy_cm": 1.45,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23022239487476,
+          28.61269234184512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0012",
+        "parcel_ref": "ULPIN-IND-DL-00036",
+        "easting": 718058.3333,
+        "northing": 3167073.0,
+        "elevation_m": 211.057,
+        "accuracy_cm": 1.77,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23021543703938,
+          28.612363125619776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0013",
+        "parcel_ref": "ULPIN-IND-DL-00039",
+        "easting": 718175.0,
+        "northing": 3167036.5,
+        "elevation_m": 211.688,
+        "accuracy_cm": 1.34,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23140095284487,
+          28.61201427942314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0014",
+        "parcel_ref": "ULPIN-IND-DL-00042",
+        "easting": 718237.5,
+        "northing": 3167036.5,
+        "elevation_m": 212.113,
+        "accuracy_cm": 2.12,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23203977745655,
+          28.61200375906731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0015",
+        "parcel_ref": "ULPIN-IND-DL-00045",
+        "easting": 718237.5,
+        "northing": 3167109.5,
+        "elevation_m": 212.741,
+        "accuracy_cm": 1.58,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23205370441404,
+          28.612662190715252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0016",
+        "parcel_ref": "ULPIN-IND-DL-00048",
+        "easting": 718237.5,
+        "northing": 3167073.0,
+        "elevation_m": 212.219,
+        "accuracy_cm": 1.57,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2320467408769,
+          28.612332974900053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0017",
+        "parcel_ref": "ULPIN-IND-DL-00051",
+        "easting": 718290.0,
+        "northing": 3167036.5,
+        "elevation_m": 212.33,
+        "accuracy_cm": 0.96,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23257638986576,
+          28.611994919645067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0018",
+        "parcel_ref": "ULPIN-IND-DL-00054",
+        "easting": 718395.0,
+        "northing": 3167000.0,
+        "elevation_m": 212.962,
+        "accuracy_cm": 1.71,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23364264564354,
+          28.611648018947186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0019",
+        "parcel_ref": "ULPIN-IND-DL-00057",
+        "easting": 718395.0,
+        "northing": 3167109.5,
+        "elevation_m": 213.721,
+        "accuracy_cm": 1.9,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.233663550941,
+          28.61263566536298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0020",
+        "parcel_ref": "ULPIN-IND-DL-00060",
+        "easting": 718237.5,
+        "northing": 3167268.0,
+        "elevation_m": 213.932,
+        "accuracy_cm": 1.45,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23208394469017,
+          28.61409179891468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0021",
+        "parcel_ref": "ULPIN-IND-DL-00063",
+        "easting": 718237.5,
+        "northing": 3167192.0,
+        "elevation_m": 213.364,
+        "accuracy_cm": 1.13,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23206944434605,
+          28.613406308589056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0022",
+        "parcel_ref": "ULPIN-IND-DL-00066",
+        "easting": 718237.5,
+        "northing": 3167268.0,
+        "elevation_m": 213.932,
+        "accuracy_cm": 1.39,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23208394469017,
+          28.61409179891468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0023",
+        "parcel_ref": "ULPIN-IND-DL-00069",
+        "easting": 718290.0,
+        "northing": 3167192.0,
+        "elevation_m": 213.334,
+        "accuracy_cm": 1.72,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23260606387315,
+          28.61339746865454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0024",
+        "parcel_ref": "ULPIN-IND-DL-00072",
+        "easting": 718342.5,
+        "northing": 3167306.0,
+        "elevation_m": 214.652,
+        "accuracy_cm": 1.22,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23316444430175,
+          28.614416861307262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "point_id": "CORS-PT-0025",
+        "parcel_ref": "ULPIN-IND-DL-00075",
+        "easting": 718395.0,
+        "northing": 3167230.0,
+        "elevation_m": 214.753,
+        "accuracy_cm": 1.87,
+        "surveyor_status": "GNSS Fixed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23368655752952,
+          28.61372252721789
+        ]
+      }
+    }
+  ]
+}
