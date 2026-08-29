@@ -1,0 +1,4634 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0001",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23264828573382,
+              28.612701569511398
+            ],
+            [
+              77.23262510838433,
+              28.612677095758933
+            ],
+            [
+              77.23261542740894,
+              28.61259834921766
+            ],
+            [
+              77.23265785267608,
+              28.612567062848765
+            ],
+            [
+              77.23268137798681,
+              28.612549714175135
+            ],
+            [
+              77.23271024490316,
+              28.612580195745394
+            ],
+            [
+              77.23271897573011,
+              28.612659802465483
+            ],
+            [
+              77.23267655044714,
+              28.612691088854195
+            ],
+            [
+              77.23264828573382,
+              28.612701569511398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0002",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23265210244227,
+              28.612881961657145
+            ],
+            [
+              77.23262892504933,
+              28.612857487908187
+            ],
+            [
+              77.23261924404493,
+              28.6127787413702
+            ],
+            [
+              77.2326616693796,
+              28.61274745499691
+            ],
+            [
+              77.23268519472778,
+              28.612730106320846
+            ],
+            [
+              77.23271406169829,
+              28.61276058788674
+            ],
+            [
+              77.23272279255276,
+              28.612840194603624
+            ],
+            [
+              77.23268036720225,
+              28.612871480996738
+            ],
+            [
+              77.23265210244227,
+              28.612881961657145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0003",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23265591918582,
+              28.613062353797627
+            ],
+            [
+              77.23263274174937,
+              28.61303788005218
+            ],
+            [
+              77.232623060716,
+              28.61295913351748
+            ],
+            [
+              77.2326654861182,
+              28.612927847139794
+            ],
+            [
+              77.23268901150384,
+              28.612910498461286
+            ],
+            [
+              77.23271787852849,
+              28.612940980022813
+            ],
+            [
+              77.23272660941046,
+              28.613020586736507
+            ],
+            [
+              77.23268418399242,
+              28.61305187313401
+            ],
+            [
+              77.23265591918582,
+              28.613062353797627
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0004",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23410375842836,
+              28.613110674011363
+            ],
+            [
+              77.23409967133509,
+              28.612799464471575
+            ],
+            [
+              77.2344703210642,
+              28.612795673550824
+            ],
+            [
+              77.23447437911183,
+              28.61310458883425
+            ],
+            [
+              77.23410375842836,
+              28.613110674011363
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0005",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23359269412889,
+              28.61311909861332
+            ],
+            [
+              77.23358860854067,
+              28.612807888974636
+            ],
+            [
+              77.23395925841763,
+              28.612804099450003
+            ],
+            [
+              77.2339633149713,
+              28.613113014831622
+            ],
+            [
+              77.23359269412889,
+              28.61311909861332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0006",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23308162961013,
+              28.613127521291105
+            ],
+            [
+              77.23307754552698,
+              28.612816311553544
+            ],
+            [
+              77.23344819555172,
+              28.612812523425028
+            ],
+            [
+              77.23345225061144,
+              28.613121438904813
+            ],
+            [
+              77.23308162961013,
+              28.613127521291105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0007",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23175286083544,
+              28.613149411248184
+            ],
+            [
+              77.23174041185564,
+              28.61282029045079
+            ],
+            [
+              77.23206267484728,
+              28.61281079819007
+            ],
+            [
+              77.23207511229606,
+              28.613139587629103
+            ],
+            [
+              77.23175286083544,
+              28.613149411248184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0008",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2312929020683,
+              28.61315698551044
+            ],
+            [
+              77.23128045451845,
+              28.61282786459142
+            ],
+            [
+              77.23160271765268,
+              28.612818373421685
+            ],
+            [
+              77.23161515367295,
+              28.613147162982226
+            ],
+            [
+              77.2312929020683,
+              28.61315698551044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0009",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23083294312372,
+              28.61316455821409
+            ],
+            [
+              77.23082049700383,
+              28.612835437173477
+            ],
+            [
+              77.2311427602806,
+              28.612825947094727
+            ],
+            [
+              77.23115519487234,
+              28.613154736776757
+            ],
+            [
+              77.23083294312372,
+              28.61316455821409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0010",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23265973596443,
+              28.613242745932844
+            ],
+            [
+              77.23263655848451,
+              28.613218272190892
+            ],
+            [
+              77.23262687742212,
+              28.613139525659484
+            ],
+            [
+              77.23266930289186,
+              28.613108239277402
+            ],
+            [
+              77.23269282831497,
+              28.61309089059646
+            ],
+            [
+              77.23272169539375,
+              28.61312137215362
+            ],
+            [
+              77.23273042630326,
+              28.613200978864118
+            ],
+            [
+              77.23268800081767,
+              28.61323226526602
+            ],
+            [
+              77.23265973596443,
+              28.613242745932844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0011",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23266355277812,
+              28.613423138062785
+            ],
+            [
+              77.23264037525473,
+              28.613398664324347
+            ],
+            [
+              77.23263069416332,
+              28.613319917796222
+            ],
+            [
+              77.2326731197006,
+              28.613288631409745
+            ],
+            [
+              77.23269664516114,
+              28.613271282726366
+            ],
+            [
+              77.2327255122941,
+              28.61330176427915
+            ],
+            [
+              77.23273424323112,
+              28.613381370986463
+            ],
+            [
+              77.23269181767799,
+              28.61341265739276
+            ],
+            [
+              77.23266355277812,
+              28.613423138062785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0012",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23411235181302,
+              28.61351655590368
+            ],
+            [
+              77.23410826459316,
+              28.613205346383662
+            ],
+            [
+              77.23447891574587,
+              28.61320155536028
+            ],
+            [
+              77.2344829739192,
+              28.613510470624096
+            ],
+            [
+              77.23411235181302,
+              28.61351655590368
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0013",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1242.0,
+        "perimeter_m": 141.0,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23360128555176,
+              28.61352498064693
+            ],
+            [
+              77.23359469877833,
+              28.613213804423545
+            ],
+            [
+              77.23396266542564,
+              28.613207738880355
+            ],
+            [
+              77.23396925328197,
+              28.61351891502575
+            ],
+            [
+              77.23360128555176,
+              28.61352498064693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0014",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2330902190712,
+              28.61353340346596
+            ],
+            [
+              77.2330861348615,
+              28.613222193748168
+            ],
+            [
+              77.23345678630986,
+              28.613218405517063
+            ],
+            [
+              77.2334608414952,
+              28.613527320977227
+            ],
+            [
+              77.2330902190712,
+              28.61353340346596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0015",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2317614451958,
+              28.613555293790153
+            ],
+            [
+              77.23174899605097,
+              28.613226173015903
+            ],
+            [
+              77.23207126027819,
+              28.613216680666422
+            ],
+            [
+              77.23208369789184,
+              28.613545470082318
+            ],
+            [
+              77.2317614451958,
+              28.613555293790153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0016",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23130148466302,
+              28.613562868179425
+            ],
+            [
+              77.23128903694818,
+              28.61323374728356
+            ],
+            [
+              77.23161130131797,
+              28.61322425602507
+            ],
+            [
+              77.23162373750307,
+              28.613553045562487
+            ],
+            [
+              77.23130148466302,
+              28.613562868179425
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0017",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23084152395279,
+              28.61357044101008
+            ],
+            [
+              77.23082907766796,
+              28.613241319992614
+            ],
+            [
+              77.2311513421803,
+              28.613231829825132
+            ],
+            [
+              77.23116377693684,
+              28.61356061948403
+            ],
+            [
+              77.23084152395279,
+              28.61357044101008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0018",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23266736962687,
+              28.613603530187458
+            ],
+            [
+              77.23264419206,
+              28.613579056452526
+            ],
+            [
+              77.23263451093959,
+              28.613500309927694
+            ],
+            [
+              77.23267693654442,
+              28.613469023536815
+            ],
+            [
+              77.23270046204242,
+              28.613451674850996
+            ],
+            [
+              77.23272932922951,
+              28.61348215639942
+            ],
+            [
+              77.23273806019405,
+              28.613561763103526
+            ],
+            [
+              77.23269563457337,
+              28.61359304951423
+            ],
+            [
+              77.23266736962687,
+              28.613603530187458
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0019",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2326711865107,
+              28.613783922306855
+            ],
+            [
+              77.23264800890036,
+              28.613759448575436
+            ],
+            [
+              77.23263832775095,
+              28.613680702053895
+            ],
+            [
+              77.23268075342331,
+              28.613649415658617
+            ],
+            [
+              77.23270427895875,
+              28.613632066970364
+            ],
+            [
+              77.2327331462,
+              28.613662548514416
+            ],
+            [
+              77.23274187719205,
+              28.61374215521533
+            ],
+            [
+              77.23269945150385,
+              28.613773441630425
+            ],
+            [
+              77.2326711865107,
+              28.613783922306855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0020",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23412094537537,
+              28.61392243776932
+            ],
+            [
+              77.23411685802888,
+              28.613611228269068
+            ],
+            [
+              77.23448751060523,
+              28.61360743714306
+            ],
+            [
+              77.23449156890425,
+              28.613916352387257
+            ],
+            [
+              77.23412094537537,
+              28.61392243776932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0021",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1250.12,
+        "perimeter_m": 140.93,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23360987715225,
+              28.613930862653856
+            ],
+            [
+              77.23359837049736,
+              28.613628790289308
+            ],
+            [
+              77.23360840091092,
+              28.613619602212683
+            ],
+            [
+              77.23397646444678,
+              28.613618046352933
+            ],
+            [
+              77.23397784629499,
+              28.613924796930956
+            ],
+            [
+              77.23360987715225,
+              28.613930862653856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0022",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1246.32,
+        "perimeter_m": 141.26,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23309880870983,
+              28.61393928561414
+            ],
+            [
+              77.2330947243736,
+              28.613628075916107
+            ],
+            [
+              77.2334653772456,
+              28.613624287582432
+            ],
+            [
+              77.23346943255657,
+              28.613933203022977
+            ],
+            [
+              77.23309880870983,
+              28.61393928561414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0023",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23177002973364,
+              28.61396117630544
+            ],
+            [
+              77.23175758042379,
+              28.613632055554348
+            ],
+            [
+              77.23207984588659,
+              28.6136225631161
+            ],
+            [
+              77.23209228366511,
+              28.61395135250887
+            ],
+            [
+              77.23177002973364,
+              28.61396117630544
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0024",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23131006743519,
+              28.613968750821737
+            ],
+            [
+              77.23129761955536,
+              28.61363962994902
+            ],
+            [
+              77.23161988516073,
+              28.613630138601795
+            ],
+            [
+              77.23163232151066,
+              28.61395892811608
+            ],
+            [
+              77.23131006743519,
+              28.613968750821737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0025",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1150.77,
+        "perimeter_m": 136.05,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23085010495927,
+              28.613976323779394
+            ],
+            [
+              77.23083765850949,
+              28.613647202785074
+            ],
+            [
+              77.23115992425741,
+              28.61363771252887
+            ],
+            [
+              77.23117235917876,
+              28.613966502164647
+            ],
+            [
+              77.23085010495927,
+              28.613976323779394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0026",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2326750034296,
+              28.613964314420993
+            ],
+            [
+              77.23265182577578,
+              28.613939840693078
+            ],
+            [
+              77.23264214459736,
+              28.613861094174823
+            ],
+            [
+              77.23268457033727,
+              28.613829807775154
+            ],
+            [
+              77.23270809591016,
+              28.61381245908446
+            ],
+            [
+              77.23273696320557,
+              28.61384294062414
+            ],
+            [
+              77.23274569422514,
+              28.61392254732186
+            ],
+            [
+              77.23270326846938,
+              28.613953833741352
+            ],
+            [
+              77.2326750034296,
+              28.613964314420993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0027",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 820.01,
+        "perimeter_m": 724.23,
+        "confidence_score": 0.57,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23292413381103,
+              28.61414066448254
+            ],
+            [
+              77.23289838946407,
+              28.614132065945856
+            ],
+            [
+              77.23287207252652,
+              28.61409640859154
+            ],
+            [
+              77.23285836011925,
+              28.61249519529458
+            ],
+            [
+              77.23287397450774,
+              28.612495091176118
+            ],
+            [
+              77.2328876463633,
+              28.614091541987875
+            ],
+            [
+              77.23291825963958,
+              28.614104670280934
+            ],
+            [
+              77.2347379380704,
+              28.61409252218792
+            ],
+            [
+              77.23473809459868,
+              28.614110761041722
+            ],
+            [
+              77.23292413381103,
+              28.61414066448254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0028",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23267882038357,
+              28.61414470652986
+            ],
+            [
+              77.23265564268627,
+              28.61412023280545
+            ],
+            [
+              77.23264596147885,
+              28.61404148629048
+            ],
+            [
+              77.2326883872863,
+              28.614010199886415
+            ],
+            [
+              77.23271191289665,
+              28.61399285119328
+            ],
+            [
+              77.2327407802462,
+              28.614023332728603
+            ],
+            [
+              77.23274951129329,
+              28.61410293942313
+            ],
+            [
+              77.23270708547,
+              28.614134225847014
+            ],
+            [
+              77.23267882038357,
+              28.61414470652986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0029",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 4608.24,
+        "perimeter_m": 878.24,
+        "confidence_score": 0.621,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23065498268052,
+              28.614178036503628
+            ],
+            [
+              77.2306543153153,
+              28.614146467841483
+            ],
+            [
+              77.232478739861,
+              28.614111911940604
+            ],
+            [
+              77.23247530491321,
+              28.61394955901989
+            ],
+            [
+              77.23222478576122,
+              28.613949174613488
+            ],
+            [
+              77.23221791672148,
+              28.613624468703666
+            ],
+            [
+              77.23247325953506,
+              28.613611239559255
+            ],
+            [
+              77.23246671766802,
+              28.61354367669942
+            ],
+            [
+              77.2322161994793,
+              28.613543292223547
+            ],
+            [
+              77.23220933058158,
+              28.61321858629238
+            ],
+            [
+              77.23246467241819,
+              28.61320535721797
+            ],
+            [
+              77.23245813060036,
+              28.613137794352276
+            ],
+            [
+              77.23220761337491,
+              28.613137409806924
+            ],
+            [
+              77.2322007446192,
+              28.61281270385442
+            ],
+            [
+              77.23245608547886,
+              28.612799474850014
+            ],
+            [
+              77.23244978850286,
+              28.61250182776322
+            ],
+            [
+              77.23249067344777,
+              28.612501154223764
+            ],
+            [
+              77.23249658889425,
+              28.6127807620858
+            ],
+            [
+              77.23253861890167,
+              28.612834206174
+            ],
+            [
+              77.23254434372794,
+              28.61310479440563
+            ],
+            [
+              77.23250883945352,
+              28.613161805543175
+            ],
+            [
+              77.23250517598265,
+              28.61318664444365
+            ],
+            [
+              77.23254711075559,
+              28.613235578713336
+            ],
+            [
+              77.2325529311153,
+              28.613510676730844
+            ],
+            [
+              77.23251742672467,
+              28.613567687874824
+            ],
+            [
+              77.23251376324855,
+              28.613592526774827
+            ],
+            [
+              77.2325557936172,
+              28.61364597083331
+            ],
+            [
+              77.23256161409857,
+              28.613921068832546
+            ],
+            [
+              77.23252813007153,
+              28.613974835609504
+            ],
+            [
+              77.23252454528938,
+              28.614102134552866
+            ],
+            [
+              77.2325013207199,
+              28.614139427190437
+            ],
+            [
+              77.23247439248878,
+              28.61414807456395
+            ],
+            [
+              77.23065498268052,
+              28.614178036503628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0030",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2345586468907,
+              28.614312221506037
+            ],
+            [
+              77.23450726119913,
+              28.614294212113776
+            ],
+            [
+              77.23453209386918,
+              28.61423903994613
+            ],
+            [
+              77.23455673679,
+              28.61422202557037
+            ],
+            [
+              77.23462828650545,
+              28.61422084569174
+            ],
+            [
+              77.23466446604942,
+              28.61423352568766
+            ],
+            [
+              77.23467485580821,
+              28.614247145957098
+            ],
+            [
+              77.23465376063771,
+              28.614294014471476
+            ],
+            [
+              77.23463019666718,
+              28.614311041623008
+            ],
+            [
+              77.2345586468907,
+              28.614312221506037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0031",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23435421893416,
+              28.614315592392572
+            ],
+            [
+              77.23430283327028,
+              28.614297582920898
+            ],
+            [
+              77.23432766605063,
+              28.614242410784776
+            ],
+            [
+              77.23435230900786,
+              28.614225396444347
+            ],
+            [
+              77.23442385873561,
+              28.61422421667348
+            ],
+            [
+              77.23446003826007,
+              28.614236896725306
+            ],
+            [
+              77.23447042799393,
+              28.614250517011868
+            ],
+            [
+              77.23444933272974,
+              28.614297385499476
+            ],
+            [
+              77.23442576872294,
+              28.614314412617308
+            ],
+            [
+              77.23435421893416,
+              28.614315592392572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0032",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23414979094252,
+              28.614318962971225
+            ],
+            [
+              77.23409840530634,
+              28.614300953420138
+            ],
+            [
+              77.234123238197,
+              28.614245781315535
+            ],
+            [
+              77.23414788119062,
+              28.614228767010438
+            ],
+            [
+              77.23421943093064,
+              28.61422758734733
+            ],
+            [
+              77.23425561043561,
+              28.61424026745507
+            ],
+            [
+              77.23426600014456,
+              28.614253887758757
+            ],
+            [
+              77.23424490478665,
+              28.614300756219592
+            ],
+            [
+              77.23422134074359,
+              28.614317783303715
+            ],
+            [
+              77.23414979094252,
+              28.614318962971225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0033",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2339453629158,
+              28.61432233324199
+            ],
+            [
+              77.2338939773073,
+              28.614304323611492
+            ],
+            [
+              77.23391881030828,
+              28.614249151538417
+            ],
+            [
+              77.23394345333827,
+              28.614232137268644
+            ],
+            [
+              77.23401500309059,
+              28.614230957713296
+            ],
+            [
+              77.23405118257607,
+              28.614243637876953
+            ],
+            [
+              77.23406157226007,
+              28.614257258197767
+            ],
+            [
+              77.23404047680846,
+              28.614304126631822
+            ],
+            [
+              77.23401691272915,
+              28.614321153682244
+            ],
+            [
+              77.2339453629158,
+              28.61432233324199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0034",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23374093485397,
+              28.614325703204884
+            ],
+            [
+              77.23368954927318,
+              28.61430769349496
+            ],
+            [
+              77.23371438238445,
+              28.614252521453412
+            ],
+            [
+              77.23373902545084,
+              28.614235507218975
+            ],
+            [
+              77.23381057521543,
+              28.614234327771385
+            ],
+            [
+              77.23384675468141,
+              28.614247007990958
+            ],
+            [
+              77.2338571443405,
+              28.6142606283289
+            ],
+            [
+              77.23383604879518,
+              28.614307496736174
+            ],
+            [
+              77.2338124846796,
+              28.61432452375289
+            ],
+            [
+              77.23374093485397,
+              28.614325703204884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0035",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23353650675706,
+              28.614329072859885
+            ],
+            [
+              77.23348512120396,
+              28.61431106307056
+            ],
+            [
+              77.23350995442554,
+              28.614255891060527
+            ],
+            [
+              77.2335345975283,
+              28.614238876861425
+            ],
+            [
+              77.2336061473052,
+              28.614237697521595
+            ],
+            [
+              77.23364232675168,
+              28.614250377797074
+            ],
+            [
+              77.23365271638583,
+              28.614263998152147
+            ],
+            [
+              77.23363162074682,
+              28.614310866532634
+            ],
+            [
+              77.23360805659497,
+              28.614327893515657
+            ],
+            [
+              77.23353650675706,
+              28.614329072859885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0036",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23333207862507,
+              28.614332442207008
+            ],
+            [
+              77.23328069309966,
+              28.614314432338265
+            ],
+            [
+              77.23330552643154,
+              28.61425926035976
+            ],
+            [
+              77.2333301695707,
+              28.61424224619599
+            ],
+            [
+              77.23340171935986,
+              28.614241066963913
+            ],
+            [
+              77.23343789878685,
+              28.614253747295308
+            ],
+            [
+              77.23344828839609,
+              28.61426736766751
+            ],
+            [
+              77.23342719266337,
+              28.614314236021222
+            ],
+            [
+              77.23340362847526,
+              28.61433126297053
+            ],
+            [
+              77.23333207862507,
+              28.614332442207008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0037",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23312765045797,
+              28.614335811246246
+            ],
+            [
+              77.23307626496027,
+              28.61431780129809
+            ],
+            [
+              77.23310109840246,
+              28.61426262935111
+            ],
+            [
+              77.23312574157802,
+              28.614245615222675
+            ],
+            [
+              77.23319729137944,
+              28.614244436098353
+            ],
+            [
+              77.23323347078693,
+              28.614257116485668
+            ],
+            [
+              77.23324386037125,
+              28.614270736874992
+            ],
+            [
+              77.23322276454482,
+              28.614317605201926
+            ],
+            [
+              77.23319920032046,
+              28.614334632117536
+            ],
+            [
+              77.23312765045797,
+              28.614335811246246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0038",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2329232222558,
+              28.614339179977602
+            ],
+            [
+              77.2328718367858,
+              28.61432116995003
+            ],
+            [
+              77.2328966703383,
+              28.61426599803458
+            ],
+            [
+              77.23292131355024,
+              28.614248983941476
+            ],
+            [
+              77.23299286336395,
+              28.61424780492492
+            ],
+            [
+              77.23302904275194,
+              28.614260485368135
+            ],
+            [
+              77.23303943231133,
+              28.61427410577459
+            ],
+            [
+              77.23301833639121,
+              28.614320974074747
+            ],
+            [
+              77.23299477213057,
+              28.61433800095665
+            ],
+            [
+              77.2329232222558,
+              28.614339179977602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0039",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23230993743887,
+              28.61434928432436
+            ],
+            [
+              77.23225855205196,
+              28.614331274058554
+            ],
+            [
+              77.23228338593538,
+              28.614276102237678
+            ],
+            [
+              77.23230802925649,
+              28.614259088250577
+            ],
+            [
+              77.23237957910702,
+              28.614257909557296
+            ],
+            [
+              77.23241575843649,
+              28.614270590168253
+            ],
+            [
+              77.23242614792112,
+              28.614284210626092
+            ],
+            [
+              77.23240505171988,
+              28.6143310788459
+            ],
+            [
+              77.23238148735045,
+              28.61434810562669
+            ],
+            [
+              77.23230993743887,
+              28.61434928432436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0040",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23210550909643,
+              28.614352651824174
+            ],
+            [
+              77.23205412373721,
+              28.614334641478955
+            ],
+            [
+              77.23207895773092,
+              28.614279469689617
+            ],
+            [
+              77.23210360108843,
+              28.614262455737848
+            ],
+            [
+              77.23217515095124,
+              28.614261277152327
+            ],
+            [
+              77.23221133026121,
+              28.614273957819197
+            ],
+            [
+              77.23222171972091,
+              28.614287578294157
+            ],
+            [
+              77.23220062342595,
+              28.61433444648718
+            ],
+            [
+              77.23217705902027,
+              28.614351473234265
+            ],
+            [
+              77.23210550909643,
+              28.614352651824174
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0041",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2319010807189,
+              28.614356019016114
+            ],
+            [
+              77.2318496953874,
+              28.61433800859148
+            ],
+            [
+              77.2318745294914,
+              28.614282836833667
+            ],
+            [
+              77.23189917288529,
+              28.61426582291723
+            ],
+            [
+              77.23197072276038,
+              28.614264644439473
+            ],
+            [
+              77.23200690205086,
+              28.614277325162252
+            ],
+            [
+              77.23201729148563,
+              28.614290945654343
+            ],
+            [
+              77.23199619509698,
+              28.614337813820576
+            ],
+            [
+              77.23197263065502,
+              28.614354840533952
+            ],
+            [
+              77.2319010807189,
+              28.614356019016114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0042",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23169665230633,
+              28.614359385900162
+            ],
+            [
+              77.23164526700252,
+              28.614341375396116
+            ],
+            [
+              77.23167010121685,
+              28.614286203669835
+            ],
+            [
+              77.23169474464711,
+              28.614269189788736
+            ],
+            [
+              77.23176629453447,
+              28.61426801141873
+            ],
+            [
+              77.23180247380543,
+              28.614280692197422
+            ],
+            [
+              77.23181286321528,
+              28.614294312706637
+            ],
+            [
+              77.23179176673294,
+              28.61434118084609
+            ],
+            [
+              77.23176820225473,
+              28.61435820752576
+            ],
+            [
+              77.23169665230633,
+              28.614359385900162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0043",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2314922238587,
+              28.614362752476318
+            ],
+            [
+              77.23144083858259,
+              28.614344741892868
+            ],
+            [
+              77.23146567290722,
+              28.614289570198114
+            ],
+            [
+              77.23149031637386,
+              28.61427255635235
+            ],
+            [
+              77.23156186627348,
+              28.614271378090105
+            ],
+            [
+              77.23159804552496,
+              28.614284058924714
+            ],
+            [
+              77.23160843490987,
+              28.614297679451052
+            ],
+            [
+              77.23158733833382,
+              28.61434454756372
+            ],
+            [
+              77.23156377381935,
+              28.614361574209685
+            ],
+            [
+              77.2314922238587,
+              28.614362752476318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0044",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.231287795376,
+              28.6143661187446
+            ],
+            [
+              77.23123641012761,
+              28.61434810808173
+            ],
+            [
+              77.23126124456253,
+              28.61429293641851
+            ],
+            [
+              77.23128588806557,
+              28.614275922608083
+            ],
+            [
+              77.23135743797745,
+              28.6142747444536
+            ],
+            [
+              77.2313936172094,
+              28.61428742534412
+            ],
+            [
+              77.23140400656942,
+              28.614301045887586
+            ],
+            [
+              77.23138290989966,
+              28.61434791397346
+            ],
+            [
+              77.23135934534893,
+              28.61436494058572
+            ],
+            [
+              77.231287795376,
+              28.6143661187446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0045",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23108336685827,
+              28.614369484704987
+            ],
+            [
+              77.23103198163757,
+              28.614351473962714
+            ],
+            [
+              77.23105681618279,
+              28.614296302331027
+            ],
+            [
+              77.23108145972222,
+              28.614279288555927
+            ],
+            [
+              77.23115300964638,
+              28.614278110509208
+            ],
+            [
+              77.23118918885883,
+              28.614290791455634
+            ],
+            [
+              77.23119957819391,
+              28.614304412016228
+            ],
+            [
+              77.23117848143046,
+              28.614351280075322
+            ],
+            [
+              77.23115491684347,
+              28.614368306653876
+            ],
+            [
+              77.23108336685827,
+              28.614369484704987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0046",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 128.52,
+        "perimeter_m": 43.25,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23087893830548,
+              28.614372850357498
+            ],
+            [
+              77.23082755311249,
+              28.614354839535807
+            ],
+            [
+              77.23085238776801,
+              28.614299667935658
+            ],
+            [
+              77.23087703134384,
+              28.6142826541959
+            ],
+            [
+              77.23094858128024,
+              28.61428147625693
+            ],
+            [
+              77.23098476047319,
+              28.614294157259273
+            ],
+            [
+              77.23099514978334,
+              28.614307777836995
+            ],
+            [
+              77.23097405292619,
+              28.61435464586929
+            ],
+            [
+              77.23095048830294,
+              28.614371672414144
+            ],
+            [
+              77.23087893830548,
+              28.614372850357498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0047",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 122.31,
+        "perimeter_m": 42.98,
+        "confidence_score": 0.885,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23065917757214,
+              28.614376468090555
+            ],
+            [
+              77.23065727079796,
+              28.614286271915468
+            ],
+            [
+              77.23074415287908,
+              28.61428484169677
+            ],
+            [
+              77.2307925425924,
+              28.61430844490292
+            ],
+            [
+              77.23079148409275,
+              28.61434722181664
+            ],
+            [
+              77.23077399825546,
+              28.61437513580719
+            ],
+            [
+              77.23065917757214,
+              28.614376468090555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0048",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 531.25,
+        "perimeter_m": 141.57,
+        "confidence_score": 0.754,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23268645439674,
+              28.614505490731773
+            ],
+            [
+              77.23265801122214,
+              28.614485810345254
+            ],
+            [
+              77.23265359534705,
+              28.61440227050599
+            ],
+            [
+              77.23267761608257,
+              28.614375238207572
+            ],
+            [
+              77.23269398958635,
+              28.614356811890946
+            ],
+            [
+              77.23269314506078,
+              28.614338459629874
+            ],
+            [
+              77.23265332468385,
+              28.614310907084818
+            ],
+            [
+              77.23263625932825,
+              28.61430781726293
+            ],
+            [
+              77.2326178680598,
+              28.614328514306965
+            ],
+            [
+              77.23258591564556,
+              28.61434473771122
+            ],
+            [
+              77.23249382749992,
+              28.614341743508184
+            ],
+            [
+              77.23246538440475,
+              28.614322063076315
+            ],
+            [
+              77.23246703355696,
+              28.61428353705553
+            ],
+            [
+              77.23250115014937,
+              28.614245143227663
+            ],
+            [
+              77.23258400722774,
+              28.614254541654386
+            ],
+            [
+              77.23264571735044,
+              28.614271570434195
+            ],
+            [
+              77.23266444253012,
+              28.614190057169957
+            ],
+            [
+              77.23272046936728,
+              28.61418011130623
+            ],
+            [
+              77.23274891246605,
+              28.61419979168439
+            ],
+            [
+              77.23275237411742,
+              28.614238233495623
+            ],
+            [
+              77.2327694399886,
+              28.614250041718478
+            ],
+            [
+              77.23282449651761,
+              28.614264113381445
+            ],
+            [
+              77.23283576766892,
+              28.614313552782896
+            ],
+            [
+              77.23281346502779,
+              28.614338651665438
+            ],
+            [
+              77.23273422156502,
+              28.61434680558234
+            ],
+            [
+              77.23275580953243,
+              28.614400586378693
+            ],
+            [
+              77.2327524165376,
+              28.614481847027108
+            ],
+            [
+              77.23273011384292,
+              28.61450694589843
+            ],
+            [
+              77.23268645439674,
+              28.614505490731773
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0049",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23269027145594,
+              28.614685882824837
+            ],
+            [
+              77.2326670936282,
+              28.61466140911095
+            ],
+            [
+              77.23265741233375,
+              28.614582662605848
+            ],
+            [
+              77.23269983834383,
+              28.61455137618859
+            ],
+            [
+              77.23272336406654,
+              28.614534027488148
+            ],
+            [
+              77.23275223157854,
+              28.614564509010357
+            ],
+            [
+              77.23276096270821,
+              28.61464411569531
+            ],
+            [
+              77.23271853668227,
+              28.61467540213238
+            ],
+            [
+              77.23269027145594,
+              28.614685882824837
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0050",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2326940885502,
+              28.614866274912625
+            ],
+            [
+              77.23267091067898,
+              28.614841801202243
+            ],
+            [
+              77.23266122935554,
+              28.61476305470043
+            ],
+            [
+              77.23270365543317,
+              28.614731768278777
+            ],
+            [
+              77.23272718119333,
+              28.614714419575893
+            ],
+            [
+              77.23275604875948,
+              28.61474490109374
+            ],
+            [
+              77.23276477991665,
+              28.614824507775488
+            ],
+            [
+              77.23272235382318,
+              28.61485579421696
+            ],
+            [
+              77.2326940885502,
+              28.614866274912625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0051",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23269790567954,
+              28.615046666995138
+            ],
+            [
+              77.23267472776483,
+              28.61502219328827
+            ],
+            [
+              77.2326650464124,
+              28.614943446789745
+            ],
+            [
+              77.23270747255756,
+              28.614912160363698
+            ],
+            [
+              77.23273099835517,
+              28.614894811658374
+            ],
+            [
+              77.23275986597548,
+              28.614925293171847
+            ],
+            [
+              77.23276859716017,
+              28.615004899850405
+            ],
+            [
+              77.23272617099916,
+              28.615036186296273
+            ],
+            [
+              77.23269790567954,
+              28.615046666995138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0052",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23414577222013,
+              28.615094985231316
+            ],
+            [
+              77.23414198071713,
+              28.61480632719755
+            ],
+            [
+              77.234538372814,
+              28.614802272488248
+            ],
+            [
+              77.23454213318308,
+              28.61508847837642
+            ],
+            [
+              77.23414577222013,
+              28.615094985231316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0053",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23363469832927,
+              28.615103410524007
+            ],
+            [
+              77.23363090822237,
+              28.614814752398512
+            ],
+            [
+              77.23402730047736,
+              28.614810699182378
+            ],
+            [
+              77.23403105946218,
+              28.615096905161526
+            ],
+            [
+              77.23363469832927,
+              28.615103410524007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0054",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23312362421908,
+              28.61511183389237
+            ],
+            [
+              77.23311983550832,
+              28.61482317567516
+            ],
+            [
+              77.23351622792138,
+              28.6148191239522
+            ],
+            [
+              77.23351998552192,
+              28.615105330022303
+            ],
+            [
+              77.23312362421908,
+              28.61511183389237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0055",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1134.92,
+        "perimeter_m": 134.19,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23179994125447,
+              28.615133641470088
+            ],
+            [
+              77.23178952897828,
+              28.615124790208668
+            ],
+            [
+              77.23179420981302,
+              28.614831630935846
+            ],
+            [
+              77.23179435664093,
+              28.614822435179644
+            ],
+            [
+              77.23212558149687,
+              28.61482655284024
+            ],
+            [
+              77.23213599914475,
+              28.614826682335288
+            ],
+            [
+              77.23213133263921,
+              28.615119003481418
+            ],
+            [
+              77.23213118588646,
+              28.615128196459118
+            ],
+            [
+              77.23179994125447,
+              28.615133641470088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0056",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1129.45,
+        "perimeter_m": 133.86,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23133997385695,
+              28.615141216370674
+            ],
+            [
+              77.23132956161605,
+              28.615132365071787
+            ],
+            [
+              77.23133587281502,
+              28.614839229529323
+            ],
+            [
+              77.23133607616501,
+              28.61482978457322
+            ],
+            [
+              77.23166558458841,
+              28.614835308250093
+            ],
+            [
+              77.23167650848939,
+              28.6148354913579
+            ],
+            [
+              77.23167024297432,
+              28.61512654868637
+            ],
+            [
+              77.23167004166359,
+              28.6151359003631
+            ],
+            [
+              77.23133997385695,
+              28.615141216370674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0057",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1172.0,
+        "perimeter_m": 135.25,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23088000628198,
+              28.61514878971254
+            ],
+            [
+              77.23086959407638,
+              28.615139938376196
+            ],
+            [
+              77.23086339631186,
+              28.614846800877448
+            ],
+            [
+              77.23087342708648,
+              28.61483761298527
+            ],
+            [
+              77.23120562493071,
+              28.614832143576148
+            ],
+            [
+              77.23121603713044,
+              28.61484099488715
+            ],
+            [
+              77.23121722048852,
+              28.615138726274417
+            ],
+            [
+              77.23088000628198,
+              28.61514878971254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0058",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23270172284394,
+              28.61522705907239
+            ],
+            [
+              77.23267854488577,
+              28.615202585369026
+            ],
+            [
+              77.23266886350432,
+              28.61512383887378
+            ],
+            [
+              77.23271128971703,
+              28.615092552443343
+            ],
+            [
+              77.2327348155521,
+              28.615075203735586
+            ],
+            [
+              77.23276368322657,
+              28.61510568524469
+            ],
+            [
+              77.23277241443878,
+              28.615185291920053
+            ],
+            [
+              77.23272998821021,
+              28.615216578370315
+            ],
+            [
+              77.23270172284394,
+              28.61522705907239
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0059",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23270554004344,
+              28.615407451144367
+            ],
+            [
+              77.23268236204177,
+              28.61538297744451
+            ],
+            [
+              77.23267268063132,
+              28.615304230952557
+            ],
+            [
+              77.23271510691158,
+              28.61527294451772
+            ],
+            [
+              77.2327386327841,
+              28.615255595807525
+            ],
+            [
+              77.23276750051272,
+              28.61528607731226
+            ],
+            [
+              77.23277623175245,
+              28.61536568398444
+            ],
+            [
+              77.23273380545635,
+              28.615396970439093
+            ],
+            [
+              77.23270554004344,
+              28.615407451144367
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0060",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23415436647343,
+              28.615500866993205
+            ],
+            [
+              77.23415057485298,
+              28.615212208977773
+            ],
+            [
+              77.23454696847246,
+              28.61520815415871
+            ],
+            [
+              77.234550728958,
+              28.615494360028706
+            ],
+            [
+              77.23415436647343,
+              28.615500866993205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0061",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23364329062055,
+              28.615509292427184
+            ],
+            [
+              77.23363950039625,
+              28.61522063432002
+            ],
+            [
+              77.23403589417384,
+              28.615216580994158
+            ],
+            [
+              77.2340396532751,
+              28.615502786955123
+            ],
+            [
+              77.23364329062055,
+              28.615509292427184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0062",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23313221454836,
+              28.615517715936807
+            ],
+            [
+              77.23312842572022,
+              28.615229057737928
+            ],
+            [
+              77.23352481965591,
+              28.61522500590526
+            ],
+            [
+              77.23352857737285,
+              28.615511211957184
+            ],
+            [
+              77.23313221454836,
+              28.615517715936807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0063",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1134.92,
+        "perimeter_m": 134.19,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23180852650215,
+              28.61553952388023
+            ],
+            [
+              77.23179811418278,
+              28.615530672622224
+            ],
+            [
+              77.23180279493116,
+              28.615237513365656
+            ],
+            [
+              77.23180294175636,
+              28.61522831760997
+            ],
+            [
+              77.23213416788727,
+              28.61523243517849
+            ],
+            [
+              77.23214458557524,
+              28.61523256467065
+            ],
+            [
+              77.23213991915583,
+              28.61552488580057
+            ],
+            [
+              77.2321397724058,
+              28.61553407877777
+            ],
+            [
+              77.23180852650215,
+              28.61553952388023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0064",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1172.0,
+        "perimeter_m": 135.25,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23134855733882,
+              28.61554709890784
+            ],
+            [
+              77.23133814505475,
+              28.615538247612374
+            ],
+            [
+              77.23133194588678,
+              28.61524511022463
+            ],
+            [
+              77.23134197665351,
+              28.6152359222984
+            ],
+            [
+              77.23167417564487,
+              28.61523045167181
+            ],
+            [
+              77.23168458792307,
+              28.615239302941934
+            ],
+            [
+              77.23168577268856,
+              28.61553703423522
+            ],
+            [
+              77.23134855733882,
+              28.61554709890784
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0065",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1129.45,
+        "perimeter_m": 133.86,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23088858799802,
+              28.615554672376714
+            ],
+            [
+              77.23087817574925,
+              28.61554582104378
+            ],
+            [
+              77.23088448814738,
+              28.615252685467834
+            ],
+            [
+              77.230884691536,
+              28.615243240510647
+            ],
+            [
+              77.2312142013077,
+              28.615248765215142
+            ],
+            [
+              77.23122512525337,
+              28.61524894835702
+            ],
+            [
+              77.23121885854765,
+              28.61554000571875
+            ],
+            [
+              77.23121865719867,
+              28.615549357396542
+            ],
+            [
+              77.23088858799802,
+              28.615554672376714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0066",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23270935727801,
+              28.615587843211074
+            ],
+            [
+              77.23268617923286,
+              28.615563369514728
+            ],
+            [
+              77.23267649779339,
+              28.615484623026063
+            ],
+            [
+              77.23271892414121,
+              28.615453336586825
+            ],
+            [
+              77.23274245005119,
+              28.615435987874193
+            ],
+            [
+              77.23277131783395,
+              28.615466469374564
+            ],
+            [
+              77.23278004910122,
+              28.615546076043536
+            ],
+            [
+              77.23273762273756,
+              28.61557736250259
+            ],
+            [
+              77.23270935727801,
+              28.615587843211074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0067",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23271317454764,
+              28.61576823527251
+            ],
+            [
+              77.23268999645902,
+              28.615743761579676
+            ],
+            [
+              77.23268031499053,
+              28.615665015094297
+            ],
+            [
+              77.23272274140591,
+              28.615633728650668
+            ],
+            [
+              77.23274626735333,
+              28.615616379935595
+            ],
+            [
+              77.23277513519027,
+              28.615646861431593
+            ],
+            [
+              77.23278386648504,
+              28.61572646809737
+            ],
+            [
+              77.23274144005383,
+              28.61575775456083
+            ],
+            [
+              77.23271317454764,
+              28.61576823527251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0068",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23416296090441,
+              28.615906748728406
+            ],
+            [
+              77.2341591691665,
+              28.615618090731314
+            ],
+            [
+              77.23455556430862,
+              28.615614035802494
+            ],
+            [
+              77.23455932491063,
+              28.61590024165431
+            ],
+            [
+              77.23416296090441,
+              28.615906748728406
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0069",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23365188308948,
+              28.615915174303684
+            ],
+            [
+              77.23364809274777,
+              28.61562651621485
+            ],
+            [
+              77.23404448804801,
+              28.615622462779257
+            ],
+            [
+              77.23404824726569,
+              28.615908668722046
+            ],
+            [
+              77.23365188308948,
+              28.615915174303684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0070",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1235.57,
+        "perimeter_m": 141.28,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23314080505524,
+              28.61592359795456
+            ],
+            [
+              77.23313701610974,
+              28.615634939774015
+            ],
+            [
+              77.23353341156805,
+              28.615630887831646
+            ],
+            [
+              77.2335371694014,
+              28.615917093865388
+            ],
+            [
+              77.23314080505524,
+              28.61592359795456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0071",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1134.92,
+        "perimeter_m": 134.19,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23181711192733,
+              28.615945406263698
+            ],
+            [
+              77.23180669956477,
+              28.615936555009107
+            ],
+            [
+              77.23181138022677,
+              28.615643395768792
+            ],
+            [
+              77.23181152704929,
+              28.61563420001361
+            ],
+            [
+              77.23214275445518,
+              28.615638317490074
+            ],
+            [
+              77.23215317218325,
+              28.615638446979332
+            ],
+            [
+              77.23214850584998,
+              28.615930768093055
+            ],
+            [
+              77.23214835910265,
+              28.615939961069742
+            ],
+            [
+              77.23181711192733,
+              28.615945406263698
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0072",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1134.92,
+        "perimeter_m": 134.19,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23135714099814,
+              28.61595298141834
+            ],
+            [
+              77.23134672867089,
+              28.615944130126287
+            ],
+            [
+              77.23135141061175,
+              28.61565097083114
+            ],
+            [
+              77.23135155747435,
+              28.615641775074234
+            ],
+            [
+              77.23168278496635,
+              28.615645893675477
+            ],
+            [
+              77.23169320269714,
+              28.615646023200117
+            ],
+            [
+              77.23168853508867,
+              28.61593834436852
+            ],
+            [
+              77.23168838830124,
+              28.615947537346937
+            ],
+            [
+              77.23135714099814,
+              28.61595298141834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0073",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 1134.92,
+        "perimeter_m": 134.19,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23089716989149,
+              28.615960555014208
+            ],
+            [
+              77.23088675759954,
+              28.615951703684694
+            ],
+            [
+              77.23089144081925,
+              28.615658544334742
+            ],
+            [
+              77.23089158772198,
+              28.615649348576113
+            ],
+            [
+              77.23122281530006,
+              28.615653468302135
+            ],
+            [
+              77.23123323303354,
+              28.615653597862146
+            ],
+            [
+              77.23122856414987,
+              28.61594591908522
+            ],
+            [
+              77.23122841732234,
+              28.61595511206535
+            ],
+            [
+              77.23089716989149,
+              28.615960555014208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0074",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 118.29,
+        "perimeter_m": 42.4,
+        "confidence_score": 0.876,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23271699185236,
+              28.615948627328688
+            ],
+            [
+              77.23269381372025,
+              28.61592415363935
+            ],
+            [
+              77.23268413222276,
+              28.615845407157263
+            ],
+            [
+              77.23272655870566,
+              28.615814120709235
+            ],
+            [
+              77.23275008469057,
+              28.61579677199173
+            ],
+            [
+              77.23277895258165,
+              28.615827253483356
+            ],
+            [
+              77.23278768390394,
+              28.615906860145945
+            ],
+            [
+              77.23274525740518,
+              28.615938146613797
+            ],
+            [
+              77.23271699185236,
+              28.615948627328688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0075",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 4872.62,
+        "perimeter_m": 880.13,
+        "confidence_score": 0.624,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23291444665175,
+              28.616098760395943
+            ],
+            [
+              77.23288047065839,
+              28.614493271162917
+            ],
+            [
+              77.23289021491124,
+              28.614470553727163
+            ],
+            [
+              77.23293062342479,
+              28.614447331004296
+            ],
+            [
+              77.23307883402593,
+              28.61444488868826
+            ],
+            [
+              77.23311905159615,
+              28.614412646309663
+            ],
+            [
+              77.23315974637063,
+              28.61440295292539
+            ],
+            [
+              77.23345105667697,
+              28.61439815187202
+            ],
+            [
+              77.23349213324839,
+              28.614406497589894
+            ],
+            [
+              77.23353368713502,
+              28.614437392294104
+            ],
+            [
+              77.23358990492297,
+              28.614436465667644
+            ],
+            [
+              77.23363012232305,
+              28.61440422314609
+            ],
+            [
+              77.23367081703638,
+              28.614394529611015
+            ],
+            [
+              77.23396212721774,
+              28.6143897274608
+            ],
+            [
+              77.2340032038152,
+              28.614398073021597
+            ],
+            [
+              77.23404475783688,
+              28.61442896756088
+            ],
+            [
+              77.23410097560071,
+              28.61442804072275
+            ],
+            [
+              77.23414119283063,
+              28.614395798058236
+            ],
+            [
+              77.23418188748283,
+              28.61438610437237
+            ],
+            [
+              77.23447319753916,
+              28.614381301125313
+            ],
+            [
+              77.23451427416269,
+              28.61438964652903
+            ],
+            [
+              77.2345558283194,
+              28.61442054090338
+            ],
+            [
+              77.23474492434232,
+              28.614417422552396
+            ],
+            [
+              77.23474568845207,
+              28.614453500921137
+            ],
+            [
+              77.23453113434164,
+              28.61446155045271
+            ],
+            [
+              77.23453070338032,
+              28.61468261476485
+            ],
+            [
+              77.23413717814452,
+              28.614689103442746
+            ],
+            [
+              77.23412218232022,
+              28.61446378206899
+            ],
+            [
+              77.23402006365195,
+              28.614469977028126
+            ],
+            [
+              77.23401963162028,
+              28.61469104139797
+            ],
+            [
+              77.23362610621561,
+              28.61469752859415
+            ],
+            [
+              77.23361111147688,
+              28.614472207103418
+            ],
+            [
+              77.23350899274294,
+              28.614478401679264
+            ],
+            [
+              77.23350855964094,
+              28.614699466106778
+            ],
+            [
+              77.23311503406737,
+              28.614705951821254
+            ],
+            [
+              77.23310524656978,
+              28.614485055793104
+            ],
+            [
+              77.23292126092649,
+              28.614488087649185
+            ],
+            [
+              77.23295022218618,
+              28.616098170859466
+            ],
+            [
+              77.23291444665175,
+              28.616098760395943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0076",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 94.52,
+        "perimeter_m": 39.23,
+        "confidence_score": 0.885,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23268957183929,
+              28.61610246583788
+            ],
+            [
+              77.23270945859143,
+              28.61600927395951
+            ],
+            [
+              77.23271483468295,
+              28.615984080879073
+            ],
+            [
+              77.23275788505732,
+              28.61599123409319
+            ],
+            [
+              77.23279016524505,
+              28.616024114974685
+            ],
+            [
+              77.23277408472646,
+              28.616099470636737
+            ],
+            [
+              77.23268957183929,
+              28.61610246583788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787995594662-0077",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 9038.99,
+        "perimeter_m": 1066.81,
+        "confidence_score": 0.675,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23252602649448,
+              28.61610516047074
+            ],
+            [
+              77.23251728955655,
+              28.61593387220261
+            ],
+            [
+              77.23227708267902,
+              28.615937829550287
+            ],
+            [
+              77.23226437618064,
+              28.615931742928765
+            ],
+            [
+              77.23226046843436,
+              28.615635841148183
+            ],
+            [
+              77.2322673661503,
+              28.615624628820544
+            ],
+            [
+              77.23251572066646,
+              28.615618101854693
+            ],
+            [
+              77.23250870144336,
+              28.615527990012563
+            ],
+            [
+              77.23226849548799,
+              28.615531947293878
+            ],
+            [
+              77.23225578904064,
+              28.615525860668463
+            ],
+            [
+              77.23225188141473,
+              28.61522995886909
+            ],
+            [
+              77.23225877910814,
+              28.615218746542688
+            ],
+            [
+              77.23250713267174,
+              28.6152122196453
+            ],
+            [
+              77.23250011350773,
+              28.615122107795834
+            ],
+            [
+              77.2322599084745,
+              28.615126065010784
+            ],
+            [
+              77.23224720207817,
+              28.615119978381486
+            ],
+            [
+              77.23224329457264,
+              28.614824076563316
+            ],
+            [
+              77.23225019224351,
+              28.61481286423816
+            ],
+            [
+              77.23249352954397,
+              28.614810931411615
+            ],
+            [
+              77.23249673189365,
+              28.614720651156
+            ],
+            [
+              77.23225132163853,
+              28.614720182701024
+            ],
+            [
+              77.23223861529321,
+              28.61471409606784
+            ],
+            [
+              77.23223121910455,
+              28.614494945084573
+            ],
+            [
+              77.23212910019339,
+              28.614501138625542
+            ],
+            [
+              77.23213358412168,
+              28.61471309941518
+            ],
+            [
+              77.23212668644375,
+              28.614724311734875
+            ],
+            [
+              77.23179135618427,
+              28.61472775903327
+            ],
+            [
+              77.2317786498615,
+              28.614721672355504
+            ],
+            [
+              77.23177125462536,
+              28.614502521294277
+            ],
+            [
+              77.23166913565514,
+              28.614508714490288
+            ],
+            [
+              77.2316736186613,
+              28.61472067534627
+            ],
+            [
+              77.23166672093237,
+              28.61473188764527
+            ],
+            [
+              77.23133139055254,
+              28.614735333806824
+            ],
+            [
+              77.23131868425229,
+              28.614729247084483
+            ],
+            [
+              77.23131128996867,
+              28.61451009594531
+            ],
+            [
+              77.2312091709394,
+              28.61451628879636
+            ],
+            [
+              77.23121365302345,
+              28.61472824971867
+            ],
+            [
+              77.23120675524349,
+              28.614739461996972
+            ],
+            [
+              77.23087142474334,
+              28.614742907021682
+            ],
+            [
+              77.23085871846563,
+              28.614736820254766
+            ],
+            [
+              77.23085653120381,
+              28.614522094708768
+            ],
+            [
+              77.23066222842904,
+              28.61452078196795
+            ],
+            [
+              77.23066146571271,
+              28.614484703498917
+            ],
+            [
+              77.23083011947503,
+              28.614481927118465
+            ],
+            [
+              77.2308585598507,
+              28.614435697781044
+            ],
+            [
+              77.23092598358713,
+              28.61442170099929
+            ],
+            [
+              77.23117650402851,
+              28.614422087746334
+            ],
+            [
+              77.23120069601796,
+              28.614433676549982
+            ],
+            [
+              77.23123386626366,
+              28.61447527978062
+            ],
+            [
+              77.2312900841601,
+              28.614474354106683
+            ],
+            [
+              77.2313185243254,
+              28.614428124683922
+            ],
+            [
+              77.23138594797969,
+              28.614414127676802
+            ],
+            [
+              77.23163646834406,
+              28.61441451357382
+            ],
+            [
+              77.2316606603764,
+              28.614426102292597
+            ],
+            [
+              77.23169383079296,
+              28.61446770540066
+            ],
+            [
+              77.23175004866772,
+              28.614466779536215
+            ],
+            [
+              77.23177848862268,
+              28.61442055002812
+            ],
+            [
+              77.23184591219479,
+              28.614406552795632
+            ],
+            [
+              77.23209643248215,
+              28.61440693784263
+            ],
+            [
+              77.2321206245574,
+              28.61441852647654
+            ],
+            [
+              77.2321537951448,
+              28.614460129462028
+            ],
+            [
+              77.23221001299785,
+              28.614459203407083
+            ],
+            [
+              77.23223845274245,
+              28.614412973813657
+            ],
+            [
+              77.2323058762324,
+              28.614398976355794
+            ],
+            [
+              77.23251541534623,
+              28.614395524349774
+            ],
+            [
+              77.23257535094888,
+              28.614424234814507
+            ],
+            [
+              77.23259871344914,
+              28.61446633398116
+            ],
+            [
+              77.23260262577523,
+              28.61465123588863
+            ],
+            [
+              77.23257008974137,
+              28.614704124391345
+            ],
+            [
+              77.23254621158588,
+              28.61474293916243
+            ],
+            [
+              77.23253904900699,
+              28.614787624595042
+            ],
+            [
+              77.23259143872086,
+              28.61481272029587
+            ],
+            [
+              77.2326014274075,
+              28.614836221994288
+            ],
+            [
+              77.23261121393733,
+              28.615057118105117
+            ],
+            [
+              77.23257867779722,
+              28.61511000661369
+            ],
+            [
+              77.23255479956374,
+              28.615148821389063
+            ],
+            [
+              77.23254763697322,
+              28.61519350682099
+            ],
+            [
+              77.23260002689746,
+              28.615218602505795
+            ],
+            [
+              77.23261001563087,
+              28.61524210420004
+            ],
+            [
+              77.232619802277,
+              28.615463000294927
+            ],
+            [
+              77.23258726603062,
+              28.615515888809355
+            ],
+            [
+              77.23256338771915,
+              28.61555470358903
+            ],
+            [
+              77.23255622511701,
+              28.61559938902027
+            ],
+            [
+              77.23260861525162,
+              28.615624484689043
+            ],
+            [
+              77.2326186040318,
+              28.61564798637911
+            ],
+            [
+              77.23262839079422,
+              28.61586888245806
+            ],
+            [
+              77.23259585444157,
+              28.615921770978343
+            ],
+            [
+              77.23257197605213,
+              28.615960585762323
+            ],
+            [
+              77.2325669128328,
+              28.616104486831002
+            ],
+            [
+              77.23252602649448,
+              28.61610516047074
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

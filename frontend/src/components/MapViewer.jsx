@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MapContainer, TileLayer, GeoJSON, Rectangle, useMap, useMapEvents, Popup, CircleMarker } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, Rectangle, useMap, useMapEvents, Popup, CircleMarker, ImageOverlay } from 'react-leaflet';
 import L from 'leaflet';
 import { Layers, Eye, EyeOff, Sliders, SplitSquareVertical, MapPin, Maximize2, ShieldAlert, CheckCircle2, XCircle, Crop, Sparkles, Loader2, MousePointerClick, PlusCircle, Download, FileText } from 'lucide-react';
 import { TRANSLATIONS } from '../services/i18n';
@@ -459,6 +459,18 @@ export default function MapViewer({
           <div className="space-y-2.5">
             <label className="flex items-center justify-between cursor-pointer p-1.5 rounded-lg hover:bg-slate-800/60">
               <span className="flex items-center gap-2 font-medium text-slate-200">
+                <span className="w-3 h-3 rounded bg-teal-400 inline-block"></span> Drone Aerial Survey (RGB)
+              </span>
+              <input
+                type="checkbox"
+                checked={layers.droneOrthomosaic}
+                onChange={(e) => setLayers({ ...layers, droneOrthomosaic: e.target.checked })}
+                className="rounded text-teal-600 focus:ring-0"
+              />
+            </label>
+
+            <label className="flex items-center justify-between cursor-pointer p-1.5 rounded-lg hover:bg-slate-800/60">
+              <span className="flex items-center gap-2 font-medium text-slate-200">
                 <span className="w-3 h-3 rounded bg-blue-500 inline-block"></span> AI Cadastral Parcels
               </span>
               <input
@@ -636,6 +648,17 @@ export default function MapViewer({
           url={basemapUrls[basemap].url}
           maxZoom={20}
         />
+
+        {/* Drone Aerial Orthomosaic (RGB) Image Overlay */}
+        {layers.droneOrthomosaic && metadata?.bounds_geographic && (
+          <ImageOverlay
+            key={`drone-raster-${aoiId}`}
+            url={`/api/layers/raster/${aoiId}/orthomosaic_preview`}
+            bounds={metadata.bounds_geographic}
+            opacity={0.90}
+            zIndex={5}
+          />
+        )}
 
         {/* Legacy Cadastre GeoJSON */}
         {layers.legacy && legacyGeoJSON && (

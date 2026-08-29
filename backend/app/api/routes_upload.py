@@ -22,12 +22,12 @@ MAX_UPLOAD_SIZE_BYTES = 60 * 1024 * 1024  # 60MB
 @router.post("/drone-image")
 async def upload_drone_image(
     file: UploadFile = File(...),
-    center_lat: float = Form(...),
-    center_lon: float = Form(...),
-    width_m: float = Form(300.0),
-    height_m: float = Form(300.0),
+    center_lat: str = Form(...),
+    center_lon: str = Form(...),
+    width_m: str = Form("300.0"),
+    height_m: str = Form("300.0"),
     name: Optional[str] = Form(None),
-    run_pipeline: bool = Form(True)
+    run_pipeline: str = Form("true")
 ):
     """
     Uploads a real non-georeferenced drone photo/orthomosaic, georeferences it around
@@ -35,13 +35,22 @@ async def upload_drone_image(
     the full GeoAI cadastral extraction pipeline on the real pixel data.
     """
     # 1. Parameter Validations
-    if not (-90.0 <= center_lat <= 90.0):
+    try:
+        c_lat = float(center_lat)
+        c_lon = float(center_lon)
+        w_m = float(width_m)
+        h_m = float(height_m)
+        should_run = str(run_pipeline).lower() in ("true", "1", "yes")
+    except ValueError as ve:
+        raise HTTPException(status_code=400, detail=f"Invalid numeric input parameters: {str(ve)}")
+
+    if not (-90.0 <= c_lat <= 90.0):
         raise HTTPException(status_code=400, detail="Latitude must be between -90 and 90 degrees.")
-    if not (-180.0 <= center_lon <= 180.0):
+    if not (-180.0 <= c_lon <= 180.0):
         raise HTTPException(status_code=400, detail="Longitude must be between -180 and 180 degrees.")
-    if width_m <= 0 or width_m > 5000.0:
+    if w_m <= 0 or w_m > 5000.0:
         raise HTTPException(status_code=400, detail="Width must be between 1 and 5000 meters.")
-    if height_m <= 0 or height_m > 5000.0:
+    if h_m <= 0 or h_m > 5000.0:
         raise HTTPException(status_code=400, detail="Height must be between 1 and 5000 meters.")
 
     try:
@@ -59,10 +68,10 @@ async def upload_drone_image(
         meta = ingest_uploaded_drone_image(
             file_bytes=file_bytes,
             filename=file.filename or "drone_upload.jpg",
-            center_lat=center_lat,
-            center_lon=center_lon,
-            width_m=width_m,
-            height_m=height_m,
+            center_lat=c_lat,
+            center_lon=c_lon,
+            width_m=w_m,
+            height_m=h_m,
             name=name
         )
     except Exception as e:

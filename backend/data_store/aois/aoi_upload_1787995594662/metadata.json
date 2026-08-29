@@ -1,0 +1,39 @@
+{
+  "aoi_id": "aoi_upload_1787995594662",
+  "name": "Delhi Central Flight Verification Test",
+  "location": "Custom Georeferenced Pilot (28.6143\u00b0N, 77.2327\u00b0E)",
+  "bounds_projected": [
+    718097.319,
+    3167092.2,
+    718497.319,
+    3167492.2
+  ],
+  "bounds_geographic": [
+    [
+      28.61253,
+      77.230618
+    ],
+    [
+      28.61607,
+      77.234782
+    ]
+  ],
+  "center_lat": 28.6143,
+  "center_lon": 77.2327,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    800,
+    800
+  ],
+  "ground_resolution_m_per_px": 0.5,
+  "total_area_hectares": 16.0,
+  "total_gt_parcels": 0,
+  "total_gt_buildings": 0,
+  "total_gt_roads": 0,
+  "total_gnss_points": 0,
+  "created_at": "2026-08-29T09:26:35.712988Z",
+  "data_source": "user_uploaded_drone_image",
+  "source_filename": "delhi_flight.jpg",
+  "has_dsm_dtm": false
+}

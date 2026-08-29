@@ -89,12 +89,21 @@ def ingest_uploaded_drone_image(
     # Save PNG preview for easy web rendering
     pil_img.save(rasters_dir / "orthomosaic_preview.png")
 
+    # Reproject projected bounds to WGS84 geographic coordinates for Web-GIS Leaflet overlays
+    transformer_to_wgs = get_transformer(
+        settings.DEFAULT_PROJECTED_CRS,
+        settings.DEFAULT_GEOGRAPHIC_CRS
+    )
+    sw_lon, sw_lat = transformer_to_wgs.transform(min_x, min_y)
+    ne_lon, ne_lat = transformer_to_wgs.transform(max_x, max_y)
+
     # 7. Write metadata.json matching sample_generator.py format + upload flags
     metadata = {
         "aoi_id": aoi_id,
         "name": name or f"Drone Upload: {Path(filename).stem}",
         "location": f"Custom Georeferenced Pilot ({round(center_lat, 4)}°N, {round(center_lon, 4)}°E)",
         "bounds_projected": [round(min_x, 3), round(min_y, 3), round(max_x, 3), round(max_y, 3)],
+        "bounds_geographic": [[round(sw_lat, 6), round(sw_lon, 6)], [round(ne_lat, 6), round(ne_lon, 6)]],
         "center_lat": round(center_lat, 6),
         "center_lon": round(center_lon, 6),
         "crs_projected": settings.DEFAULT_PROJECTED_CRS,

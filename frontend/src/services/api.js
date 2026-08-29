@@ -90,6 +90,10 @@ export const snapToGnssAnchor = async (params) => {
 };
 
 export const uploadDroneImage = async (formData) => {
-  const res = await apiClient.post('/upload/drone-image', formData);
+  const res = await apiClient.post('/upload/drone-image', formData, {
+    headers: {
+      'Content-Type': 'multipart/form-data',
+    },
+  });
   return res.data;
 };

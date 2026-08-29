@@ -5,6 +5,7 @@ from fastapi.responses import FileResponse
 from typing import Dict, Any, Optional
 
 from ..core.config import settings
+from ..core.geo_utils import get_transformer
 
 router = APIRouter()
 
@@ -59,7 +60,16 @@ def get_aoi_metadata(aoi_id: str):
     if not meta_path.exists():
         raise HTTPException(status_code=404, detail="AOI metadata not found")
     with open(meta_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    if "bounds_geographic" not in data and "bounds_projected" in data:
+        min_x, min_y, max_x, max_y = data["bounds_projected"]
+        t = get_transformer(settings.DEFAULT_PROJECTED_CRS, settings.DEFAULT_GEOGRAPHIC_CRS)
+        sw_lon, sw_lat = t.transform(min_x, min_y)
+        ne_lon, ne_lat = t.transform(max_x, max_y)
+        data["bounds_geographic"] = [[round(sw_lat, 6), round(sw_lon, 6)], [round(ne_lat, 6), round(ne_lon, 6)]]
+
+    return data
 
 @router.get("/aois")
 def list_available_aois():
