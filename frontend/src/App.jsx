@@ -10,6 +10,7 @@ import BenchmarkModal from './components/BenchmarkModal';
 import ExportCenter from './components/ExportCenter';
 import TitleDeedModal from './components/TitleDeedModal';
 import UploadDroneImage from './components/UploadDroneImage';
+import DroneStudioView from './components/DroneStudioView';
 
 import {
   getAOIList,
@@ -44,6 +45,7 @@ export default function App() {
   // Modal open states
   const [showPipeline, setShowPipeline] = useState(false);
   const [showUpload, setShowUpload] = useState(false);
+  const [showDroneStudio, setShowDroneStudio] = useState(false);
   const [showEditor, setShowEditor] = useState(false);
   const [showConflicts, setShowConflicts] = useState(false);
   const [showGT, setShowGT] = useState(false);
@@ -207,6 +209,7 @@ export default function App() {
         onSelectAoi={setSelectedAoi}
         onOpenPipeline={() => setShowPipeline(true)}
         onOpenUpload={() => setShowUpload(true)}
+        onOpenDroneStudio={() => setShowDroneStudio(true)}
         onOpenAnalytics={() => setShowAnalytics(true)}
         onOpenConflicts={() => setShowConflicts(!showConflicts)}
         onOpenGT={() => setShowGT(true)}
@@ -267,6 +270,21 @@ export default function App() {
       )}
 
       {/* Modals & Drawers */}
+      {showDroneStudio && (
+        <DroneStudioView
+          aoiId={selectedAoi}
+          metadata={metadata}
+          parcelsGeoJSON={parcels}
+          buildingsGeoJSON={buildings}
+          roadsGeoJSON={roads}
+          conflictsGeoJSON={conflicts}
+          stats={stats}
+          onClose={() => setShowDroneStudio(false)}
+          onOpenExports={() => setShowExports(true)}
+          language={language}
+        />
+      )}
+
       {showTitleDeed && selectedParcel && (
         <TitleDeedModal
           parcel={selectedParcel}
@@ -284,6 +302,7 @@ export default function App() {
               const aoisRes = await getAOIList();
               setAoiList(aoisRes.aois || []);
               setSelectedAoi(newAoiId);
+              setShowDroneStudio(true); // Automatically open the clean Drone AI Studio for the new upload!
               showToast(`Loaded drone survey ${newAoiId}!`);
             } catch (e) {
               console.error(e);

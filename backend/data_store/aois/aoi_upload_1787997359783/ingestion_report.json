@@ -1,0 +1,23 @@
+{
+  "aoi_id": "aoi_upload_1787997359783",
+  "status": "success",
+  "crs_checked": "EPSG:32643",
+  "chips_generated": 2,
+  "ndsm_computed": false,
+  "quality_metrics": {
+    "image_dimensions": [
+      1024,
+      682
+    ],
+    "ground_sampling_distance_m": 0.293,
+    "no_data_percentage": 0.0,
+    "crs": "EPSG:32643",
+    "bounds": [
+      715830.2937392073,
+      3167054.8196549593,
+      716130.2937392073,
+      3167354.8196549593
+    ],
+    "estimated_structures_count": 24
+  }
+}

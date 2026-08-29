@@ -21,6 +21,7 @@ export default function Navbar({
   onSelectAoi,
   onOpenPipeline,
   onOpenUpload,
+  onOpenDroneStudio,
   onOpenAnalytics,
   onOpenConflicts,
   onOpenGT,
@@ -143,6 +144,15 @@ export default function Navbar({
 
       {/* 4. ACTION ZONE (Right - High Priority, Never Clips) */}
       <div className="flex items-center gap-1.5 shrink-0">
+        <button
+          onClick={onOpenDroneStudio}
+          className="flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-all active:scale-95 border border-purple-400/30"
+          title="Open Side-by-Side Drone AI Extraction Studio"
+        >
+          <Layers className="w-3.5 h-3.5" />
+          <span className="hidden xl:inline">Drone AI Studio</span>
+        </button>
+
         <button
           onClick={onOpenUpload}
           className="flex items-center gap-1.5 bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-500 hover:to-teal-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-all active:scale-95 border border-cyan-400/30"

@@ -1,0 +1,39 @@
+{
+  "aoi_id": "aoi_upload_1787997359783",
+  "name": "04 real village settlement drone",
+  "location": "Custom Georeferenced Pilot (28.6139\u00b0N, 77.209\u00b0E)",
+  "bounds_projected": [
+    715830.294,
+    3167054.82,
+    716130.294,
+    3167354.82
+  ],
+  "bounds_geographic": [
+    [
+      28.612572,
+      77.207438
+    ],
+    [
+      28.615228,
+      77.210562
+    ]
+  ],
+  "center_lat": 28.6139,
+  "center_lon": 77.209,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    1024,
+    682
+  ],
+  "ground_resolution_m_per_px": 0.293,
+  "total_area_hectares": 9.0,
+  "total_gt_parcels": 0,
+  "total_gt_buildings": 0,
+  "total_gt_roads": 0,
+  "total_gnss_points": 0,
+  "created_at": "2026-08-29T09:56:07.712660Z",
+  "data_source": "user_uploaded_drone_image",
+  "source_filename": "04_real_village_settlement_drone.jpg",
+  "has_dsm_dtm": false
+}
