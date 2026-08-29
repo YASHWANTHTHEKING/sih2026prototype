@@ -273,6 +273,10 @@ export default function App() {
       {showDroneStudio && (
         <DroneStudioView
           aoiId={selectedAoi}
+          aoiList={aoiList}
+          onSelectAoi={(newAoiId) => {
+            setSelectedAoi(newAoiId);
+          }}
           metadata={metadata}
           parcelsGeoJSON={parcels}
           buildingsGeoJSON={buildings}

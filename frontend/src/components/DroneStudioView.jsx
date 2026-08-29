@@ -4,6 +4,8 @@ import { TRANSLATIONS } from '../services/i18n';
 
 export default function DroneStudioView({
   aoiId,
+  aoiList = [],
+  onSelectAoi,
   metadata,
   parcelsGeoJSON,
   buildingsGeoJSON,
@@ -47,14 +49,55 @@ export default function DroneStudioView({
                 Side-by-Side Dual Canvas
               </span>
             </div>
-            <p className="text-xs text-slate-400 font-mono">
-              AOI: <strong className="text-slate-200">{metadata?.name || aoiId}</strong> • Resolution: <span className="text-cyan-400">{metadata?.ground_resolution_m_per_px || 0.5} m/px</span>
-            </p>
+            <div className="flex items-center gap-2 mt-0.5">
+              {aoiList && aoiList.length > 0 ? (
+                <select
+                  value={aoiId}
+                  onChange={(e) => onSelectAoi && onSelectAoi(e.target.value)}
+                  className="bg-slate-800 border border-slate-700 text-cyan-300 text-xs rounded-lg px-2 py-0.5 focus:outline-none focus:ring-1 focus:ring-cyan-500 font-mono font-medium max-w-[260px] truncate"
+                >
+                  {aoiList.map((aoi) => (
+                    <option key={aoi.aoi_id} value={aoi.aoi_id}>
+                      {aoi.name}
+                    </option>
+                  ))}
+                </select>
+              ) : (
+                <p className="text-xs text-slate-400 font-mono">
+                  AOI: <strong className="text-slate-200">{metadata?.name || aoiId}</strong>
+                </p>
+              )}
+              <span className="text-xs text-slate-500">•</span>
+              <span className="text-xs text-slate-400 font-mono">
+                Res: <span className="text-cyan-400">{metadata?.ground_resolution_m_per_px || 0.5} m/px</span>
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Action Controls */}
         <div className="flex items-center gap-2.5">
+          {/* Zoom controls */}
+          <div className="hidden sm:flex items-center bg-slate-950 border border-slate-800 rounded-xl p-0.5">
+            <button
+              onClick={() => setZoomLevel(Math.max(0.7, zoomLevel - 0.15))}
+              className="p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800 transition-all"
+              title="Zoom Out"
+            >
+              <ZoomOut className="w-4 h-4" />
+            </button>
+            <span className="text-[11px] font-mono font-bold text-slate-300 px-2 min-w-[45px] text-center">
+              {Math.round(zoomLevel * 100)}%
+            </span>
+            <button
+              onClick={() => setZoomLevel(Math.min(2.0, zoomLevel + 0.15))}
+              className="p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800 transition-all"
+              title="Zoom In"
+            >
+              <ZoomIn className="w-4 h-4" />
+            </button>
+          </div>
+
           {/* Layer toggles */}
           <div className="hidden md:flex items-center gap-1.5 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs">
             <button
