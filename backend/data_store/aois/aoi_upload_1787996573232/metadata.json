@@ -1,0 +1,39 @@
+{
+  "aoi_id": "aoi_upload_1787996573232",
+  "name": "Real Drone Flight Rural-Urban Survey",
+  "location": "Custom Georeferenced Pilot (28.6144\u00b0N, 77.2327\u00b0E)",
+  "bounds_projected": [
+    717997.112,
+    3167103.283,
+    718597.112,
+    3167503.283
+  ],
+  "bounds_geographic": [
+    [
+      28.612647,
+      77.229595
+    ],
+    [
+      28.616153,
+      77.235805
+    ]
+  ],
+  "center_lat": 28.6144,
+  "center_lon": 77.2327,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    1024,
+    682
+  ],
+  "ground_resolution_m_per_px": 0.5859,
+  "total_area_hectares": 24.0,
+  "total_gt_parcels": 0,
+  "total_gt_buildings": 0,
+  "total_gt_roads": 0,
+  "total_gnss_points": 0,
+  "created_at": "2026-08-29T09:42:53.534564Z",
+  "data_source": "user_uploaded_drone_image",
+  "source_filename": "real_drone_ortho.jpg",
+  "has_dsm_dtm": false
+}

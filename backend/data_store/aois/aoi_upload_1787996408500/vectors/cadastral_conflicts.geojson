@@ -1,0 +1,1296 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0001",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0003",
+        "parcels_involved": [
+          "UNSURVEYED-24",
+          "UNSURVEYED-28"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0003 extends across boundary of UNSURVEYED-24, UNSURVEYED-28",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20896714778395,
+              28.61297174801859
+            ],
+            [
+              77.20894976862954,
+              28.612953389440584
+            ],
+            [
+              77.20894252103598,
+              28.61289432753703
+            ],
+            [
+              77.20897434573513,
+              28.612870868029027
+            ],
+            [
+              77.20899199290801,
+              28.612857859446308
+            ],
+            [
+              77.20901363829445,
+              28.612880724690907
+            ],
+            [
+              77.2090201731084,
+              28.612940431613907
+            ],
+            [
+              77.20898834840031,
+              28.612963891133056
+            ],
+            [
+              77.20896714778395,
+              28.61297174801859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0002",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0014",
+        "parcels_involved": [
+          "UNSURVEYED-35",
+          "UNSURVEYED-36"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0014 extends across boundary of UNSURVEYED-35, UNSURVEYED-36",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20929279670247,
+              28.61332509680129
+            ],
+            [
+              77.20928978621154,
+              28.61309168606186
+            ],
+            [
+              77.20956777856705,
+              28.613088893815593
+            ],
+            [
+              77.20957076747477,
+              28.61332058385017
+            ],
+            [
+              77.20929279670247,
+              28.61332509680129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0003",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0015",
+        "parcels_involved": [
+          "UNSURVEYED-21",
+          "UNSURVEYED-24"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0015 extends across boundary of UNSURVEYED-21, UNSURVEYED-24",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20829620228656,
+              28.61334134073079
+            ],
+            [
+              77.20828692028171,
+              28.613094495495815
+            ],
+            [
+              77.20852862271222,
+              28.6130874181093
+            ],
+            [
+              77.20853789593657,
+              28.61333401483718
+            ],
+            [
+              77.20829620228656,
+              28.61334134073079
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0004",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0022",
+        "parcels_involved": [
+          "UNSURVEYED-30",
+          "UNSURVEYED-35"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0022 extends across boundary of UNSURVEYED-30, UNSURVEYED-35",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20929917024068,
+              28.613629513347963
+            ],
+            [
+              77.2092961596794,
+              28.61339610261964
+            ],
+            [
+              77.20957415283574,
+              28.61339331031628
+            ],
+            [
+              77.20957714181333,
+              28.613625000339837
+            ],
+            [
+              77.20929917024068,
+              28.613629513347963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0005",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0027",
+        "parcels_involved": [
+          "UNSURVEYED-29",
+          "UNSURVEYED-30",
+          "UNSURVEYED-33",
+          "UNSURVEYED-36",
+          "UNSURVEYED-42",
+          "UNSURVEYED-43",
+          "UNSURVEYED-45"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0027 extends across boundary of UNSURVEYED-29, UNSURVEYED-30, UNSURVEYED-33, UNSURVEYED-36, UNSURVEYED-42, UNSURVEYED-43, UNSURVEYED-45",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20916812876101,
+              28.613780526359758
+            ],
+            [
+              77.20912908992723,
+              28.613747327172284
+            ],
+            [
+              77.20910395224531,
+              28.612546572811773
+            ],
+            [
+              77.2091307834276,
+              28.612546135422278
+            ],
+            [
+              77.20916372918057,
+              28.613753529597957
+            ],
+            [
+              77.21052837209544,
+              28.61373465943987
+            ],
+            [
+              77.21052886809707,
+              28.613758336261714
+            ],
+            [
+              77.20916812876101,
+              28.613780526359758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0006",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0029",
+        "parcels_involved": [
+          "UNSURVEYED-2",
+          "UNSURVEYED-8",
+          "UNSURVEYED-14",
+          "UNSURVEYED-15",
+          "UNSURVEYED-22",
+          "UNSURVEYED-23",
+          "UNSURVEYED-24"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0029 extends across boundary of UNSURVEYED-2, UNSURVEYED-8, UNSURVEYED-14, UNSURVEYED-15, UNSURVEYED-22, UNSURVEYED-23, UNSURVEYED-24",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20746624415979,
+              28.613808260409012
+            ],
+            [
+              77.20746574884402,
+              28.613784583538333
+            ],
+            [
+              77.208834085137,
+              28.613758903159397
+            ],
+            [
+              77.20883153623261,
+              28.613637136506565
+            ],
+            [
+              77.20864364516845,
+              28.613636815406018
+            ],
+            [
+              77.20863854784058,
+              28.613393282062223
+            ],
+            [
+              77.20883005912306,
+              28.613383393494438
+            ],
+            [
+              77.20882516404076,
+              28.613332719864005
+            ],
+            [
+              77.20863727351849,
+              28.61333239872479
+            ],
+            [
+              77.20863217626965,
+              28.61308886536902
+            ],
+            [
+              77.20882368700255,
+              28.61307897684018
+            ],
+            [
+              77.20881879194775,
+              28.61302830320647
+            ],
+            [
+              77.20863090196733,
+              28.61302798202858
+            ],
+            [
+              77.20862580479752,
+              28.612784448660825
+            ],
+            [
+              77.20881731498082,
+              28.61277456017095
+            ],
+            [
+              77.2088126422277,
+              28.612551321270654
+            ],
+            [
+              77.20884330644338,
+              28.612550821462325
+            ],
+            [
+              77.20884769605867,
+              28.612760530728192
+            ],
+            [
+              77.20888538935777,
+              28.612796225521027
+            ],
+            [
+              77.20888345808162,
+              28.61300356423565
+            ],
+            [
+              77.20884300769309,
+              28.61303682615524
+            ],
+            [
+              77.20885406816427,
+              28.6130649473918
+            ],
+            [
+              77.20888961653495,
+              28.613098610867397
+            ],
+            [
+              77.20888983035456,
+              28.613307980881
+            ],
+            [
+              77.20884937985818,
+              28.613341242807415
+            ],
+            [
+              77.20886044036868,
+              28.613369364040437
+            ],
+            [
+              77.20889813390404,
+              28.61340505881456
+            ],
+            [
+              77.208896273531,
+              28.613615779918284
+            ],
+            [
+              77.2088581248774,
+              28.613647148991607
+            ],
+            [
+              77.20886844116527,
+              28.613751576033625
+            ],
+            [
+              77.20884198121999,
+              28.613773333622994
+            ],
+            [
+              77.20746624415979,
+              28.613808260409012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0007",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0032",
+        "parcels_involved": [
+          "UNSURVEYED-39",
+          "UNSURVEYED-42",
+          "UNSURVEYED-46"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0032 extends across boundary of UNSURVEYED-39, UNSURVEYED-42, UNSURVEYED-46",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21008734942646,
+              28.613914414390962
+            ],
+            [
+              77.21005242168941,
+              28.61389468951418
+            ],
+            [
+              77.21005931358674,
+              28.613857351118735
+            ],
+            [
+              77.21008593255432,
+              28.613846766309667
+            ],
+            [
+              77.2101666395755,
+              28.6138556006996
+            ],
+            [
+              77.21016763142205,
+              28.613902954353936
+            ],
+            [
+              77.21008734942646,
+              28.613914414390962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0008",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0040",
+        "parcels_involved": [
+          "UNSURVEYED-15",
+          "UNSURVEYED-23"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0040 extends across boundary of UNSURVEYED-15, UNSURVEYED-23",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20855411917134,
+              28.613939411475325
+            ],
+            [
+              77.20851919168456,
+              28.613919686187856
+            ],
+            [
+              77.2085260841313,
+              28.613882347840626
+            ],
+            [
+              77.20855270328019,
+              28.613871763324163
+            ],
+            [
+              77.20863341025671,
+              28.613880598633827
+            ],
+            [
+              77.20863440141657,
+              28.613927952337075
+            ],
+            [
+              77.20855411917134,
+              28.613939411475325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0009",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0046",
+        "parcels_involved": [
+          "UNSURVEYED-2",
+          "UNSURVEYED-8"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0046 extends across boundary of UNSURVEYED-2, UNSURVEYED-8",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20763418008143,
+              28.613954401412744
+            ],
+            [
+              77.20759925274483,
+              28.613934675878863
+            ],
+            [
+              77.20760614552121,
+              28.613897337560573
+            ],
+            [
+              77.20763276477888,
+              28.613886753219678
+            ],
+            [
+              77.20771347172858,
+              28.613895589081185
+            ],
+            [
+              77.20771446247642,
+              28.61394294281376
+            ],
+            [
+              77.20763418008143,
+              28.613954401412744
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0010",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0048",
+        "parcels_involved": [
+          "UNSURVEYED-23",
+          "UNSURVEYED-33"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0048 extends across boundary of UNSURVEYED-23, UNSURVEYED-33",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20898980603147,
+              28.614054118188946
+            ],
+            [
+              77.20896883143783,
+              28.61403896351684
+            ],
+            [
+              77.20896517895827,
+              28.61397669773776
+            ],
+            [
+              77.20900434142366,
+              28.613934491849104
+            ],
+            [
+              77.20896622346874,
+              28.61390695063203
+            ],
+            [
+              77.20891442845677,
+              28.61393353871728
+            ],
+            [
+              77.20884536226603,
+              28.613931280955132
+            ],
+            [
+              77.20882438771726,
+              28.613916126257916
+            ],
+            [
+              77.20882527643792,
+              28.613887622060037
+            ],
+            [
+              77.20885154744074,
+              28.61385930951624
+            ],
+            [
+              77.20895929245778,
+              28.613878670428573
+            ],
+            [
+              77.20897335021543,
+              28.613817537178864
+            ],
+            [
+              77.20901537239475,
+              28.61381008504983
+            ],
+            [
+              77.2090510030084,
+              28.61386364119414
+            ],
+            [
+              77.20909337925734,
+              28.61387310107207
+            ],
+            [
+              77.20910182433869,
+              28.613910182568937
+            ],
+            [
+              77.20908465048697,
+              28.613928691087967
+            ],
+            [
+              77.20902565849241,
+              28.613935109122348
+            ],
+            [
+              77.20904184052317,
+              28.61397544806096
+            ],
+            [
+              77.20903928203222,
+              28.614036393861007
+            ],
+            [
+              77.20902210814998,
+              28.61405490237353
+            ],
+            [
+              77.20898980603147,
+              28.614054118188946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0011",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0053",
+        "parcels_involved": [
+          "UNSURVEYED-39",
+          "UNSURVEYED-41"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0053 extends across boundary of UNSURVEYED-39, UNSURVEYED-41",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20970089285642,
+              28.61450268892387
+            ],
+            [
+              77.20969809947707,
+              28.614286192097428
+            ],
+            [
+              77.20999539660473,
+              28.61428320488009
+            ],
+            [
+              77.20999816685912,
+              28.61449786258301
+            ],
+            [
+              77.20970089285642,
+              28.61450268892387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0012",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0055",
+        "parcels_involved": [
+          "UNSURVEYED-3",
+          "UNSURVEYED-27"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0055 extends across boundary of UNSURVEYED-3, UNSURVEYED-27",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20832481076476,
+              28.614525121101497
+            ],
+            [
+              77.20831240174219,
+              28.614298624706752
+            ],
+            [
+              77.20856907726943,
+              28.614287674497962
+            ],
+            [
+              77.20858148683874,
+              28.61451417083931
+            ],
+            [
+              77.20832481076476,
+              28.614525121101497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0013",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0075",
+        "parcels_involved": [
+          "UNSURVEYED-18",
+          "UNSURVEYED-26",
+          "UNSURVEYED-31",
+          "UNSURVEYED-32",
+          "UNSURVEYED-33",
+          "UNSURVEYED-37",
+          "UNSURVEYED-39",
+          "UNSURVEYED-42",
+          "UNSURVEYED-48"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0075 extends across boundary of UNSURVEYED-18, UNSURVEYED-26, UNSURVEYED-31, UNSURVEYED-32, UNSURVEYED-33, UNSURVEYED-37, UNSURVEYED-39, UNSURVEYED-42, UNSURVEYED-48",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20916053189632,
+              28.615249115396576
+            ],
+            [
+              77.20914263356939,
+              28.61402794191503
+            ],
+            [
+              77.20917294413343,
+              28.61401052997812
+            ],
+            [
+              77.20928410342094,
+              28.614008717760335
+            ],
+            [
+              77.2093142723157,
+              28.613984540981754
+            ],
+            [
+              77.20934479529701,
+              28.61397727622573
+            ],
+            [
+              77.20956328068922,
+              28.613973713920874
+            ],
+            [
+              77.20959408695872,
+              28.613979978730406
+            ],
+            [
+              77.20962524737718,
+              28.61400315555804
+            ],
+            [
+              77.20966741123023,
+              28.614002468035306
+            ],
+            [
+              77.20969758002938,
+              28.61397829117624
+            ],
+            [
+              77.20972810297641,
+              28.613971026335363
+            ],
+            [
+              77.20994658829906,
+              28.613967463413513
+            ],
+            [
+              77.20997739458332,
+              28.613973728134706
+            ],
+            [
+              77.21000855507785,
+              28.613996904869627
+            ],
+            [
+              77.21005071891747,
+              28.61399621722782
+            ],
+            [
+              77.21008088762103,
+              28.613972040288278
+            ],
+            [
+              77.21011141053377,
+              28.61396477536255
+            ],
+            [
+              77.21032989578686,
+              28.61396121182371
+            ],
+            [
+              77.21036070208588,
+              28.61396747645656
+            ],
+            [
+              77.21039186265646,
+              28.613990653098774
+            ],
+            [
+              77.21053368642961,
+              28.613988339669202
+            ],
+            [
+              77.21053425329599,
+              28.61401539889305
+            ],
+            [
+              77.2103733349588,
+              28.61402140734315
+            ],
+            [
+              77.21037297369821,
+              28.614187207627552
+            ],
+            [
+              77.2100778263202,
+              28.61419202157598
+            ],
+            [
+              77.2100666179691,
+              28.614023026405384
+            ],
+            [
+              77.2099900272637,
+              28.61402765906775
+            ],
+            [
+              77.20998966540105,
+              28.614193459384136
+            ],
+            [
+              77.20969451792905,
+              28.61419827249907
+            ],
+            [
+              77.20968331018864,
+              28.614029277263153
+            ],
+            [
+              77.20960671944657,
+              28.614033909709896
+            ],
+            [
+              77.20960635698182,
+              28.614199710058273
+            ],
+            [
+              77.20931120941586,
+              28.614204522339712
+            ],
+            [
+              77.20930390618474,
+              28.614038846951853
+            ],
+            [
+              77.209165915306,
+              28.614041096610194
+            ],
+            [
+              77.20918736376444,
+              28.615248677958235
+            ],
+            [
+              77.20916053189632,
+              28.615249115396576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-ENC-0014",
+        "type": "Building Encroachment",
+        "severity": "Critical",
+        "building_id": "AI-BLD-upload_1787996408500-0077",
+        "parcels_involved": [
+          "UNSURVEYED-2",
+          "UNSURVEYED-4",
+          "UNSURVEYED-8",
+          "UNSURVEYED-13",
+          "UNSURVEYED-15",
+          "UNSURVEYED-17",
+          "UNSURVEYED-18",
+          "UNSURVEYED-20",
+          "UNSURVEYED-23",
+          "UNSURVEYED-26",
+          "UNSURVEYED-27"
+        ],
+        "encroachment_type": "Multi-Parcel Straddle",
+        "description": "Building AI-BLD-upload_1787996408500-0077 extends across boundary of UNSURVEYED-2, UNSURVEYED-4, UNSURVEYED-8, UNSURVEYED-13, UNSURVEYED-15, UNSURVEYED-17, UNSURVEYED-18, UNSURVEYED-20, UNSURVEYED-23, UNSURVEYED-26, UNSURVEYED-27",
+        "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+        "status": "Open"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20886921443244,
+              28.61525386438572
+            ],
+            [
+              77.20886269059282,
+              28.61512539543237
+            ],
+            [
+              77.20867472607743,
+              28.6151216921142
+            ],
+            [
+              77.20867012397225,
+              28.614901835676473
+            ],
+            [
+              77.2088615671711,
+              28.614888564509258
+            ],
+            [
+              77.2088563179179,
+              28.614820978863033
+            ],
+            [
+              77.20866835394553,
+              28.61481727550603
+            ],
+            [
+              77.20866375191171,
+              28.61459741905748
+            ],
+            [
+              77.208855194562,
+              28.614584147929058
+            ],
+            [
+              77.20884994534181,
+              28.614516562278716
+            ],
+            [
+              77.20866198191243,
+              28.614512858882875
+            ],
+            [
+              77.20865737994997,
+              28.61429300242351
+            ],
+            [
+              77.20884505976706,
+              28.614283176220603
+            ],
+            [
+              77.20884747675663,
+              28.614215465606314
+            ],
+            [
+              77.20866341775123,
+              28.614215082109904
+            ],
+            [
+              77.20864837857187,
+              28.614046149172285
+            ],
+            [
+              77.2085717877308,
+              28.614050781036866
+            ],
+            [
+              77.20856759055232,
+              28.614216643943596
+            ],
+            [
+              77.20831843979948,
+              28.614220704394555
+            ],
+            [
+              77.20830340116865,
+              28.614051771388425
+            ],
+            [
+              77.2082268102946,
+              28.614056403058946
+            ],
+            [
+              77.20822261257314,
+              28.61422226598469
+            ],
+            [
+              77.20797346174895,
+              28.614226325802406
+            ],
+            [
+              77.20795842366665,
+              28.614057392727766
+            ],
+            [
+              77.20788183275963,
+              28.614062024204234
+            ],
+            [
+              77.20787763449518,
+              28.61422788714899
+            ],
+            [
+              77.20762848359965,
+              28.614231946333465
+            ],
+            [
+              77.20761734991589,
+              28.614066333155176
+            ],
+            [
+              77.20747162191246,
+              28.61406532357061
+            ],
+            [
+              77.20747105582991,
+              28.614038264290947
+            ],
+            [
+              77.20759754761086,
+              28.614036203690954
+            ],
+            [
+              77.20762150337175,
+              28.614002893026143
+            ],
+            [
+              77.20766945624061,
+              28.613991045907607
+            ],
+            [
+              77.20785734802841,
+              28.61399136832525
+            ],
+            [
+              77.20787477955191,
+              28.61400112981116
+            ],
+            [
+              77.2079003612143,
+              28.614031270260572
+            ],
+            [
+              77.20794252512772,
+              28.61403058327365
+            ],
+            [
+              77.2079664807742,
+              28.613997272553842
+            ],
+            [
+              77.20801443359315,
+              28.61398542531542
+            ],
+            [
+              77.20820232533822,
+              28.61398574725491
+            ],
+            [
+              77.20821975688956,
+              28.613995508694718
+            ],
+            [
+              77.20824533864447,
+              28.61402564907364
+            ],
+            [
+              77.20828750254582,
+              28.614024961979556
+            ],
+            [
+              77.20831145807787,
+              28.613991651204756
+            ],
+            [
+              77.20835941084694,
+              28.613979803846433
+            ],
+            [
+              77.20854730254926,
+              28.61398012530778
+            ],
+            [
+              77.20856473412842,
+              28.613989886701493
+            ],
+            [
+              77.20859031597585,
+              28.614020027009918
+            ],
+            [
+              77.20863247986514,
+              28.61401933980867
+            ],
+            [
+              77.20865643528275,
+              28.613986028978886
+            ],
+            [
+              77.20870438800192,
+              28.61397418150067
+            ],
+            [
+              77.20886154422867,
+              28.613971619919123
+            ],
+            [
+              77.2089115866662,
+              28.613980954892458
+            ],
+            [
+              77.20892400638924,
+              28.614024738734855
+            ],
+            [
+              77.20892690947753,
+              28.614163417406015
+            ],
+            [
+              77.20891633071264,
+              28.61420757613734
+            ],
+            [
+              77.20887842467855,
+              28.614228495390243
+            ],
+            [
+              77.2088792035444,
+              28.614265701863328
+            ],
+            [
+              77.20891695286558,
+              28.614286840652777
+            ],
+            [
+              77.20892597949602,
+              28.61430215855642
+            ],
+            [
+              77.20893328218223,
+              28.614467833990346
+            ],
+            [
+              77.2089227033985,
+              28.614511992721866
+            ],
+            [
+              77.20888479726065,
+              28.61453291198163
+            ],
+            [
+              77.20888557613857,
+              28.61457011845288
+            ],
+            [
+              77.20892332557419,
+              28.61459125723362
+            ],
+            [
+              77.20893235223471,
+              28.61460657513471
+            ],
+            [
+              77.20893965498576,
+              28.614772250559703
+            ],
+            [
+              77.2089290761832,
+              28.61481640929141
+            ],
+            [
+              77.20889116994157,
+              28.614837328558043
+            ],
+            [
+              77.20889194883156,
+              28.61487453502746
+            ],
+            [
+              77.20892969838162,
+              28.614895673799484
+            ],
+            [
+              77.20893872507222,
+              28.61491099169803
+            ],
+            [
+              77.2089460278881,
+              28.61507666711407
+            ],
+            [
+              77.2089354490667,
+              28.61512082584598
+            ],
+            [
+              77.2088975427213,
+              28.61514174511947
+            ],
+            [
+              77.20889987943195,
+              28.615253364521568
+            ],
+            [
+              77.20886921443244,
+              28.61525386438572
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
