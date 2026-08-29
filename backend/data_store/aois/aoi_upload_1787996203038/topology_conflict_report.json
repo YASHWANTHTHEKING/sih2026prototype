@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "aoi_id": "aoi_upload_1787996203038",
+  "total_conflicts_detected": 2,
+  "severity_breakdown": {
+    "Critical": 2,
+    "High": 0,
+    "Medium": 0,
+    "Low": 0
+  },
+  "conflicts_geojson": "E:\\sihproject2026\\backend\\data_store\\aois\\aoi_upload_1787996203038\\vectors\\cadastral_conflicts.geojson",
+  "conflicts_list": [
+    {
+      "conflict_id": "CONF-ENC-0001",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-upload_1787996203038-0004",
+      "parcels_involved": [
+        "UNSURVEYED-1",
+        "UNSURVEYED-2"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-upload_1787996203038-0004 extends across boundary of UNSURVEYED-1, UNSURVEYED-2",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20909922636335,
+              28.613750792245
+            ],
+            [
+              77.20898443390242,
+              28.613752663524917
+            ],
+            [
+              77.20898406511135,
+              28.613735046823592
+            ],
+            [
+              77.20908067486972,
+              28.613554743856184
+            ],
+            [
+              77.20910505920156,
+              28.613552441644302
+            ],
+            [
+              77.20919979536345,
+              28.61354649156202
+            ],
+            [
+              77.20920636567259,
+              28.613383374361806
+            ],
+            [
+              77.20933554047353,
+              28.613142293205648
+            ],
+            [
+              77.20947108215654,
+              28.613149963321263
+            ],
+            [
+              77.20945810319992,
+              28.613174186292902
+            ],
+            [
+              77.20909922636335,
+              28.613750792245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "conflict_id": "CONF-ENC-0002",
+      "type": "Building Encroachment",
+      "severity": "Critical",
+      "building_id": "AI-BLD-upload_1787996203038-0005",
+      "parcels_involved": [
+        "UNSURVEYED-1",
+        "UNSURVEYED-2"
+      ],
+      "encroachment_type": "Multi-Parcel Straddle",
+      "description": "Building AI-BLD-upload_1787996203038-0005 extends across boundary of UNSURVEYED-1, UNSURVEYED-2",
+      "suggested_action": "Verify setback in field with GNSS CORS survey or initiate boundary adjustment",
+      "status": "Open",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20966366768664,
+              28.613763618021775
+            ],
+            [
+              77.20964879980039,
+              28.613748923215464
+            ],
+            [
+              77.20942373199686,
+              28.613749907494398
+            ],
+            [
+              77.20942336313253,
+              28.613732290798307
+            ],
+            [
+              77.20995851424377,
+              28.613538526092103
+            ],
+            [
+              77.21008827928492,
+              28.613536409807168
+            ],
+            [
+              77.21010170505211,
+              28.613525832220887
+            ],
+            [
+              77.21011212717154,
+              28.61348315274959
+            ],
+            [
+              77.21028080504965,
+              28.613431939199504
+            ],
+            [
+              77.21027821261124,
+              28.613546529066994
+            ],
+            [
+              77.20968862256152,
+              28.613763211104892
+            ],
+            [
+              77.20966366768664,
+              28.613763618021775
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

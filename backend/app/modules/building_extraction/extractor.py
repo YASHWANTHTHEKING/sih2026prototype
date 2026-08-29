@@ -82,7 +82,10 @@ class BuildingFootprintExtractor:
             # Convert contour pixel coordinates to projected geospatial coordinates
             poly_coords = []
             for pt in cnt:
-                px, py = pt[0][0], pt[0][1]
+                c = np.asarray(pt).ravel()
+                if len(c) < 2:
+                    continue
+                px, py = int(c[0]), int(c[1])
                 geo_x, geo_y = xy(transform, py, px)
                 poly_coords.append((geo_x, geo_y))
                 

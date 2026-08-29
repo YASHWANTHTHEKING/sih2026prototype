@@ -78,19 +78,22 @@ class RoadNetworkExtractor:
         extracted_roads = []
         road_idx = 1
         
-        if lines_p is not None:
+        if lines_p is not None and len(lines_p) > 0:
             # Build network graph to merge adjacent collinear segments
             G = nx.Graph()
             
             for line in lines_p:
-                x1, y1, x2, y2 = line[0]
+                coords = np.asarray(line).ravel()
+                if len(coords) < 4:
+                    continue
+                x1, y1, x2, y2 = int(coords[0]), int(coords[1]), int(coords[2]), int(coords[3])
                 gx1, gy1 = xy(transform, y1, x1)
                 gx2, gy2 = xy(transform, y2, x2)
                 
                 # Round coordinates to snap close nodes
                 node1 = (round(gx1, 1), round(gy1, 1))
                 node2 = (round(gx2, 1), round(gy2, 1))
-                dist = np.hypot(gx2 - gx1, gy2 - gy1)
+                dist = float(np.hypot(gx2 - gx1, gy2 - gy1))
                 if dist > 5.0:
                     G.add_edge(node1, node2, length=dist)
                     

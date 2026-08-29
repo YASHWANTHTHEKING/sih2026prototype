@@ -1,0 +1,2845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00001",
+        "survey_number": "UNSURVEYED-1",
+        "area_sqm": 5087.44,
+        "perimeter_m": 293.11,
+        "confidence_score": 0.617,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.114,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2289348,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.967
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21050488976833,
+              28.612522039606993
+            ],
+            [
+              77.20957582794733,
+              28.612537191070686
+            ],
+            [
+              77.20957683229402,
+              28.612554102017207
+            ],
+            [
+              77.20957794640924,
+              28.612557286660905
+            ],
+            [
+              77.20957894915666,
+              28.61256162385407
+            ],
+            [
+              77.20957946532008,
+              28.612566026894108
+            ],
+            [
+              77.20960294272447,
+              28.61294935510314
+            ],
+            [
+              77.20960357136944,
+              28.61295114960332
+            ],
+            [
+              77.20960457600685,
+              28.612955486456265
+            ],
+            [
+              77.2096050940871,
+              28.612959889320873
+            ],
+            [
+              77.20961153495095,
+              28.61306430912846
+            ],
+            [
+              77.20992350023796,
+              28.613048783592856
+            ],
+            [
+              77.20992752813251,
+              28.613047686345745
+            ],
+            [
+              77.20993244317383,
+              28.61304680150892
+            ],
+            [
+              77.2099374328319,
+              28.613046346052307
+            ],
+            [
+              77.21051252218489,
+              28.61301892075356
+            ],
+            [
+              77.21051529808318,
+              28.613018908738873
+            ],
+            [
+              77.21050488976833,
+              28.612522039606993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00002",
+        "survey_number": "UNSURVEYED-2",
+        "area_sqm": 1464.02,
+        "perimeter_m": 162.19,
+        "confidence_score": 0.641,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.274,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2708437,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.905
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21007876284305,
+              28.61374441094165
+            ],
+            [
+              77.20972861533947,
+              28.61342990544311
+            ],
+            [
+              77.20963409260659,
+              28.613430013093282
+            ],
+            [
+              77.2096622423037,
+              28.61388636941754
+            ],
+            [
+              77.21008231318771,
+              28.613854122229945
+            ],
+            [
+              77.21007876284305,
+              28.61374441094165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00003",
+        "survey_number": "UNSURVEYED-3",
+        "area_sqm": 1055.93,
+        "perimeter_m": 148.23,
+        "confidence_score": 0.645,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.3,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1953470,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.965
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20972861533947,
+              28.61342990544311
+            ],
+            [
+              77.21007876284305,
+              28.61374441094165
+            ],
+            [
+              77.21030041612298,
+              28.613409525384128
+            ],
+            [
+              77.20975793872847,
+              28.613415219078817
+            ],
+            [
+              77.20972861533947,
+              28.61342990544311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00004",
+        "survey_number": "UNSURVEYED-4",
+        "area_sqm": 769.26,
+        "perimeter_m": 121.85,
+        "confidence_score": 0.625,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.169,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1423131,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.93
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20972861533947,
+              28.61342990544311
+            ],
+            [
+              77.20975793872847,
+              28.613415219078817
+            ],
+            [
+              77.21001330454733,
+              28.61313467040364
+            ],
+            [
+              77.2096170912994,
+              28.61315438883798
+            ],
+            [
+              77.20963409260659,
+              28.613430013093282
+            ],
+            [
+              77.20972861533947,
+              28.61342990544311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00005",
+        "survey_number": "UNSURVEYED-5",
+        "area_sqm": 1872.97,
+        "perimeter_m": 190.71,
+        "confidence_score": 0.619,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.124,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 842836,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.939
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21030041612298,
+              28.613409525384128
+            ],
+            [
+              77.21007876284305,
+              28.61374441094165
+            ],
+            [
+              77.21008231318771,
+              28.613854122229945
+            ],
+            [
+              77.21052623488205,
+              28.613820042679606
+            ],
+            [
+              77.21053207656028,
+              28.613819848280976
+            ],
+            [
+              77.21052009395824,
+              28.613247848593335
+            ],
+            [
+              77.21030041612298,
+              28.613409525384128
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00006",
+        "survey_number": "UNSURVEYED-6",
+        "area_sqm": 1776.44,
+        "perimeter_m": 185.7,
+        "confidence_score": 0.642,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.28,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 799398,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.916
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20975793872847,
+              28.613415219078817
+            ],
+            [
+              77.21030041612298,
+              28.613409525384128
+            ],
+            [
+              77.21052009395824,
+              28.613247848593335
+            ],
+            [
+              77.2105171862219,
+              28.613109042809512
+            ],
+            [
+              77.21027557520235,
+              28.613120565247666
+            ],
+            [
+              77.21027475735691,
+              28.613120789901092
+            ],
+            [
+              77.2102698446876,
+              28.61312168494743
+            ],
+            [
+              77.2102648562559,
+              28.613122150769495
+            ],
+            [
+              77.21001330454733,
+              28.61313467040364
+            ],
+            [
+              77.20975793872847,
+              28.613415219078817
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00007",
+        "survey_number": "UNSURVEYED-7",
+        "area_sqm": 1601.75,
+        "perimeter_m": 167.01,
+        "confidence_score": 0.645,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.302,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 720787,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.931
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21008006571401,
+              28.61438977639589
+            ],
+            [
+              77.20968803269035,
+              28.61421021564313
+            ],
+            [
+              77.20971685348003,
+              28.61467974014256
+            ],
+            [
+              77.21004191062885,
+              28.614684993964744
+            ],
+            [
+              77.21004691559864,
+              28.61468529208895
+            ],
+            [
+              77.21005186335323,
+              28.614686021668497
+            ],
+            [
+              77.21005566417504,
+              28.61468692736354
+            ],
+            [
+              77.21011033635294,
+              28.614687788157333
+            ],
+            [
+              77.21008006571401,
+              28.61438977639589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00008",
+        "survey_number": "UNSURVEYED-8",
+        "area_sqm": 2446.06,
+        "perimeter_m": 214.5,
+        "confidence_score": 0.615,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.098,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1100727,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21008006571401,
+              28.61438977639589
+            ],
+            [
+              77.21011033635294,
+              28.614687788157333
+            ],
+            [
+              77.21055040450749,
+              28.61469471606705
+            ],
+            [
+              77.21053594365958,
+              28.61400444398217
+            ],
+            [
+              77.21008006571401,
+              28.61438977639589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00009",
+        "survey_number": "UNSURVEYED-9",
+        "area_sqm": 2462.95,
+        "perimeter_m": 217.96,
+        "confidence_score": 0.64,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.265,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1108327,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.968
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21008006571401,
+              28.61438977639589
+            ],
+            [
+              77.21053594365958,
+              28.61400444398217
+            ],
+            [
+              77.21053472279065,
+              28.613946166081337
+            ],
+            [
+              77.20967367452484,
+              28.614012266831814
+            ],
+            [
+              77.20968437267054,
+              28.614184790062733
+            ],
+            [
+              77.2096857256669,
+              28.614188655838888
+            ],
+            [
+              77.20968672901637,
+              28.614192992925208
+            ],
+            [
+              77.20968724578324,
+              28.61419739590961
+            ],
+            [
+              77.20968803269035,
+              28.61421021564313
+            ],
+            [
+              77.21008006571401,
+              28.61438977639589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00010",
+        "survey_number": "UNSURVEYED-10",
+        "area_sqm": 4047.54,
+        "perimeter_m": 261.52,
+        "confidence_score": 0.616,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.105,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1821393,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21056157608778,
+              28.615227962043754
+            ],
+            [
+              77.21055229282489,
+              28.61478485094747
+            ],
+            [
+              77.2105494767594,
+              28.614784928629092
+            ],
+            [
+              77.20984575755527,
+              28.61477384946245
+            ],
+            [
+              77.20984075242241,
+              28.61477355341552
+            ],
+            [
+              77.2098358042749,
+              28.61477282588914
+            ],
+            [
+              77.20983158603676,
+              28.614771822606624
+            ],
+            [
+              77.20972456472064,
+              28.614770092772613
+            ],
+            [
+              77.20975301721947,
+              28.615238485082642
+            ],
+            [
+              77.209753030699,
+              28.615241149580008
+            ],
+            [
+              77.21056157608778,
+              28.615227962043754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00011",
+        "survey_number": "UNSURVEYED-11",
+        "area_sqm": 1049.12,
+        "perimeter_m": 130.45,
+        "confidence_score": 0.657,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.381,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3252271,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.942
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20875278319917,
+              28.61502286197603
+            ],
+            [
+              77.20876212230937,
+              28.614739655391986
+            ],
+            [
+              77.20876211702729,
+              28.61473965559516
+            ],
+            [
+              77.20866553029202,
+              28.614739184585854
+            ],
+            [
+              77.20866205721144,
+              28.61474136922263
+            ],
+            [
+              77.20865770669195,
+              28.614743572958712
+            ],
+            [
+              77.20865313233516,
+              28.614745389797058
+            ],
+            [
+              77.20864837819465,
+              28.6147468022405
+            ],
+            [
+              77.20864349005548,
+              28.614747796686416
+            ],
+            [
+              77.2086385149931,
+              28.614748363557748
+            ],
+            [
+              77.20863350092019,
+              28.614748497395187
+            ],
+            [
+              77.20841663656114,
+              28.614744890027364
+            ],
+            [
+              77.2084107288751,
+              28.61502946433506
+            ],
+            [
+              77.20875278319917,
+              28.61502286197603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00012",
+        "survey_number": "UNSURVEYED-12",
+        "area_sqm": 968.0,
+        "perimeter_m": 129.94,
+        "confidence_score": 0.648,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.32,
+        "landuse_class": "Institutional",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2129600,
+        "tax_rate_per_sqm": 2200,
+        "lulc_confidence": 0.925
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20875278319917,
+              28.61502286197603
+            ],
+            [
+              77.20884855327482,
+              28.615195940971603
+            ],
+            [
+              77.2090737095657,
+              28.614972221051175
+            ],
+            [
+              77.20888323266317,
+              28.614742175878092
+            ],
+            [
+              77.20881550799243,
+              28.614740564733353
+            ],
+            [
+              77.20881175659014,
+              28.61474031252879
+            ],
+            [
+              77.20880805126623,
+              28.614739737071528
+            ],
+            [
+              77.20880442770502,
+              28.614738843903528
+            ],
+            [
+              77.20880092080343,
+              28.61473764162649
+            ],
+            [
+              77.20879756433484,
+              28.614736141819005
+            ],
+            [
+              77.20879439062392,
+              28.61473435892506
+            ],
+            [
+              77.20879143023524,
+              28.6147323101149
+            ],
+            [
+              77.20878890718097,
+              28.614730180161775
+            ],
+            [
+              77.20878648586024,
+              28.61473209528351
+            ],
+            [
+              77.20878345163561,
+              28.614734058182524
+            ],
+            [
+              77.20878021398708,
+              28.614735749192807
+            ],
+            [
+              77.208776804095,
+              28.614737152028958
+            ],
+            [
+              77.2087732547985,
+              28.614738253180903
+            ],
+            [
+              77.2087696002793,
+              28.61473904204393
+            ],
+            [
+              77.20876587573241,
+              28.61473951102085
+            ],
+            [
+              77.20876212230937,
+              28.614739655391986
+            ],
+            [
+              77.20875278319917,
+              28.61502286197603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00013",
+        "survey_number": "UNSURVEYED-13",
+        "area_sqm": 777.67,
+        "perimeter_m": 120.04,
+        "confidence_score": 0.627,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.179,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1438689,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.885
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2090737095657,
+              28.614972221051175
+            ],
+            [
+              77.20928002198114,
+              28.614963542924357
+            ],
+            [
+              77.20934231313284,
+              28.61476391357525
+            ],
+            [
+              77.20920641030554,
+              28.614761716409856
+            ],
+            [
+              77.20920140533231,
+              28.614761418254666
+            ],
+            [
+              77.20919645757783,
+              28.614760688643923
+            ],
+            [
+              77.20919161469179,
+              28.61475953460419
+            ],
+            [
+              77.20918692331385,
+              28.614757967249496
+            ],
+            [
+              77.2091824286246,
+              28.61475600167436
+            ],
+            [
+              77.20917817391042,
+              28.61475365680835
+            ],
+            [
+              77.20917420014652,
+              28.614750955233827
+            ],
+            [
+              77.20917131204787,
+              28.61474855890715
+            ],
+            [
+              77.20915843126893,
+              28.614748355215905
+            ],
+            [
+              77.2091568659331,
+              28.614748522206842
+            ],
+            [
+              77.20915310458116,
+              28.614748595693246
+            ],
+            [
+              77.20911238179691,
+              28.61474762699883
+            ],
+            [
+              77.20910741570256,
+              28.61474754846508
+            ],
+            [
+              77.20910629802158,
+              28.614747482279792
+            ],
+            [
+              77.20888323266317,
+              28.614742175878092
+            ],
+            [
+              77.2090737095657,
+              28.614972221051175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00014",
+        "survey_number": "UNSURVEYED-14",
+        "area_sqm": 1027.93,
+        "perimeter_m": 130.88,
+        "confidence_score": 0.618,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.122,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1901670,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.955
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20884855327482,
+              28.615195940971603
+            ],
+            [
+              77.20875278319917,
+              28.61502286197603
+            ],
+            [
+              77.2084107288751,
+              28.61502946433506
+            ],
+            [
+              77.20840587844589,
+              28.61526311118387
+            ],
+            [
+              77.20885070824198,
+              28.615255860941602
+            ],
+            [
+              77.20884855327482,
+              28.615195940971603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00015",
+        "survey_number": "UNSURVEYED-15",
+        "area_sqm": 1130.86,
+        "perimeter_m": 137.46,
+        "confidence_score": 0.615,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.1,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2092090,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.883
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20930745687389,
+              28.615021912660648
+            ],
+            [
+              77.20928002198114,
+              28.614963542924357
+            ],
+            [
+              77.2090737095657,
+              28.614972221051175
+            ],
+            [
+              77.20884855327482,
+              28.615195940971603
+            ],
+            [
+              77.20885070824198,
+              28.615255860941602
+            ],
+            [
+              77.20931410252962,
+              28.615248306565064
+            ],
+            [
+              77.20930745687389,
+              28.615021912660648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00016",
+        "survey_number": "UNSURVEYED-16",
+        "area_sqm": 693.62,
+        "perimeter_m": 103.44,
+        "confidence_score": 0.653,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.354,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2150222,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.923
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20928002198114,
+              28.614963542924357
+            ],
+            [
+              77.20930745687389,
+              28.615021912660648
+            ],
+            [
+              77.20956825949831,
+              28.61501385399208
+            ],
+            [
+              77.20955273395407,
+              28.614767315216852
+            ],
+            [
+              77.20934231313284,
+              28.61476391357525
+            ],
+            [
+              77.20928002198114,
+              28.614963542924357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00017",
+        "survey_number": "UNSURVEYED-17",
+        "area_sqm": 805.74,
+        "perimeter_m": 112.48,
+        "confidence_score": 0.621,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.14,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1490619,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.932
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20956825949831,
+              28.61501385399208
+            ],
+            [
+              77.20930745687389,
+              28.615021912660648
+            ],
+            [
+              77.20931410252962,
+              28.615248306565064
+            ],
+            [
+              77.20965089942891,
+              28.615242815018103
+            ],
+            [
+              77.20964984521675,
+              28.61522546015031
+            ],
+            [
+              77.2096487615723,
+              28.615222363999788
+            ],
+            [
+              77.20964775821157,
+              28.61521802691425
+            ],
+            [
+              77.20964724143835,
+              28.615213623930483
+            ],
+            [
+              77.20963771151752,
+              28.615058371095678
+            ],
+            [
+              77.20956825949831,
+              28.61501385399208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00018",
+        "survey_number": "UNSURVEYED-18",
+        "area_sqm": 192.47,
+        "perimeter_m": 74.39,
+        "confidence_score": 0.66,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.4,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 596657,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.962
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20956825949831,
+              28.61501385399208
+            ],
+            [
+              77.20963771151752,
+              28.615058371095678
+            ],
+            [
+              77.20962717673247,
+              28.614886747079783
+            ],
+            [
+              77.20962635284648,
+              28.614884397693007
+            ],
+            [
+              77.20962534677703,
+              28.614880061096436
+            ],
+            [
+              77.20962482725221,
+              28.614875658364706
+            ],
+            [
+              77.20961817446275,
+              28.61476837305469
+            ],
+            [
+              77.20955273395407,
+              28.614767315216852
+            ],
+            [
+              77.20956825949831,
+              28.61501385399208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00019",
+        "survey_number": "UNSURVEYED-19",
+        "area_sqm": 3354.74,
+        "perimeter_m": 233.26,
+        "confidence_score": 0.615,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.1,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1509633,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.902
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20749507645355,
+              28.615277951709782
+            ],
+            [
+              77.20799211290633,
+              28.61526985380142
+            ],
+            [
+              77.20811604130142,
+              28.614739889286557
+            ],
+            [
+              77.20786635077289,
+              28.61473573489504
+            ],
+            [
+              77.20786134597854,
+              28.614735434381153
+            ],
+            [
+              77.20785639866409,
+              28.61473470243844
+            ],
+            [
+              77.20785155647495,
+              28.614733546115907
+            ],
+            [
+              77.20784686604411,
+              28.61473197654959
+            ],
+            [
+              77.20784237254303,
+              28.614730008855286
+            ],
+            [
+              77.2078381192466,
+              28.614727661982986
+            ],
+            [
+              77.20783414711643,
+              28.61472495853437
+            ],
+            [
+              77.2078325509372,
+              28.614723632726857
+            ],
+            [
+              77.20780399710628,
+              28.614723694785287
+            ],
+            [
+              77.20780023891933,
+              28.614723540052346
+            ],
+            [
+              77.20779651601649,
+              28.614723061010448
+            ],
+            [
+              77.20779286425137,
+              28.614722262273055
+            ],
+            [
+              77.20778944868518,
+              28.614721192225932
+            ],
+            [
+              77.20748330680699,
+              28.614715378175415
+            ],
+            [
+              77.20749507645355,
+              28.615277951709782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00020",
+        "survey_number": "UNSURVEYED-20",
+        "area_sqm": 1452.66,
+        "perimeter_m": 167.71,
+        "confidence_score": 0.627,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.179,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2687421,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20799211290633,
+              28.61526985380142
+            ],
+            [
+              77.20830374506927,
+              28.615264775640753
+            ],
+            [
+              77.2083036494857,
+              28.61526203538125
+            ],
+            [
+              77.2083144210708,
+              28.614743189632534
+            ],
+            [
+              77.20811604130142,
+              28.614739889286557
+            ],
+            [
+              77.20799211290633,
+              28.61526985380142
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00021",
+        "survey_number": "UNSURVEYED-21",
+        "area_sqm": 1680.08,
+        "perimeter_m": 170.9,
+        "confidence_score": 0.63,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.202,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 756036,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.905
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20785458565561,
+              28.614246914616466
+            ],
+            [
+              77.20787504134056,
+              28.61397177994734
+            ],
+            [
+              77.20746684530027,
+              28.613928512803763
+            ],
+            [
+              77.20747764382878,
+              28.614444689546183
+            ],
+            [
+              77.20785458565561,
+              28.614246914616466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00022",
+        "survey_number": "UNSURVEYED-22",
+        "area_sqm": 1911.01,
+        "perimeter_m": 173.89,
+        "confidence_score": 0.63,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.202,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 859954,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.899
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20801567667525,
+              28.614328557443645
+            ],
+            [
+              77.20785458565561,
+              28.614246914616466
+            ],
+            [
+              77.20747764382878,
+              28.614444689546183
+            ],
+            [
+              77.20748189279591,
+              28.614647789228457
+            ],
+            [
+              77.20748450786506,
+              28.61464772559796
+            ],
+            [
+              77.20783693550463,
+              28.614654418631325
+            ],
+            [
+              77.20783972183992,
+              28.614652665995337
+            ],
+            [
+              77.20784407237475,
+              28.614650462284775
+            ],
+            [
+              77.20784864674341,
+              28.614648645473196
+            ],
+            [
+              77.20785340089226,
+              28.614647233057454
+            ],
+            [
+              77.20785828903632,
+              28.61464623863989
+            ],
+            [
+              77.20786326410014,
+              28.614645671797252
+            ],
+            [
+              77.20786827817118,
+              28.61464553798855
+            ],
+            [
+              77.20803962541932,
+              28.61464838894961
+            ],
+            [
+              77.20801567667525,
+              28.614328557443645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00023",
+        "survey_number": "UNSURVEYED-23",
+        "area_sqm": 1288.14,
+        "perimeter_m": 150.76,
+        "confidence_score": 0.635,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.236,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2383059,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.886
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20801567667525,
+              28.614328557443645
+            ],
+            [
+              77.20803962541932,
+              28.61464838894961
+            ],
+            [
+              77.20832014201643,
+              28.614653055855914
+            ],
+            [
+              77.20832944258703,
+              28.61417687622215
+            ],
+            [
+              77.20801567667525,
+              28.614328557443645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00024",
+        "survey_number": "UNSURVEYED-24",
+        "area_sqm": 1361.08,
+        "perimeter_m": 146.16,
+        "confidence_score": 0.623,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.155,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2517998,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.903
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20785458565561,
+              28.614246914616466
+            ],
+            [
+              77.20801567667525,
+              28.614328557443645
+            ],
+            [
+              77.20832944258703,
+              28.61417687622215
+            ],
+            [
+              77.20833250142996,
+              28.614020267366907
+            ],
+            [
+              77.20787504134056,
+              28.61397177994734
+            ],
+            [
+              77.20785458565561,
+              28.614246914616466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00025",
+        "survey_number": "UNSURVEYED-25",
+        "area_sqm": 942.62,
+        "perimeter_m": 121.92,
+        "confidence_score": 0.606,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.04,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1743847,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.905
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20783497859135,
+              28.613653775515058
+            ],
+            [
+              77.20773993450116,
+              28.613568831430495
+            ],
+            [
+              77.20745990908,
+              28.61359694974569
+            ],
+            [
+              77.2074642038141,
+              28.613802245959857
+            ],
+            [
+              77.20747120176415,
+              28.613802074775418
+            ],
+            [
+              77.20747820719241,
+              28.613802511068624
+            ],
+            [
+              77.20784530379714,
+              28.613841421934946
+            ],
+            [
+              77.20783497859135,
+              28.613653775515058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00026",
+        "survey_number": "UNSURVEYED-26",
+        "area_sqm": 986.45,
+        "perimeter_m": 126.94,
+        "confidence_score": 0.621,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.14,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 1824932,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.881
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20773993450116,
+              28.613568831430495
+            ],
+            [
+              77.20773319677761,
+              28.613251723974933
+            ],
+            [
+              77.2074559640752,
+              28.613265382848148
+            ],
+            [
+              77.20745297326609,
+              28.61326540049486
+            ],
+            [
+              77.20745990908,
+              28.61359694974569
+            ],
+            [
+              77.20773993450116,
+              28.613568831430495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00027",
+        "survey_number": "UNSURVEYED-27",
+        "area_sqm": 1147.31,
+        "perimeter_m": 134.32,
+        "confidence_score": 0.648,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.323,
+        "landuse_class": "Institutional",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2524082,
+        "tax_rate_per_sqm": 2200,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20773993450116,
+              28.613568831430495
+            ],
+            [
+              77.20783497859135,
+              28.613653775515058
+            ],
+            [
+              77.20804056593867,
+              28.61352429713728
+            ],
+            [
+              77.20803287835113,
+              28.61323695843666
+            ],
+            [
+              77.20773319677761,
+              28.613251723974933
+            ],
+            [
+              77.20773993450116,
+              28.613568831430495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00028",
+        "survey_number": "UNSURVEYED-28",
+        "area_sqm": 1143.58,
+        "perimeter_m": 133.14,
+        "confidence_score": 0.679,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.53,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3545098,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.94
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20818457504883,
+              28.613599012139183
+            ],
+            [
+              77.20804056593867,
+              28.61352429713728
+            ],
+            [
+              77.20783497859135,
+              28.613653775515058
+            ],
+            [
+              77.20784530379714,
+              28.613841421934946
+            ],
+            [
+              77.20824320901048,
+              28.613883597233407
+            ],
+            [
+              77.20818457504883,
+              28.613599012139183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00029",
+        "survey_number": "UNSURVEYED-29",
+        "area_sqm": 1094.26,
+        "perimeter_m": 129.36,
+        "confidence_score": 0.675,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.497,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3392206,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.949
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20804056593867,
+              28.61352429713728
+            ],
+            [
+              77.20818457504883,
+              28.613599012139183
+            ],
+            [
+              77.20834539898955,
+              28.613492417338826
+            ],
+            [
+              77.2083509864308,
+              28.61321926023676
+            ],
+            [
+              77.20823710342614,
+              28.61322483267503
+            ],
+            [
+              77.2082367390436,
+              28.61322496839075
+            ],
+            [
+              77.20823194860185,
+              28.613226281668638
+            ],
+            [
+              77.20822703535342,
+              28.613227174280677
+            ],
+            [
+              77.20822204661567,
+              28.61322763763051
+            ],
+            [
+              77.20803287835113,
+              28.61323695843666
+            ],
+            [
+              77.20804056593867,
+              28.61352429713728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00030",
+        "survey_number": "UNSURVEYED-30",
+        "area_sqm": 480.65,
+        "perimeter_m": 105.25,
+        "confidence_score": 0.632,
+        "verification_status": "Needs GT Verification",
+        "building_count": 3,
+        "building_coverage_ratio": 0.213,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 889202,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.944
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20818457504883,
+              28.613599012139183
+            ],
+            [
+              77.20824320901048,
+              28.613883597233407
+            ],
+            [
+              77.20833498085454,
+              28.613893324264726
+            ],
+            [
+              77.20833959202689,
+              28.613657239283366
+            ],
+            [
+              77.20833992447083,
+              28.61365282247616
+            ],
+            [
+              77.20834074591788,
+              28.613648455691177
+            ],
+            [
+              77.20834204845694,
+              28.61364418098296
+            ],
+            [
+              77.20834230703424,
+              28.6136435763325
+            ],
+            [
+              77.20834539898955,
+              28.613492417338826
+            ],
+            [
+              77.20818457504883,
+              28.613599012139183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00031",
+        "survey_number": "UNSURVEYED-31",
+        "area_sqm": 1678.1,
+        "perimeter_m": 179.26,
+        "confidence_score": 0.611,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.072,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 755145,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.917
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20792812772373,
+              28.613012713457223
+            ],
+            [
+              77.20744049156103,
+              28.612668729628307
+            ],
+            [
+              77.20745108780184,
+              28.613175269617606
+            ],
+            [
+              77.20792693526393,
+              28.613151824938246
+            ],
+            [
+              77.20792812772373,
+              28.613012713457223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00032",
+        "survey_number": "UNSURVEYED-32",
+        "area_sqm": 1701.54,
+        "perimeter_m": 175.96,
+        "confidence_score": 0.606,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.039,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 765693,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.945
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20792812772373,
+              28.613012713457223
+            ],
+            [
+              77.20800018527594,
+              28.612874202659203
+            ],
+            [
+              77.20797749315358,
+              28.612563242363507
+            ],
+            [
+              77.20743846861379,
+              28.61257202368436
+            ],
+            [
+              77.20744049156103,
+              28.612668729628307
+            ],
+            [
+              77.20792812772373,
+              28.613012713457223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00033",
+        "survey_number": "UNSURVEYED-33",
+        "area_sqm": 1225.05,
+        "perimeter_m": 140.08,
+        "confidence_score": 0.657,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.379,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3797655,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.898
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20800018527594,
+              28.612874202659203
+            ],
+            [
+              77.20792812772373,
+              28.613012713457223
+            ],
+            [
+              77.20792693526393,
+              28.613151824938246
+            ],
+            [
+              77.20813783633473,
+              28.613141433450323
+            ],
+            [
+              77.20813830012787,
+              28.61314126089559
+            ],
+            [
+              77.20814309114282,
+              28.613139949257125
+            ],
+            [
+              77.20814800477923,
+              28.613139058326194
+            ],
+            [
+              77.20815299371615,
+              28.613138596682933
+            ],
+            [
+              77.20835473403757,
+              28.61312872533691
+            ],
+            [
+              77.20836005872303,
+              28.612853217121224
+            ],
+            [
+              77.20800018527594,
+              28.612874202659203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00034",
+        "survey_number": "UNSURVEYED-34",
+        "area_sqm": 1233.26,
+        "perimeter_m": 140.86,
+        "confidence_score": 0.626,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.171,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2281531,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.907
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20800018527594,
+              28.612874202659203
+            ],
+            [
+              77.20836005872303,
+              28.612853217121224
+            ],
+            [
+              77.20836522667744,
+              28.612585819562092
+            ],
+            [
+              77.20836555821387,
+              28.61258140270137
+            ],
+            [
+              77.2083663787586,
+              28.612577035784938
+            ],
+            [
+              77.20836733043164,
+              28.61257391027472
+            ],
+            [
+              77.20836765348625,
+              28.6125568848715
+            ],
+            [
+              77.20797749315358,
+              28.612563242363507
+            ],
+            [
+              77.20800018527594,
+              28.612874202659203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00035",
+        "survey_number": "UNSURVEYED-35",
+        "area_sqm": 1429.46,
+        "perimeter_m": 150.99,
+        "confidence_score": 0.654,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.358,
+        "landuse_class": "Mixed-Use",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 4431326,
+        "tax_rate_per_sqm": 3100,
+        "lulc_confidence": 0.947
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20889351445767,
+              28.61284757186015
+            ],
+            [
+              77.20887643937726,
+              28.612803177151356
+            ],
+            [
+              77.2084651214365,
+              28.612808699519054
+            ],
+            [
+              77.208459146281,
+              28.61312361622807
+            ],
+            [
+              77.20871601537014,
+              28.61311104674423
+            ],
+            [
+              77.20871710294783,
+              28.613110748585232
+            ],
+            [
+              77.20872201618549,
+              28.613109855955926
+            ],
+            [
+              77.20872700491421,
+              28.613109392588104
+            ],
+            [
+              77.2088931099953,
+              28.6131012073254
+            ],
+            [
+              77.20889351445767,
+              28.61284757186015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00036",
+        "survey_number": "UNSURVEYED-36",
+        "area_sqm": 1749.48,
+        "perimeter_m": 175.96,
+        "confidence_score": 0.612,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.079,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 787266,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.924
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20887643937726,
+              28.612803177151356
+            ],
+            [
+              77.20889351445767,
+              28.61284757186015
+            ],
+            [
+              77.20948765649547,
+              28.612776295089997
+            ],
+            [
+              77.20947368875693,
+              28.612541106644912
+            ],
+            [
+              77.2094736804134,
+              28.612538856539516
+            ],
+            [
+              77.2088859400646,
+              28.612548437880797
+            ],
+            [
+              77.20887643937726,
+              28.612803177151356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00037",
+        "survey_number": "UNSURVEYED-37",
+        "area_sqm": 1139.29,
+        "perimeter_m": 137.31,
+        "confidence_score": 0.622,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.149,
+        "landuse_class": "Residential",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 2107686,
+        "tax_rate_per_sqm": 1850,
+        "lulc_confidence": 0.916
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20887643937726,
+              28.612803177151356
+            ],
+            [
+              77.2088859400646,
+              28.612548437880797
+            ],
+            [
+              77.20846980246806,
+              28.612555220212922
+            ],
+            [
+              77.20846988711456,
+              28.61255752868859
+            ],
+            [
+              77.2084651214365,
+              28.612808699519054
+            ],
+            [
+              77.20887643937726,
+              28.612803177151356
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00038",
+        "survey_number": "UNSURVEYED-38",
+        "area_sqm": 1797.8,
+        "perimeter_m": 179.61,
+        "confidence_score": 0.648,
+        "verification_status": "Needs GT Verification",
+        "building_count": 2,
+        "building_coverage_ratio": 0.318,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 809010,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.926
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20889351445767,
+              28.61284757186015
+            ],
+            [
+              77.2088931099953,
+              28.6131012073254
+            ],
+            [
+              77.20949308536288,
+              28.613071640266817
+            ],
+            [
+              77.2094981015345,
+              28.613071610594677
+            ],
+            [
+              77.20950309684778,
+              28.613072014931916
+            ],
+            [
+              77.20950524087765,
+              28.613072378099872
+            ],
+            [
+              77.20948765649547,
+              28.612776295089997
+            ],
+            [
+              77.20889351445767,
+              28.61284757186015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00039",
+        "survey_number": "UNSURVEYED-39",
+        "area_sqm": 7866.29,
+        "perimeter_m": 372.41,
+        "confidence_score": 0.75,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 1.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3539830,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.895
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20867060746639,
+              28.614671548636657
+            ],
+            [
+              77.20876254072385,
+              28.614671996954744
+            ],
+            [
+              77.20876629738635,
+              28.614672178175404
+            ],
+            [
+              77.20877001582993,
+              28.61467268344555
+            ],
+            [
+              77.20877366024399,
+              28.61467350789917
+            ],
+            [
+              77.20877719553087,
+              28.614674643596317
+            ],
+            [
+              77.20878058764386,
+              28.614676079599622
+            ],
+            [
+              77.20878380391504,
+              28.61467780207959
+            ],
+            [
+              77.20878681337003,
+              28.614679794447813
+            ],
+            [
+              77.20878958702612,
+              28.61468203751672
+            ],
+            [
+              77.20878995030685,
+              28.614682395158656
+            ],
+            [
+              77.20879017285728,
+              28.614682189884135
+            ],
+            [
+              77.20879302759668,
+              28.61468002747812
+            ],
+            [
+              77.20879610878472,
+              28.614678122397457
+            ],
+            [
+              77.20879938674783,
+              28.614676492989098
+            ],
+            [
+              77.20880282991747,
+              28.61467515494512
+            ],
+            [
+              77.20880640513408,
+              28.614674121151612
+            ],
+            [
+              77.20881007796638,
+              28.614673401564552
+            ],
+            [
+              77.208813813043,
+              28.61467300311396
+            ],
+            [
+              77.20881757439315,
+              28.61467292963711
+            ],
+            [
+              77.20911410188091,
+              28.614679983675046
+            ],
+            [
+              77.20917607308165,
+              28.61468096367353
+            ],
+            [
+              77.20917973111627,
+              28.614678660128835
+            ],
+            [
+              77.20918408031486,
+              28.614676454370006
+            ],
+            [
+              77.2091886535813,
+              28.614674635404356
+            ],
+            [
+              77.20919340687256,
+              28.61467322074948
+            ],
+            [
+              77.2091982944119,
+              28.61467222402928
+            ],
+            [
+              77.2092032691297,
+              28.614671654842688
+            ],
+            [
+              77.20920828311678,
+              28.614671518671287
+            ],
+            [
+              77.20961257380449,
+              28.6146780545291
+            ],
+            [
+              77.20957177378199,
+              28.61402008915821
+            ],
+            [
+              77.20897161693581,
+              28.614066158132083
+            ],
+            [
+              77.20896459905471,
+              28.614066391591575
+            ],
+            [
+              77.20895758903464,
+              28.614066016930614
+            ],
+            [
+              77.20895065438604,
+              28.61406503775739
+            ],
+            [
+              77.2089438618935,
+              28.614063463501875
+            ],
+            [
+              77.20893727697252,
+              28.61406130932504
+            ],
+            [
+              77.20893096303962,
+              28.614058595972825
+            ],
+            [
+              77.20892498090149,
+              28.614055349576308
+            ],
+            [
+              77.20891938816945,
+              28.61405160140012
+            ],
+            [
+              77.20891850659947,
+              28.614050880002605
+            ],
+            [
+              77.2088864751967,
+              28.6140533490131
+            ],
+            [
+              77.20888418425142,
+              28.614055485929825
+            ],
+            [
+              77.20887888110092,
+              28.614059548655018
+            ],
+            [
+              77.2088731522107,
+              28.6140631331327
+            ],
+            [
+              77.20886705275315,
+              28.614066204842327
+            ],
+            [
+              77.2088606414694,
+              28.61406873420162
+            ],
+            [
+              77.2088539801037,
+              28.614070696851414
+            ],
+            [
+              77.20884713280876,
+              28.61407207389028
+            ],
+            [
+              77.20884016552786,
+              28.614072852056555
+            ],
+            [
+              77.20883314535985,
+              28.61407302385606
+            ],
+            [
+              77.20882613991289,
+              28.614072587634254
+            ],
+            [
+              77.20843662570523,
+              28.614031303553787
+            ],
+            [
+              77.2084339436061,
+              28.61416243273094
+            ],
+            [
+              77.2084336070901,
+              28.6141668492976
+            ],
+            [
+              77.20843278161487,
+              28.614171215491115
+            ],
+            [
+              77.20843173451703,
+              28.614174640756563
+            ],
+            [
+              77.2084223575382,
+              28.614654756253227
+            ],
+            [
+              77.20863542766094,
+              28.614658300513984
+            ],
+            [
+              77.2086404324518,
+              28.61465860099935
+            ],
+            [
+              77.20864537976605,
+              28.614659332913327
+            ],
+            [
+              77.20865022195844,
+              28.61466048920719
+            ],
+            [
+              77.20865491239601,
+              28.614662058745214
+            ],
+            [
+              77.20865940590738,
+              28.614664026411898
+            ],
+            [
+              77.2086636592176,
+              28.614666373257563
+            ],
+            [
+              77.20866763136499,
+              28.614669076680823
+            ],
+            [
+              77.20867060746639,
+              28.614671548636657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-9126-00040",
+        "survey_number": "UNSURVEYED-40",
+        "area_sqm": 8707.69,
+        "perimeter_m": 373.0,
+        "confidence_score": 0.75,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 1.0,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 3918460,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.906
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20888030214427,
+              28.61396129665154
+            ],
+            [
+              77.20891480233145,
+              28.613958649308888
+            ],
+            [
+              77.20891539311832,
+              28.613958087137302
+            ],
+            [
+              77.20892065017186,
+              28.613953978031965
+            ],
+            [
+              77.20892633833762,
+              28.613950343410448
+            ],
+            [
+              77.20893240283546,
+              28.61394721827609
+            ],
+            [
+              77.20893878526103,
+              28.613944632725588
+            ],
+            [
+              77.20894542414814,
+              28.613942611659173
+            ],
+            [
+              77.20895225556079,
+              28.613941174540777
+            ],
+            [
+              77.20895921370882,
+              28.613940335210607
+            ],
+            [
+              77.20956034073903,
+              28.613894191801073
+            ],
+            [
+              77.20954514950392,
+              28.613647911987023
+            ],
+            [
+              77.20954415522961,
+              28.613645069936222
+            ],
+            [
+              77.20954315247015,
+              28.61364073274393
+            ],
+            [
+              77.20954263629983,
+              28.6136363297046
+            ],
+            [
+              77.2095134054441,
+              28.61315906340664
+            ],
+            [
+              77.20950868795694,
+              28.61316035673377
+            ],
+            [
+              77.20950377472563,
+              28.61316124939137
+            ],
+            [
+              77.20949878599991,
+              28.613161712787754
+            ],
+            [
+              77.20899948437987,
+              28.613186318807735
+            ],
+            [
+              77.20899797335136,
+              28.61318673249309
+            ],
+            [
+              77.2089930597221,
+              28.613187623454582
+            ],
+            [
+              77.20898807078873,
+              28.613188085128705
+            ],
+            [
+              77.2084553299903,
+              28.6132141544912
+            ],
+            [
+              77.20844682595896,
+              28.613654192543457
+            ],
+            [
+              77.20844649442577,
+              28.613658609403736
+            ],
+            [
+              77.20844567387913,
+              28.613662976320285
+            ],
+            [
+              77.20844437222128,
+              28.613667251237302
+            ],
+            [
+              77.20844405692027,
+              28.613667988935095
+            ],
+            [
+              77.20843922193392,
+              28.613904372850243
+            ],
+            [
+              77.20884320796134,
+              28.61394719082834
+            ],
+            [
+              77.20885013121271,
+              28.613948230869628
+            ],
+            [
+              77.20885690560236,
+              28.613949864714296
+            ],
+            [
+              77.20886346588928,
+              28.613952076627555
+            ],
+            [
+              77.20886974889443,
+              28.61395484530748
+            ],
+            [
+              77.2088756941091,
+              28.61395814409024
+            ],
+            [
+              77.20888030214427,
+              28.61396129665154
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
