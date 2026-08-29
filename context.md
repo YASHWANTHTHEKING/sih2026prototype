@@ -191,9 +191,18 @@ Generates and downloads standard industry-grade GIS files on demand:
 Full dynamic multi-lingual dictionary supporting 5 major Indian administrative languages:
 1. 🇬🇧 **English (EN)**
 2. 🇮🇳 **हिन्दी (Hindi):** *खसरा / खतौनी / भू-नक्शा*
-3. 🇮🇳 **தமிழ் (Tamil):** *பட்டா / சிட்டா / புல வரைபடம்*
+3. 🇮🇳 **தமிழ் (Tamil):** *பட்டா / சிट्टा / புல வரைபடம்*
 4. 🇮🇳 **मराठी (Marathi):** *७/१२ उतारा / फेरफार*
 5. 🇮🇳 **తెలుగు (Telugu):** *పట్టాదారు పాస్‌బుక్ / అడంగల్*
+
+---
+
+### Module 13: Real Drone Survey Ingestion & Georeferencing Engine
+- **Raw Aerial Ingestion:** Ingests non-georeferenced RGB drone photographs / orthomosaics (`.jpg`, `.png`, `.tif`).
+- **North-Up Georeferencing Transform:** Reprojects WGS84 coordinates (`center_lat`, `center_lon`) to `EPSG:32643` (UTM 43N) and builds an affine bounding box matrix spanning user-defined ground dimensions ($W \times H\text{ meters}$).
+- **RGB Computer Vision Fallback:** Employs Canny edge contour detection and adaptive Gaussian thresholding when $nDSM$ elevation surveys are not present.
+- **Physical-Cue Voronoi Partitioning:** Buffers extracted road corridors into urban blocks and applies Voronoi setback clustering around building centroids to delineate cadastral parcels.
+- **Interactive Raster Layer Overlay:** Seamlessly projects the georeferenced orthomosaic onto the Leaflet Web-GIS canvas via `<ImageOverlay>`.
 
 ---
 
@@ -216,10 +225,14 @@ Full dynamic multi-lingual dictionary supporting 5 major Indian administrative l
 - `GET /` — Service discovery, documentation link, and active AOI registry.
 - `GET /api/health` — Backend health check and version status.
 
+### 🚁 Drone Survey Ingestion (`/api/upload`)
+- `POST /api/upload/drone-image` — Multipart upload of raw drone imagery with WGS84 georeferencing and automated 7-stage GeoAI pipeline execution.
+
 ### 🗺️ GIS Layers (`/api/layers`)
 - `GET /api/layers/aois` — List all available Areas of Interest (AOIs).
 - `GET /api/layers/metadata/{aoi_id}` — Get spatial metadata, bounds, and elevation ranges.
 - `GET /api/layers/geojson/{aoi_id}/{layer_name}` — Stream GeoJSON for parcels, buildings, roads, conflicts, legacy, or GNSS.
+- `GET /api/layers/raster/{aoi_id}/{raster_name}` — Stream georeferenced drone orthomosaic imagery (`.png` / `.tif`).
 - `POST /api/layers/custom-aoi` — Generate dynamic AI parcels for any selected custom bounding area.
 
 ### ⚙️ Pipeline Execution (`/api/pipeline`)
