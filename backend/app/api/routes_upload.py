@@ -89,7 +89,7 @@ async def upload_drone_image(
     }
 
     # 3. Execute GeoAI extraction pipeline if requested
-    if run_pipeline:
+    if should_run:
         try:
             # Stage 1: Preprocessing & Chipping
             IngestionPipeline(aoi_id).run_ingestion_and_preprocessing()
