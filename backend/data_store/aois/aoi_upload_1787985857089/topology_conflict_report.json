@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "aoi_id": "aoi_upload_1787985857089",
+  "total_conflicts_detected": 0,
+  "severity_breakdown": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 0,
+    "Low": 0
+  },
+  "conflicts_geojson": "E:\\sihproject2026\\backend\\data_store\\aois\\aoi_upload_1787985857089\\vectors\\cadastral_conflicts.geojson",
+  "conflicts_list": []
+}

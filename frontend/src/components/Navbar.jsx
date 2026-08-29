@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Play, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
+import { Layers, Play, Upload, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
 import { TRANSLATIONS } from '../services/i18n';
 
 const INDIAN_CITIES = [
@@ -20,6 +20,7 @@ export default function Navbar({
   selectedAoi,
   onSelectAoi,
   onOpenPipeline,
+  onOpenUpload,
   onOpenAnalytics,
   onOpenConflicts,
   onOpenGT,
@@ -142,6 +143,15 @@ export default function Navbar({
 
       {/* 4. ACTION ZONE (Right - High Priority, Never Clips) */}
       <div className="flex items-center gap-1.5 shrink-0">
+        <button
+          onClick={onOpenUpload}
+          className="flex items-center gap-1.5 bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-500 hover:to-teal-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-all active:scale-95 border border-cyan-400/30"
+          title="Upload Real Drone Photo / Orthomosaic"
+        >
+          <Upload className="w-3.5 h-3.5" />
+          <span className="hidden sm:inline">Upload Drone</span>
+        </button>
+
         <button
           onClick={onOpenPipeline}
           className="flex items-center gap-1.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-all active:scale-95"

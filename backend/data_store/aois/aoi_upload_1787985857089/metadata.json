@@ -1,0 +1,29 @@
+{
+  "aoi_id": "aoi_upload_1787985857089",
+  "name": "Test New Delhi Drone Flight",
+  "location": "Custom Georeferenced Pilot (28.6144\u00b0N, 77.2327\u00b0E)",
+  "bounds_projected": [
+    718147.112,
+    3167153.283,
+    718447.112,
+    3167453.283
+  ],
+  "center_lat": 28.6144,
+  "center_lon": 77.2327,
+  "crs_projected": "EPSG:32643",
+  "crs_geographic": "EPSG:4326",
+  "image_size_px": [
+    400,
+    400
+  ],
+  "ground_resolution_m_per_px": 0.75,
+  "total_area_hectares": 9.0,
+  "total_gt_parcels": 0,
+  "total_gt_buildings": 0,
+  "total_gt_roads": 0,
+  "total_gnss_points": 0,
+  "created_at": "2026-08-29T06:44:17.662804Z",
+  "data_source": "user_uploaded_drone_image",
+  "source_filename": "flight_survey_01.jpg",
+  "has_dsm_dtm": false
+}

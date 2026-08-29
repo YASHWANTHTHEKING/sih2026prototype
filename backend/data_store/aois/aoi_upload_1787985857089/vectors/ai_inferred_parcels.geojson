@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-7089-00001",
+        "survey_number": "UNSURVEYED-1",
+        "area_sqm": 21429.38,
+        "perimeter_m": 586.03,
+        "confidence_score": 0.626,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.174,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 9643221,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.896
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23271776184185,
+              28.613046294506816
+            ],
+            [
+              77.23113817499151,
+              28.613072310651834
+            ],
+            [
+              77.23116524428275,
+              28.61435251932029
+            ],
+            [
+              77.2311692065601,
+              28.614352282096394
+            ],
+            [
+              77.23267248944074,
+              28.614327522064304
+            ],
+            [
+              77.23271776184185,
+              28.613046294506816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-7089-00002",
+        "survey_number": "UNSURVEYED-2",
+        "area_sqm": 21145.73,
+        "perimeter_m": 582.03,
+        "confidence_score": 0.627,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.177,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 9515578,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.897
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23267248944074,
+              28.614327522064304
+            ],
+            [
+              77.23422745284626,
+              28.61430189327067
+            ],
+            [
+              77.23423166792784,
+              28.61430200639646
+            ],
+            [
+              77.2342045612839,
+              28.61302178976589
+            ],
+            [
+              77.23271776184185,
+              28.613046294506816
+            ],
+            [
+              77.23267248944074,
+              28.614327522064304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "ULPIN-2026-7089-00003",
+        "survey_number": "UNSURVEYED-3",
+        "area_sqm": 43014.91,
+        "perimeter_m": 886.81,
+        "confidence_score": 0.612,
+        "verification_status": "Needs GT Verification",
+        "building_count": 1,
+        "building_coverage_ratio": 0.082,
+        "landuse_class": "Vacant/Green",
+        "owner_record": "Unregistered / Pending Survey",
+        "has_gnss_control": false,
+        "tax_assessment_annual_inr": 19356709,
+        "tax_rate_per_sqm": 450,
+        "lulc_confidence": 0.968
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2311953914746,
+              28.61577819492756
+            ],
+            [
+              77.23426185624363,
+              28.61572766839309
+            ],
+            [
+              77.23423446764885,
+              28.614434229331373
+            ],
+            [
+              77.23423026029305,
+              28.61443448132391
+            ],
+            [
+              77.23117201017179,
+              28.614484870425677
+            ],
+            [
+              77.2311680406187,
+              28.61448476380027
+            ],
+            [
+              77.2311953914746,
+              28.61577819492756
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import PipelineRunner from './components/PipelineRunner';
 import BenchmarkModal from './components/BenchmarkModal';
 import ExportCenter from './components/ExportCenter';
 import TitleDeedModal from './components/TitleDeedModal';
+import UploadDroneImage from './components/UploadDroneImage';
 
 import {
   getAOIList,
@@ -42,6 +43,7 @@ export default function App() {
 
   // Modal open states
   const [showPipeline, setShowPipeline] = useState(false);
+  const [showUpload, setShowUpload] = useState(false);
   const [showEditor, setShowEditor] = useState(false);
   const [showConflicts, setShowConflicts] = useState(false);
   const [showGT, setShowGT] = useState(false);
@@ -204,6 +206,7 @@ export default function App() {
         selectedAoi={selectedAoi}
         onSelectAoi={setSelectedAoi}
         onOpenPipeline={() => setShowPipeline(true)}
+        onOpenUpload={() => setShowUpload(true)}
         onOpenAnalytics={() => setShowAnalytics(true)}
         onOpenConflicts={() => setShowConflicts(!showConflicts)}
         onOpenGT={() => setShowGT(true)}
@@ -269,6 +272,23 @@ export default function App() {
           parcel={selectedParcel}
           aoiMetadata={metadata}
           onClose={() => setShowTitleDeed(false)}
+        />
+      )}
+
+      {showUpload && (
+        <UploadDroneImage
+          aoiMetadata={metadata}
+          onClose={() => setShowUpload(false)}
+          onComplete={async (newAoiId) => {
+            try {
+              const aoisRes = await getAOIList();
+              setAoiList(aoisRes.aois || []);
+              setSelectedAoi(newAoiId);
+              showToast(`Loaded drone survey ${newAoiId}!`);
+            } catch (e) {
+              console.error(e);
+            }
+          }}
         />
       )}
 

@@ -22,13 +22,14 @@ class RoadNetworkExtractor:
     def extract_road_network(self) -> Dict[str, Any]:
         """
         Executes Module 3: Road & Access Corridor Extraction
-        - Road surface segmentation (low height in nDSM + road spectral response)
+        - Road surface segmentation (low height in nDSM if present + road spectral response)
         - Morphological thinning / skeletonization
         - Graph extraction (NetworkX) and vector centerline generation
         - Road hierarchy classification & width estimation
         """
         rgb_path = self.rasters_dir / "orthomosaic_rgb.tif"
         ndsm_path = self.rasters_dir / "ndsm.tif"
+        has_ndsm = ndsm_path.exists()
         
         with rasterio.open(rgb_path) as src_rgb:
             rgb = src_rgb.read([1, 2, 3])
@@ -36,11 +37,13 @@ class RoadNetworkExtractor:
             h, w = src_rgb.shape
             pixel_res = src_rgb.res[0]
             
-        with rasterio.open(ndsm_path) as src_ndsm:
-            ndsm = src_ndsm.read(1)
-            
-        # Ground mask: where elevation is flat (nDSM < 1.0m)
-        ground_mask = ndsm < 1.0
+        if has_ndsm:
+            with rasterio.open(ndsm_path) as src_ndsm:
+                ndsm = src_ndsm.read(1)
+            # Ground mask: where elevation is flat (nDSM < 1.0m)
+            ground_mask = ndsm < 1.0
+        else:
+            ground_mask = np.ones((h, w), dtype=bool)
         
         # Color brightness / gray road filter
         gray = cv2.cvtColor(np.transpose(rgb, (1, 2, 0)), cv2.COLOR_RGB2GRAY)
@@ -50,8 +53,7 @@ class RoadNetworkExtractor:
         kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (7, 7))
         road_mask = cv2.morphologyEx(road_mask, cv2.MORPH_CLOSE, kernel)
         
-        # Skeletonization (Guo-Hall / Zhang-Suen or OpenCV ximgproc)
-        # Using standard iterative morphological thinning
+        # Skeletonization (using iterative morphological thinning)
         skeleton = np.zeros(road_mask.shape, np.uint8)
         element = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
         temp = road_mask.copy()
@@ -119,7 +121,7 @@ class RoadNetworkExtractor:
                 })
                 road_idx += 1
                 
-        # If HoughLines missed any segments, fall back to GT roads as weak supervision
+        # If HoughLines missed any segments, fall back to GT roads as weak supervision if present
         if len(extracted_roads) == 0:
             gt_road_path = self.vectors_dir / "ground_truth_roads.geojson"
             if gt_road_path.exists():

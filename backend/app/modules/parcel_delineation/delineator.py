@@ -2,8 +2,8 @@ import os
 import json
 import numpy as np
 from typing import Dict, Any, List
-from shapely.geometry import Polygon, MultiPolygon, LineString, Point, box, mapping, shape
-from shapely.ops import unary_union, polygonize, split
+from shapely.geometry import Polygon, MultiPolygon, LineString, Point, MultiPoint, box, mapping, shape
+from shapely.ops import unary_union, polygonize, split, voronoi_diagram
 from shapely.validation import make_valid
 import geopandas as gpd
 
@@ -25,8 +25,9 @@ class ParcelBoundaryDelineator:
         Executes Module 4: Cadastral Parcel Boundary Delineation
         - Multi-cue approach:
           1. Physical cues: road corridors, building footprints & setbacks
-          2. Conflation with legacy cadastral layers
-          3. Geodetic alignment with GNSS/CORS survey control points
+          2. Conflation with legacy cadastral layers (if available)
+          3. Voronoi spatial clustering around physical structures (when no legacy cadastre exists)
+          4. Geodetic alignment with GNSS/CORS survey control points
         - Confidence rating & "Needs GT Verification" tagging
         """
         # Load GT/Extracted Buildings & Roads
@@ -55,7 +56,7 @@ class ParcelBoundaryDelineator:
         if legacy_path.exists() and use_legacy_conflation:
             with open(legacy_path, "r", encoding="utf-8") as f:
                 leg_fc = json.load(f)
-            for feat in leg_fc["features"]:
+            for feat in leg_fc.get("features", []):
                 geom_wgs = shape(feat["geometry"])
                 # Project to UTM
                 geom_proj = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
@@ -69,7 +70,7 @@ class ParcelBoundaryDelineator:
         if gnss_path.exists() and use_gnss_anchors:
             with open(gnss_path, "r", encoding="utf-8") as f:
                 gnss_fc = json.load(f)
-            for feat in gnss_fc["features"]:
+            for feat in gnss_fc.get("features", []):
                 pt_proj = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
                 gnss_points.append(pt_proj)
 
@@ -78,14 +79,18 @@ class ParcelBoundaryDelineator:
         if buildings_path.exists():
             with open(buildings_path, "r", encoding="utf-8") as f:
                 bld_fc = json.load(f)
-            for feat in bld_fc["features"]:
+            for feat in bld_fc.get("features", []):
                 b_geom = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
-                bld_polys.append(b_geom)
+                if not b_geom.is_valid:
+                    b_geom = make_valid(b_geom)
+                if not b_geom.is_empty:
+                    bld_polys.append(b_geom)
 
         inferred_parcels = []
         parcel_idx = 1
         
         if legacy_parcels:
+            # Branch 1: Conflation with Legacy Cadastral Records
             for leg in legacy_parcels:
                 geom = leg["geometry"]
                 if not geom.is_valid:
@@ -149,6 +154,105 @@ class ParcelBoundaryDelineator:
                     "geometry": geom
                 })
                 parcel_idx += 1
+        else:
+            # Branch 2: Physical-Cues Fallback (Road Partitioning + Building Setbacks + Voronoi Clustering)
+            road_buffers = []
+            if roads_path.exists():
+                with open(roads_path, "r", encoding="utf-8") as f:
+                    road_fc = json.load(f)
+                for feat in road_fc.get("features", []):
+                    r_geom = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
+                    w = float(feat["properties"].get("estimated_width_m", 6.0))
+                    road_buffers.append(r_geom.buffer((w / 2.0) + 2.0))
+
+            if road_buffers:
+                road_buffer_union = unary_union(road_buffers)
+                blocks_geom = aoi_poly.difference(road_buffer_union)
+            else:
+                blocks_geom = aoi_poly
+
+            if blocks_geom.geom_type == "Polygon":
+                blocks = [blocks_geom]
+            elif blocks_geom.geom_type == "MultiPolygon":
+                blocks = list(blocks_geom.geoms)
+            else:
+                blocks = [aoi_poly]
+
+            # Filter out degenerate sliver blocks
+            valid_blocks = [b for b in blocks if b.is_valid and not b.is_empty and b.area >= 20.0]
+            if not valid_blocks:
+                valid_blocks = [aoi_poly]
+
+            for block in valid_blocks:
+                # Find building centroids inside this block
+                block_blds = [b for b in bld_polys if block.intersects(b) or block.contains(b.centroid)]
+                block_centroids = [b.centroid for b in block_blds if block.contains(b.centroid) or block.intersects(b.centroid)]
+
+                candidate_parcels = []
+
+                if len(block_centroids) >= 2:
+                    try:
+                        # Multi-building block: Voronoi tessellation clipped to block
+                        mp = MultiPoint(block_centroids)
+                        v_diag = voronoi_diagram(mp, envelope=block)
+                        for v_poly in v_diag.geoms:
+                            clipped = v_poly.intersection(block)
+                            if not clipped.is_empty and clipped.area >= 15.0:
+                                if clipped.geom_type == "Polygon":
+                                    candidate_parcels.append(clipped)
+                                elif clipped.geom_type == "MultiPolygon":
+                                    candidate_parcels.extend([p for p in clipped.geoms if p.area >= 15.0])
+                    except Exception:
+                        candidate_parcels = [block]
+                else:
+                    candidate_parcels = [block]
+
+                if not candidate_parcels:
+                    candidate_parcels = [block]
+
+                for p_poly in candidate_parcels:
+                    if not p_poly.is_valid:
+                        p_poly = make_valid(p_poly)
+                    if p_poly.is_empty or p_poly.area < 15.0:
+                        continue
+                    if p_poly.geom_type == "MultiPolygon":
+                        p_poly = max(p_poly.geoms, key=lambda p: p.area)
+
+                    # Intersecting buildings
+                    int_blds = [b for b in bld_polys if p_poly.intersects(b)]
+                    bld_area = sum(p_poly.intersection(b).area for b in int_blds)
+                    bld_ratio = bld_area / p_poly.area if p_poly.area > 0 else 0.0
+
+                    # Land use heuristic
+                    if bld_ratio > 0.6:
+                        lu = "Commercial"
+                    elif bld_ratio > 0.1:
+                        lu = "Residential"
+                    elif bld_ratio > 0.0:
+                        lu = "Mixed-Use"
+                    else:
+                        lu = "Vacant/Green"
+
+                    # Real physical-cue confidence (capped to 0.55-0.78 without legacy ground truth)
+                    conf = float(np.clip(0.60 + (0.15 * min(1.0, bld_ratio)), 0.55, 0.78))
+                    upi = f"ULPIN-2026-{self.aoi_id[-4:]}-{parcel_idx:05d}"
+                    survey_no = f"UNSURVEYED-{parcel_idx}"
+
+                    inferred_parcels.append({
+                        "parcel_id": upi,
+                        "survey_number": survey_no,
+                        "area_sqm": round(p_poly.area, 2),
+                        "perimeter_m": round(p_poly.length, 2),
+                        "confidence_score": round(conf, 3),
+                        "verification_status": "Needs GT Verification",
+                        "building_count": len(int_blds),
+                        "building_coverage_ratio": round(bld_ratio, 3),
+                        "landuse_class": lu,
+                        "owner_record": "Unregistered / Pending Survey",
+                        "has_gnss_control": False,
+                        "geometry": p_poly
+                    })
+                    parcel_idx += 1
                 
         # Save as GeoJSON in WGS84
         features = []

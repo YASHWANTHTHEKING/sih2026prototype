@@ -13,7 +13,8 @@ from .api import (
     routes_gt,
     routes_analytics,
     routes_export,
-    routes_benchmark
+    routes_benchmark,
+    routes_upload
 )
 
 @asynccontextmanager
@@ -51,6 +52,7 @@ app.include_router(routes_gt.router, prefix=f"{settings.API_PREFIX}/gt", tags=["
 app.include_router(routes_analytics.router, prefix=f"{settings.API_PREFIX}/analytics", tags=["Analytics"])
 app.include_router(routes_export.router, prefix=f"{settings.API_PREFIX}/export", tags=["Exports"])
 app.include_router(routes_benchmark.router, prefix=f"{settings.API_PREFIX}/benchmark", tags=["Benchmarks"])
+app.include_router(routes_upload.router, prefix=f"{settings.API_PREFIX}/upload", tags=["Drone Image Upload"])
 
 @app.get("/")
 def root_status():

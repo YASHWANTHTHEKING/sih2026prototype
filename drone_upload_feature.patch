@@ -1,0 +1,924 @@
+diff --git a/backend/app/api/routes_upload.py b/backend/app/api/routes_upload.py
+new file mode 100644
+index 0000000..619eb92
+--- /dev/null
++++ b/backend/app/api/routes_upload.py
+@@ -0,0 +1,92 @@
++from typing import Optional
++
++from fastapi import APIRouter, HTTPException, UploadFile, File, Form
++
++from ..modules.ingestion.upload_handler import ingest_uploaded_drone_image
++from ..modules.ingestion.pipeline import IngestionPipeline
++from ..modules.building_extraction.extractor import BuildingFootprintExtractor
++from ..modules.road_extraction.extractor import RoadNetworkExtractor
++from ..modules.parcel_delineation.delineator import ParcelBoundaryDelineator
++from ..modules.landuse_classification.classifier import LandUseClassifier
++from ..modules.topology_conflict.engine import TopologyConflictEngine
++from ..modules.evaluation.evaluator import EvaluationSuite
++
++router = APIRouter()
++
++ALLOWED_CONTENT_TYPES = {"image/jpeg", "image/png", "image/tiff", "image/tif", "application/octet-stream"}
++MAX_UPLOAD_BYTES = 60 * 1024 * 1024  # 60 MB
++
++
++@router.post("/drone-image")
++async def upload_drone_image(
++    file: UploadFile = File(...),
++    center_lat: float = Form(...),
++    center_lon: float = Form(...),
++    width_m: float = Form(300.0),
++    height_m: float = Form(300.0),
++    name: Optional[str] = Form(None),
++    run_pipeline: bool = Form(True),
++):
++    """
++    Accepts a real drone image (JPG / PNG / GeoTIFF) uploaded by the user,
++    georeferences it around the supplied center coordinates, and (by default)
++    immediately runs the full GeoAI extraction pipeline (Modules 1-9) on the
++    real pixel data -- building footprints, road network, cadastral parcels,
++    LULC classification, topology conflicts, and benchmarks.
++    """
++    contents = await file.read()
++    if not contents:
++        raise HTTPException(status_code=400, detail="Uploaded file is empty")
++    if len(contents) > MAX_UPLOAD_BYTES:
++        raise HTTPException(status_code=413, detail="File too large (max 60MB)")
++
++    if not (-90.0 <= center_lat <= 90.0) or not (-180.0 <= center_lon <= 180.0):
++        raise HTTPException(status_code=400, detail="Invalid center_lat / center_lon")
++    if width_m <= 0 or height_m <= 0 or width_m > 5000 or height_m > 5000:
++        raise HTTPException(status_code=400, detail="width_m / height_m must be between 0 and 5000")
++
++    try:
++        metadata = ingest_uploaded_drone_image(
++            file_bytes=contents,
++            filename=file.filename or "uploaded_drone_image",
++            center_lat=center_lat,
++            center_lon=center_lon,
++            width_m=width_m,
++            height_m=height_m,
++            name=name,
++        )
++    except Exception as e:
++        raise HTTPException(status_code=400, detail=f"Could not process uploaded image: {e}")
++
++    aoi_id = metadata["aoi_id"]
++
++    if not run_pipeline:
++        return {"status": "success", "aoi_id": aoi_id, "metadata": metadata}
++
++    try:
++        ingest = IngestionPipeline(aoi_id).run_ingestion_and_preprocessing()
++        bld = BuildingFootprintExtractor(aoi_id).extract_building_footprints()
++        roads = RoadNetworkExtractor(aoi_id).extract_road_network()
++        parcels = ParcelBoundaryDelineator(aoi_id).delineate_parcels(
++            use_legacy_conflation=True, use_gnss_anchors=True
++        )
++        landuse = LandUseClassifier(aoi_id).classify_parcels()
++        topology = TopologyConflictEngine(aoi_id).detect_topology_and_conflicts()
++        benchmarks = EvaluationSuite(aoi_id).run_benchmarks()
++
++        return {
++            "status": "success",
++            "message": "Drone image uploaded and GeoAI feature extraction completed.",
++            "aoi_id": aoi_id,
++            "metadata": metadata,
++            "summary": {
++                "buildings_extracted": bld["total_buildings_extracted"],
++                "roads_extracted": roads["total_roads_extracted"],
++                "parcels_delineated": parcels["total_parcels_delineated"],
++                "conflicts_flagged": topology["total_conflicts_detected"],
++                "auto_mapped_pct": parcels["auto_mapped_percentage"],
++                "extraction_mode": "real-pixel RGB-only (no DSM/DTM survey supplied)",
++            },
++        }
++    except Exception as e:
++        raise HTTPException(status_code=500, detail=f"Upload succeeded but pipeline failed: {e}")
+diff --git a/backend/app/main.py b/backend/app/main.py
+index a923c9d..4de816c 100644
+--- a/backend/app/main.py
++++ b/backend/app/main.py
+@@ -13,7 +13,8 @@ from .api import (
+     routes_gt,
+     routes_analytics,
+     routes_export,
+-    routes_benchmark
++    routes_benchmark,
++    routes_upload
+ )
+ 
+ @asynccontextmanager
+@@ -51,6 +52,7 @@ app.include_router(routes_gt.router, prefix=f"{settings.API_PREFIX}/gt", tags=["
+ app.include_router(routes_analytics.router, prefix=f"{settings.API_PREFIX}/analytics", tags=["Analytics"])
+ app.include_router(routes_export.router, prefix=f"{settings.API_PREFIX}/export", tags=["Exports"])
+ app.include_router(routes_benchmark.router, prefix=f"{settings.API_PREFIX}/benchmark", tags=["Benchmarks"])
++app.include_router(routes_upload.router, prefix=f"{settings.API_PREFIX}/upload", tags=["Drone Image Upload"])
+ 
+ @app.get("/")
+ def root_status():
+diff --git a/backend/app/modules/building_extraction/extractor.py b/backend/app/modules/building_extraction/extractor.py
+index 101ccff..5720e08 100644
+--- a/backend/app/modules/building_extraction/extractor.py
++++ b/backend/app/modules/building_extraction/extractor.py
+@@ -34,19 +34,37 @@ class BuildingFootprintExtractor:
+         """
+         rgb_path = self.rasters_dir / "orthomosaic_rgb.tif"
+         ndsm_path = self.rasters_dir / "ndsm.tif"
++        has_ndsm = ndsm_path.exists()
+         
+         with rasterio.open(rgb_path) as src_rgb:
+             rgb = src_rgb.read([1, 2, 3])
+             transform = src_rgb.transform
+             h, w = src_rgb.shape
+             pixel_res = src_rgb.res[0]
+-            
+-        with rasterio.open(ndsm_path) as src_ndsm:
+-            ndsm = src_ndsm.read(1)
+-            
+-        # 1. Height mask from nDSM
+-        height_mask = (ndsm >= min_height_thresh_m).astype(np.uint8) * 255
+-        
++
++        gray = cv2.cvtColor(np.transpose(rgb, (1, 2, 0)), cv2.COLOR_RGB2GRAY)
++
++        if has_ndsm:
++            with rasterio.open(ndsm_path) as src_ndsm:
++                ndsm = src_ndsm.read(1)
++            # 1. Height mask from nDSM (real DSM/DTM survey available)
++            height_mask = (ndsm >= min_height_thresh_m).astype(np.uint8) * 255
++            extraction_method_label = "Multi-Channel nDSM + Orthogonal Regularization"
++        else:
++            # RGB-only fallback: no DSM/DTM survey was supplied (e.g. a plain
++            # uploaded drone photo). Detect rooftop-like structures directly
++            # from real pixel evidence using edge density + adaptive
++            # thresholding + rectilinear contour analysis instead of height.
++            ndsm = np.zeros((h, w), dtype=np.float32)  # height unknown, not fabricated
++            blurred = cv2.GaussianBlur(gray, (5, 5), 0)
++            edges = cv2.Canny(blurred, 40, 120)
++            edges = cv2.dilate(edges, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)), iterations=2)
++            adaptive = cv2.adaptiveThreshold(
++                blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 5
++            )
++            height_mask = cv2.bitwise_or(edges, adaptive)
++            extraction_method_label = "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
++
+         # 2. Morphological filtering to eliminate small noise and bridge rooftop discontinuities
+         kernel_clean = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+         height_mask = cv2.morphologyEx(height_mask, cv2.MORPH_CLOSE, kernel_clean)
+@@ -90,15 +108,32 @@ class BuildingFootprintExtractor:
+                 if regularize:
+                     poly = regularize_polygon(poly, angle_tolerance_deg=18.0, distance_tolerance_m=0.8)
+                     
+-                # Compute height stats inside polygon
+                 mask_poly = np.zeros((h, w), dtype=np.uint8)
+                 cv2.drawContours(mask_poly, [cnt], -1, 255, -1)
+-                poly_heights = ndsm[mask_poly > 0]
+-                mean_h = float(np.mean(poly_heights)) if len(poly_heights) > 0 else min_height_thresh_m
+-                max_h = float(np.max(poly_heights)) if len(poly_heights) > 0 else min_height_thresh_m
+-                
+-                floors = max(1, int(round(mean_h / 3.0)))
+-                conf = float(np.clip(0.80 + (0.15 * min(1.0, mean_h / 10.0)), 0.70, 0.99))
++
++                if has_ndsm:
++                    # Compute real height stats inside polygon from nDSM
++                    poly_heights = ndsm[mask_poly > 0]
++                    mean_h = float(np.mean(poly_heights)) if len(poly_heights) > 0 else min_height_thresh_m
++                    max_h = float(np.max(poly_heights)) if len(poly_heights) > 0 else min_height_thresh_m
++                    floors = max(1, int(round(mean_h / 3.0)))
++                    conf = float(np.clip(0.80 + (0.15 * min(1.0, mean_h / 10.0)), 0.70, 0.99))
++                    height_available = True
++                else:
++                    # No survey height data -- report height as unavailable rather
++                    # than inventing a number, and derive confidence from real
++                    # geometric evidence (rectilinearity + contour solidity).
++                    mean_h = None
++                    max_h = None
++                    floors = None
++                    hull = cv2.convexHull(cnt)
++                    hull_area = cv2.contourArea(hull)
++                    solidity = (area_px / hull_area) if hull_area > 0 else 0.0
++                    rect = cv2.minAreaRect(cnt)
++                    rect_area = rect[1][0] * rect[1][1]
++                    rectangularity = (area_px / rect_area) if rect_area > 0 else 0.0
++                    conf = float(np.clip(0.55 + 0.20 * solidity + 0.15 * rectangularity, 0.55, 0.90))
++                    height_available = False
+                 
+                 if conf < confidence_min:
+                     continue
+@@ -106,13 +141,14 @@ class BuildingFootprintExtractor:
+                 b_id = f"AI-BLD-{self.aoi_id.replace('aoi_', '')}-{bld_idx:04d}"
+                 extracted_buildings.append({
+                     "building_id": b_id,
+-                    "height_mean_m": round(mean_h, 2),
+-                    "height_max_m": round(max_h, 2),
++                    "height_mean_m": round(mean_h, 2) if height_available else None,
++                    "height_max_m": round(max_h, 2) if height_available else None,
++                    "height_data_available": height_available,
+                     "estimated_floors": floors,
+                     "footprint_area_sqm": round(poly.area, 2),
+                     "perimeter_m": round(poly.length, 2),
+                     "confidence_score": round(conf, 3),
+-                    "extraction_method": "Multi-Channel nDSM + Orthogonal Regularization",
++                    "extraction_method": extraction_method_label,
+                     "geometry": poly
+                 })
+                 bld_idx += 1
+@@ -137,11 +173,14 @@ class BuildingFootprintExtractor:
+         with open(out_file, "w", encoding="utf-8") as f:
+             json.dump(fc_wgs84, f, indent=2)
+             
++        heights = [b["height_mean_m"] for b in extracted_buildings if b.get("height_mean_m") is not None]
+         return {
+             "status": "success",
+             "aoi_id": self.aoi_id,
+             "total_buildings_extracted": len(extracted_buildings),
+-            "mean_building_height_m": round(float(np.mean([b["height_mean_m"] for b in extracted_buildings])), 2) if extracted_buildings else 0.0,
++            "mean_building_height_m": round(float(np.mean(heights)), 2) if heights else None,
++            "height_data_available": has_ndsm,
++            "extraction_method": extraction_method_label,
+             "geojson_path": str(out_file),
+             "buildings": extracted_buildings
+         }
+diff --git a/backend/app/modules/ingestion/upload_handler.py b/backend/app/modules/ingestion/upload_handler.py
+new file mode 100644
+index 0000000..9aca0bf
+--- /dev/null
++++ b/backend/app/modules/ingestion/upload_handler.py
+@@ -0,0 +1,119 @@
++import io
++import json
++import time
++from pathlib import Path
++from typing import Dict, Any, Optional
++
++import numpy as np
++import rasterio
++from rasterio.transform import from_origin
++from PIL import Image
++
++from ...core.config import settings
++from ...core.geo_utils import get_transformer
++
++Image.MAX_IMAGE_PIXELS = None  # allow large drone orthomosaics
++
++
++def _new_aoi_id() -> str:
++    return f"aoi_upload_{int(time.time() * 1000)}"
++
++
++def ingest_uploaded_drone_image(
++    file_bytes: bytes,
++    filename: str,
++    center_lat: float,
++    center_lon: float,
++    width_m: float = 300.0,
++    height_m: float = 300.0,
++    name: Optional[str] = None,
++    aoi_id: Optional[str] = None,
++) -> Dict[str, Any]:
++    """
++    Ingests a real user-supplied drone photo / orthomosaic (JPG, PNG or GeoTIFF)
++    that has NO existing georeferencing, and produces a properly georeferenced
++    GeoTIFF (orthomosaic_rgb.tif) inside a fresh AOI directory so it can be run
++    through the exact same downstream GeoAI extraction modules (buildings, roads,
++    parcels, LULC, conflicts, benchmarks) as the synthetic pilot AOIs.
++
++    Since a plain drone photo has no accompanying DSM/DTM survey, no nDSM height
++    layer is produced here -- the extraction modules fall back to genuine
++    RGB-only computer-vision techniques (edge/contour + spectral analysis)
++    instead of height-based segmentation.
++    """
++    aoi_id = aoi_id or _new_aoi_id()
++    aoi_dir = settings.DATA_DIR / "aois" / aoi_id
++    rasters_dir = aoi_dir / "rasters"
++    vectors_dir = aoi_dir / "vectors"
++    chips_dir = aoi_dir / "chips"
++    for d in (rasters_dir, vectors_dir, chips_dir):
++        d.mkdir(parents=True, exist_ok=True)
++
++    # 1. Decode the uploaded image (any common raster format Pillow understands,
++    #    including a GeoTIFF's pixel data -- we ignore any embedded georeferencing
++    #    since the user is supplying the real-world placement explicitly).
++    img = Image.open(io.BytesIO(file_bytes))
++    img = img.convert("RGB")
++    arr = np.array(img)  # H x W x 3
++    height_px, width_px = arr.shape[0], arr.shape[1]
++    band_data = np.transpose(arr, (2, 0, 1))  # 3 x H x W
++
++    # 2. Compute a real-world affine transform.
++    #    Reproject the supplied WGS84 center point into the project's UTM zone,
++    #    then place the image so it is centered there, spanning width_m x height_m,
++    #    north-up (standard drone orthomosaic convention).
++    transformer = get_transformer(settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)
++    center_x, center_y = transformer.transform(center_lon, center_lat)
++
++    min_x = center_x - (width_m / 2.0)
++    max_y = center_y + (height_m / 2.0)
++    px_res_x = width_m / width_px
++    px_res_y = height_m / height_px
++
++    transform = from_origin(min_x, max_y, px_res_x, px_res_y)
++
++    # 3. Write the georeferenced GeoTIFF
++    rgb_path = rasters_dir / "orthomosaic_rgb.tif"
++    with rasterio.open(
++        rgb_path,
++        "w",
++        driver="GTiff",
++        height=height_px,
++        width=width_px,
++        count=3,
++        dtype=band_data.dtype,
++        crs=settings.DEFAULT_PROJECTED_CRS,
++        transform=transform,
++    ) as dst:
++        dst.write(band_data)
++
++    max_x = min_x + width_m
++    min_y = max_y - height_m
++
++    # 4. Build metadata.json in the same shape the rest of the platform expects
++    metadata = {
++        "aoi_id": aoi_id,
++        "name": name or f"Uploaded Drone Survey ({round(center_lat, 5)}, {round(center_lon, 5)})",
++        "location": f"User-Uploaded AOI ({round(center_lat, 5)}, {round(center_lon, 5)})",
++        "bounds_projected": [min_x, min_y, max_x, max_y],
++        "center_lat": round(center_lat, 6),
++        "center_lon": round(center_lon, 6),
++        "crs_projected": settings.DEFAULT_PROJECTED_CRS,
++        "crs_geographic": settings.DEFAULT_GEOGRAPHIC_CRS,
++        "image_size_px": [width_px, height_px],
++        "ground_resolution_m_per_px": round(px_res_x, 4),
++        "total_area_hectares": round((width_m * height_m) / 10000.0, 2),
++        "total_gt_parcels": 0,
++        "total_gt_buildings": 0,
++        "total_gt_roads": 0,
++        "total_gnss_points": 0,
++        "data_source": "user_uploaded_drone_image",
++        "source_filename": filename,
++        "has_dsm_dtm": False,
++        "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
++    }
++
++    with open(aoi_dir / "metadata.json", "w", encoding="utf-8") as f:
++        json.dump(metadata, f, indent=2)
++
++    return metadata
+diff --git a/backend/app/modules/parcel_delineation/delineator.py b/backend/app/modules/parcel_delineation/delineator.py
+index 46fd6fd..3d0c9c1 100644
+--- a/backend/app/modules/parcel_delineation/delineator.py
++++ b/backend/app/modules/parcel_delineation/delineator.py
+@@ -3,7 +3,7 @@ import json
+ import numpy as np
+ from typing import Dict, Any, List
+ from shapely.geometry import Polygon, MultiPolygon, LineString, Point, box, mapping, shape
+-from shapely.ops import unary_union, polygonize, split
++from shapely.ops import unary_union, polygonize, split, voronoi_diagram
+ from shapely.validation import make_valid
+ import geopandas as gpd
+ 
+@@ -82,6 +82,16 @@ class ParcelBoundaryDelineator:
+                 b_geom = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
+                 bld_polys.append(b_geom)
+ 
++        # Load Road Lines (used only by the physical-cue fallback below)
++        road_lines = []
++        if roads_path.exists():
++            with open(roads_path, "r", encoding="utf-8") as f:
++                road_fc = json.load(f)
++            for feat in road_fc["features"]:
++                r_geom = shape(reproject_geojson(feat, settings.DEFAULT_GEOGRAPHIC_CRS, settings.DEFAULT_PROJECTED_CRS)["geometry"])
++                width_est = feat["properties"].get("estimated_width_m", 6.0)
++                road_lines.append({"geometry": r_geom, "width_m": width_est})
++
+         inferred_parcels = []
+         parcel_idx = 1
+         
+@@ -149,7 +159,102 @@ class ParcelBoundaryDelineator:
+                     "geometry": geom
+                 })
+                 parcel_idx += 1
+-                
++
++        elif bld_polys:
++            # No legacy cadastral overlay available (e.g. a real user-uploaded
++            # drone image with no historical revenue records). Derive parcels
++            # purely from real physical evidence: road corridors carve the AOI
++            # into blocks, and buildings inside each block are separated into
++            # individual lots via Voronoi tessellation. Nothing here is
++            # fabricated -- every parcel boundary traces back to an actually
++            # extracted building or road.
++            road_buffers = [
++                r["geometry"].buffer((r["width_m"] / 2.0) + 2.0, cap_style=2, join_style=2)
++                for r in road_lines
++                if r["geometry"] is not None and not r["geometry"].is_empty
++            ]
++            blocks_area = aoi_poly
++            if road_buffers:
++                road_union = unary_union(road_buffers)
++                blocks_area = aoi_poly.difference(road_union)
++
++            if blocks_area.is_empty:
++                blocks_area = aoi_poly
++            blocks = list(blocks_area.geoms) if blocks_area.geom_type == "MultiPolygon" else [blocks_area]
++
++            for block in blocks:
++                if not block.is_valid:
++                    block = make_valid(block)
++                if block.is_empty or block.area < 20.0:
++                    continue
++
++                blds_in_block = [b for b in bld_polys if block.intersects(b.centroid)]
++
++                if len(blds_in_block) >= 2:
++                    from shapely.geometry import MultiPoint
++                    seed_points = MultiPoint([b.centroid for b in blds_in_block])
++                    vor_regions = voronoi_diagram(seed_points, envelope=block)
++                    cell_geoms = [g for g in vor_regions.geoms]
++                    lot_polys = []
++                    for cell in cell_geoms:
++                        clipped = cell.intersection(block)
++                        if not clipped.is_empty and clipped.area > 5.0:
++                            lot_polys.append(clipped)
++                    if not lot_polys:
++                        lot_polys = [block]
++                elif len(blds_in_block) == 1:
++                    lot_polys = [block]
++                else:
++                    # Vacant block, no buildings detected -- keep as one parcel
++                    lot_polys = [block]
++
++                for lot in lot_polys:
++                    if lot.geom_type == "GeometryCollection":
++                        polys_only = [g for g in lot.geoms if g.geom_type in ("Polygon", "MultiPolygon")]
++                        if not polys_only:
++                            continue
++                        lot = unary_union(polys_only)
++                    if lot.geom_type == "MultiPolygon":
++                        lot = max(lot.geoms, key=lambda p: p.area)
++                    if lot.geom_type != "Polygon" or lot.is_empty or lot.area < 5.0:
++                        continue
++
++                    intersecting_blds = [b for b in bld_polys if lot.intersects(b)]
++                    bld_area = sum(lot.intersection(b).area for b in intersecting_blds)
++                    bld_ratio = bld_area / lot.area if lot.area > 0 else 0.0
++
++                    # Confidence is capped low: there is no legacy record or
++                    # GNSS control point to cross-verify against, so every
++                    # such parcel is explicitly routed for field verification.
++                    conf = float(np.clip(0.55 + 0.15 * min(1.0, bld_ratio * 2.0), 0.55, 0.78))
++
++                    if bld_ratio > 0.6:
++                        lu = "Commercial"
++                    elif bld_ratio > 0.1:
++                        lu = "Residential"
++                    elif bld_ratio > 0.0:
++                        lu = "Mixed-Use"
++                    else:
++                        lu = "Vacant/Green"
++
++                    upi = f"ULPIN-2026-{self.aoi_id[-4:]}-{parcel_idx:05d}"
++                    inferred_parcels.append({
++                        "parcel_id": upi,
++                        "survey_number": f"UNSURVEYED-{parcel_idx}",
++                        "area_sqm": round(lot.area, 2),
++                        "perimeter_m": round(lot.length, 2),
++                        "confidence_score": round(conf, 3),
++                        "verification_status": "Needs GT Verification",
++                        "building_count": len(intersecting_blds),
++                        "building_coverage_ratio": round(bld_ratio, 3),
++                        "landuse_class": lu,
++                        "owner_record": "Unregistered / Pending Survey",
++                        "has_gnss_control": False,
++                        "delineation_method": "Physical Cues Only (Road Blocks + Building Voronoi, no legacy cadastre)",
++                        "geometry": lot
++                    })
++                    parcel_idx += 1
++
+         # Save as GeoJSON in WGS84
+         features = []
+         for p in inferred_parcels:
+diff --git a/backend/app/modules/road_extraction/extractor.py b/backend/app/modules/road_extraction/extractor.py
+index b31aa88..5ed1f02 100644
+--- a/backend/app/modules/road_extraction/extractor.py
++++ b/backend/app/modules/road_extraction/extractor.py
+@@ -29,18 +29,24 @@ class RoadNetworkExtractor:
+         """
+         rgb_path = self.rasters_dir / "orthomosaic_rgb.tif"
+         ndsm_path = self.rasters_dir / "ndsm.tif"
++        has_ndsm = ndsm_path.exists()
+         
+         with rasterio.open(rgb_path) as src_rgb:
+             rgb = src_rgb.read([1, 2, 3])
+             transform = src_rgb.transform
+             h, w = src_rgb.shape
+             pixel_res = src_rgb.res[0]
+-            
+-        with rasterio.open(ndsm_path) as src_ndsm:
+-            ndsm = src_ndsm.read(1)
+-            
+-        # Ground mask: where elevation is flat (nDSM < 1.0m)
+-        ground_mask = ndsm < 1.0
++
++        # Ground mask: where elevation is flat (nDSM < 1.0m). When no DSM/DTM
++        # survey is available (e.g. a plain uploaded drone photo), fall back to
++        # spectral/texture evidence alone -- every pixel is a road candidate
++        # until the gray-level filter below narrows it down.
++        if has_ndsm:
++            with rasterio.open(ndsm_path) as src_ndsm:
++                ndsm = src_ndsm.read(1)
++            ground_mask = ndsm < 1.0
++        else:
++            ground_mask = np.ones((h, w), dtype=bool)
+         
+         # Color brightness / gray road filter
+         gray = cv2.cvtColor(np.transpose(rgb, (1, 2, 0)), cv2.COLOR_RGB2GRAY)
+diff --git a/frontend/src/App.jsx b/frontend/src/App.jsx
+index 6390d41..351e410 100644
+--- a/frontend/src/App.jsx
++++ b/frontend/src/App.jsx
+@@ -6,6 +6,7 @@ import ConflictResolutionCenter from './components/ConflictResolutionCenter';
+ import GroundTruthingModal from './components/GroundTruthingModal';
+ import AnalyticsDashboard from './components/AnalyticsDashboard';
+ import PipelineRunner from './components/PipelineRunner';
++import UploadDroneImage from './components/UploadDroneImage';
+ import BenchmarkModal from './components/BenchmarkModal';
+ import ExportCenter from './components/ExportCenter';
+ import TitleDeedModal from './components/TitleDeedModal';
+@@ -42,6 +43,7 @@ export default function App() {
+ 
+   // Modal open states
+   const [showPipeline, setShowPipeline] = useState(false);
++  const [showUpload, setShowUpload] = useState(false);
+   const [showEditor, setShowEditor] = useState(false);
+   const [showConflicts, setShowConflicts] = useState(false);
+   const [showGT, setShowGT] = useState(false);
+@@ -204,6 +206,7 @@ export default function App() {
+         selectedAoi={selectedAoi}
+         onSelectAoi={setSelectedAoi}
+         onOpenPipeline={() => setShowPipeline(true)}
++        onOpenUpload={() => setShowUpload(true)}
+         onOpenAnalytics={() => setShowAnalytics(true)}
+         onOpenConflicts={() => setShowConflicts(!showConflicts)}
+         onOpenGT={() => setShowGT(true)}
+@@ -283,6 +286,19 @@ export default function App() {
+         />
+       )}
+ 
++      {showUpload && (
++        <UploadDroneImage
++          currentAoiMetadata={metadata}
++          onClose={() => setShowUpload(false)}
++          onComplete={async (aoiId) => {
++            const aoisRes = await getAOIList();
++            setAoiList(aoisRes.aois || []);
++            setSelectedAoi(aoiId);
++            showToast('Real drone image processed — new AOI ready for inspection!');
++          }}
++        />
++      )}
++
+       {showEditor && selectedParcel && (
+         <CadastralEditor
+           aoiId={selectedAoi}
+diff --git a/frontend/src/components/Navbar.jsx b/frontend/src/components/Navbar.jsx
+index 6cbc528..237dc00 100644
+--- a/frontend/src/components/Navbar.jsx
++++ b/frontend/src/components/Navbar.jsx
+@@ -1,5 +1,5 @@
+ import React from 'react';
+-import { Layers, Play, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe } from 'lucide-react';
++import { Layers, Play, AlertTriangle, ShieldCheck, BarChart3, Download, Award, Compass, RefreshCw, MapPin, Globe, UploadCloud } from 'lucide-react';
+ import { TRANSLATIONS } from '../services/i18n';
+ 
+ const INDIAN_CITIES = [
+@@ -20,6 +20,7 @@ export default function Navbar({
+   selectedAoi,
+   onSelectAoi,
+   onOpenPipeline,
++  onOpenUpload,
+   onOpenAnalytics,
+   onOpenConflicts,
+   onOpenGT,
+@@ -151,6 +152,15 @@ export default function Navbar({
+           <span>{t.runGeoAi}</span>
+         </button>
+ 
++        <button
++          onClick={onOpenUpload}
++          className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 text-xs font-bold px-2.5 py-1.5 rounded-lg shadow-sm transition-all active:scale-95"
++          title="Upload a Real Drone Image for GeoAI Feature Extraction"
++        >
++          <UploadCloud className="w-3.5 h-3.5 text-emerald-400" />
++          <span className="hidden sm:inline">Upload Drone Image</span>
++        </button>
++
+         <button
+           onClick={onOpenConflicts}
+           className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-all active:scale-95"
+diff --git a/frontend/src/components/UploadDroneImage.jsx b/frontend/src/components/UploadDroneImage.jsx
+new file mode 100644
+index 0000000..d6ee1ba
+--- /dev/null
++++ b/frontend/src/components/UploadDroneImage.jsx
+@@ -0,0 +1,279 @@
++import React, { useState, useRef } from 'react';
++import { UploadCloud, ImagePlus, Loader2, Sparkles, X, AlertCircle, MapPin, CheckCircle2 } from 'lucide-react';
++import confetti from 'canvas-confetti';
++import { uploadDroneImage } from '../services/api';
++
++export default function UploadDroneImage({ onClose, onComplete, currentAoiMetadata }) {
++  const fileInputRef = useRef(null);
++  const [file, setFile] = useState(null);
++  const [previewUrl, setPreviewUrl] = useState(null);
++  const [name, setName] = useState('');
++  const [centerLat, setCenterLat] = useState(currentAoiMetadata?.center_lat ?? 12.9698);
++  const [centerLon, setCenterLon] = useState(currentAoiMetadata?.center_lon ?? 77.7499);
++  const [widthM, setWidthM] = useState(300);
++  const [heightM, setHeightM] = useState(300);
++
++  const [uploading, setUploading] = useState(false);
++  const [progress, setProgress] = useState(0);
++  const [result, setResult] = useState(null);
++  const [error, setError] = useState(null);
++
++  const handleFileChange = (e) => {
++    const f = e.target.files?.[0];
++    if (!f) return;
++    setFile(f);
++    setResult(null);
++    setError(null);
++    if (f.type.startsWith('image/') && f.type !== 'image/tiff') {
++      setPreviewUrl(URL.createObjectURL(f));
++    } else {
++      setPreviewUrl(null);
++    }
++  };
++
++  const handleUseCurrentCenter = () => {
++    if (currentAoiMetadata?.center_lat && currentAoiMetadata?.center_lon) {
++      setCenterLat(currentAoiMetadata.center_lat);
++      setCenterLon(currentAoiMetadata.center_lon);
++    }
++  };
++
++  const handleUpload = async () => {
++    if (!file) {
++      setError('Please choose a drone image file first (JPG, PNG, or GeoTIFF).');
++      return;
++    }
++    setUploading(true);
++    setError(null);
++    setProgress(0);
++
++    try {
++      const formData = new FormData();
++      formData.append('file', file);
++      formData.append('center_lat', String(centerLat));
++      formData.append('center_lon', String(centerLon));
++      formData.append('width_m', String(widthM));
++      formData.append('height_m', String(heightM));
++      if (name.trim()) formData.append('name', name.trim());
++      formData.append('run_pipeline', 'true');
++
++      const data = await uploadDroneImage(formData, (evt) => {
++        if (evt.total) {
++          setProgress(Math.round((evt.loaded / evt.total) * 100));
++        }
++      });
++
++      setResult(data);
++      confetti({ particleCount: 80, spread: 60, origin: { y: 0.6 } });
++      onComplete && onComplete(data.aoi_id);
++    } catch (err) {
++      setError(err.response?.data?.detail || err.message || 'Upload failed');
++    } finally {
++      setUploading(false);
++    }
++  };
++
++  return (
++    <div className="fixed inset-0 z-[2000] bg-black/70 backdrop-blur-md flex items-center justify-center p-6">
++      <div className="w-full max-w-xl bg-slate-900 border border-slate-700 rounded-3xl shadow-2xl overflow-hidden flex flex-col animate-in fade-in zoom-in duration-200">
++        {/* Header */}
++        <div className="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950">
++          <div className="flex items-center gap-3">
++            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-cyan-600 text-white flex items-center justify-center shadow-lg shadow-emerald-500/20">
++              <UploadCloud className="w-5 h-5" />
++            </div>
++            <div>
++              <h2 className="text-base font-bold text-white">Upload Real Drone Image</h2>
++              <p className="text-xs text-slate-400">
++                Georeference &amp; run real-pixel GeoAI feature extraction
++              </p>
++            </div>
++          </div>
++          <button onClick={onClose} className="text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800">
++            <X className="w-5 h-5" />
++          </button>
++        </div>
++
++        <div className="p-6 space-y-5 text-xs max-h-[75vh] overflow-y-auto">
++          {error && (
++            <div className="bg-red-500/10 border border-red-500/30 text-red-300 p-3 rounded-xl flex items-center gap-2">
++              <AlertCircle className="w-4 h-4 text-red-400 shrink-0" />
++              <span>{error}</span>
++            </div>
++          )}
++
++          {!result && (
++            <>
++              {/* File Picker */}
++              <div
++                onClick={() => fileInputRef.current?.click()}
++                className="cursor-pointer bg-slate-950/60 border-2 border-dashed border-slate-700 hover:border-emerald-500/60 rounded-2xl p-5 flex flex-col items-center justify-center gap-2 transition-all"
++              >
++                <input
++                  ref={fileInputRef}
++                  type="file"
++                  accept="image/*,.tif,.tiff"
++                  className="hidden"
++                  onChange={handleFileChange}
++                />
++                {previewUrl ? (
++                  <img src={previewUrl} alt="preview" className="max-h-40 rounded-lg border border-slate-800" />
++                ) : (
++                  <ImagePlus className="w-8 h-8 text-emerald-400" />
++                )}
++                <div className="text-slate-300 font-semibold">
++                  {file ? file.name : 'Click to choose a drone photo / orthomosaic'}
++                </div>
++                <div className="text-[10px] text-slate-500">JPG, PNG, or GeoTIFF — up to 60MB</div>
++              </div>
++
++              {/* AOI name */}
++              <div>
++                <label className="block text-slate-400 mb-1 font-semibold">AOI Name (optional)</label>
++                <input
++                  type="text"
++                  value={name}
++                  onChange={(e) => setName(e.target.value)}
++                  placeholder="e.g. Site Survey - Sector 12"
++                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-slate-200 outline-none focus:border-emerald-500/60"
++                />
++              </div>
++
++              {/* Georeferencing */}
++              <div className="bg-slate-950/60 p-4 rounded-2xl border border-slate-800/80 space-y-3">
++                <div className="flex items-center justify-between">
++                  <div className="flex items-center gap-1.5 text-slate-300 font-semibold">
++                    <MapPin className="w-3.5 h-3.5 text-cyan-400" /> Real-World Placement
++                  </div>
++                  {currentAoiMetadata?.center_lat && (
++                    <button
++                      onClick={handleUseCurrentCenter}
++                      className="text-[10px] text-cyan-400 hover:text-cyan-300 font-semibold underline"
++                    >
++                      Use current AOI center
++                    </button>
++                  )}
++                </div>
++                <div className="grid grid-cols-2 gap-3">
++                  <div>
++                    <label className="block text-slate-500 mb-1">Center Latitude</label>
++                    <input
++                      type="number"
++                      step="any"
++                      value={centerLat}
++                      onChange={(e) => setCenterLat(parseFloat(e.target.value))}
++                      className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 text-slate-200 outline-none focus:border-cyan-500/60 font-mono"
++                    />
++                  </div>
++                  <div>
++                    <label className="block text-slate-500 mb-1">Center Longitude</label>
++                    <input
++                      type="number"
++                      step="any"
++                      value={centerLon}
++                      onChange={(e) => setCenterLon(parseFloat(e.target.value))}
++                      className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 text-slate-200 outline-none focus:border-cyan-500/60 font-mono"
++                    />
++                  </div>
++                  <div>
++                    <label className="block text-slate-500 mb-1">Coverage Width (m)</label>
++                    <input
++                      type="number"
++                      min="10"
++                      max="5000"
++                      value={widthM}
++                      onChange={(e) => setWidthM(parseFloat(e.target.value))}
++                      className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 text-slate-200 outline-none focus:border-cyan-500/60 font-mono"
++                    />
++                  </div>
++                  <div>
++                    <label className="block text-slate-500 mb-1">Coverage Height (m)</label>
++                    <input
++                      type="number"
++                      min="10"
++                      max="5000"
++                      value={heightM}
++                      onChange={(e) => setHeightM(parseFloat(e.target.value))}
++                      className="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 text-slate-200 outline-none focus:border-cyan-500/60 font-mono"
++                    />
++                  </div>
++                </div>
++                <p className="text-[10px] text-slate-500 leading-relaxed">
++                  No DSM/DTM survey? No problem — building &amp; road extraction automatically
++                  falls back to real RGB-only computer vision (edge, contour &amp; spectral
++                  analysis) on your actual uploaded pixels, and cadastral parcels are derived
++                  from those real extracted buildings and roads (flagged for GT verification
++                  since no legacy record exists yet).
++                </p>
++              </div>
++            </>
++          )}
++
++          {/* Upload progress */}
++          {uploading && (
++            <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-2">
++              <div className="flex items-center gap-2 text-emerald-400 font-bold">
++                <Loader2 className="w-4 h-4 animate-spin" /> Uploading &amp; running GeoAI extraction...
++              </div>
++              <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
++                <div
++                  className="h-full bg-gradient-to-r from-emerald-500 to-cyan-500 transition-all"
++                  style={{ width: `${progress}%` }}
++                />
++              </div>
++            </div>
++          )}
++
++          {/* Success Summary */}
++          {result && (
++            <div className="bg-emerald-500/10 border border-emerald-500/30 p-4 rounded-2xl space-y-2">
++              <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm">
++                <Sparkles className="w-4 h-4" /> Real Drone Image Processed Successfully!
++              </div>
++              <div className="grid grid-cols-3 gap-2 pt-2 text-[11px] font-mono">
++                <div className="bg-slate-900/80 p-2 rounded-lg border border-slate-800">
++                  <div className="text-slate-400">Buildings</div>
++                  <div className="text-white font-bold text-sm">{result.summary?.buildings_extracted}</div>
++                </div>
++                <div className="bg-slate-900/80 p-2 rounded-lg border border-slate-800">
++                  <div className="text-slate-400">Roads</div>
++                  <div className="text-white font-bold text-sm">{result.summary?.roads_extracted}</div>
++                </div>
++                <div className="bg-slate-900/80 p-2 rounded-lg border border-slate-800">
++                  <div className="text-slate-400">Parcels</div>
++                  <div className="text-white font-bold text-sm">{result.summary?.parcels_delineated}</div>
++                </div>
++              </div>
++              <div className="flex items-center gap-1.5 text-[10px] text-slate-400 pt-1">
++                <CheckCircle2 className="w-3 h-3 text-emerald-400" />
++                {result.summary?.extraction_mode}
++              </div>
++            </div>
++          )}
++
++          <button
++            onClick={result ? onClose : handleUpload}
++            disabled={uploading}
++            className={`w-full py-3 rounded-xl font-bold transition-all shadow-lg flex items-center justify-center gap-2 ${
++              result
++                ? 'bg-slate-800 hover:bg-slate-700 text-white'
++                : 'bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white shadow-emerald-500/25 active:scale-95 disabled:opacity-50'
++            }`}
++          >
++            {uploading ? (
++              <>
++                <Loader2 className="w-4 h-4 animate-spin" /> Processing...
++              </>
++            ) : result ? (
++              'Close and Inspect Map'
++            ) : (
++              <>
++                <UploadCloud className="w-4 h-4" /> Upload &amp; Extract Features
++              </>
++            )}
++          </button>
++        </div>
++      </div>
++    </div>
++  );
++}
+diff --git a/frontend/src/services/api.js b/frontend/src/services/api.js
+index a8ccb0b..6989282 100644
+--- a/frontend/src/services/api.js
++++ b/frontend/src/services/api.js
+@@ -74,6 +74,14 @@ export const generateExports = async (aoiId) => {
+   return res.data;
+ };
+ 
++export const uploadDroneImage = async (formData, onUploadProgress) => {
++  const res = await apiClient.post('/upload/drone-image', formData, {
++    headers: { 'Content-Type': 'multipart/form-data' },
++    onUploadProgress,
++  });
++  return res.data;
++};
++
+ export const createCustomAOI = async (params) => {
+   const res = await apiClient.post('/pipeline/custom-aoi', params);
+   return res.data;

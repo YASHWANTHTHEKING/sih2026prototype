@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787985857089-0001",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 3718.24,
+        "perimeter_m": 243.34,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23224445126705,
+              28.61407253541074
+            ],
+            [
+              77.23161572650548,
+              28.614071956088754
+            ],
+            [
+              77.23160759730598,
+              28.614055956506004
+            ],
+            [
+              77.23160822355482,
+              28.613528174224967
+            ],
+            [
+              77.23223282627731,
+              28.613528749974844
+            ],
+            [
+              77.23224445126705,
+              28.61407253541074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787985857089-0002",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 3743.45,
+        "perimeter_m": 244.21,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23377909083189,
+              28.614114917301205
+            ],
+            [
+              77.23315037003304,
+              28.614116910479822
+            ],
+            [
+              77.233142380054,
+              28.61410511034329
+            ],
+            [
+              77.23314020550983,
+              28.613570566313985
+            ],
+            [
+              77.23376745378353,
+              28.613568578024267
+            ],
+            [
+              77.23377909083189,
+              28.614114917301205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787985857089-0003",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 4039.88,
+        "perimeter_m": 625.5,
+        "confidence_score": 0.9,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23117183513983,
+              28.614482690124913
+            ],
+            [
+              77.23116926039414,
+              28.614360925332758
+            ],
+            [
+              77.23422801800051,
+              28.614310528065598
+            ],
+            [
+              77.23423059626884,
+              28.6144322926042
+            ],
+            [
+              77.23117183513983,
+              28.614482690124913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "AI-BLD-upload_1787985857089-0004",
+        "height_mean_m": null,
+        "height_max_m": null,
+        "estimated_floors": null,
+        "height_data_available": false,
+        "footprint_area_sqm": 3525.92,
+        "perimeter_m": 239.27,
+        "confidence_score": 0.896,
+        "extraction_method": "RGB-Only Edge/Contour Segmentation (no DSM/DTM survey)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23211975106686,
+              28.61542800217371
+            ],
+            [
+              77.23156780230926,
+              28.61541829338743
+            ],
+            [
+              77.23156861645786,
+              28.6153822578355
+            ],
+            [
+              77.23158143887191,
+              28.614814718627116
+            ],
+            [
+              77.23210658160139,
+              28.614823956114822
+            ],
+            [
+              77.23211975106686,
+              28.61542800217371
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
